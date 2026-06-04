@@ -1,0 +1,16 @@
+qdrant-client
+sentence-transformers
+transformers
+torch
+pillow
+pandas
+pyarrow
+numpy
+scikit-learn
+tqdm
+pytest
+jupyter
+ipykernel
+matplotlib
+seaborn
+huggingface-hub

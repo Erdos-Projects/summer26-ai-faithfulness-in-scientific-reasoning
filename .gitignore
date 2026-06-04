@@ -1,0 +1,10 @@
+.qdrant_sciver/
+.venv/
+data/raw/
+data/processed/
+**/embedding_cache/
+.ipynb_checkpoints/
+__pycache__/
+.pytest_cache/
+*.pyc
+.DS_Store
