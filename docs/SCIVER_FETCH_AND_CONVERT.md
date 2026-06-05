@@ -14,9 +14,51 @@ python -m venv .venv
 .venv/bin/python -m ipykernel install --user --name sciver-vector-db --display-name "SciVer Vector DB"
 ```
 
-If the dataset or model downloads require authentication, log in with the Hugging Face CLI or set `HF_TOKEN`.
+If the dataset or model downloads require authentication, log in with the Hugging Face CLI or set `HF_TOKEN`. Keep tokens out of git.
 
 ## 2. Fetch Raw SciVer
+
+### 2.1 Set Up Hugging Face Authentication
+
+SciVer is fetched from the Hugging Face dataset repo `chengyewang/SciVer`. Anonymous downloads can work, but this dataset contains many small JSON/image files, so authenticated downloads are more reliable and less likely to hit strict anonymous rate limits.
+
+Create a read-only token in Hugging Face:
+
+1. Sign in at <https://huggingface.co>.
+2. Open **Settings** -> **Access Tokens**.
+3. Create a token with read access.
+4. Copy the token once. Treat it like a password.
+
+Preferred persistent setup for this machine:
+
+```bash
+.venv/bin/hf auth login
+```
+
+Paste the read-only token when prompted. This stores the token in the Hugging Face CLI cache on your machine, outside this repo. Verify it:
+
+```bash
+.venv/bin/hf auth whoami
+```
+
+Alternative repo-local setup:
+
+```bash
+printf 'export HF_TOKEN=hf_your_read_only_token_here\n' > .env.local
+chmod 600 .env.local
+```
+
+Before running fetch commands in a new terminal, load it:
+
+```bash
+set -a
+source .env.local
+set +a
+```
+
+`.env` and `.env.local` are ignored by git in this repo. Do not commit Hugging Face tokens.
+
+### 2.2 Download the Raw Snapshot
 
 Download the dataset snapshot into `data/raw/SciVer`:
 
@@ -24,15 +66,31 @@ Download the dataset snapshot into `data/raw/SciVer`:
 .venv/bin/python scripts/fetch_sciver.py --raw-dir data/raw
 ```
 
+On this machine, the Hugging Face Xet/CAS transfer path stalled during the SciVer snapshot download. The regular Hub download path completed successfully with Xet disabled:
+
+```bash
+HF_HUB_DISABLE_XET=1 .venv/bin/python scripts/fetch_sciver.py --raw-dir data/raw
+```
+
+Use `--force` only when you intentionally want to refresh the local snapshot:
+
+```bash
+HF_HUB_DISABLE_XET=1 .venv/bin/python scripts/fetch_sciver.py --raw-dir data/raw --force
+```
+
 Useful options:
 
 ```bash
-.venv/bin/python scripts/fetch_sciver.py \
+HF_HUB_DISABLE_XET=1 .venv/bin/python scripts/fetch_sciver.py \
   --raw-dir data/raw \
   --dataset-id chengyewang/SciVer \
   --revision main \
   --force
 ```
+
+If the command appears paused, check the terminal output before stopping it. During the successful authenticated re-download, Hugging Face returned temporary HTTP `429` rate-limit responses after thousands of file requests. The SDK printed messages such as `Rate limited. Waiting 249.0s before retry`, slept for the requested retry window, then resumed and completed. This is not a token failure if `hf auth whoami` works; it means the downloader is obeying Hugging Face's server-side rate-limit window.
+
+If a download is interrupted, rerun the command without `--force` to resume from the files already present under `data/raw/SciVer`.
 
 The fetch step writes:
 

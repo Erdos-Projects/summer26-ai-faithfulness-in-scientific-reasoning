@@ -1,5 +1,7 @@
 .qdrant_sciver/
 .venv/
+.env
+.env.local
 data/raw/
 data/processed/
 **/embedding_cache/
