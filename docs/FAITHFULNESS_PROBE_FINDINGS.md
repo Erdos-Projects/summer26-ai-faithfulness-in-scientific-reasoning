@@ -92,3 +92,32 @@ Repeated 5-fold × 10 CV over all 416 direct+chart pairs; balanced accuracy; CV 
 - Encoders: `sentence-transformers/all-MiniLM-L6-v2` (text, 384-d), `openai/clip-vit-base-patch32` (image, 512-d), both L2-normalized — identical to the project pipeline (`sciver_vector_db/embeddings.py`).
 - Pairs and leakage filtering via `sciver_vector_db/parsing.py` (`build_pair_records`, `single_visual_only`).
 - Analyses were run on the embeddings the pipeline produces; classifier and split match `notebooks/02_direct_chart_logistic_regression.ipynb`.
+
+## Reproduction note (2026-06-09)
+
+The full pipeline was rederived from the raw SciVer snapshot in a fresh CPU-only
+environment (rebuild Qdrant → export parquet → re-execute notebook 02 → rerun
+`scripts/faithfulness_probe.py`). Machine-readable results:
+`docs/faithfulness_probe_results.json`.
+
+- **Exact matches:** all dataset counts (1,500 pairs; 416 direct+chart; empty
+  evidence text 1,500/1,500 — also confirmed directly against the raw JSON,
+  whose records contain no caption/OCR/context keys at all); the TF-IDF probe
+  to the third decimal including its null distribution (0.507/p = 0.379 and
+  0.537/p = 0.030); and every individual-block ablation accuracy (claim 0.493,
+  image 0.565, claim+image 0.576). Repeated-CV results match within a point
+  (image 0.515 ± 0.041, p = 0.45) and reach the same conclusions.
+- **One deviation:** the full notebook stack reproduced at **0.547 (perm
+  p = 0.08)** instead of 0.565 (p = 0.023). The re-executed notebook 02 also
+  yields exactly 0.547, so the rerun is internally consistent. Most of the
+  direct+chart image embeddings were byte-identical cache hits from the original
+  session; a handful of images were re-embedded under transformers' PIL
+  image-processor fallback (torchvision absent in the new environment), and that
+  numerically trivial preprocessing difference moved the 2,432-feature result by
+  ~2 points across the nominal-significance boundary.
+- **Interpretation:** the deviation is inside the report's own error bars
+  (bootstrap CI [0.489, 0.609]) and *strengthens* the conclusion — the headline
+  number is preprocessing-noise-dominated, exactly as argued above.
+- Small permutation p-value shifts on unchanged accuracies (e.g. image
+  0.023 → 0.030) are RNG-stream differences only; accuracies themselves are
+  RNG-independent.
