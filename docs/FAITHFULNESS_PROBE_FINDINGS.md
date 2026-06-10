@@ -87,6 +87,10 @@ Repeated 5-fold × 10 CV over all 416 direct+chart pairs; balanced accuracy; CV 
 - The leakage-free features cannot faithfully support the task as built: the admissible claim is undecidable by design, evidence text is empty (captions unused in `paper_path`), and CLIP-base global vectors cannot read dense chart values.
 - To attempt the task faithfully would require pulling real captions/context from `paper_path`, a chart/document-native image encoder instead of CLIP-base, and far more than 140 training examples.
 
+Post-hoc audits (duplication/split integrity, grouped CV, family-wise
+permutation, caption recoverability, power analysis) and the project's
+finalized limitations: `docs/POSTHOC_AUDITS_AND_LIMITATIONS.md`.
+
 ## Reproducibility notes
 
 - Encoders: `sentence-transformers/all-MiniLM-L6-v2` (text, 384-d), `openai/clip-vit-base-patch32` (image, 512-d), both L2-normalized — identical to the project pipeline (`sciver_vector_db/embeddings.py`).
