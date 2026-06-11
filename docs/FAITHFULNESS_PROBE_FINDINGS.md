@@ -1,0 +1,94 @@
+# Faithfulness Probe — Findings
+
+Consolidated record of an investigation into whether the lightweight SciVer
+chart/table baseline carries real, leakage-free signal for entailed-vs-refuted
+classification, or whether the reported ~0.55 accuracy is consistent with random
+chance. All numbers below were produced during the analysis session; this is a
+report, not new work.
+
+## TL;DR
+
+- The text features carry **no** leakage-free signal on the notebook's subset (claim text alone = chance).
+- The image edge seen on a single split (0.565) **does not survive cross-validation** (0.514 ± 0.047, p = 0.29) — it was a lucky split.
+- A single train/test accuracy here has a ~5-point standard deviation, so **0.55 is <1.2 SD from chance**. It is not distinguishable from random.
+- Root cause: the leakage-free features do not contain enough faithful information to do the task as currently built.
+
+## Dataset / data shape
+
+- Source: SciVer (`chengyewang/SciVer`), local snapshot; binary task `entailed` (1) vs `refuted` (0).
+- Parsed examples (val + test): 3,000. Supervised chart/table pairs (`single_visual_only`): **1,500** — val 504, test 996.
+- Notebook 02's population (`modality == chart` & `claim_type == direct`): **416 pairs** — val 140, test 276.
+- Label balance (≈ 50/50, so chance ≈ 0.500): full val 505/495; direct+chart test 137 entailed / 139 refuted, val 76/64.
+- Image corpus: 3,756 figures, 1,273.9 MiB raw (~1,698 MiB base64); largest 9.2 MiB; **3 images exceed the 10 MB/image base64 API cap**.
+
+## Features (what is actually embedded)
+
+- `claim_vec` — MiniLM (`sentence-transformers/all-MiniLM-L6-v2`), **384-d**, of the `claim` string only.
+- `evidence_text_vec` — MiniLM 384-d of caption + OCR + context + section title. **Empty for all 1,500 pairs**: those fields don't exist in the val/test records; captions/context live in the `paper_path` JSON, which the parser never reads.
+- `pair_text_vec` — MiniLM 384-d of `"CLAIM:\n{claim}\n\nEVIDENCE:\n{evidence}"` → effectively the claim plus a constant suffix (evidence empty).
+- `image_vec` — CLIP (`openai/clip-vit-base-patch32`) image encoder, **512-d**, `get_image_features` (L2-normalized).
+- Derived blocks in notebook 02: `abs(claim_vec − evidence_text_vec)`, `claim_vec * evidence_text_vec` — degenerate, since `evidence_text_vec` is constant.
+- Leakage handling: of the three claim strings per example (`origin_statement`, `perturbed_statement`, and the `claim` actually used), **only `claim` is embedded**; `origin_statement` / `perturbed_statement` / `perturbed_explanation` are excluded by the leakage filter (they are the answer key).
+- Note: CLIP image (512-d) and MiniLM text (384-d) are **not** in a shared space and are not even the same dimensionality. This is fine for a concatenate-then-classify model (no cross-modal cosine similarity is used); alignment would only matter for retrieval.
+
+## Methods / parameters
+
+- Classifier (matches notebook 02): `StandardScaler` → `LogisticRegression(max_iter=2000, class_weight="balanced", random_state=42)`.
+- Text-shortcut probe: `TfidfVectorizer(ngram_range=(1,2), min_df=2, sublinear_tf=True)` → balanced `LogisticRegression`, on the `claim` string only.
+- Label-permutation null: shuffle **training** labels, refit, score the real test set; 300 permutations (single-split), 200 (CV). p = (#null ≥ observed + 1)/(N + 1).
+- Bootstrap CI: 2,000 resamples of the test predictions (95% percentile interval).
+- Cross-validation: `RepeatedStratifiedKFold(n_splits=5, n_repeats=10)`, scoring = balanced accuracy.
+- Seed 0 throughout. Analytic chance bands (normal approx): n = 276 → 0.50 ± 0.059; n = 996 → 0.50 ± 0.031.
+
+## Analysis 1 — claim-text-only TF-IDF probe (does the claim string leak the answer?)
+
+The claim cannot honestly reveal entailment, so any above-chance text-only accuracy = a perturbation artifact.
+
+| Subset | n_train / n_test | Accuracy | Majority baseline | Null mean / 95th / max | Perm p |
+|---|---|---|---|---|---|
+| direct + chart | 140 / 276 | 0.507 | 0.504 | 0.495 / 0.547 / 0.565 | **0.379** |
+| all chart + table | 504 / 996 | 0.537 | 0.504 | 0.500 / 0.530 / 0.549 | **0.030** |
+
+- Notebook subset: **no signal, no shortcut** (p = 0.38). Even a zero-skill (label-shuffled) model reaches 0.547 at the 95th percentile and 0.565 at max — i.e. **0.55 is inside the chance distribution** for this n.
+- Full set: a **small but significant text-only shortcut** (0.537, p = 0.03) — a perturbation-artifact fingerprint, not verification. Significant only because n = 996.
+
+## Analysis 2 — embedding ablation (original val→test split, notebook 02 classifier)
+
+n_train = 140, n_test = 276, chance = 0.500.
+
+| Feature set | dims | Accuracy | Balanced acc | 95% bootstrap CI | Null 95th / max | Perm p |
+|---|---|---|---|---|---|---|
+| `claim_vec` only | 384 | 0.493 | 0.493 | [0.435, 0.551] | 0.543 / 0.580 | 0.591 |
+| `image_vec` only | 512 | 0.565 | 0.565 | [0.507, 0.623] | 0.544 / 0.580 | **0.023** |
+| `claim + image` | 896 | 0.576 | 0.576 | [0.518, 0.634] | 0.543 / 0.565 | **0.003** |
+| full notebook stack | ~2.4k | 0.565 | 0.565 | [0.507, 0.623] | 0.551 / 0.620 | **0.023** |
+
+- Text is dead: `claim_vec` alone = 0.493 (p = 0.59), exactly chance.
+- The only signal is image-driven and marginal (`image_vec` 0.565, p = 0.02; CI lower bound barely above 0.50).
+- The full stack equals image-only — the empty/claim-derived blocks add nothing.
+
+## Analysis 3 — repeated cross-validation (the robustness check)
+
+Repeated 5-fold × 10 CV over all 416 direct+chart pairs; balanced accuracy; CV permutation test.
+
+| Feature set | CV balanced acc | ±1 SD | CV perm p |
+|---|---|---|---|
+| `claim_only` | 0.464 ± 0.054 | [0.410, 0.518] | 0.905 |
+| `image_only` | **0.514 ± 0.047** | [0.467, 0.561] | **0.294** |
+| `claim + image` | 0.488 ± 0.044 | [0.444, 0.532] | 0.617 |
+
+- The single-split image edge (0.565, p = 0.02) **collapses to 0.514, p = 0.29** under resampling → the official split was simply favorable.
+- The ±0.047 SD is the headline: with ~140 training rows and hundreds–thousands of features, any single accuracy from ~0.45 to ~0.56 is within one SD of a coin flip.
+
+## Conclusion
+
+- The reported **~0.55 is not statistically distinguishable from chance**: it is <1.2 SD from 0.50, the zero-skill null reaches 0.55+ on this n, and the image edge does not survive cross-validation.
+- Text contributes nothing leakage-free (confirmed three ways); any larger-sample text signal is a synthetic-data shortcut, not verification.
+- The leakage-free features cannot faithfully support the task as built: the admissible claim is undecidable by design, evidence text is empty (captions unused in `paper_path`), and CLIP-base global vectors cannot read dense chart values.
+- To attempt the task faithfully would require pulling real captions/context from `paper_path`, a chart/document-native image encoder instead of CLIP-base, and far more than 140 training examples.
+
+## Reproducibility notes
+
+- Encoders: `sentence-transformers/all-MiniLM-L6-v2` (text, 384-d), `openai/clip-vit-base-patch32` (image, 512-d), both L2-normalized — identical to the project pipeline (`sciver_vector_db/embeddings.py`).
+- Pairs and leakage filtering via `sciver_vector_db/parsing.py` (`build_pair_records`, `single_visual_only`).
+- Analyses were run on the embeddings the pipeline produces; classifier and split match `notebooks/02_direct_chart_logistic_regression.ipynb`.
