@@ -57,6 +57,28 @@ N_PERM_CV = 200            # label permutations for the CV permutation test
 N_BOOT = 2000              # bootstrap resamples for the test-accuracy CI
 
 
+def null_summary(null: np.ndarray, observed: float) -> dict:
+    """Two-sided summary of a label-permutation null distribution.
+
+    Records both tails (min/5th as well as 95th/max) so under-performance is
+    as visible as over-performance, plus one-sided and two-sided p-values.
+    The two-sided p is the fraction of null scores at least as far from 0.5
+    as the observed score, in either direction.
+    """
+    return {
+        "null_min": round(float(null.min()), 3),
+        "null_p05": round(float(np.percentile(null, 5)), 3),
+        "null_mean": round(float(null.mean()), 3),
+        "null_std": round(float(null.std()), 3),
+        "null_p95": round(float(np.percentile(null, 95)), 3),
+        "null_max": round(float(null.max()), 3),
+        "perm_p": round(float((np.sum(null >= observed) + 1) / (len(null) + 1)), 3),
+        "perm_p_two_sided": round(
+            float((np.sum(np.abs(null - 0.5) >= abs(observed - 0.5)) + 1) / (len(null) + 1)), 3
+        ),
+    }
+
+
 def lr_pipeline() -> Pipeline:
     """The notebook's exact classifier: standardized features + balanced LR."""
     return Pipeline(
@@ -92,11 +114,7 @@ def tfidf_text_probe(recs, rng: np.random.Generator) -> dict:
         "n_test": len(te),
         "accuracy": round(acc, 3),
         "majority_baseline": round(majority, 3),
-        "null_mean": round(float(null.mean()), 3),
-        "null_std": round(float(null.std()), 3),
-        "null_p95": round(float(np.percentile(null, 95)), 3),
-        "null_max": round(float(null.max()), 3),
-        "perm_p": round(float((np.sum(null >= acc) + 1) / (len(null) + 1)), 3),
+        **null_summary(null, acc),
     }
 
 
@@ -122,9 +140,7 @@ def single_split_ablation(blocks: dict, y: np.ndarray, split: np.ndarray, rng: n
             "accuracy": round(acc, 3),
             "balanced_accuracy": round(balanced_accuracy_score(yte, pred), 3),
             "ci95": [round(float(np.percentile(boots, 2.5)), 3), round(float(np.percentile(boots, 97.5)), 3)],
-            "null_p95": round(float(np.percentile(null, 95)), 3),
-            "null_max": round(float(null.max()), 3),
-            "perm_p": round(float((np.sum(null >= acc) + 1) / (len(null) + 1)), 3),
+            **null_summary(null, acc),
         }
     return out
 

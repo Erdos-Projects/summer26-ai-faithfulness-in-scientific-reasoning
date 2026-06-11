@@ -154,24 +154,40 @@ def family_wise_permutation(blocks: dict, y: np.ndarray, split: np.ndarray, rng:
     best_name = max(observed, key=observed.get)
     best_acc = observed[best_name]
 
-    null_max = []
+    null_max, null_min = [], []
     for _ in range(N_PERM_FAMILY):
         perm = rng.permutation(y[tr])
-        null_max.append(
-            max(
-                accuracy_score(y[te], lr_pipeline().fit(X[tr], perm).predict(X[te]))
-                for X in blocks.values()
-            )
-        )
+        accs = [
+            accuracy_score(y[te], lr_pipeline().fit(X[tr], perm).predict(X[te]))
+            for X in blocks.values()
+        ]
+        null_max.append(max(accs))
+        null_min.append(min(accs))
     null_max = np.array(null_max)
+    null_min = np.array(null_min)
+
+    def dist_stats(a: np.ndarray) -> dict:
+        return {
+            "min": round(float(a.min()), 3),
+            "p05": round(float(np.percentile(a, 5)), 3),
+            "mean": round(float(a.mean()), 3),
+            "p95": round(float(np.percentile(a, 95)), 3),
+            "max": round(float(a.max()), 3),
+        }
+
+    worst_name = min(observed, key=observed.get)
     return {
         "observed_best_block": best_name,
         "observed_best_accuracy": round(best_acc, 3),
+        "observed_worst_block": worst_name,
+        "observed_worst_accuracy": round(observed[worst_name], 3),
         "observed_per_block": {k: round(v, 3) for k, v in observed.items()},
-        "null_max_mean": round(float(null_max.mean()), 3),
-        "null_max_p95": round(float(np.percentile(null_max, 95)), 3),
-        "null_max_max": round(float(null_max.max()), 3),
+        "null_max": dist_stats(null_max),
+        "null_min": dist_stats(null_min),
         "family_wise_perm_p": round(float((np.sum(null_max >= best_acc) + 1) / (len(null_max) + 1)), 3),
+        "family_wise_perm_p_low": round(
+            float((np.sum(null_min <= observed[worst_name]) + 1) / (len(null_min) + 1)), 3
+        ),
     }
 
 

@@ -35,7 +35,7 @@ report, not new work.
 
 - Classifier (matches notebook 02): `StandardScaler` → `LogisticRegression(max_iter=2000, class_weight="balanced", random_state=42)`.
 - Text-shortcut probe: `TfidfVectorizer(ngram_range=(1,2), min_df=2, sublinear_tf=True)` → balanced `LogisticRegression`, on the `claim` string only.
-- Label-permutation null: shuffle **training** labels, refit, score the real test set; 300 permutations (single-split), 200 (CV). p = (#null ≥ observed + 1)/(N + 1).
+- Label-permutation null: shuffle **training** labels, refit, score the real test set; 300 permutations (single-split), 200 (CV). p = (#null ≥ observed + 1)/(N + 1). The tables in Analyses 1–2 record the upper tail only (the original recording); full two-sided null distributions and two-sided p-values were added later — see "Two-sided null recording (2026-06-10)" below.
 - Bootstrap CI: 2,000 resamples of the test predictions (95% percentile interval).
 - Cross-validation: `RepeatedStratifiedKFold(n_splits=5, n_repeats=10)`, scoring = balanced accuracy.
 - Seed 0 throughout. Analytic chance bands (normal approx): n = 276 → 0.50 ± 0.059; n = 996 → 0.50 ± 0.031.
@@ -125,3 +125,47 @@ environment (rebuild Qdrant → export parquet → re-execute notebook 02 → re
 - Small permutation p-value shifts on unchanged accuracies (e.g. image
   0.023 → 0.030) are RNG-stream differences only; accuracies themselves are
   RNG-independent.
+
+## Two-sided null recording (2026-06-10)
+
+The permutation tests originally recorded only the upper tail of each null
+distribution (95th percentile and maximum), because the one-sided hypothesis
+test only needs that tail. Under-performance is as informative as
+over-performance, so `scripts/faithfulness_probe.py` and
+`scripts/posthoc_audits.py` now record the full distribution
+(min / 5th / mean / 95th / max) and a two-sided permutation p-value: the
+fraction of null scores at least as far from 0.500 as the observed score, in
+either direction. The scripts were rerun in the rederived environment with
+unchanged seeds and draw order; all previously published values reproduced
+exactly. Machine-readable results: `docs/faithfulness_probe_results.json`,
+`docs/posthoc_audit_results.json`.
+
+| Probe (rederived run) | Accuracy | Null min / 5th / mean / 95th / max | Perm p (one- / two-sided) |
+|---|---|---|---|
+| TF-IDF claim text, direct+chart | 0.507 | 0.373 / 0.446 / 0.495 / 0.547 / 0.565 | 0.379 / 0.834 |
+| TF-IDF claim text, all pairs (n=996) | 0.537 | 0.451 / 0.473 / 0.500 / 0.530 / 0.549 | 0.030 / 0.043 |
+| `claim_vec` only | 0.493 | 0.420 / 0.453 / 0.500 / 0.547 / 0.565 | 0.648 / 0.847 |
+| `evidence_text_vec` only | 0.504 | 0.504 / 0.504 / 0.504 / 0.504 / 0.504 | 1.000 / 1.000 |
+| `pair_text_vec` only | 0.489 | 0.409 / 0.453 / 0.501 / 0.551 / 0.598 | 0.648 / 0.811 |
+| `image_vec` only | 0.565 | 0.406 / 0.449 / 0.500 / 0.551 / 0.580 | 0.030 / 0.060 |
+| `claim + image` | 0.576 | 0.424 / 0.456 / 0.501 / 0.551 / 0.572 | 0.003 / 0.007 |
+| full notebook stack | 0.547 | 0.388 / 0.446 / 0.499 / 0.551 / 0.572 | 0.080 / 0.166 |
+
+(`evidence_text_vec` is degenerate: the features are all-zero, the classifier
+makes constant predictions, and every permutation scores the majority rate
+0.504.)
+
+Findings:
+
+- Every null distribution is centered on 0.500 (means 0.495–0.504) and
+  symmetric: the 5th percentiles (0.446–0.473) mirror the 95th percentiles
+  (0.530–0.551). Any earlier appearance of an upward skew in the nulls was an
+  artifact of recording only maxima.
+- No probe scores significantly **below** chance; the lower tail is
+  unremarkable everywhere.
+- Under the two-sided test, `image_vec` is no longer nominally significant
+  (p = 0.060 vs one-sided 0.030). `claim + image` stays significant
+  (p = 0.007) on the single split but still collapses under cross-validation
+  (Analysis 3), which remains the decisive evidence.
+- Family-wise two-sided results (best-of-six and worst-of-six nulls):
+  `docs/POSTHOC_AUDITS_AND_LIMITATIONS.md`, Audit 3.

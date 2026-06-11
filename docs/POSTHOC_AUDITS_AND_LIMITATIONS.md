@@ -44,11 +44,22 @@ not an artifact of paper-level leakage in either direction.
 
 Six feature blocks were evaluated on the same official split, so the best one
 benefits from selection. Each of 300 permutations refits **all six blocks** on
-the same shuffled training labels and keeps the best test accuracy:
+the same shuffled training labels and records both the best and the worst test
+accuracy, so under-performance is reported on the same footing as
+over-performance:
 
-- Observed best: claim+image, **0.576**
-- Null best-of-six: mean 0.526, 95th percentile 0.562, max 0.616
-- **Family-wise p = 0.027**
+- Observed best: claim+image, **0.576**. Observed worst: pair_text_vec, 0.489.
+- Null best-of-six: min 0.504 / 5th pct 0.504 / mean 0.526 / 95th pct 0.562 /
+  max 0.616
+- Null worst-of-six: min 0.402 / 5th pct 0.427 / mean 0.473 / 95th pct 0.504 /
+  max 0.504
+- **Family-wise p = 0.027** (upper tail). Lower-tail family-wise p = 0.721:
+  the observed worst block is unremarkable under the null.
+
+The two null distributions are near mirror images around 0.50 (best-of-six
+mean 0.526, worst-of-six mean 0.473), confirming that the zero-skill score
+distribution is symmetric. The upward shift of the best-of-six null is a
+selection effect of taking the maximum, not a property of the data.
 
 So the strongest single-split result remains nominally significant even after
 multiple-comparisons correction. The decisive evidence against it is not
