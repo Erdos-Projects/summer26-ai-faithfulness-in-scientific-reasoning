@@ -1,6 +1,6 @@
 # SciVer Benchmarks
 
-This repo builds a lightweight, GPU-free, and LLM-free baseline workflow for scientific claim verification with the SciVer dataset. The main artifact is a vectorized SciVer evidence-claim database that can support simple downstream classifiers such as logistic regression, linear SVMs, ridge classifiers, SGD classifiers, and nearest-neighbor baselines.
+This repo builds a lightweight, GPU-free, and LLM-free baseline workflow for scientific claim verification with the SciVer dataset. The main artifact is a vectorized SciVer evidence-claim database that can support simple downstream classifiers such as logistic regression, linear SVMs, ridge classifiers, SGD classifiers, and nearest-neighbor baselines. The database can also be used in conjunction with the outputs of a foundation model to predict whether the model can accurately verify a scientific claim.
 
 ## Repository Structure
 
