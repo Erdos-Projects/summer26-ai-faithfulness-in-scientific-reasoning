@@ -25,3 +25,5 @@ This repo builds a lightweight, GPU-free, and LLM-free baseline workflow for sci
 - Read [docs/SCIVER_FETCH_AND_CONVERT.md](docs/SCIVER_FETCH_AND_CONVERT.md) for one-shot setup of the project, including Hugging Face authentication, fetching SciVer, converting to Qdrant, smoke querying, and feature export.
 - Read [docs/SCIVER_VECTOR_DB.md](docs/SCIVER_VECTOR_DB.md) for the embedding details, collection schema, vector names, payload fields, leakage rules, and classifier feature export format.
 - Read [docs/CHECKPOINT_0605_AND_ROADMAP_FOR_EDA.md](docs/CHECKPOINT_0605_AND_ROADMAP_FOR_EDA.md) for the current project checkpoint and the roadmap for the next EDA and baseline-modeling stage.
+- Read [docs/FAITHFULNESS_PROBE_FINDINGS.md](docs/FAITHFULNESS_PROBE_FINDINGS.md) for the statistical investigation of the baseline (the ~0.55 accuracy is not robust signal), including a full reproduction note.
+- Read [docs/POSTHOC_AUDITS_AND_LIMITATIONS.md](docs/POSTHOC_AUDITS_AND_LIMITATIONS.md) for the post-hoc audits (split integrity, grouped CV, family-wise permutation, caption recoverability, power) and the project's finalized limitations.

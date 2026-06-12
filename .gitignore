@@ -10,3 +10,10 @@ __pycache__/
 .pytest_cache/
 *.pyc
 .DS_Store
+
+# Local-only reports
+docs/PLAIN_LANGUAGE_REPORT.md
+
+# Generated teaching decks and Office lock files
+docs/*.pptx
+~$*
