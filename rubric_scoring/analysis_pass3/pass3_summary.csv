@@ -1,0 +1,8 @@
+dim_code,n,mean,sd,min,max,sensitive,flat
+MCu,817,2.414,0.938,0,4,False,True
+CL,817,0.493,0.8,0,3,False,True
+SNs,200,0.265,0.454,0,2,False,True
+KNf,817,2.015,1.148,0,5,True,False
+VL,817,2.257,0.843,0,5,False,True
+GS,817,0.99,1.585,0,5,False,False
+MA,817,2.225,1.187,0,5,True,False

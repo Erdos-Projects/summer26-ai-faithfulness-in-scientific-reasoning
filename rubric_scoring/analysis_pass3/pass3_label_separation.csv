@@ -1,0 +1,8 @@
+dim_code,mean_refuted,mean_entailed,delta,n_refuted,n_entailed,mwu_p_two_sided,rank_biserial,assoc_p05,assoc_bonferroni
+MCu,2.429,2.399,0.03,408,409,0.71202,0.014,False,False
+CL,0.473,0.513,-0.04,408,409,0.62644,-0.016,False,False
+SNs,0.234,0.285,-0.051,77,123,0.48704,-0.045,False,False
+KNf,2.054,1.976,0.078,408,409,0.39296,0.033,False,False
+VL,2.304,2.21,0.094,408,409,0.26793,0.034,False,False
+GS,1.022,0.958,0.064,408,409,0.55892,0.02,False,False
+MA,2.221,2.23,-0.009,408,409,0.93522,0.003,False,False
