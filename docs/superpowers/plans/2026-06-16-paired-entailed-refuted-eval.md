@@ -718,38 +718,38 @@ git commit -m "feat(sciver_eval): paired analysis (gap, McNemar, d'/criterion)"
 
 ---
 
-### Task 7: Pilot integration runbook (entailed + refuted, limit 3, trials 1)
+### Task 7: Pilot — full 817-item pass at 1 trial, both conditions (subagent-driven Workflow dispatch)
 
-**Files:** none created — this is a runbook that exercises the new code end-to-end and verifies grading direction before scaling.
+**Files:** none created — this is an **execution checklist** (a sequence of commands + Workflow dispatches to *run*, not code to author). It runs the new code end-to-end on **all 817 items at 1 trial per condition**, dispatched the same way run-1 was. "Pilot" = full breadth, shallow depth (1 trial) — Task 8 then deepens to 5 trials. A zero-cost pre-flight (Step 3) catches any label-wiring error *before* any subagent is spent.
 
 - [ ] **Step 1: Full test sweep is green**
 
 Run: `pytest tests/test_sciver_eval_conditions.py tests/test_sciver_eval_prompts.py tests/test_sciver_eval_prepare.py tests/test_sciver_eval_shard.py tests/test_sciver_eval_analyze.py -v`
 Expected: all PASS (prepare tests may SKIP if dataset absent).
 
-- [ ] **Step 2: Prepare a 3-item pilot for both conditions**
+- [ ] **Step 2: Prepare the full pass for both conditions at 1 trial**
 
 ```bash
-python -m sciver_eval.prepare --run 2 --condition entailed --limit 3 --trials 1
-python -m sciver_eval.prepare --run 3 --condition refuted  --limit 3 --trials 1
+python -m sciver_eval.prepare --run 2 --condition entailed --trials 1
+python -m sciver_eval.prepare --run 3 --condition refuted  --trials 1
 ```
-Expected: each prints `3 MISSING cells`; writes `sciver_eval/prompts/run_02/` and `run_03/` with `se_r02__*.txt` / `se_r03__*.txt` and a manifest.
+Expected: each prints `~817 MISSING cells`; writes `sciver_eval/prompts/run_02/` and `run_03/` with `se_r02__*.txt` / `se_r03__*.txt` and a manifest.
 
-- [ ] **Step 3: Eyeball one prompt per condition (grading-direction sanity)**
+- [ ] **Step 3: Pre-flight — inspect manifest labels + one prompt (NO dispatch, grading-direction gate)**
 
-Open `sciver_eval/prompts/run_02/run_02_manifest.json` and confirm cells have `"label": 1`, `"condition": "entailed"`, and `"claim"` equal to the item's `origin_statement`. Do the same for `run_03` (`"label": 0`, `"condition": "refuted"`, `perturbed_statement`). Read one `.txt` prompt and confirm it contains the chosen statement and **not** the `perturbed_explanation`.
+Open `sciver_eval/prompts/run_02/run_02_manifest.json`: every cell must have `"label": 1`, `"condition": "entailed"`, and `"claim"` equal to that item's `origin_statement`. Open `run_03`'s manifest: every cell `"label": 0`, `"condition": "refuted"`, `"claim"` equal to `perturbed_statement`. Read one `.txt` prompt per run and confirm it contains the chosen statement and **not** the `perturbed_explanation`. If any of these is wrong, STOP — fix the condition/label wiring before spending dispatch.
 
-- [ ] **Step 4: Shard each pilot (1 shard, 1 group is plenty for 3 cells)**
+- [ ] **Step 4: Shard each run (16 shards, 4 groups — match run-1 layout)**
 
 ```bash
-python -m sciver_eval.shard --manifest sciver_eval/prompts/run_02/run_02_manifest.json --shards 1 --groups 1
-python -m sciver_eval.shard --manifest sciver_eval/prompts/run_03/run_03_manifest.json --shards 1 --groups 1
+python -m sciver_eval.shard --manifest sciver_eval/prompts/run_02/run_02_manifest.json --shards 16 --groups 4
+python -m sciver_eval.shard --manifest sciver_eval/prompts/run_03/run_03_manifest.json --shards 16 --groups 4
 ```
-Expected: each prints `3 cells -> 1 shards`.
+Expected: each prints `~817 cells -> 16 shards`.
 
-- [ ] **Step 5: Dispatch the pilot cells to Haiku**
+- [ ] **Step 5: Dispatch via background Workflows (the subagent-driven step)**
 
-Use the Workflow tool with `sciver_eval/wf_dispatch.js`, passing `args` `{run: 2, dir: "sciver_eval/prompts/run_02", shardFiles: ["sciver_eval/prompts/run_02/cells_shard00.json"]}` (and again with `run: 3` / the `run_03` paths). Alternatively, for a 3-cell pilot, dispatch each cell directly with the Agent tool: instruct a Haiku subagent to read the `.txt` prompt file, view the figure with the Read tool, reason, and end with exactly `Answer: yes` or `Answer: no`.
+For each run, read its `wf_groups.json` (4 groups). Launch **each group** as a background Workflow with `scriptPath: "sciver_eval/wf_dispatch.js"` and `args` `{run: <2 or 3>, dir: "sciver_eval/prompts/run_0X", shardFiles: [<the shard paths in that group>]}`. `wf_dispatch.js` fans one Haiku subagent per `(item, trial)` cell: it reads the `.txt` prompt, views the figure with the Read tool, reasons, and answers `Answer: yes`/`Answer: no`. Run 2 and run 3 can dispatch concurrently (8 background workflows total, as in run-1).
 
 - [ ] **Step 6: Collect both runs**
 
@@ -757,68 +757,61 @@ Use the Workflow tool with `sciver_eval/wf_dispatch.js`, passing `args` `{run: 2
 python -m sciver_eval.collect_cli --run 2 --manifest sciver_eval/prompts/run_02/run_02_manifest.json
 python -m sciver_eval.collect_cli --run 3 --manifest sciver_eval/prompts/run_03/run_03_manifest.json
 ```
-Expected: `collected 3 predictions ...` for each (some cells may need a dispatch retry if a subagent didn't emit a parseable `Answer:` line).
+Expected: `collected N predictions ...` for each (some cells may need a dispatch retry if a subagent didn't emit a parseable `Answer:` line).
 
-- [ ] **Step 7: Sanity-check grading direction in the DB**
+- [ ] **Step 7: Confirm grading direction in the DB (safety gate)**
 
 ```bash
 python -c "import sqlite3; c=sqlite3.connect('sciver_eval/predictions.db'); \
 print('run2 entailed:', c.execute('SELECT predicted,correct,COUNT(*) FROM prediction WHERE run=2 GROUP BY predicted,correct').fetchall()); \
 print('run3 refuted:', c.execute('SELECT predicted,correct,COUNT(*) FROM prediction WHERE run=3 GROUP BY predicted,correct').fetchall())"
 ```
-Expected: in run 2, `predicted=1` rows have `correct=1` (a "yes" on an entailed claim is right); in run 3, `predicted=0` rows have `correct=1` (a "no" on a refuted claim is right). If the direction is inverted, STOP — the condition/label wiring is wrong.
+Expected: in run 2, `predicted=1` rows have `correct=1` (a "yes" on an entailed claim is right); in run 3, `predicted=0` rows have `correct=1` (a "no" on a refuted claim is right). If inverted, STOP — the condition/label wiring is wrong.
 
-- [ ] **Step 8: Commit the pilot manifests + shards**
+- [ ] **Step 8: Resume loop until complete**
 
 ```bash
-git add sciver_eval/prompts/run_02 sciver_eval/prompts/run_03 sciver_eval/predictions.db
-git commit -m "test(sciver_eval): entailed/refuted pilot (3 items x 1 trial) end-to-end"
+# re-prepare emits ONLY cells still missing a parse_ok=1 prediction
+python -m sciver_eval.prepare --run 2 --condition entailed --trials 1
+python -m sciver_eval.prepare --run 3 --condition refuted  --trials 1
 ```
+If either reports `>0 MISSING cells`, re-shard (Step 4) + re-dispatch (Step 5) + collect (Step 6) those stragglers. Repeat until both report `0 MISSING cells`.
+
+- [ ] **Step 9: Directional read + commit**
+
+```bash
+python -m sciver_eval.analyze_paired --ent 2 --ref 3 --model claude-haiku-4-5
+git add sciver_eval/prompts/run_02 sciver_eval/prompts/run_03 sciver_eval/predictions.db
+git commit -m "feat(sciver_eval): full entailed (run2) + refuted (run3) pilot, 817x1 trial"
+```
+The 1-trial gap/criterion is directional only (no per-item flip signal yet) — that arrives with Task 8's 5 trials.
 
 ---
 
-### Task 8: Scale-up runbook (full 817 × 5 trials, both conditions) + paired report
+### Task 8: Scale both conditions to 5 trials + paired report
 
-**Files:** none created — production runbook. Resume-aware, so it is safe to re-run and to grow trial depth incrementally.
+**Files:** none created — execution checklist. Resume-aware, so re-running `prepare` at a higher `--trials` only emits the *new* trials (Task 7's trial-1 cells are kept).
 
-- [ ] **Step 1: Prepare full runs at the target trial depth**
+- [ ] **Step 1: Re-prepare at 5 trials (resume-aware)**
 
 ```bash
 python -m sciver_eval.prepare --run 2 --condition entailed --trials 5
 python -m sciver_eval.prepare --run 3 --condition refuted  --trials 5
 ```
-Expected: up to `4085 MISSING cells` each on the first full pass (817 × 5 minus any pilot cells already done). Re-running later only emits still-missing cells.
+Expected: up to `~3268 MISSING cells` each (817 × 4 new trials; trial 1 already done in Task 7).
 
-- [ ] **Step 2: Shard each run for parallel dispatch (match run-1 layout)**
+- [ ] **Step 2: Shard, dispatch, collect, resume loop**
 
-```bash
-python -m sciver_eval.shard --manifest sciver_eval/prompts/run_02/run_02_manifest.json --shards 16 --groups 4
-python -m sciver_eval.shard --manifest sciver_eval/prompts/run_03/run_03_manifest.json --shards 16 --groups 4
-```
+Repeat Task 7 Steps 4→8 (shard 16/4 → launch 4 background Workflows per run → `collect_cli` → re-`prepare --trials 5`) until both runs report `0 MISSING cells`.
 
-- [ ] **Step 3: Dispatch via background Workflows**
-
-For each run, launch the 4 groups from its `wf_groups.json` as background Workflows using `sciver_eval/wf_dispatch.js`, passing `args` `{run: <2 or 3>, dir: "sciver_eval/prompts/run_0X", shardFiles: [...one group...]}`. Run 2 and run 3 can dispatch concurrently.
-
-- [ ] **Step 4: Collect, then re-prepare to find stragglers (resume loop)**
-
-```bash
-python -m sciver_eval.collect_cli --run 2 --manifest sciver_eval/prompts/run_02/run_02_manifest.json
-python -m sciver_eval.collect_cli --run 3 --manifest sciver_eval/prompts/run_03/run_03_manifest.json
-# re-prepare: emits ONLY cells still missing a parse_ok=1 prediction; re-shard + re-dispatch those
-python -m sciver_eval.prepare --run 2 --condition entailed --trials 5
-python -m sciver_eval.prepare --run 3 --condition refuted  --trials 5
-```
-Repeat dispatch→collect→re-prepare until `prepare` reports `0 MISSING cells` for both runs.
-
-- [ ] **Step 5: Run the paired analysis**
+- [ ] **Step 3: Run the paired analysis**
 
 ```bash
 python -m sciver_eval.analyze_paired --ent 2 --ref 3 --model claude-haiku-4-5
 ```
 Expected: prints `acc_entailed`, `acc_refuted`, `gap`, McNemar `b/c/chi2`, and `d'`/`criterion`. Cross-check against run-1's recall split (refuted 0.89 / entailed 0.46) — a positive criterion `c` confirms the skeptic bias under the controlled paired design.
 
-- [ ] **Step 6: Commit the completed runs + results**
+- [ ] **Step 4: Commit the completed runs + results**
 
 ```bash
 git add sciver_eval/prompts/run_02 sciver_eval/prompts/run_03 sciver_eval/predictions.db
