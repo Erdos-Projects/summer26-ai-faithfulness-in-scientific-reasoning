@@ -1,9 +1,9 @@
 export const meta = {
-  name: 'sciver-haiku-dispatch',
-  description: 'Dispatch SciVer chart (item,trial) cells to Haiku subagents for claim verification (yes/no). Each shard file is loaded by a Haiku agent, then verifier agents read figure + prompt and answer. Results recovered by sciver_eval.collect_cli via transcript tags.',
+  name: 'sciver-verify-dispatch',
+  description: 'Dispatch SciVer chart (item,trial) cells to verifier subagents (model from args.model, default haiku) for claim verification (yes/no). Each shard file is loaded by a Haiku agent, then verifier agents read figure + prompt and answer. Results recovered by sciver_eval.collect_cli via transcript tags.',
   phases: [
     { title: 'Load', detail: 'read shard cell-lists' },
-    { title: 'Verify', detail: 'one Haiku subagent per (item,trial): read figure, answer yes/no' },
+    { title: 'Verify', detail: 'one verifier subagent per (item,trial): read figure, answer yes/no' },
   ],
 }
 
@@ -11,6 +11,9 @@ const A = (typeof args === 'string') ? JSON.parse(args) : (args || {})
 const SHARD_FILES = A.shardFiles || (A.shardFile ? [A.shardFile] : [])
 const DIR = A.dir
 const RUN = A.run || 1
+// Verifier model alias ('haiku' | 'sonnet' | 'opus'); loaders stay 'haiku' (cheap JSON echo).
+// Must match the model id recorded on the run row in predictions.db.
+const VMODEL = A.model || 'haiku'
 const t2 = (n) => String(n).padStart(2, '0')
 
 phase('Load')
@@ -44,7 +47,7 @@ await parallel(cells.map(c => () => agent(
   `you must actually look at the chart. (3) Reason briefly through the task. ` +
   `(4) Conclude with a final line that is exactly "Answer: yes" or "Answer: no" (lowercase). ` +
   `(5) STOP. Use ONLY the Read tool.`,
-  { model: 'haiku', phase: 'Verify', label: `${c.id}__t${t2(c.trial)}` }
+  { model: VMODEL, phase: 'Verify', label: `${c.id}__t${t2(c.trial)}` }
 )))
 
 return { dispatched: cells.length, shards: SHARD_FILES.length }

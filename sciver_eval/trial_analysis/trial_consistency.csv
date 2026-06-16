@@ -1,0 +1,10 @@
+run,run_name,agreement,majority_correct,majority_wrong,n_items,frequency
+1,difficulty,5/5,414,127,541,0.6622
+1,difficulty,4/5,67,73,140,0.1714
+1,difficulty,3/5,68,68,136,0.1665
+2,entailed,5/5,207,208,415,0.5080
+2,entailed,4/5,99,94,193,0.2362
+2,entailed,3/5,112,97,209,0.2558
+3,refuted,5/5,602,16,618,0.7564
+3,refuted,4/5,85,28,113,0.1383
+3,refuted,3/5,55,31,86,0.1053

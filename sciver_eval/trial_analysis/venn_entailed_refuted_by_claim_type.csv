@@ -1,0 +1,11 @@
+claim_type,region,count,frequency
+analytical,correct_either_way,190,0.4738
+analytical,both_entailed,19,0.0474
+analytical,both_refuted,189,0.4713
+analytical,wrong_either_way,3,0.0075
+analytical,TOTAL,401,1.0000
+direct,correct_either_way,167,0.4014
+direct,both_entailed,42,0.1010
+direct,both_refuted,196,0.4712
+direct,wrong_either_way,11,0.0264
+direct,TOTAL,416,1.0000

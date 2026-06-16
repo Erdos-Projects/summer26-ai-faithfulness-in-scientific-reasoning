@@ -15,7 +15,7 @@ from sciver_eval import db, prompts, conditions
 DEFAULT_MODEL = "claude-haiku-4-5"
 
 
-def prepare(run_no, out_dir, limit=None, trials=1, condition=None):
+def prepare(run_no, out_dir, limit=None, trials=1, condition=None, model=None):
     conn = db.connect(db.default_db_path())
     db.init(conn)
 
@@ -26,15 +26,17 @@ def prepare(run_no, out_dir, limit=None, trials=1, condition=None):
         db.upsert_item(conn, it)
     conn.commit()
 
+    model_id = model or DEFAULT_MODEL
     cond_tag = condition or "native"
     run = conn.execute("SELECT model FROM run WHERE run_id=?", (run_no,)).fetchone()
     if run is None:
-        db.register_run(conn, run_no, skill_version="sciver_eval-0.1", model=DEFAULT_MODEL,
-                        prompt_version="sciver-cot-v1", temperature=1.0,
+        db.register_run(conn, run_no, skill_version="sciver_eval-0.1", model=model_id,
+                        prompt_version="sciver-cot-v1", temperature=None,
                         item_source=f"SciVer charts (val+test) [= rubric 817]; condition={cond_tag}",
                         n_items=len(items_mod.load_items()),
-                        params=f"harness-subagent; CoT; max_tokens=10240; condition={cond_tag}")
-        model = DEFAULT_MODEL
+                        params=f"harness-subagent; CoT; max_tokens=10240; condition={cond_tag}",
+                        deviations=db.TEMPERATURE_UNCONTROLLED_NOTE)
+        model = model_id
     else:
         model = run[0]
 
@@ -74,8 +76,11 @@ if __name__ == "__main__":
     ap.add_argument("--trials", type=int, default=1, help="replicates per item (resume-aware)")
     ap.add_argument("--condition", choices=["entailed", "refuted"], default=None,
                     help="swap claim to origin/perturbed statement; omit for the native run")
+    ap.add_argument("--model", default=None,
+                    help=f"model id recorded for a NEW run (default {DEFAULT_MODEL}); "
+                         "ignored if the run already exists. Dispatch model is set separately in wf_dispatch.js args.")
     ap.add_argument("--out", default=None)
     ap.add_argument("--limit", type=int, default=None)
     a = ap.parse_args()
     out = a.out or str(config.repo_root() / "sciver_eval" / "prompts" / f"run_{a.run_no:02d}")
-    prepare(a.run_no, out, a.limit, a.trials, a.condition)
+    prepare(a.run_no, out, a.limit, a.trials, a.condition, a.model)

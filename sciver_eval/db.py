@@ -14,6 +14,18 @@ def _now():
     return datetime.now(timezone.utc).isoformat()
 
 
+# Runs go through the harness-subagent agent() path (see wf_dispatch.js), which
+# exposes no temperature argument. The effective sampling temperature is the
+# Claude Code / Workflow default and is NOT controlled or verified by this code.
+# Record temperature as NULL and state the caveat in `deviations` rather than
+# logging a hardcoded value that implies a parameter we set.
+TEMPERATURE_UNCONTROLLED_NOTE = (
+    "temperature not controlled: harness-subagent agent() path exposes no "
+    "temperature arg; effective value = Claude Code/Workflow default "
+    "(unverified, assumed ~1.0, not enforced)"
+)
+
+
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS item(
   item_id TEXT PRIMARY KEY, source TEXT, paperid TEXT, claim_type TEXT,
@@ -40,6 +52,17 @@ _PRED_FIELDS = ["run", "session_id", "item_id", "model", "trial", "agent_id", "r
 
 def default_db_path() -> Path:
     return Path(__file__).resolve().parent / "predictions.db"
+
+
+def analysis_dir() -> Path:
+    """Canonical home for derived figures/tables over the runs in predictions.db.
+
+    All trial-analysis scripts (viz_venn, viz_difficulty, ...) write here so the
+    outputs stay co-located with the data. Created on demand.
+    """
+    d = Path(__file__).resolve().parent / "trial_analysis"
+    d.mkdir(parents=True, exist_ok=True)
+    return d
 
 
 def connect(path) -> sqlite3.Connection:

@@ -19,7 +19,10 @@ def main():
     ap.add_argument("--db", default=str(DEFAULT_DB))
     ap.add_argument("--run", type=int, default=1)
     ap.add_argument("--model", default="claude-haiku-4-5")
-    ap.add_argument("--temperature", type=float, default=1.0)
+    # Default None: the harness-subagent path doesn't let us set temperature
+    # (see db.TEMPERATURE_UNCONTROLLED_NOTE). Pass a value only if a future
+    # API-based caller actually enforces it.
+    ap.add_argument("--temperature", type=float, default=None)
     ap.add_argument("--prompt-version", default="sciver-cot-v1")
     args = ap.parse_args()
 
@@ -40,6 +43,7 @@ def main():
         item_source="SciVer charts (val+test) [= rubric 817]",
         n_items=len(its),
         params=f"harness-subagent; CoT; max_tokens=10240",
+        deviations="" if args.temperature is not None else db.TEMPERATURE_UNCONTROLLED_NOTE,
     )
 
     n_item = conn.execute("SELECT COUNT(*) FROM item").fetchone()[0]
