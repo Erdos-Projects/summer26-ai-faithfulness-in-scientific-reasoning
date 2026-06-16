@@ -91,9 +91,14 @@ def load_records():
     return recs
 
 
-def build_prompt(run_no, item, rec, trial):
+def build_prompt(run_no, item, rec, trial, claim=None):
+    """Build the CoT prompt. `claim` overrides which statement is shown (used by
+    the entailed/refuted conditions); defaults to the official `rec['claim']`
+    (native run). Verdict-clean: never interpolates label or perturbed_explanation.
+    """
+    claim_text = rec["claim"] if claim is None else claim
     paper = json.loads(_paper_path(rec).read_text())
     cot = _TPL[rec["claim_type"]].substitute(
-        claim=rec["claim"], context=_context(paper, rec["section"]),
+        claim=claim_text, context=_context(paper, rec["section"]),
         caption=_caption(paper, rec))
     return _WRAP.format(tag=tag(run_no, item.item_id, trial), cot=cot, figs=item.image_path)
