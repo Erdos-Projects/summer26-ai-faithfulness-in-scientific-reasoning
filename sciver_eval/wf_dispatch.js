@@ -10,6 +10,7 @@ export const meta = {
 const A = (typeof args === 'string') ? JSON.parse(args) : (args || {})
 const SHARD_FILES = A.shardFiles || (A.shardFile ? [A.shardFile] : [])
 const DIR = A.dir
+const RUN = A.run || 1
 const t2 = (n) => String(n).padStart(2, '0')
 
 phase('Load')
@@ -38,7 +39,7 @@ log(`${cells.length} cells to verify across ${SHARD_FILES.length} shard(s)`)
 
 phase('Verify')
 await parallel(cells.map(c => () => agent(
-  `Read the file ${DIR}/se_r01__${c.id}__t${t2(c.trial)}.txt and follow it EXACTLY. ` +
+  `Read the file ${DIR}/se_r${t2(RUN)}__${c.id}__t${t2(c.trial)}.txt and follow it EXACTLY. ` +
   `(1) Read that file. (2) Use the Read tool to view EACH figure image path it lists — ` +
   `you must actually look at the chart. (3) Reason briefly through the task. ` +
   `(4) Conclude with a final line that is exactly "Answer: yes" or "Answer: no" (lowercase). ` +
