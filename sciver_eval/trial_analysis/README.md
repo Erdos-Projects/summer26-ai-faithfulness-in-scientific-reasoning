@@ -45,6 +45,23 @@ Haiku maj.-of-5 (3/5): κ = -0.113 (anti-agreement) — "refuted-only" cell domi
 sweep `agreement_entailed_refuted_{3,4,5}of5`: tightening to unanimous (5/5) exposes
 a hard core (both-wrong 14->156) and shrinks robust-correct (357->148); κ -> -0.018.
 
+## `rubric_demand_by_correct.png` / `.csv` — `viz_rubric_demand.py`
+Joins predictions with DeLeAn rubric demand from `rubric_scoring/annotations_prod.db`
+(ALL 12 fully-scored dims: pass-1 AS/AT/MCr/QLl/QLq/VO + pass-3 CL/GS/KNf/MA/MCu/VL;
+partial dims like SNs@200 excluded). Emergent (authored figure-grounding) dims
+GS/MA/VL are shaded purple + ◆. Compares mean demand per dim between items the model
+is **confidently CORRECT** (5/5 on both conditions, n=148) vs **confidently INCORRECT**
+(unanimous per condition but not aligned with both, n=183; strict both-wrong is n=1
+due to skeptic bias). SEM bars + Mann-Whitney U per dim.
+
+    python -m sciver_eval.viz_rubric_demand [--entailed-run 2 --refuted-run 3]
+
+Result: confident failures demand significantly MORE on standard DeLeAn reasoning dims
+— Calibrating Knowns/Unknowns MCu (Δ+0.44, p<.001), Identifying-Relevant-Info MCr
+(+0.33, p<.001), Attention-and-Scan AS (+0.24, p<.001), Volume VO (+0.17, p<.01).
+The 3 EMERGENT figure-grounding dims (GS/MA/VL) do NOT separate (all ns). ⇒ failure
+is driven by metacognition/relevant-info selection, not visual figure-grounding.
+
 ## `run1_pcorrect_hist.png` / `.csv` — `viz_difficulty.py`
 Run-1 per-item difficulty: p(correct) over the 5 trials, bucketed (0.0 = always
 wrong, 1.0 = always right, between = stochastic).
