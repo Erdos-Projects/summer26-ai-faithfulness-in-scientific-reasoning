@@ -17,3 +17,6 @@ docs/PLAIN_LANGUAGE_REPORT.md
 # Generated teaching decks and Office lock files
 docs/*.pptx
 ~$*
+
+# Generated per-cell prompt files / manifests / shards (regenerable via sciver_eval.prepare)
+sciver_eval/prompts/
