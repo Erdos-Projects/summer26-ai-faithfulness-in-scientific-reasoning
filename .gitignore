@@ -17,3 +17,16 @@ docs/PLAIN_LANGUAGE_REPORT.md
 # Generated teaching decks and Office lock files
 docs/*.pptx
 ~$*
+
+# Generated per-cell prompt files / manifests / shards (regenerable via sciver_eval.prepare)
+sciver_eval/prompts/
+
+# Generated per-cell prompt .txt (regenerable via each package's prepare.py).
+# Manifests (*.json) are kept — they record exactly what each run dispatched.
+charxiv_scoring/prompts/**/*.txt
+rubric_scoring/prompts/**/*.txt
+sciclaimeval_eval/prompts/**/*.txt
+sciclaimeval_scoring/prompts/**/*.txt
+
+# WSL/Windows alternate-data-stream markers
+*:Zone.Identifier
