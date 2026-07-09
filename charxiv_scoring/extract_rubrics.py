@@ -1,0 +1,56 @@
+"""Rubric library registry (and optional regenerator from the supplementary PDF).
+The rubrics/{code}.txt files are already present (copied from the SciClaimEval/SciVer library);
+this module only needs the code -> (display name, ...) registries that prompts.DIMS merges in.
+Regeneration via extract() is unchanged from the sibling modules and rarely needed.
+
+Usage (only to rebuild rubric text): python -m charxiv_scoring.extract_rubrics --pdf /path/to/ADeLesupplementary.pdf
+"""
+import argparse, re
+from pathlib import Path
+from charxiv_scoring import config
+
+ALL_DIMS = {
+    "AS":  ("Attention and Scan", 78, "Attention and Scan (AS)"),
+    "CEc": ("Verbal Comprehension", 79, "R1. Verbal Comprehension (CEc)"),
+    "CEe": ("Verbal Expression", 80, "R2. Verbal Expression (CEe)"),
+    "CL":  ("Conceptualisation, Learning, and Abstraction", 81, "Conceptualisation, Learning, and Abstraction Rubric (CL)"),
+    "MCt": ("Critical Thinking Processes", 82, "R1. Critical Thinking Processes (MCt)"),
+    "MCu": ("Calibrating Knowns and Unknowns", 83, "R2. Calibrating Knowns and Unknowns (MCu)"),
+    "MCr": ("Identifying Relevant Information", 84, "R3. Identifying Relevant Information (MCr)"),
+    "MS":  ("Mind Modelling and Social Cognition", 85, "Mind Modelling and Social Cognition (MS)"),
+    "QLq": ("Quantitative Reasoning", 86, "R1. Quantitative Reasoning (QLq)"),
+    "QLl": ("Logical Reasoning", 87, "R2. Logical Reasoning (QLl)"),
+    "SNs": ("Spatio-physical Reasoning", 88, "R1. Spatio-physical Reasoning (SNs)"),
+    "KNn": ("Natural Sciences", 90, "R1. Natural Sciences (KNn)"),
+    "KNs": ("Social Sciences and Humanities", 91, "R2. Social Sciences and Humanities (KNs)"),
+    "KNf": ("Formal Sciences", 92, "R3. Formal Sciences (KNf)"),
+    "KNa": ("Applied Sciences and Professions", 93, "R4. Applied Sciences and Professions (KNa)"),
+    "KNc": ("Customary Everyday Knowledge", 94, "R5. Customary Everyday Knowledge (KNc)"),
+    "VO":  ("Volume", 96, "Volume (VO)"),
+    "AT":  ("Atypicality", 97, "Atypicality (AT)"),
+}
+
+# Authored figure-grounding rubrics (hand-written rubrics/{code}.txt, not in the PDF).
+EMERGENT_DIMS = {
+    "VL": "Visual Localization and Grounding",
+    "GS": "Gestalt and Shape Judgment",
+    "MA": "Multi-Element Visual Aggregation",
+}
+
+def extract(pdf_path: Path):
+    from pypdf import PdfReader
+    reader = PdfReader(str(pdf_path))
+    out = config.rubrics_dir(); out.mkdir(parents=True, exist_ok=True)
+    for code, (_name, page, marker) in ALL_DIMS.items():
+        txt = reader.pages[page - 1].extract_text() or ""
+        i = txt.find(marker)
+        if i != -1:
+            txt = txt[i:]
+        txt = re.sub(r"\n?\s*\d{1,3}\s*$", "", txt.rstrip()).strip()
+        (out / f"{code}.txt").write_text(txt, encoding="utf-8")
+        print(f"{code}: {len(txt)} chars")
+
+if __name__ == "__main__":
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--pdf", required=True)
+    extract(Path(ap.parse_args().pdf))
