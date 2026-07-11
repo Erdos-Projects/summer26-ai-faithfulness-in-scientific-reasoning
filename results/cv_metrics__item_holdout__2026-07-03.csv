@@ -1,0 +1,13 @@
+target,learner,roc_auc,bal_acc,f1,roc_auc_sd
+GPT-4o,Dummy (most_frequent),0.5,0.5,0.6788,0.0
+GPT-4o,Dummy (stratified),0.5256,0.5256,0.513,0.0418
+GPT-4o,LogisticRegression,0.6758,0.6304,0.6488,0.0336
+GPT-4o,RandomForest,0.6584,0.631,0.6526,0.0381
+Claude-3-5-Sonnet,Dummy (most_frequent),0.5,0.5,0.0,0.0
+Claude-3-5-Sonnet,Dummy (stratified),0.4936,0.4936,0.3872,0.0365
+Claude-3-5-Sonnet,LogisticRegression,0.6275,0.568,0.3896,0.049
+Claude-3-5-Sonnet,RandomForest,0.6224,0.5611,0.3769,0.0499
+GPT-4o-Random,Dummy (most_frequent),0.5,0.5,0.9467,0.0
+GPT-4o-Random,Dummy (stratified),0.509,0.509,0.9073,0.0276
+GPT-4o-Random,LogisticRegression,0.5799,0.5,0.9467,0.0528
+GPT-4o-Random,RandomForest,0.609,0.5,0.9467,0.0524

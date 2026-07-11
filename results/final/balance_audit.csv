@@ -1,0 +1,19 @@
+quantity,kind,test,train_summary,test_summary,statistic,p_value,p_holm,sig_holm_0.05
+VL,demand_dim,Mann-Whitney U,2.281,2.34,76850.0,0.3278,1.0,False
+AS,demand_dim,Mann-Whitney U,2.645,2.725,74389.5,0.0633,1.0,False
+MCr,demand_dim,Mann-Whitney U,1.644,1.715,75068.0,0.1361,1.0,False
+MCu,demand_dim,Mann-Whitney U,0.67,0.715,77118.5,0.3766,1.0,False
+MA,demand_dim,Mann-Whitney U,2.399,2.325,82708.0,0.4455,1.0,False
+VO,demand_dim,Mann-Whitney U,1.17,1.195,78000.0,0.4056,1.0,False
+AT,demand_dim,Mann-Whitney U,2.565,2.61,77282.0,0.3889,1.0,False
+GS,demand_dim,Mann-Whitney U,0.81,0.665,85672.0,0.0721,1.0,False
+QLl,demand_dim,Mann-Whitney U,1.004,0.97,81877.0,0.5253,1.0,False
+KNf,demand_dim,Mann-Whitney U,1.167,0.995,87780.5,0.0213,0.3616,False
+QLq,demand_dim,Mann-Whitney U,1.256,1.15,86843.5,0.0188,0.3376,False
+CL,demand_dim,Mann-Whitney U,0.198,0.17,81070.0,0.6596,1.0,False
+category,metadata,chi-square (dof 7),8.0,8.0,4.95,0.6657,1.0,False
+inst_category,metadata,chi-square (dof 3),4.0,4.0,0.67,0.8804,1.0,False
+year,metadata,chi-square (dof 3),4.0,4.0,1.18,0.7573,1.0,False
+failure_rate:GPT-4o,failure_rate,chi-square 2x2,0.514,0.59,3.43,0.0639,1.0,False
+failure_rate:Claude-3-5-Sonnet,failure_rate,chi-square 2x2,0.39,0.43,0.91,0.3406,1.0,False
+failure_rate:GPT-4o-Random,failure_rate,chi-square 2x2,0.899,0.865,1.56,0.212,1.0,False

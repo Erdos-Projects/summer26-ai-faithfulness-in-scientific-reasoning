@@ -1,0 +1,21 @@
+target,family,config,roc_auc,roc_auc_sd,bal_acc,f1,modal_best_params
+GPT-4o,dummy_most_frequent,baseline,0.5,0.0,0.5,0.6263,
+GPT-4o,dummy_stratified,baseline,0.5011,0.041,0.5011,0.4891,
+GPT-4o,logistic,baseline,0.6784,0.0291,0.6371,0.6493,
+GPT-4o,random_forest,baseline,0.6622,0.0303,0.6251,0.6458,
+Claude-3-5-Sonnet,dummy_most_frequent,baseline,0.5,0.0,0.5,0.0,
+Claude-3-5-Sonnet,dummy_stratified,baseline,0.4738,0.0439,0.4738,0.365,
+Claude-3-5-Sonnet,logistic,baseline,0.6237,0.0407,0.5733,0.397,
+Claude-3-5-Sonnet,random_forest,baseline,0.6183,0.042,0.5525,0.3525,
+GPT-4o-Random,dummy_most_frequent,baseline,0.5,0.0,0.5,0.9466,
+GPT-4o-Random,dummy_stratified,baseline,0.5024,0.038,0.5024,0.9048,
+GPT-4o-Random,logistic,baseline,0.5592,0.0731,0.4998,0.9463,
+GPT-4o-Random,random_forest,baseline,0.6264,0.0731,0.5,0.9466,
+GPT-4o,logistic_regularized,tuned,0.677,0.0292,0.6337,0.6479,"{'clf__C': 0.1, 'clf__penalty': 'l2'}"
+GPT-4o,random_forest,tuned,0.6668,0.0296,0.6213,0.6508,"{'clf__max_depth': 8, 'clf__min_samples_leaf': 20}"
+GPT-4o,hist_gb,tuned,0.6656,0.0282,0.6228,0.6328,"{'clf__l2_regularization': 1.0, 'clf__learning_rate': 0.05, 'clf__max_leaf_nodes': 15}"
+GPT-4o,xgboost,tuned,0.6685,0.0335,0.6147,0.6376,"{'clf__learning_rate': 0.05, 'clf__max_depth': 2, 'clf__n_estimators': 300, 'clf__reg_lambda': 1.0, 'clf__subsample': 0.8}"
+Claude-3-5-Sonnet,logistic_regularized,tuned,0.6226,0.0382,0.5736,0.3879,"{'clf__C': 0.1, 'clf__penalty': 'l2'}"
+Claude-3-5-Sonnet,random_forest,tuned,0.6196,0.0442,0.553,0.3488,"{'clf__max_depth': 8, 'clf__min_samples_leaf': 5}"
+Claude-3-5-Sonnet,hist_gb,tuned,0.5936,0.0424,0.5633,0.4195,"{'clf__l2_regularization': 1.0, 'clf__learning_rate': 0.05, 'clf__max_leaf_nodes': 31}"
+Claude-3-5-Sonnet,xgboost,tuned,0.5921,0.0419,0.56,0.3936,"{'clf__learning_rate': 0.05, 'clf__max_depth': 2, 'clf__n_estimators': 300, 'clf__reg_lambda': 1.0, 'clf__subsample': 0.8}"

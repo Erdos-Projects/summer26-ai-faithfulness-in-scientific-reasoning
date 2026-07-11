@@ -1,0 +1,4 @@
+target,decision_threshold,roc_auc,bal_acc,f1
+GPT-4o,0.5193,0.5533,0.5258,0.6114
+Claude-3-5-Sonnet,0.4011,0.694,0.6256,0.6022
+GPT-4o-Random,0.5,0.588,0.5,0.9252

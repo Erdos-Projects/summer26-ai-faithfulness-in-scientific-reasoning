@@ -1,0 +1,8 @@
+cell,entailed,refuted,kind,count,frequency
+both_correct,correct,correct,agree,236,0.2889
+entailed_only,correct,wrong,disagree,70,0.0857
+refuted_only,wrong,correct,disagree,451,0.5520
+both_wrong,wrong,wrong,agree,60,0.0734
+observed_agreement,,,,296,0.3623
+cohen_kappa,,,,,-0.0891
+TOTAL,,,,817,1.0000

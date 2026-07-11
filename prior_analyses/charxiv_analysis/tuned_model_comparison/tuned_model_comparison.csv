@@ -1,0 +1,5 @@
+config,outer_auc_mean,outer_auc_std
+RF default,0.5720,0.0140
+RF tuned,0.6058,0.0139
+Logistic default,0.6034,0.0156
+Logistic tuned,0.6034,0.0156

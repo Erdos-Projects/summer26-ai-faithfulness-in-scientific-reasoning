@@ -1,0 +1,98 @@
+[
+  {
+    "run": 2,
+    "trial": 2,
+    "dir": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciver_eval/prompts/run_02",
+    "shardFiles": [
+      "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciver_eval/prompts/run_02/cells_r02_t02_s00.json",
+      "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciver_eval/prompts/run_02/cells_r02_t02_s01.json",
+      "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciver_eval/prompts/run_02/cells_r02_t02_s02.json",
+      "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciver_eval/prompts/run_02/cells_r02_t02_s03.json"
+    ],
+    "cells": 817
+  },
+  {
+    "run": 2,
+    "trial": 3,
+    "dir": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciver_eval/prompts/run_02",
+    "shardFiles": [
+      "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciver_eval/prompts/run_02/cells_r02_t03_s00.json",
+      "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciver_eval/prompts/run_02/cells_r02_t03_s01.json",
+      "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciver_eval/prompts/run_02/cells_r02_t03_s02.json",
+      "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciver_eval/prompts/run_02/cells_r02_t03_s03.json"
+    ],
+    "cells": 817
+  },
+  {
+    "run": 2,
+    "trial": 4,
+    "dir": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciver_eval/prompts/run_02",
+    "shardFiles": [
+      "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciver_eval/prompts/run_02/cells_r02_t04_s00.json",
+      "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciver_eval/prompts/run_02/cells_r02_t04_s01.json",
+      "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciver_eval/prompts/run_02/cells_r02_t04_s02.json",
+      "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciver_eval/prompts/run_02/cells_r02_t04_s03.json"
+    ],
+    "cells": 817
+  },
+  {
+    "run": 2,
+    "trial": 5,
+    "dir": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciver_eval/prompts/run_02",
+    "shardFiles": [
+      "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciver_eval/prompts/run_02/cells_r02_t05_s00.json",
+      "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciver_eval/prompts/run_02/cells_r02_t05_s01.json",
+      "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciver_eval/prompts/run_02/cells_r02_t05_s02.json",
+      "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciver_eval/prompts/run_02/cells_r02_t05_s03.json"
+    ],
+    "cells": 817
+  },
+  {
+    "run": 3,
+    "trial": 2,
+    "dir": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciver_eval/prompts/run_03",
+    "shardFiles": [
+      "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciver_eval/prompts/run_03/cells_r03_t02_s00.json",
+      "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciver_eval/prompts/run_03/cells_r03_t02_s01.json",
+      "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciver_eval/prompts/run_03/cells_r03_t02_s02.json",
+      "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciver_eval/prompts/run_03/cells_r03_t02_s03.json"
+    ],
+    "cells": 817
+  },
+  {
+    "run": 3,
+    "trial": 3,
+    "dir": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciver_eval/prompts/run_03",
+    "shardFiles": [
+      "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciver_eval/prompts/run_03/cells_r03_t03_s00.json",
+      "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciver_eval/prompts/run_03/cells_r03_t03_s01.json",
+      "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciver_eval/prompts/run_03/cells_r03_t03_s02.json",
+      "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciver_eval/prompts/run_03/cells_r03_t03_s03.json"
+    ],
+    "cells": 817
+  },
+  {
+    "run": 3,
+    "trial": 4,
+    "dir": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciver_eval/prompts/run_03",
+    "shardFiles": [
+      "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciver_eval/prompts/run_03/cells_r03_t04_s00.json",
+      "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciver_eval/prompts/run_03/cells_r03_t04_s01.json",
+      "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciver_eval/prompts/run_03/cells_r03_t04_s02.json",
+      "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciver_eval/prompts/run_03/cells_r03_t04_s03.json"
+    ],
+    "cells": 817
+  },
+  {
+    "run": 3,
+    "trial": 5,
+    "dir": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciver_eval/prompts/run_03",
+    "shardFiles": [
+      "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciver_eval/prompts/run_03/cells_r03_t05_s00.json",
+      "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciver_eval/prompts/run_03/cells_r03_t05_s01.json",
+      "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciver_eval/prompts/run_03/cells_r03_t05_s02.json",
+      "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciver_eval/prompts/run_03/cells_r03_t05_s03.json"
+    ],
+    "cells": 817
+  }
+]

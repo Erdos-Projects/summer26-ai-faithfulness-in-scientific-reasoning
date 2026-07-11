@@ -1,0 +1,4 @@
+setting,roc_auc,n_rows
+StandardScaler,0.6783851602518932,800
+RobustScaler,0.6781587808381357,800
+exclude_outlier_items (24 items),0.6705008507082311,776

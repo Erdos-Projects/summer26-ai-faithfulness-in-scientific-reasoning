@@ -1,0 +1,4 @@
+target,decision_threshold,tuned
+GPT-4o,0.5193,True
+Claude-3-5-Sonnet,0.4011,True
+GPT-4o-Random,0.5,False

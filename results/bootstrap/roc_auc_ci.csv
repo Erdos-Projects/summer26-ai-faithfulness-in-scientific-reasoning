@@ -1,0 +1,9 @@
+target,family,n_samples,roc_auc_mean,roc_auc_sd,ci95_lo,ci95_hi,original_sample
+Claude-3-5-Sonnet,random_forest,30,0.6115,0.0236,0.5721,0.6485,0.6196
+Claude-3-5-Sonnet,logistic_regularized,30,0.6105,0.0269,0.5681,0.6567,0.6226
+Claude-3-5-Sonnet,hist_gb,30,0.5769,0.0253,0.5397,0.6255,0.5936
+Claude-3-5-Sonnet,xgboost,30,0.5766,0.0268,0.5251,0.6222,0.5921
+GPT-4o,logistic_regularized,30,0.6538,0.0216,0.6163,0.6905,0.677
+GPT-4o,random_forest,30,0.6483,0.0226,0.6107,0.6882,0.6668
+GPT-4o,xgboost,30,0.6235,0.0309,0.5743,0.6782,0.6685
+GPT-4o,hist_gb,30,0.6197,0.0248,0.5836,0.6596,0.6656

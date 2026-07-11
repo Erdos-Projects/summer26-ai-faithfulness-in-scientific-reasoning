@@ -1,0 +1,142 @@
+{
+  "population": {
+    "n_pairs": 1500,
+    "train_val": 504,
+    "test": 996,
+    "claim_types": {
+      "direct": 750,
+      "analytical": 750
+    },
+    "modalities": {
+      "chart": 817,
+      "table": 683
+    }
+  },
+  "expanded_baseline_all_pairs": {
+    "claim_vec": {
+      "n_features": 384,
+      "accuracy": 0.499,
+      "balanced_accuracy": 0.499,
+      "null_p95": 0.527,
+      "perm_p": 0.597
+    },
+    "image_vec": {
+      "n_features": 512,
+      "accuracy": 0.529,
+      "balanced_accuracy": 0.529,
+      "null_p95": 0.521,
+      "perm_p": 0.02
+    },
+    "claim+image": {
+      "n_features": 896,
+      "accuracy": 0.506,
+      "balanced_accuracy": 0.506,
+      "null_p95": 0.527,
+      "perm_p": 0.443
+    },
+    "full_notebook_stack": {
+      "n_features": 2432,
+      "accuracy": 0.498,
+      "balanced_accuracy": 0.498,
+      "null_p95": 0.522,
+      "perm_p": 0.552
+    },
+    "metadata_onehots": {
+      "n_features": 4,
+      "accuracy": 0.49,
+      "balanced_accuracy": 0.49,
+      "null_p95": 0.51,
+      "perm_p": 1.0
+    },
+    "full+onehots": {
+      "n_features": 2436,
+      "accuracy": 0.5,
+      "balanced_accuracy": 0.5,
+      "null_p95": 0.518,
+      "perm_p": 0.473
+    }
+  },
+  "regularization_grid": {
+    "claim+image": {
+      "best_C": 1.0,
+      "train_cv_balanced_accuracy": 0.51,
+      "test_accuracy": 0.506,
+      "test_balanced_accuracy": 0.506
+    },
+    "full+onehots": {
+      "best_C": 0.01,
+      "train_cv_balanced_accuracy": 0.514,
+      "test_accuracy": 0.504,
+      "test_balanced_accuracy": 0.504
+    }
+  },
+  "calibration": {
+    "block": "full+onehots",
+    "brier_score": 0.4312,
+    "brier_score_always_0.5": 0.25,
+    "ece_10bin": 0.4057,
+    "predicted_prob_mean": 0.492,
+    "predicted_prob_std": 0.427,
+    "frac_predictions_in_0.4_0.6": 0.059
+  },
+  "error_breakdown": {
+    "block": "full+onehots",
+    "by_modality": {
+      "chart": {
+        "n": 538,
+        "accuracy": 0.524
+      },
+      "table": {
+        "n": 458,
+        "accuracy": 0.472
+      }
+    },
+    "by_claim_type": {
+      "analytical": {
+        "n": 494,
+        "accuracy": 0.494
+      },
+      "direct": {
+        "n": 502,
+        "accuracy": 0.506
+      }
+    }
+  },
+  "similarity_eda": {
+    "claim_vec": {
+      "mean_cosine_same_label": 0.1551,
+      "mean_cosine_diff_label": 0.1549,
+      "mean_cosine_same_paper": 0.3861,
+      "mean_cosine_diff_paper": 0.1549,
+      "nn1_label_agreement": 0.523,
+      "nn1_same_paper_rate": 0.21
+    },
+    "image_vec": {
+      "mean_cosine_same_label": 0.663,
+      "mean_cosine_diff_label": 0.6629,
+      "mean_cosine_same_paper": 0.7763,
+      "mean_cosine_diff_paper": 0.6629,
+      "nn1_label_agreement": 0.541,
+      "nn1_same_paper_rate": 0.211
+    }
+  },
+  "near_duplicate_claims": {
+    "cosine>=0.9": {
+      "n_pairs": 0,
+      "opposite_label_fraction": null,
+      "cross_split_pairs": 0
+    },
+    "cosine>=0.95": {
+      "n_pairs": 0,
+      "opposite_label_fraction": null,
+      "cross_split_pairs": 0
+    }
+  },
+  "paper_label_balance": {
+    "papers_with_2plus_pairs": 538,
+    "mean_within_paper_label_imbalance": 0.3086,
+    "null_mean": 0.2498,
+    "null_p95": 0.2668,
+    "perm_p": 0.002
+  }
+}

@@ -1,0 +1,13 @@
+target,family,config,roc_auc,bal_acc,f1,roc_auc_sd
+GPT-4o,dummy_most_frequent,baseline,0.5,0.5,0.6788,0.0
+GPT-4o,dummy_stratified,baseline,0.5256,0.5256,0.513,0.0418
+GPT-4o,logistic,baseline,0.6758,0.6304,0.6488,0.0336
+GPT-4o,random_forest,baseline,0.6584,0.631,0.6526,0.0381
+Claude-3-5-Sonnet,dummy_most_frequent,baseline,0.5,0.5,0.0,0.0
+Claude-3-5-Sonnet,dummy_stratified,baseline,0.4936,0.4936,0.3872,0.0365
+Claude-3-5-Sonnet,logistic,baseline,0.6275,0.568,0.3896,0.049
+Claude-3-5-Sonnet,random_forest,baseline,0.6224,0.5611,0.3769,0.0499
+GPT-4o-Random,dummy_most_frequent,baseline,0.5,0.5,0.9467,0.0
+GPT-4o-Random,dummy_stratified,baseline,0.509,0.509,0.9073,0.0276
+GPT-4o-Random,logistic,baseline,0.5799,0.5,0.9467,0.0528
+GPT-4o-Random,random_forest,baseline,0.609,0.5,0.9467,0.0524

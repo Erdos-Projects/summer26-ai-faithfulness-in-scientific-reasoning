@@ -1,0 +1,3 @@
+model,auc_mean,auc_std,bal_acc_mean,bal_acc_std,brier_mean,brier_std,base_rate,n_folds
+RandomForest,0.6034,0.0518,0.5939,0.0520,0.2361,0.0128,0.5529,50
+HistGB,0.5873,0.0581,0.5690,0.0464,0.2527,0.0198,0.5529,50

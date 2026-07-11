@@ -1,0 +1,1682 @@
+{
+  "rsc_p01__scev_val_fig_1537__AS": {
+    "item_id": "scev_val_fig_1537",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1537__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1537.png"
+  },
+  "rsc_p01__scev_val_fig_1537__QLq": {
+    "item_id": "scev_val_fig_1537",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1537__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1537.png"
+  },
+  "rsc_p01__scev_val_fig_1537__QLl": {
+    "item_id": "scev_val_fig_1537",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1537__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1537.png"
+  },
+  "rsc_p01__scev_val_fig_1537__MCr": {
+    "item_id": "scev_val_fig_1537",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1537__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1537.png"
+  },
+  "rsc_p01__scev_val_fig_1537__AT": {
+    "item_id": "scev_val_fig_1537",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1537__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1537.png"
+  },
+  "rsc_p01__scev_val_fig_1537__VO": {
+    "item_id": "scev_val_fig_1537",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1537__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1537.png"
+  },
+  "rsc_p01__scev_val_fig_1537__VL": {
+    "item_id": "scev_val_fig_1537",
+    "dim_code": "VL",
+    "dim_name": "Visual Localization and Grounding",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1537__VL.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1537.png"
+  },
+  "rsc_p01__scev_val_fig_1537__GS": {
+    "item_id": "scev_val_fig_1537",
+    "dim_code": "GS",
+    "dim_name": "Gestalt and Shape Judgment",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1537__GS.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1537.png"
+  },
+  "rsc_p01__scev_val_fig_1537__MA": {
+    "item_id": "scev_val_fig_1537",
+    "dim_code": "MA",
+    "dim_name": "Multi-Element Visual Aggregation",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1537__MA.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1537.png"
+  },
+  "rsc_p01__scev_val_fig_1537__MCu": {
+    "item_id": "scev_val_fig_1537",
+    "dim_code": "MCu",
+    "dim_name": "Calibrating Knowns and Unknowns",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1537__MCu.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1537.png"
+  },
+  "rsc_p01__scev_val_fig_1537__CL": {
+    "item_id": "scev_val_fig_1537",
+    "dim_code": "CL",
+    "dim_name": "Conceptualisation, Learning, and Abstraction",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1537__CL.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1537.png"
+  },
+  "rsc_p01__scev_val_fig_1537__KNf": {
+    "item_id": "scev_val_fig_1537",
+    "dim_code": "KNf",
+    "dim_name": "Formal Sciences",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1537__KNf.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1537.png"
+  },
+  "rsc_p01__scev_val_fig_1538__AS": {
+    "item_id": "scev_val_fig_1538",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1538__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1538.png"
+  },
+  "rsc_p01__scev_val_fig_1538__QLq": {
+    "item_id": "scev_val_fig_1538",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1538__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1538.png"
+  },
+  "rsc_p01__scev_val_fig_1538__QLl": {
+    "item_id": "scev_val_fig_1538",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1538__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1538.png"
+  },
+  "rsc_p01__scev_val_fig_1538__MCr": {
+    "item_id": "scev_val_fig_1538",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1538__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1538.png"
+  },
+  "rsc_p01__scev_val_fig_1538__AT": {
+    "item_id": "scev_val_fig_1538",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1538__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1538.png"
+  },
+  "rsc_p01__scev_val_fig_1538__VO": {
+    "item_id": "scev_val_fig_1538",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1538__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1538.png"
+  },
+  "rsc_p01__scev_val_fig_1538__VL": {
+    "item_id": "scev_val_fig_1538",
+    "dim_code": "VL",
+    "dim_name": "Visual Localization and Grounding",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1538__VL.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1538.png"
+  },
+  "rsc_p01__scev_val_fig_1538__GS": {
+    "item_id": "scev_val_fig_1538",
+    "dim_code": "GS",
+    "dim_name": "Gestalt and Shape Judgment",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1538__GS.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1538.png"
+  },
+  "rsc_p01__scev_val_fig_1538__MA": {
+    "item_id": "scev_val_fig_1538",
+    "dim_code": "MA",
+    "dim_name": "Multi-Element Visual Aggregation",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1538__MA.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1538.png"
+  },
+  "rsc_p01__scev_val_fig_1538__MCu": {
+    "item_id": "scev_val_fig_1538",
+    "dim_code": "MCu",
+    "dim_name": "Calibrating Knowns and Unknowns",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1538__MCu.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1538.png"
+  },
+  "rsc_p01__scev_val_fig_1538__CL": {
+    "item_id": "scev_val_fig_1538",
+    "dim_code": "CL",
+    "dim_name": "Conceptualisation, Learning, and Abstraction",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1538__CL.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1538.png"
+  },
+  "rsc_p01__scev_val_fig_1538__KNf": {
+    "item_id": "scev_val_fig_1538",
+    "dim_code": "KNf",
+    "dim_name": "Formal Sciences",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1538__KNf.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1538.png"
+  },
+  "rsc_p01__scev_val_fig_1539__AS": {
+    "item_id": "scev_val_fig_1539",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1539__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1539.png"
+  },
+  "rsc_p01__scev_val_fig_1539__QLq": {
+    "item_id": "scev_val_fig_1539",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1539__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1539.png"
+  },
+  "rsc_p01__scev_val_fig_1539__QLl": {
+    "item_id": "scev_val_fig_1539",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1539__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1539.png"
+  },
+  "rsc_p01__scev_val_fig_1539__MCr": {
+    "item_id": "scev_val_fig_1539",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1539__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1539.png"
+  },
+  "rsc_p01__scev_val_fig_1539__AT": {
+    "item_id": "scev_val_fig_1539",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1539__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1539.png"
+  },
+  "rsc_p01__scev_val_fig_1539__VO": {
+    "item_id": "scev_val_fig_1539",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1539__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1539.png"
+  },
+  "rsc_p01__scev_val_fig_1539__VL": {
+    "item_id": "scev_val_fig_1539",
+    "dim_code": "VL",
+    "dim_name": "Visual Localization and Grounding",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1539__VL.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1539.png"
+  },
+  "rsc_p01__scev_val_fig_1539__GS": {
+    "item_id": "scev_val_fig_1539",
+    "dim_code": "GS",
+    "dim_name": "Gestalt and Shape Judgment",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1539__GS.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1539.png"
+  },
+  "rsc_p01__scev_val_fig_1539__MA": {
+    "item_id": "scev_val_fig_1539",
+    "dim_code": "MA",
+    "dim_name": "Multi-Element Visual Aggregation",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1539__MA.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1539.png"
+  },
+  "rsc_p01__scev_val_fig_1539__MCu": {
+    "item_id": "scev_val_fig_1539",
+    "dim_code": "MCu",
+    "dim_name": "Calibrating Knowns and Unknowns",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1539__MCu.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1539.png"
+  },
+  "rsc_p01__scev_val_fig_1539__CL": {
+    "item_id": "scev_val_fig_1539",
+    "dim_code": "CL",
+    "dim_name": "Conceptualisation, Learning, and Abstraction",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1539__CL.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1539.png"
+  },
+  "rsc_p01__scev_val_fig_1539__KNf": {
+    "item_id": "scev_val_fig_1539",
+    "dim_code": "KNf",
+    "dim_name": "Formal Sciences",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1539__KNf.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1539.png"
+  },
+  "rsc_p01__scev_val_fig_1540__AS": {
+    "item_id": "scev_val_fig_1540",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1540__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1540.png"
+  },
+  "rsc_p01__scev_val_fig_1540__QLq": {
+    "item_id": "scev_val_fig_1540",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1540__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1540.png"
+  },
+  "rsc_p01__scev_val_fig_1540__QLl": {
+    "item_id": "scev_val_fig_1540",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1540__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1540.png"
+  },
+  "rsc_p01__scev_val_fig_1540__MCr": {
+    "item_id": "scev_val_fig_1540",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1540__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1540.png"
+  },
+  "rsc_p01__scev_val_fig_1540__AT": {
+    "item_id": "scev_val_fig_1540",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1540__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1540.png"
+  },
+  "rsc_p01__scev_val_fig_1540__VO": {
+    "item_id": "scev_val_fig_1540",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1540__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1540.png"
+  },
+  "rsc_p01__scev_val_fig_1540__VL": {
+    "item_id": "scev_val_fig_1540",
+    "dim_code": "VL",
+    "dim_name": "Visual Localization and Grounding",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1540__VL.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1540.png"
+  },
+  "rsc_p01__scev_val_fig_1540__GS": {
+    "item_id": "scev_val_fig_1540",
+    "dim_code": "GS",
+    "dim_name": "Gestalt and Shape Judgment",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1540__GS.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1540.png"
+  },
+  "rsc_p01__scev_val_fig_1540__MA": {
+    "item_id": "scev_val_fig_1540",
+    "dim_code": "MA",
+    "dim_name": "Multi-Element Visual Aggregation",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1540__MA.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1540.png"
+  },
+  "rsc_p01__scev_val_fig_1540__MCu": {
+    "item_id": "scev_val_fig_1540",
+    "dim_code": "MCu",
+    "dim_name": "Calibrating Knowns and Unknowns",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1540__MCu.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1540.png"
+  },
+  "rsc_p01__scev_val_fig_1540__CL": {
+    "item_id": "scev_val_fig_1540",
+    "dim_code": "CL",
+    "dim_name": "Conceptualisation, Learning, and Abstraction",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1540__CL.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1540.png"
+  },
+  "rsc_p01__scev_val_fig_1540__KNf": {
+    "item_id": "scev_val_fig_1540",
+    "dim_code": "KNf",
+    "dim_name": "Formal Sciences",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1540__KNf.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1540.png"
+  },
+  "rsc_p01__scev_val_fig_1541__AS": {
+    "item_id": "scev_val_fig_1541",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1541__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1541.png"
+  },
+  "rsc_p01__scev_val_fig_1541__QLq": {
+    "item_id": "scev_val_fig_1541",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1541__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1541.png"
+  },
+  "rsc_p01__scev_val_fig_1541__QLl": {
+    "item_id": "scev_val_fig_1541",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1541__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1541.png"
+  },
+  "rsc_p01__scev_val_fig_1541__MCr": {
+    "item_id": "scev_val_fig_1541",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1541__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1541.png"
+  },
+  "rsc_p01__scev_val_fig_1541__AT": {
+    "item_id": "scev_val_fig_1541",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1541__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1541.png"
+  },
+  "rsc_p01__scev_val_fig_1541__VO": {
+    "item_id": "scev_val_fig_1541",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1541__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1541.png"
+  },
+  "rsc_p01__scev_val_fig_1541__VL": {
+    "item_id": "scev_val_fig_1541",
+    "dim_code": "VL",
+    "dim_name": "Visual Localization and Grounding",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1541__VL.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1541.png"
+  },
+  "rsc_p01__scev_val_fig_1541__GS": {
+    "item_id": "scev_val_fig_1541",
+    "dim_code": "GS",
+    "dim_name": "Gestalt and Shape Judgment",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1541__GS.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1541.png"
+  },
+  "rsc_p01__scev_val_fig_1541__MA": {
+    "item_id": "scev_val_fig_1541",
+    "dim_code": "MA",
+    "dim_name": "Multi-Element Visual Aggregation",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1541__MA.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1541.png"
+  },
+  "rsc_p01__scev_val_fig_1541__MCu": {
+    "item_id": "scev_val_fig_1541",
+    "dim_code": "MCu",
+    "dim_name": "Calibrating Knowns and Unknowns",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1541__MCu.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1541.png"
+  },
+  "rsc_p01__scev_val_fig_1541__CL": {
+    "item_id": "scev_val_fig_1541",
+    "dim_code": "CL",
+    "dim_name": "Conceptualisation, Learning, and Abstraction",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1541__CL.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1541.png"
+  },
+  "rsc_p01__scev_val_fig_1541__KNf": {
+    "item_id": "scev_val_fig_1541",
+    "dim_code": "KNf",
+    "dim_name": "Formal Sciences",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1541__KNf.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1541.png"
+  },
+  "rsc_p01__scev_val_fig_1542__AS": {
+    "item_id": "scev_val_fig_1542",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1542__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1542.png"
+  },
+  "rsc_p01__scev_val_fig_1542__QLq": {
+    "item_id": "scev_val_fig_1542",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1542__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1542.png"
+  },
+  "rsc_p01__scev_val_fig_1542__QLl": {
+    "item_id": "scev_val_fig_1542",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1542__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1542.png"
+  },
+  "rsc_p01__scev_val_fig_1542__MCr": {
+    "item_id": "scev_val_fig_1542",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1542__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1542.png"
+  },
+  "rsc_p01__scev_val_fig_1542__AT": {
+    "item_id": "scev_val_fig_1542",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1542__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1542.png"
+  },
+  "rsc_p01__scev_val_fig_1542__VO": {
+    "item_id": "scev_val_fig_1542",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1542__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1542.png"
+  },
+  "rsc_p01__scev_val_fig_1542__VL": {
+    "item_id": "scev_val_fig_1542",
+    "dim_code": "VL",
+    "dim_name": "Visual Localization and Grounding",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1542__VL.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1542.png"
+  },
+  "rsc_p01__scev_val_fig_1542__GS": {
+    "item_id": "scev_val_fig_1542",
+    "dim_code": "GS",
+    "dim_name": "Gestalt and Shape Judgment",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1542__GS.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1542.png"
+  },
+  "rsc_p01__scev_val_fig_1542__MA": {
+    "item_id": "scev_val_fig_1542",
+    "dim_code": "MA",
+    "dim_name": "Multi-Element Visual Aggregation",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1542__MA.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1542.png"
+  },
+  "rsc_p01__scev_val_fig_1542__MCu": {
+    "item_id": "scev_val_fig_1542",
+    "dim_code": "MCu",
+    "dim_name": "Calibrating Knowns and Unknowns",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1542__MCu.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1542.png"
+  },
+  "rsc_p01__scev_val_fig_1542__CL": {
+    "item_id": "scev_val_fig_1542",
+    "dim_code": "CL",
+    "dim_name": "Conceptualisation, Learning, and Abstraction",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1542__CL.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1542.png"
+  },
+  "rsc_p01__scev_val_fig_1542__KNf": {
+    "item_id": "scev_val_fig_1542",
+    "dim_code": "KNf",
+    "dim_name": "Formal Sciences",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1542__KNf.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1542.png"
+  },
+  "rsc_p01__scev_val_fig_1543__AS": {
+    "item_id": "scev_val_fig_1543",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1543__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1543.png"
+  },
+  "rsc_p01__scev_val_fig_1543__QLq": {
+    "item_id": "scev_val_fig_1543",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1543__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1543.png"
+  },
+  "rsc_p01__scev_val_fig_1543__QLl": {
+    "item_id": "scev_val_fig_1543",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1543__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1543.png"
+  },
+  "rsc_p01__scev_val_fig_1543__MCr": {
+    "item_id": "scev_val_fig_1543",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1543__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1543.png"
+  },
+  "rsc_p01__scev_val_fig_1543__AT": {
+    "item_id": "scev_val_fig_1543",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1543__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1543.png"
+  },
+  "rsc_p01__scev_val_fig_1543__VO": {
+    "item_id": "scev_val_fig_1543",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1543__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1543.png"
+  },
+  "rsc_p01__scev_val_fig_1543__VL": {
+    "item_id": "scev_val_fig_1543",
+    "dim_code": "VL",
+    "dim_name": "Visual Localization and Grounding",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1543__VL.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1543.png"
+  },
+  "rsc_p01__scev_val_fig_1543__GS": {
+    "item_id": "scev_val_fig_1543",
+    "dim_code": "GS",
+    "dim_name": "Gestalt and Shape Judgment",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1543__GS.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1543.png"
+  },
+  "rsc_p01__scev_val_fig_1543__MA": {
+    "item_id": "scev_val_fig_1543",
+    "dim_code": "MA",
+    "dim_name": "Multi-Element Visual Aggregation",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1543__MA.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1543.png"
+  },
+  "rsc_p01__scev_val_fig_1543__MCu": {
+    "item_id": "scev_val_fig_1543",
+    "dim_code": "MCu",
+    "dim_name": "Calibrating Knowns and Unknowns",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1543__MCu.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1543.png"
+  },
+  "rsc_p01__scev_val_fig_1543__CL": {
+    "item_id": "scev_val_fig_1543",
+    "dim_code": "CL",
+    "dim_name": "Conceptualisation, Learning, and Abstraction",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1543__CL.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1543.png"
+  },
+  "rsc_p01__scev_val_fig_1543__KNf": {
+    "item_id": "scev_val_fig_1543",
+    "dim_code": "KNf",
+    "dim_name": "Formal Sciences",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1543__KNf.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1543.png"
+  },
+  "rsc_p01__scev_val_fig_1544__AS": {
+    "item_id": "scev_val_fig_1544",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1544__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1544.png"
+  },
+  "rsc_p01__scev_val_fig_1544__QLq": {
+    "item_id": "scev_val_fig_1544",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1544__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1544.png"
+  },
+  "rsc_p01__scev_val_fig_1544__QLl": {
+    "item_id": "scev_val_fig_1544",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1544__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1544.png"
+  },
+  "rsc_p01__scev_val_fig_1544__MCr": {
+    "item_id": "scev_val_fig_1544",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1544__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1544.png"
+  },
+  "rsc_p01__scev_val_fig_1544__AT": {
+    "item_id": "scev_val_fig_1544",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1544__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1544.png"
+  },
+  "rsc_p01__scev_val_fig_1544__VO": {
+    "item_id": "scev_val_fig_1544",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1544__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1544.png"
+  },
+  "rsc_p01__scev_val_fig_1544__VL": {
+    "item_id": "scev_val_fig_1544",
+    "dim_code": "VL",
+    "dim_name": "Visual Localization and Grounding",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1544__VL.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1544.png"
+  },
+  "rsc_p01__scev_val_fig_1544__GS": {
+    "item_id": "scev_val_fig_1544",
+    "dim_code": "GS",
+    "dim_name": "Gestalt and Shape Judgment",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1544__GS.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1544.png"
+  },
+  "rsc_p01__scev_val_fig_1544__MA": {
+    "item_id": "scev_val_fig_1544",
+    "dim_code": "MA",
+    "dim_name": "Multi-Element Visual Aggregation",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1544__MA.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1544.png"
+  },
+  "rsc_p01__scev_val_fig_1544__MCu": {
+    "item_id": "scev_val_fig_1544",
+    "dim_code": "MCu",
+    "dim_name": "Calibrating Knowns and Unknowns",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1544__MCu.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1544.png"
+  },
+  "rsc_p01__scev_val_fig_1544__CL": {
+    "item_id": "scev_val_fig_1544",
+    "dim_code": "CL",
+    "dim_name": "Conceptualisation, Learning, and Abstraction",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1544__CL.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1544.png"
+  },
+  "rsc_p01__scev_val_fig_1544__KNf": {
+    "item_id": "scev_val_fig_1544",
+    "dim_code": "KNf",
+    "dim_name": "Formal Sciences",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1544__KNf.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1544.png"
+  },
+  "rsc_p01__scev_val_fig_1545__AS": {
+    "item_id": "scev_val_fig_1545",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1545__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1545.png"
+  },
+  "rsc_p01__scev_val_fig_1545__QLq": {
+    "item_id": "scev_val_fig_1545",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1545__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1545.png"
+  },
+  "rsc_p01__scev_val_fig_1545__QLl": {
+    "item_id": "scev_val_fig_1545",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1545__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1545.png"
+  },
+  "rsc_p01__scev_val_fig_1545__MCr": {
+    "item_id": "scev_val_fig_1545",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1545__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1545.png"
+  },
+  "rsc_p01__scev_val_fig_1545__AT": {
+    "item_id": "scev_val_fig_1545",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1545__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1545.png"
+  },
+  "rsc_p01__scev_val_fig_1545__VO": {
+    "item_id": "scev_val_fig_1545",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1545__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1545.png"
+  },
+  "rsc_p01__scev_val_fig_1545__VL": {
+    "item_id": "scev_val_fig_1545",
+    "dim_code": "VL",
+    "dim_name": "Visual Localization and Grounding",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1545__VL.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1545.png"
+  },
+  "rsc_p01__scev_val_fig_1545__GS": {
+    "item_id": "scev_val_fig_1545",
+    "dim_code": "GS",
+    "dim_name": "Gestalt and Shape Judgment",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1545__GS.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1545.png"
+  },
+  "rsc_p01__scev_val_fig_1545__MA": {
+    "item_id": "scev_val_fig_1545",
+    "dim_code": "MA",
+    "dim_name": "Multi-Element Visual Aggregation",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1545__MA.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1545.png"
+  },
+  "rsc_p01__scev_val_fig_1545__MCu": {
+    "item_id": "scev_val_fig_1545",
+    "dim_code": "MCu",
+    "dim_name": "Calibrating Knowns and Unknowns",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1545__MCu.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1545.png"
+  },
+  "rsc_p01__scev_val_fig_1545__CL": {
+    "item_id": "scev_val_fig_1545",
+    "dim_code": "CL",
+    "dim_name": "Conceptualisation, Learning, and Abstraction",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1545__CL.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1545.png"
+  },
+  "rsc_p01__scev_val_fig_1545__KNf": {
+    "item_id": "scev_val_fig_1545",
+    "dim_code": "KNf",
+    "dim_name": "Formal Sciences",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1545__KNf.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1545.png"
+  },
+  "rsc_p01__scev_val_fig_1546__AS": {
+    "item_id": "scev_val_fig_1546",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1546__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1546.png"
+  },
+  "rsc_p01__scev_val_fig_1546__QLq": {
+    "item_id": "scev_val_fig_1546",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1546__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1546.png"
+  },
+  "rsc_p01__scev_val_fig_1546__QLl": {
+    "item_id": "scev_val_fig_1546",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1546__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1546.png"
+  },
+  "rsc_p01__scev_val_fig_1546__MCr": {
+    "item_id": "scev_val_fig_1546",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1546__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1546.png"
+  },
+  "rsc_p01__scev_val_fig_1546__AT": {
+    "item_id": "scev_val_fig_1546",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1546__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1546.png"
+  },
+  "rsc_p01__scev_val_fig_1546__VO": {
+    "item_id": "scev_val_fig_1546",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1546__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1546.png"
+  },
+  "rsc_p01__scev_val_fig_1546__VL": {
+    "item_id": "scev_val_fig_1546",
+    "dim_code": "VL",
+    "dim_name": "Visual Localization and Grounding",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1546__VL.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1546.png"
+  },
+  "rsc_p01__scev_val_fig_1546__GS": {
+    "item_id": "scev_val_fig_1546",
+    "dim_code": "GS",
+    "dim_name": "Gestalt and Shape Judgment",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1546__GS.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1546.png"
+  },
+  "rsc_p01__scev_val_fig_1546__MA": {
+    "item_id": "scev_val_fig_1546",
+    "dim_code": "MA",
+    "dim_name": "Multi-Element Visual Aggregation",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1546__MA.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1546.png"
+  },
+  "rsc_p01__scev_val_fig_1546__MCu": {
+    "item_id": "scev_val_fig_1546",
+    "dim_code": "MCu",
+    "dim_name": "Calibrating Knowns and Unknowns",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1546__MCu.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1546.png"
+  },
+  "rsc_p01__scev_val_fig_1546__CL": {
+    "item_id": "scev_val_fig_1546",
+    "dim_code": "CL",
+    "dim_name": "Conceptualisation, Learning, and Abstraction",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1546__CL.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1546.png"
+  },
+  "rsc_p01__scev_val_fig_1546__KNf": {
+    "item_id": "scev_val_fig_1546",
+    "dim_code": "KNf",
+    "dim_name": "Formal Sciences",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1546__KNf.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1546.png"
+  },
+  "rsc_p01__scev_val_fig_1547__AS": {
+    "item_id": "scev_val_fig_1547",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1547__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1547.png"
+  },
+  "rsc_p01__scev_val_fig_1547__QLq": {
+    "item_id": "scev_val_fig_1547",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1547__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1547.png"
+  },
+  "rsc_p01__scev_val_fig_1547__QLl": {
+    "item_id": "scev_val_fig_1547",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1547__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1547.png"
+  },
+  "rsc_p01__scev_val_fig_1547__MCr": {
+    "item_id": "scev_val_fig_1547",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1547__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1547.png"
+  },
+  "rsc_p01__scev_val_fig_1547__AT": {
+    "item_id": "scev_val_fig_1547",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1547__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1547.png"
+  },
+  "rsc_p01__scev_val_fig_1547__VO": {
+    "item_id": "scev_val_fig_1547",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1547__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1547.png"
+  },
+  "rsc_p01__scev_val_fig_1547__VL": {
+    "item_id": "scev_val_fig_1547",
+    "dim_code": "VL",
+    "dim_name": "Visual Localization and Grounding",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1547__VL.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1547.png"
+  },
+  "rsc_p01__scev_val_fig_1547__GS": {
+    "item_id": "scev_val_fig_1547",
+    "dim_code": "GS",
+    "dim_name": "Gestalt and Shape Judgment",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1547__GS.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1547.png"
+  },
+  "rsc_p01__scev_val_fig_1547__MA": {
+    "item_id": "scev_val_fig_1547",
+    "dim_code": "MA",
+    "dim_name": "Multi-Element Visual Aggregation",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1547__MA.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1547.png"
+  },
+  "rsc_p01__scev_val_fig_1547__MCu": {
+    "item_id": "scev_val_fig_1547",
+    "dim_code": "MCu",
+    "dim_name": "Calibrating Knowns and Unknowns",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1547__MCu.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1547.png"
+  },
+  "rsc_p01__scev_val_fig_1547__CL": {
+    "item_id": "scev_val_fig_1547",
+    "dim_code": "CL",
+    "dim_name": "Conceptualisation, Learning, and Abstraction",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1547__CL.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1547.png"
+  },
+  "rsc_p01__scev_val_fig_1547__KNf": {
+    "item_id": "scev_val_fig_1547",
+    "dim_code": "KNf",
+    "dim_name": "Formal Sciences",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1547__KNf.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1547.png"
+  },
+  "rsc_p01__scev_val_fig_1548__AS": {
+    "item_id": "scev_val_fig_1548",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1548__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1548.png"
+  },
+  "rsc_p01__scev_val_fig_1548__QLq": {
+    "item_id": "scev_val_fig_1548",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1548__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1548.png"
+  },
+  "rsc_p01__scev_val_fig_1548__QLl": {
+    "item_id": "scev_val_fig_1548",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1548__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1548.png"
+  },
+  "rsc_p01__scev_val_fig_1548__MCr": {
+    "item_id": "scev_val_fig_1548",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1548__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1548.png"
+  },
+  "rsc_p01__scev_val_fig_1548__AT": {
+    "item_id": "scev_val_fig_1548",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1548__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1548.png"
+  },
+  "rsc_p01__scev_val_fig_1548__VO": {
+    "item_id": "scev_val_fig_1548",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1548__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1548.png"
+  },
+  "rsc_p01__scev_val_fig_1548__VL": {
+    "item_id": "scev_val_fig_1548",
+    "dim_code": "VL",
+    "dim_name": "Visual Localization and Grounding",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1548__VL.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1548.png"
+  },
+  "rsc_p01__scev_val_fig_1548__GS": {
+    "item_id": "scev_val_fig_1548",
+    "dim_code": "GS",
+    "dim_name": "Gestalt and Shape Judgment",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1548__GS.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1548.png"
+  },
+  "rsc_p01__scev_val_fig_1548__MA": {
+    "item_id": "scev_val_fig_1548",
+    "dim_code": "MA",
+    "dim_name": "Multi-Element Visual Aggregation",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1548__MA.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1548.png"
+  },
+  "rsc_p01__scev_val_fig_1548__MCu": {
+    "item_id": "scev_val_fig_1548",
+    "dim_code": "MCu",
+    "dim_name": "Calibrating Knowns and Unknowns",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1548__MCu.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1548.png"
+  },
+  "rsc_p01__scev_val_fig_1548__CL": {
+    "item_id": "scev_val_fig_1548",
+    "dim_code": "CL",
+    "dim_name": "Conceptualisation, Learning, and Abstraction",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1548__CL.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1548.png"
+  },
+  "rsc_p01__scev_val_fig_1548__KNf": {
+    "item_id": "scev_val_fig_1548",
+    "dim_code": "KNf",
+    "dim_name": "Formal Sciences",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1548__KNf.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1548.png"
+  },
+  "rsc_p01__scev_val_fig_1549__AS": {
+    "item_id": "scev_val_fig_1549",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1549__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1549.png"
+  },
+  "rsc_p01__scev_val_fig_1549__QLq": {
+    "item_id": "scev_val_fig_1549",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1549__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1549.png"
+  },
+  "rsc_p01__scev_val_fig_1549__QLl": {
+    "item_id": "scev_val_fig_1549",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1549__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1549.png"
+  },
+  "rsc_p01__scev_val_fig_1549__MCr": {
+    "item_id": "scev_val_fig_1549",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1549__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1549.png"
+  },
+  "rsc_p01__scev_val_fig_1549__AT": {
+    "item_id": "scev_val_fig_1549",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1549__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1549.png"
+  },
+  "rsc_p01__scev_val_fig_1549__VO": {
+    "item_id": "scev_val_fig_1549",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1549__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1549.png"
+  },
+  "rsc_p01__scev_val_fig_1549__VL": {
+    "item_id": "scev_val_fig_1549",
+    "dim_code": "VL",
+    "dim_name": "Visual Localization and Grounding",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1549__VL.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1549.png"
+  },
+  "rsc_p01__scev_val_fig_1549__GS": {
+    "item_id": "scev_val_fig_1549",
+    "dim_code": "GS",
+    "dim_name": "Gestalt and Shape Judgment",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1549__GS.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1549.png"
+  },
+  "rsc_p01__scev_val_fig_1549__MA": {
+    "item_id": "scev_val_fig_1549",
+    "dim_code": "MA",
+    "dim_name": "Multi-Element Visual Aggregation",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1549__MA.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1549.png"
+  },
+  "rsc_p01__scev_val_fig_1549__MCu": {
+    "item_id": "scev_val_fig_1549",
+    "dim_code": "MCu",
+    "dim_name": "Calibrating Knowns and Unknowns",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1549__MCu.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1549.png"
+  },
+  "rsc_p01__scev_val_fig_1549__CL": {
+    "item_id": "scev_val_fig_1549",
+    "dim_code": "CL",
+    "dim_name": "Conceptualisation, Learning, and Abstraction",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1549__CL.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1549.png"
+  },
+  "rsc_p01__scev_val_fig_1549__KNf": {
+    "item_id": "scev_val_fig_1549",
+    "dim_code": "KNf",
+    "dim_name": "Formal Sciences",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1549__KNf.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1549.png"
+  },
+  "rsc_p01__scev_val_fig_1550__AS": {
+    "item_id": "scev_val_fig_1550",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1550__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1550.png"
+  },
+  "rsc_p01__scev_val_fig_1550__QLq": {
+    "item_id": "scev_val_fig_1550",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1550__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1550.png"
+  },
+  "rsc_p01__scev_val_fig_1550__QLl": {
+    "item_id": "scev_val_fig_1550",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1550__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1550.png"
+  },
+  "rsc_p01__scev_val_fig_1550__MCr": {
+    "item_id": "scev_val_fig_1550",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1550__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1550.png"
+  },
+  "rsc_p01__scev_val_fig_1550__AT": {
+    "item_id": "scev_val_fig_1550",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1550__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1550.png"
+  },
+  "rsc_p01__scev_val_fig_1550__VO": {
+    "item_id": "scev_val_fig_1550",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1550__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1550.png"
+  },
+  "rsc_p01__scev_val_fig_1550__VL": {
+    "item_id": "scev_val_fig_1550",
+    "dim_code": "VL",
+    "dim_name": "Visual Localization and Grounding",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1550__VL.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1550.png"
+  },
+  "rsc_p01__scev_val_fig_1550__GS": {
+    "item_id": "scev_val_fig_1550",
+    "dim_code": "GS",
+    "dim_name": "Gestalt and Shape Judgment",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1550__GS.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1550.png"
+  },
+  "rsc_p01__scev_val_fig_1550__MA": {
+    "item_id": "scev_val_fig_1550",
+    "dim_code": "MA",
+    "dim_name": "Multi-Element Visual Aggregation",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1550__MA.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1550.png"
+  },
+  "rsc_p01__scev_val_fig_1550__MCu": {
+    "item_id": "scev_val_fig_1550",
+    "dim_code": "MCu",
+    "dim_name": "Calibrating Knowns and Unknowns",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1550__MCu.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1550.png"
+  },
+  "rsc_p01__scev_val_fig_1550__CL": {
+    "item_id": "scev_val_fig_1550",
+    "dim_code": "CL",
+    "dim_name": "Conceptualisation, Learning, and Abstraction",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1550__CL.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1550.png"
+  },
+  "rsc_p01__scev_val_fig_1550__KNf": {
+    "item_id": "scev_val_fig_1550",
+    "dim_code": "KNf",
+    "dim_name": "Formal Sciences",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1550__KNf.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1550.png"
+  },
+  "rsc_p01__scev_val_fig_1551__AS": {
+    "item_id": "scev_val_fig_1551",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1551__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1551.png"
+  },
+  "rsc_p01__scev_val_fig_1551__QLq": {
+    "item_id": "scev_val_fig_1551",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1551__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1551.png"
+  },
+  "rsc_p01__scev_val_fig_1551__QLl": {
+    "item_id": "scev_val_fig_1551",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1551__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1551.png"
+  },
+  "rsc_p01__scev_val_fig_1551__MCr": {
+    "item_id": "scev_val_fig_1551",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1551__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1551.png"
+  },
+  "rsc_p01__scev_val_fig_1551__AT": {
+    "item_id": "scev_val_fig_1551",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1551__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1551.png"
+  },
+  "rsc_p01__scev_val_fig_1551__VO": {
+    "item_id": "scev_val_fig_1551",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1551__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1551.png"
+  },
+  "rsc_p01__scev_val_fig_1551__VL": {
+    "item_id": "scev_val_fig_1551",
+    "dim_code": "VL",
+    "dim_name": "Visual Localization and Grounding",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1551__VL.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1551.png"
+  },
+  "rsc_p01__scev_val_fig_1551__GS": {
+    "item_id": "scev_val_fig_1551",
+    "dim_code": "GS",
+    "dim_name": "Gestalt and Shape Judgment",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1551__GS.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1551.png"
+  },
+  "rsc_p01__scev_val_fig_1551__MA": {
+    "item_id": "scev_val_fig_1551",
+    "dim_code": "MA",
+    "dim_name": "Multi-Element Visual Aggregation",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1551__MA.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1551.png"
+  },
+  "rsc_p01__scev_val_fig_1551__MCu": {
+    "item_id": "scev_val_fig_1551",
+    "dim_code": "MCu",
+    "dim_name": "Calibrating Knowns and Unknowns",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1551__MCu.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1551.png"
+  },
+  "rsc_p01__scev_val_fig_1551__CL": {
+    "item_id": "scev_val_fig_1551",
+    "dim_code": "CL",
+    "dim_name": "Conceptualisation, Learning, and Abstraction",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1551__CL.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1551.png"
+  },
+  "rsc_p01__scev_val_fig_1551__KNf": {
+    "item_id": "scev_val_fig_1551",
+    "dim_code": "KNf",
+    "dim_name": "Formal Sciences",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1551__KNf.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1551.png"
+  },
+  "rsc_p01__scev_val_fig_1552__AS": {
+    "item_id": "scev_val_fig_1552",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1552__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1552.png"
+  },
+  "rsc_p01__scev_val_fig_1552__QLq": {
+    "item_id": "scev_val_fig_1552",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1552__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1552.png"
+  },
+  "rsc_p01__scev_val_fig_1552__QLl": {
+    "item_id": "scev_val_fig_1552",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1552__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1552.png"
+  },
+  "rsc_p01__scev_val_fig_1552__MCr": {
+    "item_id": "scev_val_fig_1552",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1552__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1552.png"
+  },
+  "rsc_p01__scev_val_fig_1552__AT": {
+    "item_id": "scev_val_fig_1552",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1552__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1552.png"
+  },
+  "rsc_p01__scev_val_fig_1552__VO": {
+    "item_id": "scev_val_fig_1552",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1552__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1552.png"
+  },
+  "rsc_p01__scev_val_fig_1552__VL": {
+    "item_id": "scev_val_fig_1552",
+    "dim_code": "VL",
+    "dim_name": "Visual Localization and Grounding",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1552__VL.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1552.png"
+  },
+  "rsc_p01__scev_val_fig_1552__GS": {
+    "item_id": "scev_val_fig_1552",
+    "dim_code": "GS",
+    "dim_name": "Gestalt and Shape Judgment",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1552__GS.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1552.png"
+  },
+  "rsc_p01__scev_val_fig_1552__MA": {
+    "item_id": "scev_val_fig_1552",
+    "dim_code": "MA",
+    "dim_name": "Multi-Element Visual Aggregation",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1552__MA.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1552.png"
+  },
+  "rsc_p01__scev_val_fig_1552__MCu": {
+    "item_id": "scev_val_fig_1552",
+    "dim_code": "MCu",
+    "dim_name": "Calibrating Knowns and Unknowns",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1552__MCu.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1552.png"
+  },
+  "rsc_p01__scev_val_fig_1552__CL": {
+    "item_id": "scev_val_fig_1552",
+    "dim_code": "CL",
+    "dim_name": "Conceptualisation, Learning, and Abstraction",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1552__CL.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1552.png"
+  },
+  "rsc_p01__scev_val_fig_1552__KNf": {
+    "item_id": "scev_val_fig_1552",
+    "dim_code": "KNf",
+    "dim_name": "Formal Sciences",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1552__KNf.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1552.png"
+  },
+  "rsc_p01__scev_val_fig_1553__AS": {
+    "item_id": "scev_val_fig_1553",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1553__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1553.png"
+  },
+  "rsc_p01__scev_val_fig_1553__QLq": {
+    "item_id": "scev_val_fig_1553",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1553__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1553.png"
+  },
+  "rsc_p01__scev_val_fig_1553__QLl": {
+    "item_id": "scev_val_fig_1553",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1553__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1553.png"
+  },
+  "rsc_p01__scev_val_fig_1553__MCr": {
+    "item_id": "scev_val_fig_1553",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1553__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1553.png"
+  },
+  "rsc_p01__scev_val_fig_1553__AT": {
+    "item_id": "scev_val_fig_1553",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1553__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1553.png"
+  },
+  "rsc_p01__scev_val_fig_1553__VO": {
+    "item_id": "scev_val_fig_1553",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1553__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1553.png"
+  },
+  "rsc_p01__scev_val_fig_1553__VL": {
+    "item_id": "scev_val_fig_1553",
+    "dim_code": "VL",
+    "dim_name": "Visual Localization and Grounding",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1553__VL.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1553.png"
+  },
+  "rsc_p01__scev_val_fig_1553__GS": {
+    "item_id": "scev_val_fig_1553",
+    "dim_code": "GS",
+    "dim_name": "Gestalt and Shape Judgment",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1553__GS.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1553.png"
+  },
+  "rsc_p01__scev_val_fig_1553__MA": {
+    "item_id": "scev_val_fig_1553",
+    "dim_code": "MA",
+    "dim_name": "Multi-Element Visual Aggregation",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1553__MA.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1553.png"
+  },
+  "rsc_p01__scev_val_fig_1553__MCu": {
+    "item_id": "scev_val_fig_1553",
+    "dim_code": "MCu",
+    "dim_name": "Calibrating Knowns and Unknowns",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1553__MCu.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1553.png"
+  },
+  "rsc_p01__scev_val_fig_1553__CL": {
+    "item_id": "scev_val_fig_1553",
+    "dim_code": "CL",
+    "dim_name": "Conceptualisation, Learning, and Abstraction",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1553__CL.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1553.png"
+  },
+  "rsc_p01__scev_val_fig_1553__KNf": {
+    "item_id": "scev_val_fig_1553",
+    "dim_code": "KNf",
+    "dim_name": "Formal Sciences",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1553__KNf.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1553.png"
+  },
+  "rsc_p01__scev_val_fig_1555__AS": {
+    "item_id": "scev_val_fig_1555",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1555__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1555.png"
+  },
+  "rsc_p01__scev_val_fig_1555__QLq": {
+    "item_id": "scev_val_fig_1555",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1555__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1555.png"
+  },
+  "rsc_p01__scev_val_fig_1555__QLl": {
+    "item_id": "scev_val_fig_1555",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1555__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1555.png"
+  },
+  "rsc_p01__scev_val_fig_1555__MCr": {
+    "item_id": "scev_val_fig_1555",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1555__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1555.png"
+  },
+  "rsc_p01__scev_val_fig_1555__AT": {
+    "item_id": "scev_val_fig_1555",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1555__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1555.png"
+  },
+  "rsc_p01__scev_val_fig_1555__VO": {
+    "item_id": "scev_val_fig_1555",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1555__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1555.png"
+  },
+  "rsc_p01__scev_val_fig_1555__VL": {
+    "item_id": "scev_val_fig_1555",
+    "dim_code": "VL",
+    "dim_name": "Visual Localization and Grounding",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1555__VL.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1555.png"
+  },
+  "rsc_p01__scev_val_fig_1555__GS": {
+    "item_id": "scev_val_fig_1555",
+    "dim_code": "GS",
+    "dim_name": "Gestalt and Shape Judgment",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1555__GS.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1555.png"
+  },
+  "rsc_p01__scev_val_fig_1555__MA": {
+    "item_id": "scev_val_fig_1555",
+    "dim_code": "MA",
+    "dim_name": "Multi-Element Visual Aggregation",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1555__MA.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1555.png"
+  },
+  "rsc_p01__scev_val_fig_1555__MCu": {
+    "item_id": "scev_val_fig_1555",
+    "dim_code": "MCu",
+    "dim_name": "Calibrating Knowns and Unknowns",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1555__MCu.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1555.png"
+  },
+  "rsc_p01__scev_val_fig_1555__CL": {
+    "item_id": "scev_val_fig_1555",
+    "dim_code": "CL",
+    "dim_name": "Conceptualisation, Learning, and Abstraction",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1555__CL.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1555.png"
+  },
+  "rsc_p01__scev_val_fig_1555__KNf": {
+    "item_id": "scev_val_fig_1555",
+    "dim_code": "KNf",
+    "dim_name": "Formal Sciences",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1555__KNf.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1555.png"
+  },
+  "rsc_p01__scev_val_fig_1556__AS": {
+    "item_id": "scev_val_fig_1556",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1556__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1556.png"
+  },
+  "rsc_p01__scev_val_fig_1556__QLq": {
+    "item_id": "scev_val_fig_1556",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1556__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1556.png"
+  },
+  "rsc_p01__scev_val_fig_1556__QLl": {
+    "item_id": "scev_val_fig_1556",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1556__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1556.png"
+  },
+  "rsc_p01__scev_val_fig_1556__MCr": {
+    "item_id": "scev_val_fig_1556",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1556__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1556.png"
+  },
+  "rsc_p01__scev_val_fig_1556__AT": {
+    "item_id": "scev_val_fig_1556",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1556__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1556.png"
+  },
+  "rsc_p01__scev_val_fig_1556__VO": {
+    "item_id": "scev_val_fig_1556",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1556__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1556.png"
+  },
+  "rsc_p01__scev_val_fig_1556__VL": {
+    "item_id": "scev_val_fig_1556",
+    "dim_code": "VL",
+    "dim_name": "Visual Localization and Grounding",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1556__VL.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1556.png"
+  },
+  "rsc_p01__scev_val_fig_1556__GS": {
+    "item_id": "scev_val_fig_1556",
+    "dim_code": "GS",
+    "dim_name": "Gestalt and Shape Judgment",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1556__GS.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1556.png"
+  },
+  "rsc_p01__scev_val_fig_1556__MA": {
+    "item_id": "scev_val_fig_1556",
+    "dim_code": "MA",
+    "dim_name": "Multi-Element Visual Aggregation",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1556__MA.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1556.png"
+  },
+  "rsc_p01__scev_val_fig_1556__MCu": {
+    "item_id": "scev_val_fig_1556",
+    "dim_code": "MCu",
+    "dim_name": "Calibrating Knowns and Unknowns",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1556__MCu.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1556.png"
+  },
+  "rsc_p01__scev_val_fig_1556__CL": {
+    "item_id": "scev_val_fig_1556",
+    "dim_code": "CL",
+    "dim_name": "Conceptualisation, Learning, and Abstraction",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1556__CL.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1556.png"
+  },
+  "rsc_p01__scev_val_fig_1556__KNf": {
+    "item_id": "scev_val_fig_1556",
+    "dim_code": "KNf",
+    "dim_name": "Formal Sciences",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1556__KNf.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1556.png"
+  },
+  "rsc_p01__scev_val_fig_1557__AS": {
+    "item_id": "scev_val_fig_1557",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1557__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1557.png"
+  },
+  "rsc_p01__scev_val_fig_1557__QLq": {
+    "item_id": "scev_val_fig_1557",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1557__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1557.png"
+  },
+  "rsc_p01__scev_val_fig_1557__QLl": {
+    "item_id": "scev_val_fig_1557",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1557__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1557.png"
+  },
+  "rsc_p01__scev_val_fig_1557__MCr": {
+    "item_id": "scev_val_fig_1557",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1557__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1557.png"
+  },
+  "rsc_p01__scev_val_fig_1557__AT": {
+    "item_id": "scev_val_fig_1557",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1557__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1557.png"
+  },
+  "rsc_p01__scev_val_fig_1557__VO": {
+    "item_id": "scev_val_fig_1557",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1557__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1557.png"
+  },
+  "rsc_p01__scev_val_fig_1557__VL": {
+    "item_id": "scev_val_fig_1557",
+    "dim_code": "VL",
+    "dim_name": "Visual Localization and Grounding",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1557__VL.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1557.png"
+  },
+  "rsc_p01__scev_val_fig_1557__GS": {
+    "item_id": "scev_val_fig_1557",
+    "dim_code": "GS",
+    "dim_name": "Gestalt and Shape Judgment",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1557__GS.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1557.png"
+  },
+  "rsc_p01__scev_val_fig_1557__MA": {
+    "item_id": "scev_val_fig_1557",
+    "dim_code": "MA",
+    "dim_name": "Multi-Element Visual Aggregation",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1557__MA.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1557.png"
+  },
+  "rsc_p01__scev_val_fig_1557__MCu": {
+    "item_id": "scev_val_fig_1557",
+    "dim_code": "MCu",
+    "dim_name": "Calibrating Knowns and Unknowns",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1557__MCu.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1557.png"
+  },
+  "rsc_p01__scev_val_fig_1557__CL": {
+    "item_id": "scev_val_fig_1557",
+    "dim_code": "CL",
+    "dim_name": "Conceptualisation, Learning, and Abstraction",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1557__CL.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1557.png"
+  },
+  "rsc_p01__scev_val_fig_1557__KNf": {
+    "item_id": "scev_val_fig_1557",
+    "dim_code": "KNf",
+    "dim_name": "Formal Sciences",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_scoring/prompts/pass_01/rsc_p01__scev_val_fig_1557__KNf.txt",
+    "figure": "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1557.png"
+  }
+}

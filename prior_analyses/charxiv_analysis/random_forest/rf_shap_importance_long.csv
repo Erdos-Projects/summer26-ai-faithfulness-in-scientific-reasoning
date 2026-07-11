@@ -1,0 +1,481 @@
+model,dim,dim_name,emergent,shap_mean_abs,shap_mean_signed
+COMBINATION_ALL,GS,Gestalt and Shape Judgment,yes,0.02990,-0.00017
+COMBINATION_ALL,MA,Multi-Element Visual Aggregation,yes,0.02536,+0.00006
+COMBINATION_ALL,MCu,Calibrating Knowns and Unknowns,no,0.02452,-0.00055
+COMBINATION_ALL,VL,Visual Localization and Grounding,yes,0.02346,+0.00020
+COMBINATION_ALL,AS,Attention and Scan,no,0.02158,+0.00015
+COMBINATION_ALL,MCr,Identifying Relevant Information,no,0.01956,-0.00052
+COMBINATION_ALL,AT,Atypicality,no,0.01582,-0.00010
+COMBINATION_ALL,QLq,Quantitative Reasoning,no,0.01393,+0.00065
+COMBINATION_ALL,KNf,Formal Sciences,no,0.01275,-0.00120
+COMBINATION_ALL,QLl,Logical Reasoning,no,0.01242,-0.00077
+COMBINATION_ALL,VO,Volume,no,0.01011,-0.00010
+COMBINATION_ALL,CL,"Conceptualisation, Learning, and Abstraction",no,0.00706,+0.00001
+Human,MCr,Identifying Relevant Information,no,0.02565,+0.00121
+Human,KNf,Formal Sciences,no,0.01841,-0.00089
+Human,MA,Multi-Element Visual Aggregation,yes,0.01470,+0.00047
+Human,VL,Visual Localization and Grounding,yes,0.01462,+0.00040
+Human,GS,Gestalt and Shape Judgment,yes,0.01127,-0.00057
+Human,CL,"Conceptualisation, Learning, and Abstraction",no,0.01033,-0.00029
+Human,AS,Attention and Scan,no,0.00920,+0.00068
+Human,MCu,Calibrating Knowns and Unknowns,no,0.00862,-0.00013
+Human,AT,Atypicality,no,0.00839,-0.00009
+Human,QLq,Quantitative Reasoning,no,0.00798,+0.00061
+Human,QLl,Logical Reasoning,no,0.00656,-0.00023
+Human,VO,Volume,no,0.00584,+0.00010
+Claude-3-5-Sonnet,MCu,Calibrating Knowns and Unknowns,no,0.03801,-0.00013
+Claude-3-5-Sonnet,AS,Attention and Scan,no,0.03665,+0.00186
+Claude-3-5-Sonnet,MA,Multi-Element Visual Aggregation,yes,0.02816,-0.00086
+Claude-3-5-Sonnet,QLq,Quantitative Reasoning,no,0.02739,+0.00069
+Claude-3-5-Sonnet,MCr,Identifying Relevant Information,no,0.02405,+0.00091
+Claude-3-5-Sonnet,VL,Visual Localization and Grounding,yes,0.02237,-0.00000
+Claude-3-5-Sonnet,GS,Gestalt and Shape Judgment,yes,0.01567,+0.00051
+Claude-3-5-Sonnet,VO,Volume,no,0.01219,-0.00104
+Claude-3-5-Sonnet,KNf,Formal Sciences,no,0.01128,-0.00113
+Claude-3-5-Sonnet,AT,Atypicality,no,0.01127,+0.00039
+Claude-3-5-Sonnet,QLl,Logical Reasoning,no,0.00781,+0.00020
+Claude-3-5-Sonnet,CL,"Conceptualisation, Learning, and Abstraction",no,0.00474,+0.00017
+GPT-4o,MCu,Calibrating Knowns and Unknowns,no,0.07442,-0.00084
+GPT-4o,AS,Attention and Scan,no,0.03617,+0.00154
+GPT-4o,MCr,Identifying Relevant Information,no,0.03259,-0.00048
+GPT-4o,QLq,Quantitative Reasoning,no,0.02792,+0.00083
+GPT-4o,AT,Atypicality,no,0.02344,+0.00048
+GPT-4o,GS,Gestalt and Shape Judgment,yes,0.02172,-0.00037
+GPT-4o,VO,Volume,no,0.02148,-0.00123
+GPT-4o,MA,Multi-Element Visual Aggregation,yes,0.01990,-0.00008
+GPT-4o,VL,Visual Localization and Grounding,yes,0.01974,-0.00021
+GPT-4o,CL,"Conceptualisation, Learning, and Abstraction",no,0.01549,+0.00105
+GPT-4o,KNf,Formal Sciences,no,0.01187,+0.00011
+GPT-4o,QLl,Logical Reasoning,no,0.00793,-0.00062
+Gemini-1-5-Pro,AS,Attention and Scan,no,0.03245,+0.00083
+Gemini-1-5-Pro,MCu,Calibrating Knowns and Unknowns,no,0.03191,-0.00041
+Gemini-1-5-Pro,GS,Gestalt and Shape Judgment,yes,0.03122,-0.00035
+Gemini-1-5-Pro,MCr,Identifying Relevant Information,no,0.02943,+0.00037
+Gemini-1-5-Pro,VL,Visual Localization and Grounding,yes,0.02410,+0.00039
+Gemini-1-5-Pro,MA,Multi-Element Visual Aggregation,yes,0.01977,+0.00084
+Gemini-1-5-Pro,AT,Atypicality,no,0.01937,-0.00011
+Gemini-1-5-Pro,QLq,Quantitative Reasoning,no,0.01627,+0.00087
+Gemini-1-5-Pro,KNf,Formal Sciences,no,0.01376,+0.00053
+Gemini-1-5-Pro,QLl,Logical Reasoning,no,0.00909,-0.00120
+Gemini-1-5-Pro,VO,Volume,no,0.00657,-0.00088
+Gemini-1-5-Pro,CL,"Conceptualisation, Learning, and Abstraction",no,0.00572,+0.00024
+InternVL2-Pro,MCu,Calibrating Knowns and Unknowns,no,0.04856,+0.00063
+InternVL2-Pro,MCr,Identifying Relevant Information,no,0.02917,+0.00065
+InternVL2-Pro,GS,Gestalt and Shape Judgment,yes,0.02839,+0.00046
+InternVL2-Pro,MA,Multi-Element Visual Aggregation,yes,0.02679,+0.00062
+InternVL2-Pro,AT,Atypicality,no,0.02254,+0.00062
+InternVL2-Pro,VL,Visual Localization and Grounding,yes,0.02254,-0.00008
+InternVL2-Pro,AS,Attention and Scan,no,0.01932,+0.00176
+InternVL2-Pro,VO,Volume,no,0.01849,-0.00043
+InternVL2-Pro,QLq,Quantitative Reasoning,no,0.01754,+0.00033
+InternVL2-Pro,KNf,Formal Sciences,no,0.01225,-0.00181
+InternVL2-Pro,QLl,Logical Reasoning,no,0.00924,-0.00154
+InternVL2-Pro,CL,"Conceptualisation, Learning, and Abstraction",no,0.00432,-0.00012
+InternVL2-76B,MCu,Calibrating Knowns and Unknowns,no,0.05775,+0.00053
+InternVL2-76B,GS,Gestalt and Shape Judgment,yes,0.04267,-0.00014
+InternVL2-76B,AS,Attention and Scan,no,0.02651,+0.00031
+InternVL2-76B,MA,Multi-Element Visual Aggregation,yes,0.02215,+0.00079
+InternVL2-76B,AT,Atypicality,no,0.02137,+0.00011
+InternVL2-76B,QLq,Quantitative Reasoning,no,0.02047,+0.00164
+InternVL2-76B,VO,Volume,no,0.01983,-0.00087
+InternVL2-76B,VL,Visual Localization and Grounding,yes,0.01696,-0.00044
+InternVL2-76B,MCr,Identifying Relevant Information,no,0.01373,+0.00035
+InternVL2-76B,KNf,Formal Sciences,no,0.01258,-0.00001
+InternVL2-76B,QLl,Logical Reasoning,no,0.00906,-0.00082
+InternVL2-76B,CL,"Conceptualisation, Learning, and Abstraction",no,0.00602,+0.00005
+GPT-4V-Turbo,MCr,Identifying Relevant Information,no,0.03993,+0.00082
+GPT-4V-Turbo,GS,Gestalt and Shape Judgment,yes,0.03205,-0.00076
+GPT-4V-Turbo,QLq,Quantitative Reasoning,no,0.03019,+0.00155
+GPT-4V-Turbo,MA,Multi-Element Visual Aggregation,yes,0.02435,+0.00021
+GPT-4V-Turbo,QLl,Logical Reasoning,no,0.02127,-0.00197
+GPT-4V-Turbo,AS,Attention and Scan,no,0.01963,+0.00115
+GPT-4V-Turbo,MCu,Calibrating Knowns and Unknowns,no,0.01927,+0.00015
+GPT-4V-Turbo,CL,"Conceptualisation, Learning, and Abstraction",no,0.01770,+0.00086
+GPT-4V-Turbo,AT,Atypicality,no,0.01437,+0.00046
+GPT-4V-Turbo,VL,Visual Localization and Grounding,yes,0.01038,-0.00034
+GPT-4V-Turbo,KNf,Formal Sciences,no,0.01032,-0.00019
+GPT-4V-Turbo,VO,Volume,no,0.00720,-0.00046
+InternVL2-26B,MCu,Calibrating Knowns and Unknowns,no,0.05218,-0.00164
+InternVL2-26B,GS,Gestalt and Shape Judgment,yes,0.03115,-0.00009
+InternVL2-26B,MA,Multi-Element Visual Aggregation,yes,0.02268,+0.00080
+InternVL2-26B,VO,Volume,no,0.02104,+0.00013
+InternVL2-26B,AT,Atypicality,no,0.01813,+0.00038
+InternVL2-26B,MCr,Identifying Relevant Information,no,0.01587,-0.00027
+InternVL2-26B,AS,Attention and Scan,no,0.01427,+0.00118
+InternVL2-26B,QLq,Quantitative Reasoning,no,0.01421,+0.00055
+InternVL2-26B,KNf,Formal Sciences,no,0.01401,-0.00053
+InternVL2-26B,QLl,Logical Reasoning,no,0.01389,+0.00015
+InternVL2-26B,VL,Visual Localization and Grounding,yes,0.00843,-0.00031
+InternVL2-26B,CL,"Conceptualisation, Learning, and Abstraction",no,0.00494,-0.00022
+GPT-4o-mini,AS,Attention and Scan,no,0.03635,-0.00087
+GPT-4o-mini,AT,Atypicality,no,0.02784,+0.00138
+GPT-4o-mini,VL,Visual Localization and Grounding,yes,0.02577,-0.00109
+GPT-4o-mini,MCr,Identifying Relevant Information,no,0.02416,+0.00064
+GPT-4o-mini,CL,"Conceptualisation, Learning, and Abstraction",no,0.02177,+0.00078
+GPT-4o-mini,GS,Gestalt and Shape Judgment,yes,0.01653,-0.00091
+GPT-4o-mini,MA,Multi-Element Visual Aggregation,yes,0.01612,+0.00010
+GPT-4o-mini,KNf,Formal Sciences,no,0.01437,-0.00056
+GPT-4o-mini,MCu,Calibrating Knowns and Unknowns,no,0.01169,+0.00011
+GPT-4o-mini,QLq,Quantitative Reasoning,no,0.01035,+0.00029
+GPT-4o-mini,QLl,Logical Reasoning,no,0.01007,+0.00005
+GPT-4o-mini,VO,Volume,no,0.00968,-0.00059
+Claude-3-Sonnet,GS,Gestalt and Shape Judgment,yes,0.04024,-0.00030
+Claude-3-Sonnet,AS,Attention and Scan,no,0.03106,-0.00015
+Claude-3-Sonnet,VL,Visual Localization and Grounding,yes,0.02963,-0.00019
+Claude-3-Sonnet,MCr,Identifying Relevant Information,no,0.02448,+0.00036
+Claude-3-Sonnet,QLq,Quantitative Reasoning,no,0.02001,+0.00027
+Claude-3-Sonnet,MA,Multi-Element Visual Aggregation,yes,0.01826,-0.00154
+Claude-3-Sonnet,MCu,Calibrating Knowns and Unknowns,no,0.01537,+0.00132
+Claude-3-Sonnet,KNf,Formal Sciences,no,0.01346,-0.00018
+Claude-3-Sonnet,QLl,Logical Reasoning,no,0.00748,-0.00020
+Claude-3-Sonnet,CL,"Conceptualisation, Learning, and Abstraction",no,0.00703,+0.00027
+Claude-3-Sonnet,AT,Atypicality,no,0.00684,-0.00022
+Claude-3-Sonnet,VO,Volume,no,0.00441,+0.00023
+Claude-3-Haiku,GS,Gestalt and Shape Judgment,yes,0.03865,+0.00117
+Claude-3-Haiku,VL,Visual Localization and Grounding,yes,0.03732,+0.00078
+Claude-3-Haiku,MCu,Calibrating Knowns and Unknowns,no,0.02480,-0.00059
+Claude-3-Haiku,MCr,Identifying Relevant Information,no,0.02224,+0.00076
+Claude-3-Haiku,KNf,Formal Sciences,no,0.01839,-0.00024
+Claude-3-Haiku,QLq,Quantitative Reasoning,no,0.01687,+0.00044
+Claude-3-Haiku,MA,Multi-Element Visual Aggregation,yes,0.01641,-0.00096
+Claude-3-Haiku,AS,Attention and Scan,no,0.01404,+0.00106
+Claude-3-Haiku,VO,Volume,no,0.01392,-0.00040
+Claude-3-Haiku,AT,Atypicality,no,0.00854,-0.00014
+Claude-3-Haiku,QLl,Logical Reasoning,no,0.00796,-0.00071
+Claude-3-Haiku,CL,"Conceptualisation, Learning, and Abstraction",no,0.00438,-0.00014
+Claude-3-Opus,VL,Visual Localization and Grounding,yes,0.04080,+0.00097
+Claude-3-Opus,QLq,Quantitative Reasoning,no,0.02814,+0.00038
+Claude-3-Opus,GS,Gestalt and Shape Judgment,yes,0.02791,-0.00076
+Claude-3-Opus,MA,Multi-Element Visual Aggregation,yes,0.01849,-0.00016
+Claude-3-Opus,MCu,Calibrating Knowns and Unknowns,no,0.01793,+0.00051
+Claude-3-Opus,AS,Attention and Scan,no,0.01451,+0.00047
+Claude-3-Opus,AT,Atypicality,no,0.01451,+0.00042
+Claude-3-Opus,KNf,Formal Sciences,no,0.01321,-0.00048
+Claude-3-Opus,MCr,Identifying Relevant Information,no,0.01313,-0.00006
+Claude-3-Opus,QLl,Logical Reasoning,no,0.00795,-0.00147
+Claude-3-Opus,VO,Volume,no,0.00591,-0.00029
+Claude-3-Opus,CL,"Conceptualisation, Learning, and Abstraction",no,0.00536,-0.00021
+Phi-3-Vision,VL,Visual Localization and Grounding,yes,0.03774,+0.00131
+Phi-3-Vision,MCu,Calibrating Knowns and Unknowns,no,0.03559,-0.00113
+Phi-3-Vision,MCr,Identifying Relevant Information,no,0.02955,-0.00097
+Phi-3-Vision,MA,Multi-Element Visual Aggregation,yes,0.01736,+0.00102
+Phi-3-Vision,KNf,Formal Sciences,no,0.01539,-0.00008
+Phi-3-Vision,AT,Atypicality,no,0.01337,-0.00014
+Phi-3-Vision,AS,Attention and Scan,no,0.01088,+0.00059
+Phi-3-Vision,QLq,Quantitative Reasoning,no,0.01002,-0.00042
+Phi-3-Vision,GS,Gestalt and Shape Judgment,yes,0.00936,-0.00020
+Phi-3-Vision,QLl,Logical Reasoning,no,0.00759,-0.00009
+Phi-3-Vision,VO,Volume,no,0.00484,-0.00067
+Phi-3-Vision,CL,"Conceptualisation, Learning, and Abstraction",no,0.00428,-0.00048
+InternVL-Chat-V1-5,MCu,Calibrating Knowns and Unknowns,no,0.04554,-0.00101
+InternVL-Chat-V1-5,GS,Gestalt and Shape Judgment,yes,0.04494,-0.00075
+InternVL-Chat-V1-5,AT,Atypicality,no,0.02079,+0.00014
+InternVL-Chat-V1-5,AS,Attention and Scan,no,0.01484,+0.00090
+InternVL-Chat-V1-5,KNf,Formal Sciences,no,0.01464,+0.00011
+InternVL-Chat-V1-5,VO,Volume,no,0.01312,-0.00024
+InternVL-Chat-V1-5,VL,Visual Localization and Grounding,yes,0.01148,-0.00044
+InternVL-Chat-V1-5,MA,Multi-Element Visual Aggregation,yes,0.01110,-0.00021
+InternVL-Chat-V1-5,QLq,Quantitative Reasoning,no,0.00962,+0.00018
+InternVL-Chat-V1-5,QLl,Logical Reasoning,no,0.00960,-0.00012
+InternVL-Chat-V1-5,MCr,Identifying Relevant Information,no,0.00936,-0.00020
+InternVL-Chat-V1-5,CL,"Conceptualisation, Learning, and Abstraction",no,0.00834,+0.00029
+Reka-Core,VL,Visual Localization and Grounding,yes,0.03216,-0.00040
+Reka-Core,GS,Gestalt and Shape Judgment,yes,0.02495,-0.00006
+Reka-Core,MA,Multi-Element Visual Aggregation,yes,0.02075,+0.00109
+Reka-Core,AS,Attention and Scan,no,0.02037,+0.00095
+Reka-Core,QLl,Logical Reasoning,no,0.01997,+0.00007
+Reka-Core,QLq,Quantitative Reasoning,no,0.01820,-0.00019
+Reka-Core,MCr,Identifying Relevant Information,no,0.01582,-0.00004
+Reka-Core,MCu,Calibrating Knowns and Unknowns,no,0.01147,-0.00024
+Reka-Core,KNf,Formal Sciences,no,0.01107,-0.00039
+Reka-Core,CL,"Conceptualisation, Learning, and Abstraction",no,0.00670,-0.00039
+Reka-Core,AT,Atypicality,no,0.00634,-0.00026
+Reka-Core,VO,Volume,no,0.00394,-0.00103
+Ovis1.5-Llama3-8B,VL,Visual Localization and Grounding,yes,0.02941,+0.00116
+Ovis1.5-Llama3-8B,AT,Atypicality,no,0.02851,+0.00133
+Ovis1.5-Llama3-8B,MA,Multi-Element Visual Aggregation,yes,0.02683,-0.00091
+Ovis1.5-Llama3-8B,GS,Gestalt and Shape Judgment,yes,0.02399,-0.00017
+Ovis1.5-Llama3-8B,VO,Volume,no,0.02159,-0.00012
+Ovis1.5-Llama3-8B,AS,Attention and Scan,no,0.01905,+0.00250
+Ovis1.5-Llama3-8B,QLq,Quantitative Reasoning,no,0.01788,-0.00060
+Ovis1.5-Llama3-8B,KNf,Formal Sciences,no,0.01290,+0.00013
+Ovis1.5-Llama3-8B,MCr,Identifying Relevant Information,no,0.01169,-0.00124
+Ovis1.5-Llama3-8B,QLl,Logical Reasoning,no,0.01160,-0.00128
+Ovis1.5-Llama3-8B,MCu,Calibrating Knowns and Unknowns,no,0.01128,-0.00010
+Ovis1.5-Llama3-8B,CL,"Conceptualisation, Learning, and Abstraction",no,0.00432,-0.00052
+Ovis1.5-Gemma2-9B,MCu,Calibrating Knowns and Unknowns,no,0.03717,-0.00055
+Ovis1.5-Gemma2-9B,GS,Gestalt and Shape Judgment,yes,0.03579,-0.00034
+Ovis1.5-Gemma2-9B,MA,Multi-Element Visual Aggregation,yes,0.02606,+0.00050
+Ovis1.5-Gemma2-9B,AS,Attention and Scan,no,0.02023,+0.00053
+Ovis1.5-Gemma2-9B,KNf,Formal Sciences,no,0.01635,-0.00047
+Ovis1.5-Gemma2-9B,AT,Atypicality,no,0.01352,+0.00074
+Ovis1.5-Gemma2-9B,VL,Visual Localization and Grounding,yes,0.01331,-0.00042
+Ovis1.5-Gemma2-9B,MCr,Identifying Relevant Information,no,0.01058,+0.00012
+Ovis1.5-Gemma2-9B,QLq,Quantitative Reasoning,no,0.01036,+0.00036
+Ovis1.5-Gemma2-9B,QLl,Logical Reasoning,no,0.00757,-0.00039
+Ovis1.5-Gemma2-9B,VO,Volume,no,0.00557,+0.00006
+Ovis1.5-Gemma2-9B,CL,"Conceptualisation, Learning, and Abstraction",no,0.00476,+0.00007
+Cambrian-34B,GS,Gestalt and Shape Judgment,yes,0.03382,+0.00094
+Cambrian-34B,VL,Visual Localization and Grounding,yes,0.02819,+0.00030
+Cambrian-34B,MA,Multi-Element Visual Aggregation,yes,0.02753,+0.00023
+Cambrian-34B,MCr,Identifying Relevant Information,no,0.01613,+0.00045
+Cambrian-34B,MCu,Calibrating Knowns and Unknowns,no,0.01301,-0.00043
+Cambrian-34B,QLl,Logical Reasoning,no,0.01093,-0.00075
+Cambrian-34B,KNf,Formal Sciences,no,0.01030,-0.00038
+Cambrian-34B,VO,Volume,no,0.01012,-0.00052
+Cambrian-34B,QLq,Quantitative Reasoning,no,0.00886,+0.00022
+Cambrian-34B,AS,Attention and Scan,no,0.00860,+0.00064
+Cambrian-34B,AT,Atypicality,no,0.00801,+0.00024
+Cambrian-34B,CL,"Conceptualisation, Learning, and Abstraction",no,0.00435,-0.00040
+Reka-Flash,MA,Multi-Element Visual Aggregation,yes,0.03875,-0.00022
+Reka-Flash,VL,Visual Localization and Grounding,yes,0.02083,+0.00073
+Reka-Flash,GS,Gestalt and Shape Judgment,yes,0.01969,-0.00061
+Reka-Flash,AS,Attention and Scan,no,0.01878,-0.00004
+Reka-Flash,AT,Atypicality,no,0.01553,+0.00047
+Reka-Flash,MCu,Calibrating Knowns and Unknowns,no,0.01525,-0.00007
+Reka-Flash,MCr,Identifying Relevant Information,no,0.01503,+0.00064
+Reka-Flash,QLq,Quantitative Reasoning,no,0.01127,+0.00058
+Reka-Flash,KNf,Formal Sciences,no,0.00999,-0.00063
+Reka-Flash,QLl,Logical Reasoning,no,0.00748,+0.00016
+Reka-Flash,CL,"Conceptualisation, Learning, and Abstraction",no,0.00609,+0.00003
+Reka-Flash,VO,Volume,no,0.00371,-0.00062
+Qwen-VL-Max,MCu,Calibrating Knowns and Unknowns,no,0.03628,-0.00008
+Qwen-VL-Max,MA,Multi-Element Visual Aggregation,yes,0.02660,-0.00116
+Qwen-VL-Max,VL,Visual Localization and Grounding,yes,0.02646,+0.00004
+Qwen-VL-Max,AS,Attention and Scan,no,0.02322,+0.00218
+Qwen-VL-Max,GS,Gestalt and Shape Judgment,yes,0.02286,-0.00096
+Qwen-VL-Max,MCr,Identifying Relevant Information,no,0.01773,+0.00060
+Qwen-VL-Max,VO,Volume,no,0.01716,-0.00098
+Qwen-VL-Max,AT,Atypicality,no,0.01500,+0.00056
+Qwen-VL-Max,QLq,Quantitative Reasoning,no,0.01366,-0.00009
+Qwen-VL-Max,KNf,Formal Sciences,no,0.01280,-0.00075
+Qwen-VL-Max,QLl,Logical Reasoning,no,0.00958,-0.00088
+Qwen-VL-Max,CL,"Conceptualisation, Learning, and Abstraction",no,0.00833,+0.00027
+InternLM-XComposer2-4KHD,MA,Multi-Element Visual Aggregation,yes,0.02572,+0.00040
+InternLM-XComposer2-4KHD,MCu,Calibrating Knowns and Unknowns,no,0.02235,+0.00013
+InternLM-XComposer2-4KHD,AS,Attention and Scan,no,0.02181,+0.00127
+InternLM-XComposer2-4KHD,VL,Visual Localization and Grounding,yes,0.02033,-0.00019
+InternLM-XComposer2-4KHD,VO,Volume,no,0.01377,-0.00084
+InternLM-XComposer2-4KHD,MCr,Identifying Relevant Information,no,0.01195,-0.00005
+InternLM-XComposer2-4KHD,QLl,Logical Reasoning,no,0.01127,+0.00011
+InternLM-XComposer2-4KHD,GS,Gestalt and Shape Judgment,yes,0.01017,-0.00024
+InternLM-XComposer2-4KHD,AT,Atypicality,no,0.00957,+0.00008
+InternLM-XComposer2-4KHD,QLq,Quantitative Reasoning,no,0.00880,-0.00018
+InternLM-XComposer2-4KHD,KNf,Formal Sciences,no,0.00820,-0.00092
+InternLM-XComposer2-4KHD,CL,"Conceptualisation, Learning, and Abstraction",no,0.00774,-0.00001
+MiniCPM-V2-5,AS,Attention and Scan,no,0.03980,+0.00157
+MiniCPM-V2-5,MA,Multi-Element Visual Aggregation,yes,0.03209,-0.00065
+MiniCPM-V2-5,VL,Visual Localization and Grounding,yes,0.03003,-0.00080
+MiniCPM-V2-5,GS,Gestalt and Shape Judgment,yes,0.02550,+0.00062
+MiniCPM-V2-5,MCu,Calibrating Knowns and Unknowns,no,0.02290,+0.00128
+MiniCPM-V2-5,AT,Atypicality,no,0.02223,-0.00052
+MiniCPM-V2-5,KNf,Formal Sciences,no,0.01239,+0.00004
+MiniCPM-V2-5,VO,Volume,no,0.01016,-0.00118
+MiniCPM-V2-5,MCr,Identifying Relevant Information,no,0.00991,+0.00112
+MiniCPM-V2-5,QLq,Quantitative Reasoning,no,0.00850,+0.00018
+MiniCPM-V2-5,QLl,Logical Reasoning,no,0.00649,-0.00042
+MiniCPM-V2-5,CL,"Conceptualisation, Learning, and Abstraction",no,0.00370,-0.00021
+Mini-Gemini-HD-Yi-34B,GS,Gestalt and Shape Judgment,yes,0.03922,+0.00002
+Mini-Gemini-HD-Yi-34B,MA,Multi-Element Visual Aggregation,yes,0.03359,-0.00043
+Mini-Gemini-HD-Yi-34B,VL,Visual Localization and Grounding,yes,0.02217,-0.00014
+Mini-Gemini-HD-Yi-34B,MCu,Calibrating Knowns and Unknowns,no,0.02113,-0.00015
+Mini-Gemini-HD-Yi-34B,KNf,Formal Sciences,no,0.01718,-0.00008
+Mini-Gemini-HD-Yi-34B,AS,Attention and Scan,no,0.01700,+0.00101
+Mini-Gemini-HD-Yi-34B,AT,Atypicality,no,0.01683,-0.00013
+Mini-Gemini-HD-Yi-34B,VO,Volume,no,0.01465,-0.00054
+Mini-Gemini-HD-Yi-34B,QLl,Logical Reasoning,no,0.01303,-0.00095
+Mini-Gemini-HD-Yi-34B,MCr,Identifying Relevant Information,no,0.00964,-0.00017
+Mini-Gemini-HD-Yi-34B,CL,"Conceptualisation, Learning, and Abstraction",no,0.00738,+0.00046
+Mini-Gemini-HD-Yi-34B,QLq,Quantitative Reasoning,no,0.00492,+0.00005
+VILA-1-5-40B,VL,Visual Localization and Grounding,yes,0.04329,+0.00214
+VILA-1-5-40B,GS,Gestalt and Shape Judgment,yes,0.03677,+0.00049
+VILA-1-5-40B,MCr,Identifying Relevant Information,no,0.01741,-0.00129
+VILA-1-5-40B,AS,Attention and Scan,no,0.01710,-0.00003
+VILA-1-5-40B,MA,Multi-Element Visual Aggregation,yes,0.01638,-0.00062
+VILA-1-5-40B,KNf,Formal Sciences,no,0.01112,-0.00047
+VILA-1-5-40B,QLl,Logical Reasoning,no,0.00824,-0.00070
+VILA-1-5-40B,AT,Atypicality,no,0.00806,-0.00024
+VILA-1-5-40B,VO,Volume,no,0.00796,-0.00034
+VILA-1-5-40B,QLq,Quantitative Reasoning,no,0.00743,-0.00046
+VILA-1-5-40B,MCu,Calibrating Knowns and Unknowns,no,0.00739,-0.00023
+VILA-1-5-40B,CL,"Conceptualisation, Learning, and Abstraction",no,0.00417,-0.00001
+Reka-Edge,GS,Gestalt and Shape Judgment,yes,0.02587,-0.00041
+Reka-Edge,MA,Multi-Element Visual Aggregation,yes,0.02083,+0.00088
+Reka-Edge,AS,Attention and Scan,no,0.01940,+0.00027
+Reka-Edge,QLq,Quantitative Reasoning,no,0.01825,+0.00007
+Reka-Edge,VL,Visual Localization and Grounding,yes,0.01606,-0.00093
+Reka-Edge,KNf,Formal Sciences,no,0.01575,-0.00042
+Reka-Edge,MCu,Calibrating Knowns and Unknowns,no,0.01378,-0.00022
+Reka-Edge,AT,Atypicality,no,0.01321,+0.00008
+Reka-Edge,QLl,Logical Reasoning,no,0.01287,-0.00006
+Reka-Edge,MCr,Identifying Relevant Information,no,0.00842,-0.00020
+Reka-Edge,CL,"Conceptualisation, Learning, and Abstraction",no,0.00485,-0.00012
+Reka-Edge,VO,Volume,no,0.00413,-0.00001
+Gemini-1.0-Pro-Vision,GS,Gestalt and Shape Judgment,yes,0.03349,-0.00001
+Gemini-1.0-Pro-Vision,MCu,Calibrating Knowns and Unknowns,no,0.02726,-0.00020
+Gemini-1.0-Pro-Vision,MCr,Identifying Relevant Information,no,0.02260,-0.00051
+Gemini-1.0-Pro-Vision,AS,Attention and Scan,no,0.01785,+0.00133
+Gemini-1.0-Pro-Vision,MA,Multi-Element Visual Aggregation,yes,0.01505,-0.00036
+Gemini-1.0-Pro-Vision,QLl,Logical Reasoning,no,0.01080,-0.00061
+Gemini-1.0-Pro-Vision,VL,Visual Localization and Grounding,yes,0.00997,-0.00070
+Gemini-1.0-Pro-Vision,KNf,Formal Sciences,no,0.00790,-0.00035
+Gemini-1.0-Pro-Vision,AT,Atypicality,no,0.00646,-0.00112
+Gemini-1.0-Pro-Vision,QLq,Quantitative Reasoning,no,0.00613,-0.00007
+Gemini-1.0-Pro-Vision,CL,"Conceptualisation, Learning, and Abstraction",no,0.00524,-0.00025
+Gemini-1.0-Pro-Vision,VO,Volume,no,0.00480,+0.00032
+LLaVA-1-6-Yi-34B,GS,Gestalt and Shape Judgment,yes,0.03955,+0.00062
+LLaVA-1-6-Yi-34B,AS,Attention and Scan,no,0.02395,+0.00202
+LLaVA-1-6-Yi-34B,MCu,Calibrating Knowns and Unknowns,no,0.01951,-0.00054
+LLaVA-1-6-Yi-34B,AT,Atypicality,no,0.01832,-0.00064
+LLaVA-1-6-Yi-34B,MA,Multi-Element Visual Aggregation,yes,0.01437,-0.00115
+LLaVA-1-6-Yi-34B,VL,Visual Localization and Grounding,yes,0.01323,+0.00056
+LLaVA-1-6-Yi-34B,QLq,Quantitative Reasoning,no,0.01104,-0.00077
+LLaVA-1-6-Yi-34B,CL,"Conceptualisation, Learning, and Abstraction",no,0.00971,-0.00028
+LLaVA-1-6-Yi-34B,MCr,Identifying Relevant Information,no,0.00839,-0.00024
+LLaVA-1-6-Yi-34B,VO,Volume,no,0.00794,-0.00035
+LLaVA-1-6-Yi-34B,KNf,Formal Sciences,no,0.00794,-0.00044
+LLaVA-1-6-Yi-34B,QLl,Logical Reasoning,no,0.00753,+0.00002
+MoAI,GS,Gestalt and Shape Judgment,yes,0.02508,-0.00011
+MoAI,MCr,Identifying Relevant Information,no,0.02260,-0.00015
+MoAI,MA,Multi-Element Visual Aggregation,yes,0.02006,+0.00037
+MoAI,AT,Atypicality,no,0.01530,-0.00026
+MoAI,AS,Attention and Scan,no,0.01373,+0.00076
+MoAI,VL,Visual Localization and Grounding,yes,0.01161,+0.00003
+MoAI,QLq,Quantitative Reasoning,no,0.00928,-0.00035
+MoAI,QLl,Logical Reasoning,no,0.00908,-0.00058
+MoAI,KNf,Formal Sciences,no,0.00868,-0.00049
+MoAI,MCu,Calibrating Knowns and Unknowns,no,0.00858,+0.00036
+MoAI,CL,"Conceptualisation, Learning, and Abstraction",no,0.00693,-0.00053
+MoAI,VO,Volume,no,0.00542,-0.00047
+IDEFICS-2,VL,Visual Localization and Grounding,yes,0.02112,+0.00061
+IDEFICS-2,GS,Gestalt and Shape Judgment,yes,0.01534,-0.00006
+IDEFICS-2,KNf,Formal Sciences,no,0.01326,-0.00022
+IDEFICS-2,QLq,Quantitative Reasoning,no,0.01248,-0.00008
+IDEFICS-2,MA,Multi-Element Visual Aggregation,yes,0.01218,-0.00022
+IDEFICS-2,AT,Atypicality,no,0.01167,+0.00013
+IDEFICS-2,AS,Attention and Scan,no,0.01163,+0.00020
+IDEFICS-2,MCu,Calibrating Knowns and Unknowns,no,0.00931,+0.00027
+IDEFICS-2,MCr,Identifying Relevant Information,no,0.00713,-0.00054
+IDEFICS-2,QLl,Logical Reasoning,no,0.00632,-0.00038
+IDEFICS-2,CL,"Conceptualisation, Learning, and Abstraction",no,0.00457,+0.00013
+IDEFICS-2,VO,Volume,no,0.00422,+0.00028
+InternLM-XComposer2,AT,Atypicality,no,0.02179,-0.00047
+InternLM-XComposer2,AS,Attention and Scan,no,0.02096,+0.00200
+InternLM-XComposer2,MA,Multi-Element Visual Aggregation,yes,0.01946,-0.00046
+InternLM-XComposer2,KNf,Formal Sciences,no,0.01559,+0.00042
+InternLM-XComposer2,GS,Gestalt and Shape Judgment,yes,0.01429,+0.00018
+InternLM-XComposer2,MCr,Identifying Relevant Information,no,0.01327,+0.00054
+InternLM-XComposer2,QLl,Logical Reasoning,no,0.01111,-0.00028
+InternLM-XComposer2,VL,Visual Localization and Grounding,yes,0.00851,-0.00064
+InternLM-XComposer2,QLq,Quantitative Reasoning,no,0.00634,-0.00011
+InternLM-XComposer2,MCu,Calibrating Knowns and Unknowns,no,0.00575,+0.00002
+InternLM-XComposer2,VO,Volume,no,0.00496,-0.00069
+InternLM-XComposer2,CL,"Conceptualisation, Learning, and Abstraction",no,0.00413,-0.00044
+Mini-Gemini-HD-LLaMA3-8B,MCu,Calibrating Knowns and Unknowns,no,0.03513,+0.00012
+Mini-Gemini-HD-LLaMA3-8B,VL,Visual Localization and Grounding,yes,0.03094,+0.00104
+Mini-Gemini-HD-LLaMA3-8B,MA,Multi-Element Visual Aggregation,yes,0.02643,-0.00050
+Mini-Gemini-HD-LLaMA3-8B,AS,Attention and Scan,no,0.01841,+0.00071
+Mini-Gemini-HD-LLaMA3-8B,GS,Gestalt and Shape Judgment,yes,0.01568,+0.00016
+Mini-Gemini-HD-LLaMA3-8B,MCr,Identifying Relevant Information,no,0.01108,-0.00078
+Mini-Gemini-HD-LLaMA3-8B,VO,Volume,no,0.01069,-0.00057
+Mini-Gemini-HD-LLaMA3-8B,KNf,Formal Sciences,no,0.01006,-0.00028
+Mini-Gemini-HD-LLaMA3-8B,QLq,Quantitative Reasoning,no,0.00876,+0.00040
+Mini-Gemini-HD-LLaMA3-8B,AT,Atypicality,no,0.00691,+0.00027
+Mini-Gemini-HD-LLaMA3-8B,QLl,Logical Reasoning,no,0.00560,-0.00066
+Mini-Gemini-HD-LLaMA3-8B,CL,"Conceptualisation, Learning, and Abstraction",no,0.00434,-0.00033
+MiniCPM-V2,GS,Gestalt and Shape Judgment,yes,0.02002,+0.00009
+MiniCPM-V2,MA,Multi-Element Visual Aggregation,yes,0.01716,+0.00004
+MiniCPM-V2,MCu,Calibrating Knowns and Unknowns,no,0.01318,-0.00063
+MiniCPM-V2,MCr,Identifying Relevant Information,no,0.01199,-0.00004
+MiniCPM-V2,VL,Visual Localization and Grounding,yes,0.01123,-0.00027
+MiniCPM-V2,AS,Attention and Scan,no,0.00941,+0.00094
+MiniCPM-V2,KNf,Formal Sciences,no,0.00935,-0.00046
+MiniCPM-V2,VO,Volume,no,0.00870,+0.00004
+MiniCPM-V2,QLl,Logical Reasoning,no,0.00862,-0.00077
+MiniCPM-V2,AT,Atypicality,no,0.00721,-0.00035
+MiniCPM-V2,QLq,Quantitative Reasoning,no,0.00656,+0.00007
+MiniCPM-V2,CL,"Conceptualisation, Learning, and Abstraction",no,0.00615,-0.00017
+DeepSeek-VL,MA,Multi-Element Visual Aggregation,yes,0.02046,-0.00008
+DeepSeek-VL,CL,"Conceptualisation, Learning, and Abstraction",no,0.01670,+0.00011
+DeepSeek-VL,MCr,Identifying Relevant Information,no,0.01571,+0.00013
+DeepSeek-VL,KNf,Formal Sciences,no,0.01541,-0.00038
+DeepSeek-VL,MCu,Calibrating Knowns and Unknowns,no,0.01124,-0.00017
+DeepSeek-VL,GS,Gestalt and Shape Judgment,yes,0.01000,-0.00014
+DeepSeek-VL,AS,Attention and Scan,no,0.00903,+0.00014
+DeepSeek-VL,VL,Visual Localization and Grounding,yes,0.00789,-0.00019
+DeepSeek-VL,QLq,Quantitative Reasoning,no,0.00630,+0.00035
+DeepSeek-VL,QLl,Logical Reasoning,no,0.00571,-0.00061
+DeepSeek-VL,VO,Volume,no,0.00552,-0.00049
+DeepSeek-VL,AT,Atypicality,no,0.00536,-0.00009
+IDEFICS-2-Chatty,MA,Multi-Element Visual Aggregation,yes,0.02035,+0.00019
+IDEFICS-2-Chatty,GS,Gestalt and Shape Judgment,yes,0.02020,+0.00003
+IDEFICS-2-Chatty,MCr,Identifying Relevant Information,no,0.01332,+0.00057
+IDEFICS-2-Chatty,VL,Visual Localization and Grounding,yes,0.01034,-0.00004
+IDEFICS-2-Chatty,QLl,Logical Reasoning,no,0.01021,-0.00097
+IDEFICS-2-Chatty,AT,Atypicality,no,0.01017,+0.00023
+IDEFICS-2-Chatty,VO,Volume,no,0.00902,-0.00032
+IDEFICS-2-Chatty,KNf,Formal Sciences,no,0.00835,-0.00012
+IDEFICS-2-Chatty,QLq,Quantitative Reasoning,no,0.00749,+0.00041
+IDEFICS-2-Chatty,MCu,Calibrating Knowns and Unknowns,no,0.00696,-0.00065
+IDEFICS-2-Chatty,AS,Attention and Scan,no,0.00665,-0.00048
+IDEFICS-2-Chatty,CL,"Conceptualisation, Learning, and Abstraction",no,0.00466,+0.00010
+SPHINX-V2-13B,MA,Multi-Element Visual Aggregation,yes,0.02124,+0.00056
+SPHINX-V2-13B,KNf,Formal Sciences,no,0.01997,+0.00009
+SPHINX-V2-13B,MCr,Identifying Relevant Information,no,0.01557,+0.00015
+SPHINX-V2-13B,VO,Volume,no,0.01470,-0.00081
+SPHINX-V2-13B,AS,Attention and Scan,no,0.01301,+0.00029
+SPHINX-V2-13B,GS,Gestalt and Shape Judgment,yes,0.01289,-0.00021
+SPHINX-V2-13B,QLq,Quantitative Reasoning,no,0.01076,-0.00051
+SPHINX-V2-13B,MCu,Calibrating Knowns and Unknowns,no,0.00955,-0.00017
+SPHINX-V2-13B,VL,Visual Localization and Grounding,yes,0.00945,-0.00041
+SPHINX-V2-13B,AT,Atypicality,no,0.00844,-0.00027
+SPHINX-V2-13B,QLl,Logical Reasoning,no,0.00609,-0.00034
+SPHINX-V2-13B,CL,"Conceptualisation, Learning, and Abstraction",no,0.00373,-0.00018
+Qwen-VL-Plus,GS,Gestalt and Shape Judgment,yes,0.03664,+0.00058
+Qwen-VL-Plus,MA,Multi-Element Visual Aggregation,yes,0.03168,+0.00112
+Qwen-VL-Plus,MCu,Calibrating Knowns and Unknowns,no,0.01148,+0.00047
+Qwen-VL-Plus,CL,"Conceptualisation, Learning, and Abstraction",no,0.01068,+0.00065
+Qwen-VL-Plus,AT,Atypicality,no,0.01033,-0.00022
+Qwen-VL-Plus,KNf,Formal Sciences,no,0.01010,-0.00046
+Qwen-VL-Plus,AS,Attention and Scan,no,0.00919,+0.00013
+Qwen-VL-Plus,VL,Visual Localization and Grounding,yes,0.00755,-0.00001
+Qwen-VL-Plus,QLq,Quantitative Reasoning,no,0.00673,+0.00032
+Qwen-VL-Plus,QLl,Logical Reasoning,no,0.00574,-0.00095
+Qwen-VL-Plus,MCr,Identifying Relevant Information,no,0.00556,-0.00065
+Qwen-VL-Plus,VO,Volume,no,0.00359,-0.00037
+LLaVA-1-6-Mistral-7B,GS,Gestalt and Shape Judgment,yes,0.02349,+0.00031
+LLaVA-1-6-Mistral-7B,AS,Attention and Scan,no,0.01998,+0.00016
+LLaVA-1-6-Mistral-7B,MA,Multi-Element Visual Aggregation,yes,0.01439,+0.00043
+LLaVA-1-6-Mistral-7B,KNf,Formal Sciences,no,0.01197,-0.00038
+LLaVA-1-6-Mistral-7B,VL,Visual Localization and Grounding,yes,0.00811,-0.00031
+LLaVA-1-6-Mistral-7B,MCu,Calibrating Knowns and Unknowns,no,0.00808,-0.00076
+LLaVA-1-6-Mistral-7B,MCr,Identifying Relevant Information,no,0.00794,-0.00016
+LLaVA-1-6-Mistral-7B,QLq,Quantitative Reasoning,no,0.00653,-0.00023
+LLaVA-1-6-Mistral-7B,CL,"Conceptualisation, Learning, and Abstraction",no,0.00646,+0.00028
+LLaVA-1-6-Mistral-7B,VO,Volume,no,0.00620,-0.00041
+LLaVA-1-6-Mistral-7B,AT,Atypicality,no,0.00539,+0.00008
+LLaVA-1-6-Mistral-7B,QLl,Logical Reasoning,no,0.00427,-0.00057
+ChartGemma,MA,Multi-Element Visual Aggregation,yes,0.01828,-0.00018
+ChartGemma,VL,Visual Localization and Grounding,yes,0.01584,-0.00051
+ChartGemma,GS,Gestalt and Shape Judgment,yes,0.01508,-0.00041
+ChartGemma,MCu,Calibrating Knowns and Unknowns,no,0.01028,+0.00012
+ChartGemma,CL,"Conceptualisation, Learning, and Abstraction",no,0.00845,-0.00013
+ChartGemma,KNf,Formal Sciences,no,0.00786,-0.00050
+ChartGemma,AT,Atypicality,no,0.00765,+0.00008
+ChartGemma,MCr,Identifying Relevant Information,no,0.00687,-0.00049
+ChartGemma,AS,Attention and Scan,no,0.00658,+0.00057
+ChartGemma,QLq,Quantitative Reasoning,no,0.00575,-0.00006
+ChartGemma,VO,Volume,no,0.00545,-0.00018
+ChartGemma,QLl,Logical Reasoning,no,0.00525,-0.00071
+GPT-4o-Random,GS,Gestalt and Shape Judgment,yes,0.02984,-0.00011
+GPT-4o-Random,MA,Multi-Element Visual Aggregation,yes,0.01402,+0.00063
+GPT-4o-Random,MCr,Identifying Relevant Information,no,0.01013,-0.00008
+GPT-4o-Random,VL,Visual Localization and Grounding,yes,0.00947,-0.00015
+GPT-4o-Random,KNf,Formal Sciences,no,0.00898,-0.00016
+GPT-4o-Random,QLq,Quantitative Reasoning,no,0.00849,-0.00024
+GPT-4o-Random,AS,Attention and Scan,no,0.00545,+0.00001
+GPT-4o-Random,QLl,Logical Reasoning,no,0.00511,-0.00060
+GPT-4o-Random,VO,Volume,no,0.00477,-0.00008
+GPT-4o-Random,MCu,Calibrating Knowns and Unknowns,no,0.00461,-0.00010
+GPT-4o-Random,AT,Atypicality,no,0.00444,-0.00032
+GPT-4o-Random,CL,"Conceptualisation, Learning, and Abstraction",no,0.00401,+0.00012

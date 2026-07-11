@@ -1,0 +1,16 @@
+feature,type,decision,reason,key_stat
+VL,demand_dim,keep,engineered demand dim,mean=2.281
+AS,demand_dim,keep,engineered demand dim,mean=2.645
+MCr,demand_dim,keep,engineered demand dim,mean=1.644
+MCu,demand_dim,keep,engineered demand dim,mean=0.67
+MA,demand_dim,keep,engineered demand dim,mean=2.399
+VO,demand_dim,keep,engineered demand dim,mean=1.17
+AT,demand_dim,keep,engineered demand dim,mean=2.565
+GS,demand_dim,keep,engineered demand dim,mean=0.81
+QLl,demand_dim,keep,engineered demand dim,mean=1.004
+KNf,demand_dim,keep,engineered demand dim,mean=1.168
+QLq,demand_dim,keep,engineered demand dim,mean=1.256
+CL,demand_dim,drop,"near-constant (~82% zeros, mean~0.19)",pct_zero=0.819
+category,item_metadata_baseline,drop,demand dims beat metadata-only; adding metadata to the dims lifts ROC-AUC by -0.0093 (< 1 fold SD),meta_lift_over_demand=-0.0093
+inst_category,item_metadata_baseline,drop,demand dims beat metadata-only; adding metadata to the dims lifts ROC-AUC by -0.0093 (< 1 fold SD),meta_lift_over_demand=-0.0093
+year,item_metadata_baseline,drop,demand dims beat metadata-only; adding metadata to the dims lifts ROC-AUC by -0.0093 (< 1 fold SD),meta_lift_over_demand=-0.0093

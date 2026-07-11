@@ -1,0 +1,6 @@
+region,description,count,frequency
+correct_either_way,overlap (E&R): said 'yes' then 'no',330,0.4039
+both_entailed,E only: always 'yes',23,0.0282
+both_refuted,R only: always 'no',451,0.5520
+wrong_either_way,outside: said 'no' then 'yes',13,0.0159
+TOTAL,"N items (entailed run 4 x refuted run 5, Sonnet 4.6, single trial)",817,1.0000

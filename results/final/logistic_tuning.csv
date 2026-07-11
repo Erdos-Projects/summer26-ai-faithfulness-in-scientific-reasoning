@@ -1,0 +1,4 @@
+target,roc_auc,roc_auc_sd,modal_best_params
+GPT-4o,0.6739,0.0325,"{'clf__C': 0.1, 'clf__penalty': 'l2'}"
+Claude-3-5-Sonnet,0.6272,0.0473,"{'clf__C': 0.1, 'clf__penalty': 'l2'}"
+GPT-4o-Random,0.5799,0.0528,default logistic (untuned control)
