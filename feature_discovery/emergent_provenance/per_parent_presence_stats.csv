@@ -1,0 +1,10 @@
+parent_dimension,n_items,presence_mean,presence_std,min,max,frac_items_present
+localization_grounding,300,5.540,2.587,0,12,0.997
+value_readout,300,2.497,1.164,0,8,0.977
+referent_mismatch,300,2.307,2.412,0,11,0.630
+multi_element_reasoning,300,2.770,1.007,1,6,1.000
+gestalt_shape,300,1.620,0.897,0,6,0.987
+encoding_literacy,300,1.043,0.831,0,3,0.710
+legibility_render,300,3.347,2.025,0,7,0.933
+claim_linguistic_load,300,2.380,0.733,0,4,0.993
+scope_overreach,300,1.210,1.530,0,5,0.433
