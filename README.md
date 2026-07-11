@@ -72,6 +72,7 @@ from the model because it is near-constant, leaving eleven active features.
 ├── charxiv_analysis/         # shared loaders + the cached 800/200 split (read by src/)
 │   ├── mann_whitney_analysis.py  #   loaders: load_rubric, load_correctness, make_or_load_split
 │   └── train_test_split.json     #   cached 800/200 split (seed 20260618)
+├── feature_discovery/        # code for generating new visual demand dimensions
 ├── src/                      # Reusable modeling code
 │   ├── features/                 #   preprocessing.py, transformers.py, build_schema.py
 │   ├── splits/                   #   splitters.py (paper-grouped item_holdout cross-validation)
