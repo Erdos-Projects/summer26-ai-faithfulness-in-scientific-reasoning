@@ -1,0 +1,10 @@
+parent_dimension,n_subdims_in_parent,n_seeded,n_emergent,mean_count,sd_count,min,max,frac_items_present,norm_mean,frac_items_scoreable,mean_count_where_scoreable
+localization_grounding,17,4,13,5.54,2.587,0,12,0.997,0.326,1.0,5.54
+value_readout,13,2,11,2.497,1.164,0,8,0.977,0.192,1.0,2.497
+referent_mismatch,16,0,16,2.307,2.412,0,11,0.63,0.144,0.7,3.295
+multi_element_reasoning,15,3,12,2.77,1.007,1,6,1.0,0.185,1.0,2.77
+gestalt_shape,18,2,16,1.62,0.897,0,6,0.987,0.09,1.0,1.62
+encoding_literacy,8,2,6,1.043,0.831,0,3,0.71,0.13,1.0,1.043
+legibility_render,10,2,8,3.347,2.025,0,7,0.933,0.335,1.0,3.347
+claim_linguistic_load,6,4,2,2.38,0.733,0,4,0.993,0.397,1.0,2.38
+scope_overreach,5,0,5,1.21,1.53,0,5,0.433,0.242,0.7,1.729
