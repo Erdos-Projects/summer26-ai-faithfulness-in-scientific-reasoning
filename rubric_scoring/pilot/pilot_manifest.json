@@ -1,0 +1,128 @@
+{
+  "pilot_0001__sciver_val_0__AS": {
+    "item_id": "sciver_val_0",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/Annotations/results/pilot_prompts/pilot_0001__sciver_val_0__AS.txt",
+    "prompt_tokens_est": 1863
+  },
+  "pilot_0001__sciver_val_0__MCr": {
+    "item_id": "sciver_val_0",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/Annotations/results/pilot_prompts/pilot_0001__sciver_val_0__MCr.txt",
+    "prompt_tokens_est": 2551
+  },
+  "pilot_0001__sciver_val_0__QLq": {
+    "item_id": "sciver_val_0",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/Annotations/results/pilot_prompts/pilot_0001__sciver_val_0__QLq.txt",
+    "prompt_tokens_est": 1641
+  },
+  "pilot_0001__sciver_val_0__QLl": {
+    "item_id": "sciver_val_0",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/Annotations/results/pilot_prompts/pilot_0001__sciver_val_0__QLl.txt",
+    "prompt_tokens_est": 2158
+  },
+  "pilot_0001__sciver_val_0__VO": {
+    "item_id": "sciver_val_0",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/Annotations/results/pilot_prompts/pilot_0001__sciver_val_0__VO.txt",
+    "prompt_tokens_est": 1228
+  },
+  "pilot_0001__sciver_val_0__AT": {
+    "item_id": "sciver_val_0",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/Annotations/results/pilot_prompts/pilot_0001__sciver_val_0__AT.txt",
+    "prompt_tokens_est": 1785
+  },
+  "pilot_0001__sciver_val_1__AS": {
+    "item_id": "sciver_val_1",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/Annotations/results/pilot_prompts/pilot_0001__sciver_val_1__AS.txt",
+    "prompt_tokens_est": 1859
+  },
+  "pilot_0001__sciver_val_1__MCr": {
+    "item_id": "sciver_val_1",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/Annotations/results/pilot_prompts/pilot_0001__sciver_val_1__MCr.txt",
+    "prompt_tokens_est": 2547
+  },
+  "pilot_0001__sciver_val_1__QLq": {
+    "item_id": "sciver_val_1",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/Annotations/results/pilot_prompts/pilot_0001__sciver_val_1__QLq.txt",
+    "prompt_tokens_est": 1637
+  },
+  "pilot_0001__sciver_val_1__QLl": {
+    "item_id": "sciver_val_1",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/Annotations/results/pilot_prompts/pilot_0001__sciver_val_1__QLl.txt",
+    "prompt_tokens_est": 2154
+  },
+  "pilot_0001__sciver_val_1__VO": {
+    "item_id": "sciver_val_1",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/Annotations/results/pilot_prompts/pilot_0001__sciver_val_1__VO.txt",
+    "prompt_tokens_est": 1224
+  },
+  "pilot_0001__sciver_val_1__AT": {
+    "item_id": "sciver_val_1",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/Annotations/results/pilot_prompts/pilot_0001__sciver_val_1__AT.txt",
+    "prompt_tokens_est": 1781
+  },
+  "pilot_0001__sciver_val_2__AS": {
+    "item_id": "sciver_val_2",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/Annotations/results/pilot_prompts/pilot_0001__sciver_val_2__AS.txt",
+    "prompt_tokens_est": 1859
+  },
+  "pilot_0001__sciver_val_2__MCr": {
+    "item_id": "sciver_val_2",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/Annotations/results/pilot_prompts/pilot_0001__sciver_val_2__MCr.txt",
+    "prompt_tokens_est": 2548
+  },
+  "pilot_0001__sciver_val_2__QLq": {
+    "item_id": "sciver_val_2",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/Annotations/results/pilot_prompts/pilot_0001__sciver_val_2__QLq.txt",
+    "prompt_tokens_est": 1637
+  },
+  "pilot_0001__sciver_val_2__QLl": {
+    "item_id": "sciver_val_2",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/Annotations/results/pilot_prompts/pilot_0001__sciver_val_2__QLl.txt",
+    "prompt_tokens_est": 2154
+  },
+  "pilot_0001__sciver_val_2__VO": {
+    "item_id": "sciver_val_2",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/Annotations/results/pilot_prompts/pilot_0001__sciver_val_2__VO.txt",
+    "prompt_tokens_est": 1225
+  },
+  "pilot_0001__sciver_val_2__AT": {
+    "item_id": "sciver_val_2",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/Annotations/results/pilot_prompts/pilot_0001__sciver_val_2__AT.txt",
+    "prompt_tokens_est": 1781
+  }
+}

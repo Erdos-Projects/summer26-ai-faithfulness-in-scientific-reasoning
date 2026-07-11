@@ -1,0 +1,65 @@
+{
+  "rs_p02__sciver_val_0__VL": {
+    "item_id": "sciver_val_0",
+    "dim_code": "VL",
+    "dim_name": "Visual Localization and Grounding",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_02/rs_p02__sciver_val_0__VL.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.12320v1_figure_4.png"
+  },
+  "rs_p02__sciver_val_0__GS": {
+    "item_id": "sciver_val_0",
+    "dim_code": "GS",
+    "dim_name": "Gestalt and Shape Judgment",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_02/rs_p02__sciver_val_0__GS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.12320v1_figure_4.png"
+  },
+  "rs_p02__sciver_val_0__MA": {
+    "item_id": "sciver_val_0",
+    "dim_code": "MA",
+    "dim_name": "Multi-Element Visual Aggregation",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_02/rs_p02__sciver_val_0__MA.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.12320v1_figure_4.png"
+  },
+  "rs_p02__sciver_val_1__VL": {
+    "item_id": "sciver_val_1",
+    "dim_code": "VL",
+    "dim_name": "Visual Localization and Grounding",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_02/rs_p02__sciver_val_1__VL.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.08207v1_figure_7(b).png"
+  },
+  "rs_p02__sciver_val_1__GS": {
+    "item_id": "sciver_val_1",
+    "dim_code": "GS",
+    "dim_name": "Gestalt and Shape Judgment",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_02/rs_p02__sciver_val_1__GS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.08207v1_figure_7(b).png"
+  },
+  "rs_p02__sciver_val_1__MA": {
+    "item_id": "sciver_val_1",
+    "dim_code": "MA",
+    "dim_name": "Multi-Element Visual Aggregation",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_02/rs_p02__sciver_val_1__MA.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.08207v1_figure_7(b).png"
+  },
+  "rs_p02__sciver_val_2__VL": {
+    "item_id": "sciver_val_2",
+    "dim_code": "VL",
+    "dim_name": "Visual Localization and Grounding",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_02/rs_p02__sciver_val_2__VL.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.07073v2_figure_11.png"
+  },
+  "rs_p02__sciver_val_2__GS": {
+    "item_id": "sciver_val_2",
+    "dim_code": "GS",
+    "dim_name": "Gestalt and Shape Judgment",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_02/rs_p02__sciver_val_2__GS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.07073v2_figure_11.png"
+  },
+  "rs_p02__sciver_val_2__MA": {
+    "item_id": "sciver_val_2",
+    "dim_code": "MA",
+    "dim_name": "Multi-Element Visual Aggregation",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_02/rs_p02__sciver_val_2__MA.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.07073v2_figure_11.png"
+  }
+}

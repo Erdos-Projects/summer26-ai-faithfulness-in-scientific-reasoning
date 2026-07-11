@@ -1,0 +1,2543 @@
+{
+  "rs_p01__sciver_test_402__MCr": {
+    "item_id": "sciver_test_402",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_402__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.17927v1_figure_8.png"
+  },
+  "rs_p01__sciver_test_402__AT": {
+    "item_id": "sciver_test_402",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_402__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.17927v1_figure_8.png"
+  },
+  "rs_p01__sciver_test_402__VO": {
+    "item_id": "sciver_test_402",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_402__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.17927v1_figure_8.png"
+  },
+  "rs_p01__sciver_test_404__AS": {
+    "item_id": "sciver_test_404",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_404__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.09099v2_figure_2.png"
+  },
+  "rs_p01__sciver_test_404__QLq": {
+    "item_id": "sciver_test_404",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_404__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.09099v2_figure_2.png"
+  },
+  "rs_p01__sciver_test_404__QLl": {
+    "item_id": "sciver_test_404",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_404__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.09099v2_figure_2.png"
+  },
+  "rs_p01__sciver_test_404__MCr": {
+    "item_id": "sciver_test_404",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_404__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.09099v2_figure_2.png"
+  },
+  "rs_p01__sciver_test_404__AT": {
+    "item_id": "sciver_test_404",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_404__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.09099v2_figure_2.png"
+  },
+  "rs_p01__sciver_test_404__VO": {
+    "item_id": "sciver_test_404",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_404__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.09099v2_figure_2.png"
+  },
+  "rs_p01__sciver_test_406__AS": {
+    "item_id": "sciver_test_406",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_406__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.00969v1_figure_2(a).png"
+  },
+  "rs_p01__sciver_test_406__QLq": {
+    "item_id": "sciver_test_406",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_406__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.00969v1_figure_2(a).png"
+  },
+  "rs_p01__sciver_test_406__QLl": {
+    "item_id": "sciver_test_406",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_406__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.00969v1_figure_2(a).png"
+  },
+  "rs_p01__sciver_test_406__MCr": {
+    "item_id": "sciver_test_406",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_406__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.00969v1_figure_2(a).png"
+  },
+  "rs_p01__sciver_test_406__AT": {
+    "item_id": "sciver_test_406",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_406__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.00969v1_figure_2(a).png"
+  },
+  "rs_p01__sciver_test_406__VO": {
+    "item_id": "sciver_test_406",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_406__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.00969v1_figure_2(a).png"
+  },
+  "rs_p01__sciver_test_407__AS": {
+    "item_id": "sciver_test_407",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_407__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.12757v2_figure_4(b).png"
+  },
+  "rs_p01__sciver_test_407__QLq": {
+    "item_id": "sciver_test_407",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_407__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.12757v2_figure_4(b).png"
+  },
+  "rs_p01__sciver_test_407__QLl": {
+    "item_id": "sciver_test_407",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_407__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.12757v2_figure_4(b).png"
+  },
+  "rs_p01__sciver_test_407__MCr": {
+    "item_id": "sciver_test_407",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_407__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.12757v2_figure_4(b).png"
+  },
+  "rs_p01__sciver_test_407__AT": {
+    "item_id": "sciver_test_407",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_407__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.12757v2_figure_4(b).png"
+  },
+  "rs_p01__sciver_test_407__VO": {
+    "item_id": "sciver_test_407",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_407__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.12757v2_figure_4(b).png"
+  },
+  "rs_p01__sciver_test_409__AS": {
+    "item_id": "sciver_test_409",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_409__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.06214v1_figure_3.png"
+  },
+  "rs_p01__sciver_test_409__QLq": {
+    "item_id": "sciver_test_409",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_409__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.06214v1_figure_3.png"
+  },
+  "rs_p01__sciver_test_409__QLl": {
+    "item_id": "sciver_test_409",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_409__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.06214v1_figure_3.png"
+  },
+  "rs_p01__sciver_test_409__MCr": {
+    "item_id": "sciver_test_409",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_409__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.06214v1_figure_3.png"
+  },
+  "rs_p01__sciver_test_409__AT": {
+    "item_id": "sciver_test_409",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_409__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.06214v1_figure_3.png"
+  },
+  "rs_p01__sciver_test_409__VO": {
+    "item_id": "sciver_test_409",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_409__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.06214v1_figure_3.png"
+  },
+  "rs_p01__sciver_test_411__AS": {
+    "item_id": "sciver_test_411",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_411__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.23168v1_figure_7.png"
+  },
+  "rs_p01__sciver_test_411__QLq": {
+    "item_id": "sciver_test_411",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_411__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.23168v1_figure_7.png"
+  },
+  "rs_p01__sciver_test_411__QLl": {
+    "item_id": "sciver_test_411",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_411__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.23168v1_figure_7.png"
+  },
+  "rs_p01__sciver_test_411__MCr": {
+    "item_id": "sciver_test_411",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_411__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.23168v1_figure_7.png"
+  },
+  "rs_p01__sciver_test_411__AT": {
+    "item_id": "sciver_test_411",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_411__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.23168v1_figure_7.png"
+  },
+  "rs_p01__sciver_test_411__VO": {
+    "item_id": "sciver_test_411",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_411__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.23168v1_figure_7.png"
+  },
+  "rs_p01__sciver_test_412__AS": {
+    "item_id": "sciver_test_412",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_412__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.12892v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_412__QLq": {
+    "item_id": "sciver_test_412",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_412__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.12892v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_412__QLl": {
+    "item_id": "sciver_test_412",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_412__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.12892v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_412__MCr": {
+    "item_id": "sciver_test_412",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_412__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.12892v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_412__AT": {
+    "item_id": "sciver_test_412",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_412__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.12892v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_412__VO": {
+    "item_id": "sciver_test_412",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_412__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.12892v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_414__AS": {
+    "item_id": "sciver_test_414",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_414__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.16492v1_figure_9.png"
+  },
+  "rs_p01__sciver_test_414__QLq": {
+    "item_id": "sciver_test_414",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_414__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.16492v1_figure_9.png"
+  },
+  "rs_p01__sciver_test_414__QLl": {
+    "item_id": "sciver_test_414",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_414__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.16492v1_figure_9.png"
+  },
+  "rs_p01__sciver_test_414__MCr": {
+    "item_id": "sciver_test_414",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_414__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.16492v1_figure_9.png"
+  },
+  "rs_p01__sciver_test_414__AT": {
+    "item_id": "sciver_test_414",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_414__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.16492v1_figure_9.png"
+  },
+  "rs_p01__sciver_test_414__VO": {
+    "item_id": "sciver_test_414",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_414__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.16492v1_figure_9.png"
+  },
+  "rs_p01__sciver_test_417__AS": {
+    "item_id": "sciver_test_417",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_417__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.20297v1_figure_1.png"
+  },
+  "rs_p01__sciver_test_417__QLq": {
+    "item_id": "sciver_test_417",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_417__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.20297v1_figure_1.png"
+  },
+  "rs_p01__sciver_test_417__QLl": {
+    "item_id": "sciver_test_417",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_417__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.20297v1_figure_1.png"
+  },
+  "rs_p01__sciver_test_417__MCr": {
+    "item_id": "sciver_test_417",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_417__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.20297v1_figure_1.png"
+  },
+  "rs_p01__sciver_test_417__AT": {
+    "item_id": "sciver_test_417",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_417__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.20297v1_figure_1.png"
+  },
+  "rs_p01__sciver_test_417__VO": {
+    "item_id": "sciver_test_417",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_417__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.20297v1_figure_1.png"
+  },
+  "rs_p01__sciver_test_419__AS": {
+    "item_id": "sciver_test_419",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_419__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.16597v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_419__QLq": {
+    "item_id": "sciver_test_419",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_419__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.16597v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_419__QLl": {
+    "item_id": "sciver_test_419",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_419__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.16597v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_419__MCr": {
+    "item_id": "sciver_test_419",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_419__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.16597v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_419__AT": {
+    "item_id": "sciver_test_419",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_419__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.16597v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_419__VO": {
+    "item_id": "sciver_test_419",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_419__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.16597v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_421__AS": {
+    "item_id": "sciver_test_421",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_421__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.17987v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_421__QLq": {
+    "item_id": "sciver_test_421",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_421__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.17987v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_421__QLl": {
+    "item_id": "sciver_test_421",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_421__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.17987v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_421__MCr": {
+    "item_id": "sciver_test_421",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_421__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.17987v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_421__AT": {
+    "item_id": "sciver_test_421",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_421__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.17987v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_421__VO": {
+    "item_id": "sciver_test_421",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_421__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.17987v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_422__AS": {
+    "item_id": "sciver_test_422",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_422__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.16421v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_422__QLq": {
+    "item_id": "sciver_test_422",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_422__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.16421v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_422__QLl": {
+    "item_id": "sciver_test_422",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_422__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.16421v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_422__MCr": {
+    "item_id": "sciver_test_422",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_422__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.16421v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_422__AT": {
+    "item_id": "sciver_test_422",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_422__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.16421v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_422__VO": {
+    "item_id": "sciver_test_422",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_422__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.16421v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_426__AS": {
+    "item_id": "sciver_test_426",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_426__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.05253v1_figure_4(b).png"
+  },
+  "rs_p01__sciver_test_426__QLq": {
+    "item_id": "sciver_test_426",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_426__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.05253v1_figure_4(b).png"
+  },
+  "rs_p01__sciver_test_426__QLl": {
+    "item_id": "sciver_test_426",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_426__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.05253v1_figure_4(b).png"
+  },
+  "rs_p01__sciver_test_426__MCr": {
+    "item_id": "sciver_test_426",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_426__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.05253v1_figure_4(b).png"
+  },
+  "rs_p01__sciver_test_426__AT": {
+    "item_id": "sciver_test_426",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_426__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.05253v1_figure_4(b).png"
+  },
+  "rs_p01__sciver_test_426__VO": {
+    "item_id": "sciver_test_426",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_426__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.05253v1_figure_4(b).png"
+  },
+  "rs_p01__sciver_test_429__AS": {
+    "item_id": "sciver_test_429",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_429__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.13900v1_figure_5(b).png"
+  },
+  "rs_p01__sciver_test_429__QLq": {
+    "item_id": "sciver_test_429",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_429__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.13900v1_figure_5(b).png"
+  },
+  "rs_p01__sciver_test_429__QLl": {
+    "item_id": "sciver_test_429",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_429__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.13900v1_figure_5(b).png"
+  },
+  "rs_p01__sciver_test_429__MCr": {
+    "item_id": "sciver_test_429",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_429__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.13900v1_figure_5(b).png"
+  },
+  "rs_p01__sciver_test_429__AT": {
+    "item_id": "sciver_test_429",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_429__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.13900v1_figure_5(b).png"
+  },
+  "rs_p01__sciver_test_429__VO": {
+    "item_id": "sciver_test_429",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_429__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.13900v1_figure_5(b).png"
+  },
+  "rs_p01__sciver_test_431__AS": {
+    "item_id": "sciver_test_431",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_431__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.00690v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_431__QLq": {
+    "item_id": "sciver_test_431",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_431__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.00690v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_431__QLl": {
+    "item_id": "sciver_test_431",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_431__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.00690v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_431__MCr": {
+    "item_id": "sciver_test_431",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_431__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.00690v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_431__AT": {
+    "item_id": "sciver_test_431",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_431__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.00690v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_431__VO": {
+    "item_id": "sciver_test_431",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_431__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.00690v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_432__AS": {
+    "item_id": "sciver_test_432",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_432__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.02292v1_figure_9.png"
+  },
+  "rs_p01__sciver_test_432__QLq": {
+    "item_id": "sciver_test_432",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_432__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.02292v1_figure_9.png"
+  },
+  "rs_p01__sciver_test_432__QLl": {
+    "item_id": "sciver_test_432",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_432__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.02292v1_figure_9.png"
+  },
+  "rs_p01__sciver_test_432__MCr": {
+    "item_id": "sciver_test_432",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_432__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.02292v1_figure_9.png"
+  },
+  "rs_p01__sciver_test_432__AT": {
+    "item_id": "sciver_test_432",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_432__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.02292v1_figure_9.png"
+  },
+  "rs_p01__sciver_test_432__VO": {
+    "item_id": "sciver_test_432",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_432__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.02292v1_figure_9.png"
+  },
+  "rs_p01__sciver_test_434__AS": {
+    "item_id": "sciver_test_434",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_434__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.07242v1_figure_2.png"
+  },
+  "rs_p01__sciver_test_434__QLq": {
+    "item_id": "sciver_test_434",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_434__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.07242v1_figure_2.png"
+  },
+  "rs_p01__sciver_test_434__QLl": {
+    "item_id": "sciver_test_434",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_434__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.07242v1_figure_2.png"
+  },
+  "rs_p01__sciver_test_434__MCr": {
+    "item_id": "sciver_test_434",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_434__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.07242v1_figure_2.png"
+  },
+  "rs_p01__sciver_test_434__AT": {
+    "item_id": "sciver_test_434",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_434__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.07242v1_figure_2.png"
+  },
+  "rs_p01__sciver_test_434__VO": {
+    "item_id": "sciver_test_434",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_434__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.07242v1_figure_2.png"
+  },
+  "rs_p01__sciver_test_435__AS": {
+    "item_id": "sciver_test_435",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_435__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.08494v1_figure_6.png"
+  },
+  "rs_p01__sciver_test_435__QLq": {
+    "item_id": "sciver_test_435",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_435__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.08494v1_figure_6.png"
+  },
+  "rs_p01__sciver_test_435__QLl": {
+    "item_id": "sciver_test_435",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_435__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.08494v1_figure_6.png"
+  },
+  "rs_p01__sciver_test_435__MCr": {
+    "item_id": "sciver_test_435",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_435__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.08494v1_figure_6.png"
+  },
+  "rs_p01__sciver_test_435__AT": {
+    "item_id": "sciver_test_435",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_435__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.08494v1_figure_6.png"
+  },
+  "rs_p01__sciver_test_435__VO": {
+    "item_id": "sciver_test_435",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_435__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.08494v1_figure_6.png"
+  },
+  "rs_p01__sciver_test_436__AS": {
+    "item_id": "sciver_test_436",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_436__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.03304v1_figure_2.png"
+  },
+  "rs_p01__sciver_test_436__QLq": {
+    "item_id": "sciver_test_436",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_436__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.03304v1_figure_2.png"
+  },
+  "rs_p01__sciver_test_436__QLl": {
+    "item_id": "sciver_test_436",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_436__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.03304v1_figure_2.png"
+  },
+  "rs_p01__sciver_test_436__MCr": {
+    "item_id": "sciver_test_436",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_436__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.03304v1_figure_2.png"
+  },
+  "rs_p01__sciver_test_436__AT": {
+    "item_id": "sciver_test_436",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_436__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.03304v1_figure_2.png"
+  },
+  "rs_p01__sciver_test_436__VO": {
+    "item_id": "sciver_test_436",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_436__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.03304v1_figure_2.png"
+  },
+  "rs_p01__sciver_test_438__AS": {
+    "item_id": "sciver_test_438",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_438__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.15632v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_438__QLq": {
+    "item_id": "sciver_test_438",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_438__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.15632v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_438__QLl": {
+    "item_id": "sciver_test_438",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_438__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.15632v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_438__MCr": {
+    "item_id": "sciver_test_438",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_438__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.15632v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_438__AT": {
+    "item_id": "sciver_test_438",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_438__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.15632v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_438__VO": {
+    "item_id": "sciver_test_438",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_438__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.15632v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_439__AS": {
+    "item_id": "sciver_test_439",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_439__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.09884v1_figure_3(a).png"
+  },
+  "rs_p01__sciver_test_439__QLq": {
+    "item_id": "sciver_test_439",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_439__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.09884v1_figure_3(a).png"
+  },
+  "rs_p01__sciver_test_439__QLl": {
+    "item_id": "sciver_test_439",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_439__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.09884v1_figure_3(a).png"
+  },
+  "rs_p01__sciver_test_439__MCr": {
+    "item_id": "sciver_test_439",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_439__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.09884v1_figure_3(a).png"
+  },
+  "rs_p01__sciver_test_439__AT": {
+    "item_id": "sciver_test_439",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_439__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.09884v1_figure_3(a).png"
+  },
+  "rs_p01__sciver_test_439__VO": {
+    "item_id": "sciver_test_439",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_439__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.09884v1_figure_3(a).png"
+  },
+  "rs_p01__sciver_test_440__AS": {
+    "item_id": "sciver_test_440",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_440__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.13671v1_figure_7.png"
+  },
+  "rs_p01__sciver_test_440__QLq": {
+    "item_id": "sciver_test_440",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_440__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.13671v1_figure_7.png"
+  },
+  "rs_p01__sciver_test_440__QLl": {
+    "item_id": "sciver_test_440",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_440__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.13671v1_figure_7.png"
+  },
+  "rs_p01__sciver_test_440__MCr": {
+    "item_id": "sciver_test_440",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_440__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.13671v1_figure_7.png"
+  },
+  "rs_p01__sciver_test_440__AT": {
+    "item_id": "sciver_test_440",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_440__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.13671v1_figure_7.png"
+  },
+  "rs_p01__sciver_test_440__VO": {
+    "item_id": "sciver_test_440",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_440__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.13671v1_figure_7.png"
+  },
+  "rs_p01__sciver_test_445__AS": {
+    "item_id": "sciver_test_445",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_445__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.11440v1_figure_13.png"
+  },
+  "rs_p01__sciver_test_445__QLq": {
+    "item_id": "sciver_test_445",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_445__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.11440v1_figure_13.png"
+  },
+  "rs_p01__sciver_test_445__QLl": {
+    "item_id": "sciver_test_445",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_445__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.11440v1_figure_13.png"
+  },
+  "rs_p01__sciver_test_445__MCr": {
+    "item_id": "sciver_test_445",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_445__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.11440v1_figure_13.png"
+  },
+  "rs_p01__sciver_test_445__AT": {
+    "item_id": "sciver_test_445",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_445__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.11440v1_figure_13.png"
+  },
+  "rs_p01__sciver_test_445__VO": {
+    "item_id": "sciver_test_445",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_445__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.11440v1_figure_13.png"
+  },
+  "rs_p01__sciver_test_447__AS": {
+    "item_id": "sciver_test_447",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_447__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.07321v1_figure_4(b).png"
+  },
+  "rs_p01__sciver_test_447__QLq": {
+    "item_id": "sciver_test_447",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_447__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.07321v1_figure_4(b).png"
+  },
+  "rs_p01__sciver_test_447__QLl": {
+    "item_id": "sciver_test_447",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_447__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.07321v1_figure_4(b).png"
+  },
+  "rs_p01__sciver_test_447__MCr": {
+    "item_id": "sciver_test_447",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_447__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.07321v1_figure_4(b).png"
+  },
+  "rs_p01__sciver_test_447__AT": {
+    "item_id": "sciver_test_447",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_447__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.07321v1_figure_4(b).png"
+  },
+  "rs_p01__sciver_test_447__VO": {
+    "item_id": "sciver_test_447",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_447__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.07321v1_figure_4(b).png"
+  },
+  "rs_p01__sciver_test_449__AS": {
+    "item_id": "sciver_test_449",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_449__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.00210v1_figure_2.png"
+  },
+  "rs_p01__sciver_test_449__QLq": {
+    "item_id": "sciver_test_449",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_449__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.00210v1_figure_2.png"
+  },
+  "rs_p01__sciver_test_449__QLl": {
+    "item_id": "sciver_test_449",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_449__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.00210v1_figure_2.png"
+  },
+  "rs_p01__sciver_test_449__MCr": {
+    "item_id": "sciver_test_449",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_449__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.00210v1_figure_2.png"
+  },
+  "rs_p01__sciver_test_449__AT": {
+    "item_id": "sciver_test_449",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_449__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.00210v1_figure_2.png"
+  },
+  "rs_p01__sciver_test_449__VO": {
+    "item_id": "sciver_test_449",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_449__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.00210v1_figure_2.png"
+  },
+  "rs_p01__sciver_test_451__AS": {
+    "item_id": "sciver_test_451",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_451__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.11786v1_figure_1.png"
+  },
+  "rs_p01__sciver_test_451__QLq": {
+    "item_id": "sciver_test_451",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_451__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.11786v1_figure_1.png"
+  },
+  "rs_p01__sciver_test_451__QLl": {
+    "item_id": "sciver_test_451",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_451__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.11786v1_figure_1.png"
+  },
+  "rs_p01__sciver_test_451__MCr": {
+    "item_id": "sciver_test_451",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_451__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.11786v1_figure_1.png"
+  },
+  "rs_p01__sciver_test_451__AT": {
+    "item_id": "sciver_test_451",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_451__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.11786v1_figure_1.png"
+  },
+  "rs_p01__sciver_test_451__VO": {
+    "item_id": "sciver_test_451",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_451__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.11786v1_figure_1.png"
+  },
+  "rs_p01__sciver_test_453__AS": {
+    "item_id": "sciver_test_453",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_453__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.13247v1_figure_4(b).png"
+  },
+  "rs_p01__sciver_test_453__QLq": {
+    "item_id": "sciver_test_453",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_453__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.13247v1_figure_4(b).png"
+  },
+  "rs_p01__sciver_test_453__QLl": {
+    "item_id": "sciver_test_453",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_453__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.13247v1_figure_4(b).png"
+  },
+  "rs_p01__sciver_test_453__MCr": {
+    "item_id": "sciver_test_453",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_453__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.13247v1_figure_4(b).png"
+  },
+  "rs_p01__sciver_test_453__AT": {
+    "item_id": "sciver_test_453",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_453__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.13247v1_figure_4(b).png"
+  },
+  "rs_p01__sciver_test_453__VO": {
+    "item_id": "sciver_test_453",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_453__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.13247v1_figure_4(b).png"
+  },
+  "rs_p01__sciver_test_455__AS": {
+    "item_id": "sciver_test_455",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_455__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.04465v2_figure_2.png"
+  },
+  "rs_p01__sciver_test_455__QLq": {
+    "item_id": "sciver_test_455",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_455__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.04465v2_figure_2.png"
+  },
+  "rs_p01__sciver_test_455__QLl": {
+    "item_id": "sciver_test_455",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_455__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.04465v2_figure_2.png"
+  },
+  "rs_p01__sciver_test_455__MCr": {
+    "item_id": "sciver_test_455",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_455__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.04465v2_figure_2.png"
+  },
+  "rs_p01__sciver_test_455__AT": {
+    "item_id": "sciver_test_455",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_455__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.04465v2_figure_2.png"
+  },
+  "rs_p01__sciver_test_455__VO": {
+    "item_id": "sciver_test_455",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_455__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.04465v2_figure_2.png"
+  },
+  "rs_p01__sciver_test_458__AS": {
+    "item_id": "sciver_test_458",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_458__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.17484v1_figure_2(b).png"
+  },
+  "rs_p01__sciver_test_458__QLq": {
+    "item_id": "sciver_test_458",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_458__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.17484v1_figure_2(b).png"
+  },
+  "rs_p01__sciver_test_458__QLl": {
+    "item_id": "sciver_test_458",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_458__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.17484v1_figure_2(b).png"
+  },
+  "rs_p01__sciver_test_458__MCr": {
+    "item_id": "sciver_test_458",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_458__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.17484v1_figure_2(b).png"
+  },
+  "rs_p01__sciver_test_458__AT": {
+    "item_id": "sciver_test_458",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_458__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.17484v1_figure_2(b).png"
+  },
+  "rs_p01__sciver_test_458__VO": {
+    "item_id": "sciver_test_458",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_458__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.17484v1_figure_2(b).png"
+  },
+  "rs_p01__sciver_test_459__AS": {
+    "item_id": "sciver_test_459",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_459__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.05295v3_figure_4(a).png"
+  },
+  "rs_p01__sciver_test_459__QLq": {
+    "item_id": "sciver_test_459",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_459__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.05295v3_figure_4(a).png"
+  },
+  "rs_p01__sciver_test_459__QLl": {
+    "item_id": "sciver_test_459",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_459__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.05295v3_figure_4(a).png"
+  },
+  "rs_p01__sciver_test_459__MCr": {
+    "item_id": "sciver_test_459",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_459__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.05295v3_figure_4(a).png"
+  },
+  "rs_p01__sciver_test_459__AT": {
+    "item_id": "sciver_test_459",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_459__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.05295v3_figure_4(a).png"
+  },
+  "rs_p01__sciver_test_459__VO": {
+    "item_id": "sciver_test_459",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_459__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.05295v3_figure_4(a).png"
+  },
+  "rs_p01__sciver_test_460__AS": {
+    "item_id": "sciver_test_460",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_460__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.18011v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_460__QLq": {
+    "item_id": "sciver_test_460",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_460__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.18011v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_460__QLl": {
+    "item_id": "sciver_test_460",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_460__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.18011v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_460__MCr": {
+    "item_id": "sciver_test_460",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_460__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.18011v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_460__AT": {
+    "item_id": "sciver_test_460",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_460__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.18011v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_460__VO": {
+    "item_id": "sciver_test_460",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_460__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.18011v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_461__AS": {
+    "item_id": "sciver_test_461",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_461__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.10723v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_461__QLq": {
+    "item_id": "sciver_test_461",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_461__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.10723v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_461__QLl": {
+    "item_id": "sciver_test_461",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_461__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.10723v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_461__MCr": {
+    "item_id": "sciver_test_461",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_461__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.10723v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_461__AT": {
+    "item_id": "sciver_test_461",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_461__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.10723v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_461__VO": {
+    "item_id": "sciver_test_461",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_461__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.10723v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_463__AS": {
+    "item_id": "sciver_test_463",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_463__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.07529v1_figure_6(a).png"
+  },
+  "rs_p01__sciver_test_463__QLq": {
+    "item_id": "sciver_test_463",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_463__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.07529v1_figure_6(a).png"
+  },
+  "rs_p01__sciver_test_463__QLl": {
+    "item_id": "sciver_test_463",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_463__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.07529v1_figure_6(a).png"
+  },
+  "rs_p01__sciver_test_463__MCr": {
+    "item_id": "sciver_test_463",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_463__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.07529v1_figure_6(a).png"
+  },
+  "rs_p01__sciver_test_463__AT": {
+    "item_id": "sciver_test_463",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_463__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.07529v1_figure_6(a).png"
+  },
+  "rs_p01__sciver_test_463__VO": {
+    "item_id": "sciver_test_463",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_463__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.07529v1_figure_6(a).png"
+  },
+  "rs_p01__sciver_test_465__AS": {
+    "item_id": "sciver_test_465",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_465__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.15645v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_465__QLq": {
+    "item_id": "sciver_test_465",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_465__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.15645v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_465__QLl": {
+    "item_id": "sciver_test_465",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_465__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.15645v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_465__MCr": {
+    "item_id": "sciver_test_465",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_465__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.15645v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_465__AT": {
+    "item_id": "sciver_test_465",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_465__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.15645v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_465__VO": {
+    "item_id": "sciver_test_465",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_465__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.15645v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_466__AS": {
+    "item_id": "sciver_test_466",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_466__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.03843v1_figure_2.png"
+  },
+  "rs_p01__sciver_test_466__QLq": {
+    "item_id": "sciver_test_466",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_466__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.03843v1_figure_2.png"
+  },
+  "rs_p01__sciver_test_466__QLl": {
+    "item_id": "sciver_test_466",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_466__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.03843v1_figure_2.png"
+  },
+  "rs_p01__sciver_test_466__MCr": {
+    "item_id": "sciver_test_466",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_466__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.03843v1_figure_2.png"
+  },
+  "rs_p01__sciver_test_466__AT": {
+    "item_id": "sciver_test_466",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_466__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.03843v1_figure_2.png"
+  },
+  "rs_p01__sciver_test_466__VO": {
+    "item_id": "sciver_test_466",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_466__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.03843v1_figure_2.png"
+  },
+  "rs_p01__sciver_test_468__AS": {
+    "item_id": "sciver_test_468",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_468__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.06723v1_figure_11(a).png"
+  },
+  "rs_p01__sciver_test_468__QLq": {
+    "item_id": "sciver_test_468",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_468__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.06723v1_figure_11(a).png"
+  },
+  "rs_p01__sciver_test_468__QLl": {
+    "item_id": "sciver_test_468",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_468__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.06723v1_figure_11(a).png"
+  },
+  "rs_p01__sciver_test_468__MCr": {
+    "item_id": "sciver_test_468",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_468__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.06723v1_figure_11(a).png"
+  },
+  "rs_p01__sciver_test_468__AT": {
+    "item_id": "sciver_test_468",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_468__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.06723v1_figure_11(a).png"
+  },
+  "rs_p01__sciver_test_468__VO": {
+    "item_id": "sciver_test_468",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_468__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.06723v1_figure_11(a).png"
+  },
+  "rs_p01__sciver_test_470__AS": {
+    "item_id": "sciver_test_470",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_470__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.02502v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_470__QLq": {
+    "item_id": "sciver_test_470",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_470__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.02502v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_470__QLl": {
+    "item_id": "sciver_test_470",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_470__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.02502v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_470__MCr": {
+    "item_id": "sciver_test_470",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_470__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.02502v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_470__AT": {
+    "item_id": "sciver_test_470",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_470__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.02502v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_470__VO": {
+    "item_id": "sciver_test_470",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_470__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.02502v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_472__AS": {
+    "item_id": "sciver_test_472",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_472__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.17424v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_472__QLq": {
+    "item_id": "sciver_test_472",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_472__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.17424v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_472__QLl": {
+    "item_id": "sciver_test_472",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_472__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.17424v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_472__MCr": {
+    "item_id": "sciver_test_472",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_472__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.17424v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_472__AT": {
+    "item_id": "sciver_test_472",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_472__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.17424v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_472__VO": {
+    "item_id": "sciver_test_472",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_472__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.17424v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_473__AS": {
+    "item_id": "sciver_test_473",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_473__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.05923v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_473__QLq": {
+    "item_id": "sciver_test_473",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_473__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.05923v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_473__QLl": {
+    "item_id": "sciver_test_473",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_473__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.05923v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_473__MCr": {
+    "item_id": "sciver_test_473",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_473__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.05923v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_473__AT": {
+    "item_id": "sciver_test_473",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_473__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.05923v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_473__VO": {
+    "item_id": "sciver_test_473",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_473__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.05923v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_475__AS": {
+    "item_id": "sciver_test_475",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_475__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.07981v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_475__QLq": {
+    "item_id": "sciver_test_475",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_475__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.07981v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_475__QLl": {
+    "item_id": "sciver_test_475",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_475__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.07981v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_475__MCr": {
+    "item_id": "sciver_test_475",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_475__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.07981v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_475__AT": {
+    "item_id": "sciver_test_475",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_475__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.07981v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_475__VO": {
+    "item_id": "sciver_test_475",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_475__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.07981v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_476__AS": {
+    "item_id": "sciver_test_476",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_476__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.07335v1_figure_1.png"
+  },
+  "rs_p01__sciver_test_476__QLq": {
+    "item_id": "sciver_test_476",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_476__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.07335v1_figure_1.png"
+  },
+  "rs_p01__sciver_test_476__QLl": {
+    "item_id": "sciver_test_476",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_476__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.07335v1_figure_1.png"
+  },
+  "rs_p01__sciver_test_476__MCr": {
+    "item_id": "sciver_test_476",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_476__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.07335v1_figure_1.png"
+  },
+  "rs_p01__sciver_test_476__AT": {
+    "item_id": "sciver_test_476",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_476__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.07335v1_figure_1.png"
+  },
+  "rs_p01__sciver_test_476__VO": {
+    "item_id": "sciver_test_476",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_476__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.07335v1_figure_1.png"
+  },
+  "rs_p01__sciver_test_477__AS": {
+    "item_id": "sciver_test_477",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_477__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.18321v1_figure_7.png"
+  },
+  "rs_p01__sciver_test_477__QLq": {
+    "item_id": "sciver_test_477",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_477__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.18321v1_figure_7.png"
+  },
+  "rs_p01__sciver_test_477__QLl": {
+    "item_id": "sciver_test_477",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_477__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.18321v1_figure_7.png"
+  },
+  "rs_p01__sciver_test_477__MCr": {
+    "item_id": "sciver_test_477",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_477__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.18321v1_figure_7.png"
+  },
+  "rs_p01__sciver_test_477__AT": {
+    "item_id": "sciver_test_477",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_477__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.18321v1_figure_7.png"
+  },
+  "rs_p01__sciver_test_477__VO": {
+    "item_id": "sciver_test_477",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_477__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.18321v1_figure_7.png"
+  },
+  "rs_p01__sciver_test_481__AS": {
+    "item_id": "sciver_test_481",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_481__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.12858v2_figure_2.png"
+  },
+  "rs_p01__sciver_test_481__QLq": {
+    "item_id": "sciver_test_481",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_481__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.12858v2_figure_2.png"
+  },
+  "rs_p01__sciver_test_481__QLl": {
+    "item_id": "sciver_test_481",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_481__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.12858v2_figure_2.png"
+  },
+  "rs_p01__sciver_test_481__MCr": {
+    "item_id": "sciver_test_481",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_481__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.12858v2_figure_2.png"
+  },
+  "rs_p01__sciver_test_481__AT": {
+    "item_id": "sciver_test_481",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_481__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.12858v2_figure_2.png"
+  },
+  "rs_p01__sciver_test_481__VO": {
+    "item_id": "sciver_test_481",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_481__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.12858v2_figure_2.png"
+  },
+  "rs_p01__sciver_test_483__AS": {
+    "item_id": "sciver_test_483",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_483__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.09929v1_figure_6.png"
+  },
+  "rs_p01__sciver_test_483__QLq": {
+    "item_id": "sciver_test_483",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_483__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.09929v1_figure_6.png"
+  },
+  "rs_p01__sciver_test_483__QLl": {
+    "item_id": "sciver_test_483",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_483__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.09929v1_figure_6.png"
+  },
+  "rs_p01__sciver_test_483__MCr": {
+    "item_id": "sciver_test_483",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_483__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.09929v1_figure_6.png"
+  },
+  "rs_p01__sciver_test_483__AT": {
+    "item_id": "sciver_test_483",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_483__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.09929v1_figure_6.png"
+  },
+  "rs_p01__sciver_test_483__VO": {
+    "item_id": "sciver_test_483",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_483__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.09929v1_figure_6.png"
+  },
+  "rs_p01__sciver_test_484__AS": {
+    "item_id": "sciver_test_484",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_484__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.01123v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_484__QLq": {
+    "item_id": "sciver_test_484",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_484__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.01123v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_484__QLl": {
+    "item_id": "sciver_test_484",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_484__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.01123v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_484__MCr": {
+    "item_id": "sciver_test_484",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_484__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.01123v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_484__AT": {
+    "item_id": "sciver_test_484",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_484__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.01123v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_484__VO": {
+    "item_id": "sciver_test_484",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_484__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.01123v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_487__AS": {
+    "item_id": "sciver_test_487",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_487__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.04487v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_487__QLq": {
+    "item_id": "sciver_test_487",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_487__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.04487v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_487__QLl": {
+    "item_id": "sciver_test_487",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_487__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.04487v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_487__MCr": {
+    "item_id": "sciver_test_487",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_487__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.04487v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_487__AT": {
+    "item_id": "sciver_test_487",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_487__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.04487v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_487__VO": {
+    "item_id": "sciver_test_487",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_487__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.04487v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_488__AS": {
+    "item_id": "sciver_test_488",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_488__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.05174v1_figure_2.png"
+  },
+  "rs_p01__sciver_test_488__QLq": {
+    "item_id": "sciver_test_488",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_488__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.05174v1_figure_2.png"
+  },
+  "rs_p01__sciver_test_488__QLl": {
+    "item_id": "sciver_test_488",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_488__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.05174v1_figure_2.png"
+  },
+  "rs_p01__sciver_test_488__MCr": {
+    "item_id": "sciver_test_488",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_488__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.05174v1_figure_2.png"
+  },
+  "rs_p01__sciver_test_488__AT": {
+    "item_id": "sciver_test_488",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_488__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.05174v1_figure_2.png"
+  },
+  "rs_p01__sciver_test_488__VO": {
+    "item_id": "sciver_test_488",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_488__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.05174v1_figure_2.png"
+  },
+  "rs_p01__sciver_test_489__AS": {
+    "item_id": "sciver_test_489",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_489__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.07732v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_489__QLq": {
+    "item_id": "sciver_test_489",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_489__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.07732v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_489__QLl": {
+    "item_id": "sciver_test_489",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_489__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.07732v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_489__MCr": {
+    "item_id": "sciver_test_489",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_489__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.07732v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_489__AT": {
+    "item_id": "sciver_test_489",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_489__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.07732v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_489__VO": {
+    "item_id": "sciver_test_489",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_489__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.07732v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_491__AS": {
+    "item_id": "sciver_test_491",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_491__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.10708v1_figure_8(b).png"
+  },
+  "rs_p01__sciver_test_491__QLq": {
+    "item_id": "sciver_test_491",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_491__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.10708v1_figure_8(b).png"
+  },
+  "rs_p01__sciver_test_491__QLl": {
+    "item_id": "sciver_test_491",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_491__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.10708v1_figure_8(b).png"
+  },
+  "rs_p01__sciver_test_491__MCr": {
+    "item_id": "sciver_test_491",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_491__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.10708v1_figure_8(b).png"
+  },
+  "rs_p01__sciver_test_491__AT": {
+    "item_id": "sciver_test_491",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_491__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.10708v1_figure_8(b).png"
+  },
+  "rs_p01__sciver_test_491__VO": {
+    "item_id": "sciver_test_491",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_491__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.10708v1_figure_8(b).png"
+  },
+  "rs_p01__sciver_test_493__AS": {
+    "item_id": "sciver_test_493",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_493__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.00551v1_figure_3(a).png"
+  },
+  "rs_p01__sciver_test_493__QLq": {
+    "item_id": "sciver_test_493",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_493__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.00551v1_figure_3(a).png"
+  },
+  "rs_p01__sciver_test_493__QLl": {
+    "item_id": "sciver_test_493",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_493__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.00551v1_figure_3(a).png"
+  },
+  "rs_p01__sciver_test_493__MCr": {
+    "item_id": "sciver_test_493",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_493__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.00551v1_figure_3(a).png"
+  },
+  "rs_p01__sciver_test_493__AT": {
+    "item_id": "sciver_test_493",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_493__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.00551v1_figure_3(a).png"
+  },
+  "rs_p01__sciver_test_493__VO": {
+    "item_id": "sciver_test_493",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_493__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.00551v1_figure_3(a).png"
+  },
+  "rs_p01__sciver_test_494__AS": {
+    "item_id": "sciver_test_494",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_494__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.11340v1_figure_2(a).png"
+  },
+  "rs_p01__sciver_test_494__QLq": {
+    "item_id": "sciver_test_494",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_494__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.11340v1_figure_2(a).png"
+  },
+  "rs_p01__sciver_test_494__QLl": {
+    "item_id": "sciver_test_494",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_494__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.11340v1_figure_2(a).png"
+  },
+  "rs_p01__sciver_test_494__MCr": {
+    "item_id": "sciver_test_494",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_494__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.11340v1_figure_2(a).png"
+  },
+  "rs_p01__sciver_test_494__AT": {
+    "item_id": "sciver_test_494",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_494__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.11340v1_figure_2(a).png"
+  },
+  "rs_p01__sciver_test_494__VO": {
+    "item_id": "sciver_test_494",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_494__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.11340v1_figure_2(a).png"
+  },
+  "rs_p01__sciver_test_495__AS": {
+    "item_id": "sciver_test_495",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_495__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.04203v1_figure_1(c).png"
+  },
+  "rs_p01__sciver_test_495__QLq": {
+    "item_id": "sciver_test_495",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_495__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.04203v1_figure_1(c).png"
+  },
+  "rs_p01__sciver_test_495__QLl": {
+    "item_id": "sciver_test_495",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_495__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.04203v1_figure_1(c).png"
+  },
+  "rs_p01__sciver_test_495__MCr": {
+    "item_id": "sciver_test_495",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_495__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.04203v1_figure_1(c).png"
+  },
+  "rs_p01__sciver_test_495__AT": {
+    "item_id": "sciver_test_495",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_495__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.04203v1_figure_1(c).png"
+  },
+  "rs_p01__sciver_test_495__VO": {
+    "item_id": "sciver_test_495",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_495__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.04203v1_figure_1(c).png"
+  },
+  "rs_p01__sciver_test_496__AS": {
+    "item_id": "sciver_test_496",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_496__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.02640v1_figure_6.png"
+  },
+  "rs_p01__sciver_test_496__QLq": {
+    "item_id": "sciver_test_496",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_496__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.02640v1_figure_6.png"
+  },
+  "rs_p01__sciver_test_496__QLl": {
+    "item_id": "sciver_test_496",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_496__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.02640v1_figure_6.png"
+  },
+  "rs_p01__sciver_test_496__MCr": {
+    "item_id": "sciver_test_496",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_496__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.02640v1_figure_6.png"
+  },
+  "rs_p01__sciver_test_496__AT": {
+    "item_id": "sciver_test_496",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_496__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.02640v1_figure_6.png"
+  },
+  "rs_p01__sciver_test_496__VO": {
+    "item_id": "sciver_test_496",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_496__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.02640v1_figure_6.png"
+  },
+  "rs_p01__sciver_test_499__AS": {
+    "item_id": "sciver_test_499",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_499__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.02810v1_figure_7.png"
+  },
+  "rs_p01__sciver_test_499__QLq": {
+    "item_id": "sciver_test_499",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_499__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.02810v1_figure_7.png"
+  },
+  "rs_p01__sciver_test_499__QLl": {
+    "item_id": "sciver_test_499",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_499__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.02810v1_figure_7.png"
+  },
+  "rs_p01__sciver_test_499__MCr": {
+    "item_id": "sciver_test_499",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_499__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.02810v1_figure_7.png"
+  },
+  "rs_p01__sciver_test_499__AT": {
+    "item_id": "sciver_test_499",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_499__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.02810v1_figure_7.png"
+  },
+  "rs_p01__sciver_test_499__VO": {
+    "item_id": "sciver_test_499",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_499__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.02810v1_figure_7.png"
+  },
+  "rs_p01__sciver_test_500__AS": {
+    "item_id": "sciver_test_500",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_500__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.19351v1_figure_10.png"
+  },
+  "rs_p01__sciver_test_500__QLq": {
+    "item_id": "sciver_test_500",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_500__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.19351v1_figure_10.png"
+  },
+  "rs_p01__sciver_test_500__QLl": {
+    "item_id": "sciver_test_500",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_500__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.19351v1_figure_10.png"
+  },
+  "rs_p01__sciver_test_500__MCr": {
+    "item_id": "sciver_test_500",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_500__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.19351v1_figure_10.png"
+  },
+  "rs_p01__sciver_test_500__AT": {
+    "item_id": "sciver_test_500",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_500__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.19351v1_figure_10.png"
+  },
+  "rs_p01__sciver_test_500__VO": {
+    "item_id": "sciver_test_500",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_500__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.19351v1_figure_10.png"
+  },
+  "rs_p01__sciver_test_501__AS": {
+    "item_id": "sciver_test_501",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_501__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.04043v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_501__QLq": {
+    "item_id": "sciver_test_501",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_501__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.04043v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_501__QLl": {
+    "item_id": "sciver_test_501",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_501__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.04043v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_501__MCr": {
+    "item_id": "sciver_test_501",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_501__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.04043v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_501__AT": {
+    "item_id": "sciver_test_501",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_501__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.04043v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_501__VO": {
+    "item_id": "sciver_test_501",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_501__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.04043v1_figure_4.png"
+  },
+  "rs_p01__sciver_test_503__AS": {
+    "item_id": "sciver_test_503",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_503__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.14059v2_figure_8.png"
+  },
+  "rs_p01__sciver_test_503__QLq": {
+    "item_id": "sciver_test_503",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_503__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.14059v2_figure_8.png"
+  },
+  "rs_p01__sciver_test_503__QLl": {
+    "item_id": "sciver_test_503",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_503__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.14059v2_figure_8.png"
+  },
+  "rs_p01__sciver_test_503__MCr": {
+    "item_id": "sciver_test_503",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_503__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.14059v2_figure_8.png"
+  },
+  "rs_p01__sciver_test_503__AT": {
+    "item_id": "sciver_test_503",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_503__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.14059v2_figure_8.png"
+  },
+  "rs_p01__sciver_test_503__VO": {
+    "item_id": "sciver_test_503",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_503__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.14059v2_figure_8.png"
+  },
+  "rs_p01__sciver_test_504__AS": {
+    "item_id": "sciver_test_504",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_504__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.16506v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_504__QLq": {
+    "item_id": "sciver_test_504",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_504__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.16506v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_504__QLl": {
+    "item_id": "sciver_test_504",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_504__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.16506v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_504__MCr": {
+    "item_id": "sciver_test_504",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_504__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.16506v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_504__AT": {
+    "item_id": "sciver_test_504",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_504__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.16506v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_504__VO": {
+    "item_id": "sciver_test_504",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_504__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.16506v1_figure_5.png"
+  },
+  "rs_p01__sciver_test_505__AS": {
+    "item_id": "sciver_test_505",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_505__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.04257v1_figure_3.png"
+  },
+  "rs_p01__sciver_test_505__QLq": {
+    "item_id": "sciver_test_505",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_505__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.04257v1_figure_3.png"
+  },
+  "rs_p01__sciver_test_505__QLl": {
+    "item_id": "sciver_test_505",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_505__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.04257v1_figure_3.png"
+  },
+  "rs_p01__sciver_test_505__MCr": {
+    "item_id": "sciver_test_505",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_505__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.04257v1_figure_3.png"
+  },
+  "rs_p01__sciver_test_505__AT": {
+    "item_id": "sciver_test_505",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_505__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.04257v1_figure_3.png"
+  },
+  "rs_p01__sciver_test_505__VO": {
+    "item_id": "sciver_test_505",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_505__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2409.04257v1_figure_3.png"
+  },
+  "rs_p01__sciver_test_506__AS": {
+    "item_id": "sciver_test_506",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_506__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.10703v1_figure_3.png"
+  },
+  "rs_p01__sciver_test_506__QLq": {
+    "item_id": "sciver_test_506",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_506__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.10703v1_figure_3.png"
+  },
+  "rs_p01__sciver_test_506__QLl": {
+    "item_id": "sciver_test_506",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_506__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.10703v1_figure_3.png"
+  },
+  "rs_p01__sciver_test_506__MCr": {
+    "item_id": "sciver_test_506",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_506__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.10703v1_figure_3.png"
+  },
+  "rs_p01__sciver_test_506__AT": {
+    "item_id": "sciver_test_506",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_506__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.10703v1_figure_3.png"
+  },
+  "rs_p01__sciver_test_506__VO": {
+    "item_id": "sciver_test_506",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_506__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2411.10703v1_figure_3.png"
+  },
+  "rs_p01__sciver_test_507__AS": {
+    "item_id": "sciver_test_507",
+    "dim_code": "AS",
+    "dim_name": "Attention and Scan",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_507__AS.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.20807v2_figure_3.png"
+  },
+  "rs_p01__sciver_test_507__QLq": {
+    "item_id": "sciver_test_507",
+    "dim_code": "QLq",
+    "dim_name": "Quantitative Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_507__QLq.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.20807v2_figure_3.png"
+  },
+  "rs_p01__sciver_test_507__QLl": {
+    "item_id": "sciver_test_507",
+    "dim_code": "QLl",
+    "dim_name": "Logical Reasoning",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_507__QLl.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.20807v2_figure_3.png"
+  },
+  "rs_p01__sciver_test_507__MCr": {
+    "item_id": "sciver_test_507",
+    "dim_code": "MCr",
+    "dim_name": "Identifying Relevant Information",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_507__MCr.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.20807v2_figure_3.png"
+  },
+  "rs_p01__sciver_test_507__AT": {
+    "item_id": "sciver_test_507",
+    "dim_code": "AT",
+    "dim_name": "Atypicality",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_507__AT.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.20807v2_figure_3.png"
+  },
+  "rs_p01__sciver_test_507__VO": {
+    "item_id": "sciver_test_507",
+    "dim_code": "VO",
+    "dim_name": "Volume",
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/rubric_scoring/prompts/pass_01/rs_p01__sciver_test_507__VO.txt",
+    "figure": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/data/raw/SciVer/images/2410.20807v2_figure_3.png"
+  }
+}

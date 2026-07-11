@@ -1,0 +1,22 @@
+Gestalt and Shape Judgment (GS)
+This criterion assesses the level of holistic, non-pointwise visual reasoning required to verify a claim about the shape of the data rather than about any single value. It covers judging the direction of a trend, the curvature or convexity of a function, conformance to a functional form or a reference line, convergence to a plateau, and the number or separation of clusters. The level represents how much the verification depends on integrating many marks into one qualitative impression and how subtle that impression is, ranging from no shape judgment at all to distinguishing a specific parametric form from a near alternative; the level reflects the shape judgment the claim forces, not the richest one the figure could support, so finer structure that happens to be visible does not raise it if a coarse impression settles the claim. Noteworthy, a shape judgment produces no intermediate number—the verifier forms an impression of the whole rather than reading and combining parts—and a claim that can be confirmed by reading one or two specific values is not assessed here even when the figure shows a curve. This differs from tasks that operate arithmetically on several extracted values. While a claim about shape can sometimes also be checked by reading many points and computing over them, gestalt judgment specifically concerns the qualitative impression the marks create together, rather than any quantity derived from them—where each input is a discrete read value to be combined, the demand belongs to aggregation, not to shape.
+Levels
+Level 0 None. No shape judgment is required; the claim concerns a single value or identity. Examples:
+•"Point A is at 0.8."
+•"The bar for 2020 is blue."
+Level 1 Very low. A coarse, obvious global impression. Examples:
+•"The line increases overall."
+•"The points form one visible group."
+Level 2 Low. A clear directional or separation judgment read off a set of marks. Examples:
+•"The curve rises then falls."
+•"The two clusters are visibly separated rather than overlapping."
+Level 3 Intermediate. A second-order judgment made against a reference the figure draws: convexity, whether successive differences grow or shrink, or conformance to a line that is explicitly plotted. The standard of comparison is present on the page. Examples:
+•"The curve is concave, flattening as x increases."
+•"The points track the drawn diagonal closely."
+Level 4 High. A subtle judgment made against a reference that is implicit or absent: distinguishing a claimed functional form from a near alternative, judging convergence to an asymptote that is never drawn, or counting clusters in a dense field. The verifier must supply the standard of comparison. Examples:
+•"The decay is exponential rather than linear."
+•"The training curve converges to a stable plateau after the spike."
+•"The embedding separates into several distinct clusters."
+Level 5+ Very High. A compound judgment combining several of the above across regions or panels, with transients or noise that must be separated from the signal. Examples:
+•"Both curves converge, but only past the change-point and to different asymptotes."
+•"The distribution conforms to the unplotted diagonal in one panel but not the other."

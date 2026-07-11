@@ -1,0 +1,27 @@
+Multi-Element Visual Aggregation (MA)
+This criterion assesses the level of computation required over multiple values extracted from the figure to verify a claim, including summation, differencing, ratio, percentage change, ranking, and extremum-finding across a set. The level represents how many marks must be read and how complex the operation combining them is, ranging from a single direct readout to chained computation or a full ranking over a large set; the level reflects the minimum computation the claim forces, so a claim confirmable by one decisive read, or a comparison of two, stays low even when the figure invites more arithmetic. Noteworthy, each input here is a discrete value the verifier reads from the figure—the demand is to operate on those readings, not to perceive them—and the level is set by the operation, not by how many marks happen to sit in the figure, so reading one value from a crowded twenty-bar chart is still the lowest level. A useful test for the boundary between bounded and whole-set operations is whether the marks needed can be named before any are read: if the inputs are fixed and nameable up front, such as two endpoints or a stated set of categories, the operation is bounded; if the whole set must be surveyed because any unread element could change the answer, such as a mean, an interior rank, or a top-k membership, it is whole-set. This differs from forming a holistic impression of shape, where the claim is settled by the qualitative pattern many marks create together with no number computed; aggregation specifically concerns arithmetic or ordinal operations over values already extracted.
+Levels
+Level 0 None. A single value answers the claim; nothing is combined, even when many marks surround it. Examples:
+•"Accuracy is 90%."
+•"The peak of the loss curve is at epoch 10."
+•"The brightest pixel in the heatmap is in the top row."
+Level 1 Very low. A single comparison or difference between two read values. Examples:
+•"Method A scores higher than method B."
+•"The gap between the two curves at the final step is about 0.2."
+•"The treated sample shows roughly twice the expression of the control."
+Level 2 Low. An operation over a small handful of values whose inputs are obvious, or finding the single maximum or minimum of a set in one pass. Examples:
+•"Method C is the highest of the four plotted."
+•"The two stacked segments together exceed the third bar."
+•"The hottest cell in the labeled 3×3 block lies on the diagonal."
+Level 3 Intermediate. Multi-step arithmetic whose inputs you can name before reading them—a percentage change between two endpoints, a ratio of two differences, a total over a stated set of categories—or an interior rank over a small set whose ordering is visually obvious. Reading further marks would not change the result. Examples:
+•"Accuracy rises by about two-fifths from the first epoch to the last."
+•"The top two pie slices together make up over half."
+•"Of five clearly separated bars, the third-tallest is the baseline."
+Level 4 High. An operation that cannot name its inputs up front and so forces a survey of the whole set, because any unread element could change the answer: a statistic over many marks (mean, spread, count), an interior or k-th rank settled only by measuring and ruling each other element in or out, or a top-k membership. Examples:
+•"Method E is the second-lowest of the nine, none clearly separated."
+•"The mean of the dozen plotted points sits near 0.5."
+•"These four genes are the top four by fold-change across the whole volcano plot."
+Level 5+ Very High. Chained aggregation combining several of the above: a whole-set operation computed per category and then combined or ranked across categories, or a within-subset extremum contrasted with a global one. Examples:
+•"The per-model total, summed over its stacked components, is highest at model D among the eight."
+•"The minimum within the low-dose subset differs from the global minimum across all doses."
+•"Averaging each row of the heatmap, the highest row mean falls in the second cluster, not the first."

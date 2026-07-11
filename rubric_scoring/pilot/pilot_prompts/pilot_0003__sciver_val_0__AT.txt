@@ -1,0 +1,83 @@
+ROLE: You are a demand-level annotator. Your only job is to score ONE rubric on ONE
+task instance and then STOP. Do not verify the claim. Do not determine if it is true.
+Use the Read tool to view the figure image referenced below, reason briefly, then output
+the required conclusion line and finish immediately. Use no tools other than Read.
+
+PILOT_TAG: pilot_0003__sciver_val_0__AT
+
+QUERY:
+The following rubric describes six distinct levels of *Atypicality* required by different tasks:
+
+Atypicality (AT)
+This rubric defines a scale that evaluates tasks based on how unlikely they appear in various sources (internet, textbooks, tests) and how unlikely the specific instance is to have been
+previously encountered and memorized. The scale ranges from exactly identical instances that are widely known to completely novel task formulations, focusing on the uniqueness
+of both the task type and the specific instance rather than its difficulty or complexity.
+Levels
+Level 0 None.The task is a staple one. Exactly the same instance of the task appears many times on the Internet, textbooks or common psychological or achievement tests, and
+the solution is generally well-known and memorized.Examples:
+•"What is 2 + 2?"
+•"Name the capital of France."
+•"What gets wetter and wetter the more it dries?"
+Level 1 Very low.The task is very common and the specific task instance is likely to frequently appear on the Internet, textbooks or common psychological or achievement tests,
+so the chance that the solution is well-known and memorized is high.Examples:
+•“What is the derivative of sin(x)?”
+•“Define opportunity cost.”
+•“Name the seven continents.”
+Level 2 Low.The task is moderately common and the specific task instance varies somewhat from other common examples or is unlikely to have seen it before in exactly the same
+form, but possibly in variations.Examples:
+•"What is 21251 + 2835?"
+•"Given the molecular SMILES:COC[C@H]1OC(=O)c2coc3c2[C@@]1(C)C1=C(C3=O)[C@@H]2CCC(=O)[C@@]2(C)C[C@H]1OC(C)=O, your task is to provide the
+detailed description of the molecule using your experienced chemical Molecular knowledge.”
+•"Solve the following Math Olympiad question: Determine the greatest real numberC, such that for every positive integern≥2, there existsx 1,x 2,...,x n∈[−1,1]
+so that Q
+1≤i<j≤n (xi−x j)≥C
+n(n−1)
+2 ."
+Level 3 Intermediate.The task is somewhat common but the specific task instance is quite rare, and it is unlikely to appear in common sources (Internet, textbooks or common
+psychological or achievement tests).Examples:
+•"What is 5205175017521571 + 68270867426872052?"
+•“Among the following exoplanets, which one has the lowest density? a) An Earth-mass and Earth-radius planet. b) A planet with 3 Earth masses and a density of
+approximately 4.6 g/cm3. c) A planet with the same composition as Earth but 1.5 times more massive than Earth. d) A planet with the same composition as Earth
+but half the mass of Earth.”
+•"Get answers for the question based on the context, where answers derived from substrings in the context or categorized as [unanswerable]. Context: [’On May
+1 , 2015 , Quentin announced his retirement .Quentin signed a minor league deal with the Seattle Mariners on April 22 , 2015 , and was assigned to the Tacoma
+Rainiers .On April 5 , 2015 , Quentin was traded to the Atlanta Braves along with Cameron Maybin , Matt Wisler , and Jordan Paroubeck , for Craig Kimbrel and
+Melvin Upton Jr . The Braves designated him for assignment later that day , and released him on April 14 .’, ’On July 22 , 2012 , Quentin agreed to a three-year
+, $27 million contract extension through 2015 with a $10 million mutual option for 2016 , including a no-trade clause . This is an amazing opportunity to stay and
+play in the city I grew up in . said Quentin .’] Question: Who did Carlos Quentin work for in April 2016?"
+Level 4 High.The task is not extremely uncommon and the specific task instance is infrequent or presented in notably different ways from standard formulations.Examples:
+•"Create a measurement system where accuracy is expressed through different shapes rather than decimal places."
+•"Assume that there exist only two types of people: knights and knaves. Knights always tell the truth, while knaves always lie. Y ou are given the statements from 5
+characters. Based on their statements, infer who is a knight and who is a knave. A: B is a liar and D is a truth-teller. B: D is a truth-teller. C: If A is a truth-teller,
+then E is a liar. D: B is a truth-teller and A is a truth-teller. E: A is a liar."
+•“In the context of neurolinguistic processing models examining the interface between phonological working memory and syntactic parsing during real-time sentence
+comprehension, what is the primary anatomical structure that shows increased metabolic activity during novel word acquisition in fMRI studies?” [This is a very
+sophisticated way of asking “which part of the brain lights up when we learn new words?”
+Level 5+ Very High.The task is fundamentally different from those typically appearing on the Internet, textbooks or psychological or achievement tests, or, the specific task instance
+is very unlikely to have close analogues in those sources. Noteworthy, any tasks (simple or elaborate) that can be found in standard tests or benchmarks should be
+considered less than level 5.Examples:
+•"Take 20 major sky constellations and design 20 Formula1 race circuits that follow the FIA regulations but mimic the shapes of the constellations.”
+•“Write a poem in fifty African languages, with each line in one language, with the number of letters e in the line being proportional to the speakers of those
+languages"
+•"List mathematical terms that are also dancing terms (like ’step function’ or ’rotation’), then write dance instructions using only mathematical language. However,
+the dance must stem from an Asian country since I’m teaching a creative Asian dance course today to one student who happens to be a mathematician."
+
+TASK INSTANCE:
+This is a scientific claim-verification task: the task is to determine whether the claim
+below is supported or refuted by the figure. (You only assess the rubric demand of this
+task; you do NOT perform the verification.)
+
+Claim: "Despite stable medians at 5, the 3.5% decline in mean helpfulness from 4.93 to 4.76 implies that participants’ enhanced prompt engineering skills increased their critical evaluation standards, causing attribution bias where improved methodology heightens scrutiny of LLM outputs beyond intrinsic performance."
+
+Figure: a chart image for this task is provided. View it with the Read tool before scoring.
+Figure path: /home/awndre/projects/Erdos/SciVer/images/2409.12320v1_figure_4.png
+
+INSTRUCTION:
+Score the level of *Atypicality* demanded by the given TASK INSTANCE using a discrete value
+from 0 to 5. Use CHAIN-OF-THOUGHTS REASONING to reason step by step before assigning the
+score. After the CHAIN-OF-THOUGHTS REASONING STEPS, conclude your assessment with the
+statement:
+
+"Thus, the level of *Atypicality* demanded by the given TASK INSTANCE is: SCORE",
+
+where 'SCORE' is the integer score you have determined. Then STOP.
