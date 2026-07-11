@@ -1,0 +1,13 @@
+model,dim_code,dim_name,emergent,mean_correct,sem_correct,mean_incorrect,sem_incorrect,delta_inc_minus_corr,mannwhitney_p,n_correct,n_incorrect
+POOLED_ALL_MODELS,VL,Visual Localization and Grounding,yes,2.168,0.007,2.326,0.004,+0.158,4.493e-92,8868,22309
+POOLED_ALL_MODELS,AS,Attention and Scan,no,2.543,0.006,2.686,0.003,+0.143,8.877e-89,8868,22309
+POOLED_ALL_MODELS,MCr,Identifying Relevant Information,no,1.524,0.007,1.692,0.005,+0.168,4.32e-80,8868,22309
+POOLED_ALL_MODELS,MCu,Calibrating Knowns and Unknowns,no,0.572,0.007,0.709,0.004,+0.137,1.769e-67,8868,22309
+POOLED_ALL_MODELS,MA,Multi-Element Visual Aggregation,yes,2.210,0.014,2.474,0.009,+0.263,2.068e-56,8868,22309
+POOLED_ALL_MODELS,VO,Volume,no,1.121,0.003,1.189,0.003,+0.068,5.438e-47,8868,22309
+POOLED_ALL_MODELS,AT,Atypicality,no,2.499,0.006,2.591,0.003,+0.092,2.895e-40,8868,22309
+POOLED_ALL_MODELS,GS,Gestalt and Shape Judgment,yes,0.892,0.012,0.778,0.008,-0.114,1.65e-27,8868,22309
+POOLED_ALL_MODELS,QLl,Logical Reasoning,no,0.967,0.006,1.019,0.004,+0.052,1.137e-07,8868,22309
+POOLED_ALL_MODELS,KNf,Formal Sciences,no,1.183,0.010,1.161,0.006,-0.022,0.08646,8868,22309
+POOLED_ALL_MODELS,QLq,Quantitative Reasoning,no,1.247,0.006,1.260,0.004,+0.013,0.1698,8868,22309
+POOLED_ALL_MODELS,CL,"Conceptualisation, Learning, and Abstraction",no,0.188,0.004,0.201,0.003,+0.013,0.5054,8868,22309

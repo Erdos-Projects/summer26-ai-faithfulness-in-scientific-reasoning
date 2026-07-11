@@ -1,0 +1,37 @@
+dataset,n_items,dim,dim_name,emergent,level_0_frac,level_1_frac,level_2_frac,level_3_frac,level_4_frac,level_5_frac
+CharXiv,1000,VL,Visual Localization and Grounding,yes,0.0060,0.0680,0.5660,0.3480,0.0110,0.0010
+CharXiv,1000,AS,Attention and Scan,no,0.0000,0.0170,0.3150,0.6580,0.0100,0.0000
+CharXiv,1000,MCr,Identifying Relevant Information,no,0.0130,0.4140,0.4760,0.0960,0.0010,0.0000
+CharXiv,1000,MCu,Calibrating Knowns and Unknowns,no,0.4090,0.5140,0.0660,0.0110,0.0000,0.0000
+CharXiv,1000,MA,Multi-Element Visual Aggregation,yes,0.1240,0.1090,0.3270,0.1710,0.2370,0.0320
+CharXiv,1000,VO,Volume,no,0.0000,0.8250,0.1750,0.0000,0.0000,0.0000
+CharXiv,1000,AT,Atypicality,no,0.0000,0.0060,0.4220,0.5640,0.0080,0.0000
+CharXiv,1000,GS,Gestalt and Shape Judgment,yes,0.6250,0.0910,0.2150,0.0260,0.0330,0.0100
+CharXiv,1000,QLl,Logical Reasoning,no,0.1650,0.6980,0.1120,0.0250,0.0000,0.0000
+CharXiv,1000,KNf,Formal Sciences,no,0.2280,0.5000,0.2000,0.0550,0.0170,0.0000
+CharXiv,1000,QLq,Quantitative Reasoning,no,0.0420,0.7070,0.2250,0.0260,0.0000,0.0000
+CharXiv,1000,CL,"Conceptualisation, Learning, and Abstraction",no,0.8210,0.1690,0.0070,0.0030,0.0000,0.0000
+SciVer,817,VL,Visual Localization and Grounding,yes,0.0122,0.0490,0.7491,0.0820,0.0747,0.0330
+SciVer,817,AS,Attention and Scan,no,0.0000,0.0098,0.3721,0.6071,0.0110,0.0000
+SciVer,817,MCr,Identifying Relevant Information,no,0.0012,0.1469,0.4651,0.3660,0.0208,0.0000
+SciVer,817,MCu,Calibrating Knowns and Unknowns,no,0.0306,0.1506,0.2693,0.4737,0.0759,0.0000
+SciVer,817,MA,Multi-Element Visual Aggregation,yes,0.0465,0.3244,0.1212,0.3917,0.0979,0.0184
+SciVer,817,VO,Volume,no,0.0000,0.3941,0.6034,0.0024,0.0000,0.0000
+SciVer,817,AT,Atypicality,no,0.0000,0.0000,0.0208,0.7613,0.2166,0.0012
+SciVer,817,GS,Gestalt and Shape Judgment,yes,0.6561,0.0698,0.0918,0.0343,0.1065,0.0416
+SciVer,817,QLl,Logical Reasoning,no,0.0000,0.3843,0.2864,0.3182,0.0110,0.0000
+SciVer,817,KNf,Formal Sciences,no,0.0110,0.4076,0.3219,0.1004,0.1334,0.0257
+SciVer,817,QLq,Quantitative Reasoning,no,0.0110,0.0624,0.6120,0.3109,0.0037,0.0000
+SciVer,817,CL,"Conceptualisation, Learning, and Abstraction",no,0.6646,0.2142,0.0845,0.0367,0.0000,0.0000
+SciClaimEval,265,VL,Visual Localization and Grounding,yes,0.0038,0.0528,0.7623,0.1208,0.0566,0.0038
+SciClaimEval,265,AS,Attention and Scan,no,0.0000,0.0340,0.5094,0.4377,0.0189,0.0000
+SciClaimEval,265,MCr,Identifying Relevant Information,no,0.0000,0.2604,0.5472,0.1925,0.0000,0.0000
+SciClaimEval,265,MCu,Calibrating Knowns and Unknowns,no,0.0189,0.3132,0.2943,0.3698,0.0038,0.0000
+SciClaimEval,265,MA,Multi-Element Visual Aggregation,yes,0.0868,0.2566,0.2340,0.2906,0.1283,0.0038
+SciClaimEval,265,VO,Volume,no,0.0000,0.5660,0.4340,0.0000,0.0000,0.0000
+SciClaimEval,265,AT,Atypicality,no,0.0000,0.0000,0.0151,0.9736,0.0113,0.0000
+SciClaimEval,265,GS,Gestalt and Shape Judgment,yes,0.5019,0.1170,0.2566,0.0566,0.0453,0.0226
+SciClaimEval,265,QLl,Logical Reasoning,no,0.0000,0.5849,0.3057,0.1057,0.0038,0.0000
+SciClaimEval,265,KNf,Formal Sciences,no,0.0679,0.4415,0.2491,0.0981,0.1321,0.0113
+SciClaimEval,265,QLq,Quantitative Reasoning,no,0.0113,0.3019,0.6226,0.0642,0.0000,0.0000
+SciClaimEval,265,CL,"Conceptualisation, Learning, and Abstraction",no,0.5887,0.3434,0.0453,0.0226,0.0000,0.0000

@@ -1,0 +1,10 @@
+target,kpi,original,pct_of_100_below
+GPT-4o,roc_auc,0.5539,0.0
+GPT-4o,bal_acc,0.5288,0.0
+GPT-4o,f1,0.616,58.0
+Claude-3-5-Sonnet,roc_auc,0.6925,89.0
+Claude-3-5-Sonnet,bal_acc,0.6209,76.0
+Claude-3-5-Sonnet,f1,0.5969,96.0
+GPT-4o-Random,roc_auc,0.5893,58.0
+GPT-4o-Random,bal_acc,0.5,2.0
+GPT-4o-Random,f1,0.9276,11.0

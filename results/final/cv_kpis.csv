@@ -1,0 +1,4 @@
+target,roc_auc,roc_auc_sd,bal_acc,f1
+GPT-4o,0.6759,0.0331,0.6312,0.6499
+Claude-3-5-Sonnet,0.6282,0.049,0.567,0.3793
+GPT-4o-Random,0.5799,0.0528,0.5,0.9467

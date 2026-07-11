@@ -1,0 +1,2387 @@
+{
+  "sce_r01__scev_val_fig_0001__t01": {
+    "item_id": "scev_val_fig_0001",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0001__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0001.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0002__t01": {
+    "item_id": "scev_val_fig_0002",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0002__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0002.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0003__t01": {
+    "item_id": "scev_val_fig_0003",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0003__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0003.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0004__t01": {
+    "item_id": "scev_val_fig_0004",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0004__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0004.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0005__t01": {
+    "item_id": "scev_val_fig_0005",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0005__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0005.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0006__t01": {
+    "item_id": "scev_val_fig_0006",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0006__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0006.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0007__t01": {
+    "item_id": "scev_val_fig_0007",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0007__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0007.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0008__t01": {
+    "item_id": "scev_val_fig_0008",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0008__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0008.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0010__t01": {
+    "item_id": "scev_val_fig_0010",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0010__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0010.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0011__t01": {
+    "item_id": "scev_val_fig_0011",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0011__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0011.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0014__t01": {
+    "item_id": "scev_val_fig_0014",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0014__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0014.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0015__t01": {
+    "item_id": "scev_val_fig_0015",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0015__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0015.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0016__t01": {
+    "item_id": "scev_val_fig_0016",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0016__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0016.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0017__t01": {
+    "item_id": "scev_val_fig_0017",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0017__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0017.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0018__t01": {
+    "item_id": "scev_val_fig_0018",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0018__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0018.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0019__t01": {
+    "item_id": "scev_val_fig_0019",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0019__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0019.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0020__t01": {
+    "item_id": "scev_val_fig_0020",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0020__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0020.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0021__t01": {
+    "item_id": "scev_val_fig_0021",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0021__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0021.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0029__t01": {
+    "item_id": "scev_val_fig_0029",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0029__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0029.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0032__t01": {
+    "item_id": "scev_val_fig_0032",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0032__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0032.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0033__t01": {
+    "item_id": "scev_val_fig_0033",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0033__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0033.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0035__t01": {
+    "item_id": "scev_val_fig_0035",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0035__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0035.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0036__t01": {
+    "item_id": "scev_val_fig_0036",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0036__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0036.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0042__t01": {
+    "item_id": "scev_val_fig_0042",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0042__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0042.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0043__t01": {
+    "item_id": "scev_val_fig_0043",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0043__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0043.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0045__t01": {
+    "item_id": "scev_val_fig_0045",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0045__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0045.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0046__t01": {
+    "item_id": "scev_val_fig_0046",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0046__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0046.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0047__t01": {
+    "item_id": "scev_val_fig_0047",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0047__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0047.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0048__t01": {
+    "item_id": "scev_val_fig_0048",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0048__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0048.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0049__t01": {
+    "item_id": "scev_val_fig_0049",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0049__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0049.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0050__t01": {
+    "item_id": "scev_val_fig_0050",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0050__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0050.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0051__t01": {
+    "item_id": "scev_val_fig_0051",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0051__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0051.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0052__t01": {
+    "item_id": "scev_val_fig_0052",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0052__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0052.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0053__t01": {
+    "item_id": "scev_val_fig_0053",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0053__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0053.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0054__t01": {
+    "item_id": "scev_val_fig_0054",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0054__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0054.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0056__t01": {
+    "item_id": "scev_val_fig_0056",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0056__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0056.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0057__t01": {
+    "item_id": "scev_val_fig_0057",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0057__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0057.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0058__t01": {
+    "item_id": "scev_val_fig_0058",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0058__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0058.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0059__t01": {
+    "item_id": "scev_val_fig_0059",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0059__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0059.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0060__t01": {
+    "item_id": "scev_val_fig_0060",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0060__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0060.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0062__t01": {
+    "item_id": "scev_val_fig_0062",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0062__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0062.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0063__t01": {
+    "item_id": "scev_val_fig_0063",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0063__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0063.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0064__t01": {
+    "item_id": "scev_val_fig_0064",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0064__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0064.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0065__t01": {
+    "item_id": "scev_val_fig_0065",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0065__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0065.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0066__t01": {
+    "item_id": "scev_val_fig_0066",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0066__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0066.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0067__t01": {
+    "item_id": "scev_val_fig_0067",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0067__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0067.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0069__t01": {
+    "item_id": "scev_val_fig_0069",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0069__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0069.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0070__t01": {
+    "item_id": "scev_val_fig_0070",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0070__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0070.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0071__t01": {
+    "item_id": "scev_val_fig_0071",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0071__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0071.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0073__t01": {
+    "item_id": "scev_val_fig_0073",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0073__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0073.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0074__t01": {
+    "item_id": "scev_val_fig_0074",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0074__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0074.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0075__t01": {
+    "item_id": "scev_val_fig_0075",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0075__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0075.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0076__t01": {
+    "item_id": "scev_val_fig_0076",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0076__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0076.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0077__t01": {
+    "item_id": "scev_val_fig_0077",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0077__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0077.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0078__t01": {
+    "item_id": "scev_val_fig_0078",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0078__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0078.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0079__t01": {
+    "item_id": "scev_val_fig_0079",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0079__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0079.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0080__t01": {
+    "item_id": "scev_val_fig_0080",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0080__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0080.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0081__t01": {
+    "item_id": "scev_val_fig_0081",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0081__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0081.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0093__t01": {
+    "item_id": "scev_val_fig_0093",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0093__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0093.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0094__t01": {
+    "item_id": "scev_val_fig_0094",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0094__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0094.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0096__t01": {
+    "item_id": "scev_val_fig_0096",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0096__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0096.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0097__t01": {
+    "item_id": "scev_val_fig_0097",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0097__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0097.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0098__t01": {
+    "item_id": "scev_val_fig_0098",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0098__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0098.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0099__t01": {
+    "item_id": "scev_val_fig_0099",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0099__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0099.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0100__t01": {
+    "item_id": "scev_val_fig_0100",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0100__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0100.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0106__t01": {
+    "item_id": "scev_val_fig_0106",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0106__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0106.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0109__t01": {
+    "item_id": "scev_val_fig_0109",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0109__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0109.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0112__t01": {
+    "item_id": "scev_val_fig_0112",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0112__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0112.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0113__t01": {
+    "item_id": "scev_val_fig_0113",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0113__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0113.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0114__t01": {
+    "item_id": "scev_val_fig_0114",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0114__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0114.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0116__t01": {
+    "item_id": "scev_val_fig_0116",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0116__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0116.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0117__t01": {
+    "item_id": "scev_val_fig_0117",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0117__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0117.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0118__t01": {
+    "item_id": "scev_val_fig_0118",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0118__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0118.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0120__t01": {
+    "item_id": "scev_val_fig_0120",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0120__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0120.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0121__t01": {
+    "item_id": "scev_val_fig_0121",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0121__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0121.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0122__t01": {
+    "item_id": "scev_val_fig_0122",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0122__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0122.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0123__t01": {
+    "item_id": "scev_val_fig_0123",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0123__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0123.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0124__t01": {
+    "item_id": "scev_val_fig_0124",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0124__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0124.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0125__t01": {
+    "item_id": "scev_val_fig_0125",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0125__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0125.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0126__t01": {
+    "item_id": "scev_val_fig_0126",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0126__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0126.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0127__t01": {
+    "item_id": "scev_val_fig_0127",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0127__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0127.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0128__t01": {
+    "item_id": "scev_val_fig_0128",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0128__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0128.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0129__t01": {
+    "item_id": "scev_val_fig_0129",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0129__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0129.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0130__t01": {
+    "item_id": "scev_val_fig_0130",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0130__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0130.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0131__t01": {
+    "item_id": "scev_val_fig_0131",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0131__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0131.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0137__t01": {
+    "item_id": "scev_val_fig_0137",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0137__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0137.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0138__t01": {
+    "item_id": "scev_val_fig_0138",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0138__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0138.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0139__t01": {
+    "item_id": "scev_val_fig_0139",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0139__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0139.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0140__t01": {
+    "item_id": "scev_val_fig_0140",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0140__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0140.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0141__t01": {
+    "item_id": "scev_val_fig_0141",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0141__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0141.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0142__t01": {
+    "item_id": "scev_val_fig_0142",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0142__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0142.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0144__t01": {
+    "item_id": "scev_val_fig_0144",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0144__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0144.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0145__t01": {
+    "item_id": "scev_val_fig_0145",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0145__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0145.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0146__t01": {
+    "item_id": "scev_val_fig_0146",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0146__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0146.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0147__t01": {
+    "item_id": "scev_val_fig_0147",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0147__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0147.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0148__t01": {
+    "item_id": "scev_val_fig_0148",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0148__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0148.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0154__t01": {
+    "item_id": "scev_val_fig_0154",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0154__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0154.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0155__t01": {
+    "item_id": "scev_val_fig_0155",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0155__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0155.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0156__t01": {
+    "item_id": "scev_val_fig_0156",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0156__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0156.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0158__t01": {
+    "item_id": "scev_val_fig_0158",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0158__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0158.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0159__t01": {
+    "item_id": "scev_val_fig_0159",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0159__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0159.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0160__t01": {
+    "item_id": "scev_val_fig_0160",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0160__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0160.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0161__t01": {
+    "item_id": "scev_val_fig_0161",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0161__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0161.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0163__t01": {
+    "item_id": "scev_val_fig_0163",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0163__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0163.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0165__t01": {
+    "item_id": "scev_val_fig_0165",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0165__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0165.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0167__t01": {
+    "item_id": "scev_val_fig_0167",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0167__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0167.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0168__t01": {
+    "item_id": "scev_val_fig_0168",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0168__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0168.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0169__t01": {
+    "item_id": "scev_val_fig_0169",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0169__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0169.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0171__t01": {
+    "item_id": "scev_val_fig_0171",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0171__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0171.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0173__t01": {
+    "item_id": "scev_val_fig_0173",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0173__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0173.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0174__t01": {
+    "item_id": "scev_val_fig_0174",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0174__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0174.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0175__t01": {
+    "item_id": "scev_val_fig_0175",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0175__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0175.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0178__t01": {
+    "item_id": "scev_val_fig_0178",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0178__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0178.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0179__t01": {
+    "item_id": "scev_val_fig_0179",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0179__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0179.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0180__t01": {
+    "item_id": "scev_val_fig_0180",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0180__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0180.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0181__t01": {
+    "item_id": "scev_val_fig_0181",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0181__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0181.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0182__t01": {
+    "item_id": "scev_val_fig_0182",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0182__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0182.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0183__t01": {
+    "item_id": "scev_val_fig_0183",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0183__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0183.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0184__t01": {
+    "item_id": "scev_val_fig_0184",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0184__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0184.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0186__t01": {
+    "item_id": "scev_val_fig_0186",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0186__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0186.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0187__t01": {
+    "item_id": "scev_val_fig_0187",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0187__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0187.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0188__t01": {
+    "item_id": "scev_val_fig_0188",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0188__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0188.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0191__t01": {
+    "item_id": "scev_val_fig_0191",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0191__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0191.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0197__t01": {
+    "item_id": "scev_val_fig_0197",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0197__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0197.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0198__t01": {
+    "item_id": "scev_val_fig_0198",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0198__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0198.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0199__t01": {
+    "item_id": "scev_val_fig_0199",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0199__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0199.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0200__t01": {
+    "item_id": "scev_val_fig_0200",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0200__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0200.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0201__t01": {
+    "item_id": "scev_val_fig_0201",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0201__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0201.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0202__t01": {
+    "item_id": "scev_val_fig_0202",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0202__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0202.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0205__t01": {
+    "item_id": "scev_val_fig_0205",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0205__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0205.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0206__t01": {
+    "item_id": "scev_val_fig_0206",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0206__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0206.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0207__t01": {
+    "item_id": "scev_val_fig_0207",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0207__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0207.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0208__t01": {
+    "item_id": "scev_val_fig_0208",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0208__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0208.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0209__t01": {
+    "item_id": "scev_val_fig_0209",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0209__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0209.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0210__t01": {
+    "item_id": "scev_val_fig_0210",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0210__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0210.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0215__t01": {
+    "item_id": "scev_val_fig_0215",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0215__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0215.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0216__t01": {
+    "item_id": "scev_val_fig_0216",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0216__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0216.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0217__t01": {
+    "item_id": "scev_val_fig_0217",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0217__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0217.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0218__t01": {
+    "item_id": "scev_val_fig_0218",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0218__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0218.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0219__t01": {
+    "item_id": "scev_val_fig_0219",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0219__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0219.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0220__t01": {
+    "item_id": "scev_val_fig_0220",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0220__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0220.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0224__t01": {
+    "item_id": "scev_val_fig_0224",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0224__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0224.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0225__t01": {
+    "item_id": "scev_val_fig_0225",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0225__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0225.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0226__t01": {
+    "item_id": "scev_val_fig_0226",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0226__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0226.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0227__t01": {
+    "item_id": "scev_val_fig_0227",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0227__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0227.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0228__t01": {
+    "item_id": "scev_val_fig_0228",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0228__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0228.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0229__t01": {
+    "item_id": "scev_val_fig_0229",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0229__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0229.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0230__t01": {
+    "item_id": "scev_val_fig_0230",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0230__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0230.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0232__t01": {
+    "item_id": "scev_val_fig_0232",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0232__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0232.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0233__t01": {
+    "item_id": "scev_val_fig_0233",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0233__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0233.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0234__t01": {
+    "item_id": "scev_val_fig_0234",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0234__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0234.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0235__t01": {
+    "item_id": "scev_val_fig_0235",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0235__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0235.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0236__t01": {
+    "item_id": "scev_val_fig_0236",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0236__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0236.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0237__t01": {
+    "item_id": "scev_val_fig_0237",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0237__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0237.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0238__t01": {
+    "item_id": "scev_val_fig_0238",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0238__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0238.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0239__t01": {
+    "item_id": "scev_val_fig_0239",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0239__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0239.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0240__t01": {
+    "item_id": "scev_val_fig_0240",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0240__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0240.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0241__t01": {
+    "item_id": "scev_val_fig_0241",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0241__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0241.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0245__t01": {
+    "item_id": "scev_val_fig_0245",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0245__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0245.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0246__t01": {
+    "item_id": "scev_val_fig_0246",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0246__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0246.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0247__t01": {
+    "item_id": "scev_val_fig_0247",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0247__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0247.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0248__t01": {
+    "item_id": "scev_val_fig_0248",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0248__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0248.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0249__t01": {
+    "item_id": "scev_val_fig_0249",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0249__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0249.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0250__t01": {
+    "item_id": "scev_val_fig_0250",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0250__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0250.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0251__t01": {
+    "item_id": "scev_val_fig_0251",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0251__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0251.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0254__t01": {
+    "item_id": "scev_val_fig_0254",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0254__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0254.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0255__t01": {
+    "item_id": "scev_val_fig_0255",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0255__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0255.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0256__t01": {
+    "item_id": "scev_val_fig_0256",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0256__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0256.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0257__t01": {
+    "item_id": "scev_val_fig_0257",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0257__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0257.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0259__t01": {
+    "item_id": "scev_val_fig_0259",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0259__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0259.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0260__t01": {
+    "item_id": "scev_val_fig_0260",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0260__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0260.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0261__t01": {
+    "item_id": "scev_val_fig_0261",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0261__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0261.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0262__t01": {
+    "item_id": "scev_val_fig_0262",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0262__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0262.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0263__t01": {
+    "item_id": "scev_val_fig_0263",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0263__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0263.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0264__t01": {
+    "item_id": "scev_val_fig_0264",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0264__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0264.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0265__t01": {
+    "item_id": "scev_val_fig_0265",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0265__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0265.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0266__t01": {
+    "item_id": "scev_val_fig_0266",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0266__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0266.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0267__t01": {
+    "item_id": "scev_val_fig_0267",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0267__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0267.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0268__t01": {
+    "item_id": "scev_val_fig_0268",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0268__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0268.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0269__t01": {
+    "item_id": "scev_val_fig_0269",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0269__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0269.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0270__t01": {
+    "item_id": "scev_val_fig_0270",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0270__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0270.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0271__t01": {
+    "item_id": "scev_val_fig_0271",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0271__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0271.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0272__t01": {
+    "item_id": "scev_val_fig_0272",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0272__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0272.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0273__t01": {
+    "item_id": "scev_val_fig_0273",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0273__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0273.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0274__t01": {
+    "item_id": "scev_val_fig_0274",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0274__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0274.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0276__t01": {
+    "item_id": "scev_val_fig_0276",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0276__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0276.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0277__t01": {
+    "item_id": "scev_val_fig_0277",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0277__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0277.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0278__t01": {
+    "item_id": "scev_val_fig_0278",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0278__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0278.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0279__t01": {
+    "item_id": "scev_val_fig_0279",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0279__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0279.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0281__t01": {
+    "item_id": "scev_val_fig_0281",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0281__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0281.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0282__t01": {
+    "item_id": "scev_val_fig_0282",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0282__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0282.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0283__t01": {
+    "item_id": "scev_val_fig_0283",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0283__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0283.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0284__t01": {
+    "item_id": "scev_val_fig_0284",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0284__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0284.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0285__t01": {
+    "item_id": "scev_val_fig_0285",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0285__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0285.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0286__t01": {
+    "item_id": "scev_val_fig_0286",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0286__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0286.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0287__t01": {
+    "item_id": "scev_val_fig_0287",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0287__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0287.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0288__t01": {
+    "item_id": "scev_val_fig_0288",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0288__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0288.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0289__t01": {
+    "item_id": "scev_val_fig_0289",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0289__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0289.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0290__t01": {
+    "item_id": "scev_val_fig_0290",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0290__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0290.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0291__t01": {
+    "item_id": "scev_val_fig_0291",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0291__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0291.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0292__t01": {
+    "item_id": "scev_val_fig_0292",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0292__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0292.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0293__t01": {
+    "item_id": "scev_val_fig_0293",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0293__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0293.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0294__t01": {
+    "item_id": "scev_val_fig_0294",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0294__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0294.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0295__t01": {
+    "item_id": "scev_val_fig_0295",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0295__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0295.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0297__t01": {
+    "item_id": "scev_val_fig_0297",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0297__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0297.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0298__t01": {
+    "item_id": "scev_val_fig_0298",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0298__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0298.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0299__t01": {
+    "item_id": "scev_val_fig_0299",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0299__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0299.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0300__t01": {
+    "item_id": "scev_val_fig_0300",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0300__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0300.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0302__t01": {
+    "item_id": "scev_val_fig_0302",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0302__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0302.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_0303__t01": {
+    "item_id": "scev_val_fig_0303",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0303__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0303.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_0304__t01": {
+    "item_id": "scev_val_fig_0304",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_0304__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_0304.png"
+    ],
+    "label": 1
+  },
+  "sce_r01__scev_val_fig_1500__t01": {
+    "item_id": "scev_val_fig_1500",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1500__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1500.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1501__t01": {
+    "item_id": "scev_val_fig_1501",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1501__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1501.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1502__t01": {
+    "item_id": "scev_val_fig_1502",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1502__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1502.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1503__t01": {
+    "item_id": "scev_val_fig_1503",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1503__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1503.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1504__t01": {
+    "item_id": "scev_val_fig_1504",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1504__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1504.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1505__t01": {
+    "item_id": "scev_val_fig_1505",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1505__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1505.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1506__t01": {
+    "item_id": "scev_val_fig_1506",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1506__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1506.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1508__t01": {
+    "item_id": "scev_val_fig_1508",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1508__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1508.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1509__t01": {
+    "item_id": "scev_val_fig_1509",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1509__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1509.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1510__t01": {
+    "item_id": "scev_val_fig_1510",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1510__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1510.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1511__t01": {
+    "item_id": "scev_val_fig_1511",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1511__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1511.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1512__t01": {
+    "item_id": "scev_val_fig_1512",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1512__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1512.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1513__t01": {
+    "item_id": "scev_val_fig_1513",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1513__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1513.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1514__t01": {
+    "item_id": "scev_val_fig_1514",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1514__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1514.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1515__t01": {
+    "item_id": "scev_val_fig_1515",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1515__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1515.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1516__t01": {
+    "item_id": "scev_val_fig_1516",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1516__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1516.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1517__t01": {
+    "item_id": "scev_val_fig_1517",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1517__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1517.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1518__t01": {
+    "item_id": "scev_val_fig_1518",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1518__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1518.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1519__t01": {
+    "item_id": "scev_val_fig_1519",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1519__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1519.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1521__t01": {
+    "item_id": "scev_val_fig_1521",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1521__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1521.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1522__t01": {
+    "item_id": "scev_val_fig_1522",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1522__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1522.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1523__t01": {
+    "item_id": "scev_val_fig_1523",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1523__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1523.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1524__t01": {
+    "item_id": "scev_val_fig_1524",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1524__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1524.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1525__t01": {
+    "item_id": "scev_val_fig_1525",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1525__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1525.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1526__t01": {
+    "item_id": "scev_val_fig_1526",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1526__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1526.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1527__t01": {
+    "item_id": "scev_val_fig_1527",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1527__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1527.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1528__t01": {
+    "item_id": "scev_val_fig_1528",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1528__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1528.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1529__t01": {
+    "item_id": "scev_val_fig_1529",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1529__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1529.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1530__t01": {
+    "item_id": "scev_val_fig_1530",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1530__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1530.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1531__t01": {
+    "item_id": "scev_val_fig_1531",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1531__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1531.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1533__t01": {
+    "item_id": "scev_val_fig_1533",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1533__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1533.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1534__t01": {
+    "item_id": "scev_val_fig_1534",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1534__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1534.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1535__t01": {
+    "item_id": "scev_val_fig_1535",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1535__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1535.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1536__t01": {
+    "item_id": "scev_val_fig_1536",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1536__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1536.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1537__t01": {
+    "item_id": "scev_val_fig_1537",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1537__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1537.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1538__t01": {
+    "item_id": "scev_val_fig_1538",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1538__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1538.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1539__t01": {
+    "item_id": "scev_val_fig_1539",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1539__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1539.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1540__t01": {
+    "item_id": "scev_val_fig_1540",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1540__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1540.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1541__t01": {
+    "item_id": "scev_val_fig_1541",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1541__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1541.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1542__t01": {
+    "item_id": "scev_val_fig_1542",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1542__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1542.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1543__t01": {
+    "item_id": "scev_val_fig_1543",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1543__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1543.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1544__t01": {
+    "item_id": "scev_val_fig_1544",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1544__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1544.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1545__t01": {
+    "item_id": "scev_val_fig_1545",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1545__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1545.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1546__t01": {
+    "item_id": "scev_val_fig_1546",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1546__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1546.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1547__t01": {
+    "item_id": "scev_val_fig_1547",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1547__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1547.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1548__t01": {
+    "item_id": "scev_val_fig_1548",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1548__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1548.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1549__t01": {
+    "item_id": "scev_val_fig_1549",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1549__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1549.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1550__t01": {
+    "item_id": "scev_val_fig_1550",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1550__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1550.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1551__t01": {
+    "item_id": "scev_val_fig_1551",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1551__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1551.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1552__t01": {
+    "item_id": "scev_val_fig_1552",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1552__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1552.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1553__t01": {
+    "item_id": "scev_val_fig_1553",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1553__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1553.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1555__t01": {
+    "item_id": "scev_val_fig_1555",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1555__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1555.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1556__t01": {
+    "item_id": "scev_val_fig_1556",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1556__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1556.png"
+    ],
+    "label": 0
+  },
+  "sce_r01__scev_val_fig_1557__t01": {
+    "item_id": "scev_val_fig_1557",
+    "trial": 1,
+    "prompt_file": "/home/awndre/projects/Erdos/summer26-ai-science-reasoning/sciclaimeval_eval/prompts/run_01/sce_r01__scev_val_fig_1557__t01.txt",
+    "images": [
+      "/home/awndre/projects/Erdos/SciClaimEval/sciclaimeval-shared-task/data/figures/dev/val_fig_1557.png"
+    ],
+    "label": 0
+  }
+}

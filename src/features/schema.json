@@ -1,0 +1,226 @@
+{
+  "generated_by": "src/features/build_schema.py (from build_preprocessor + feature_selection.csv)",
+  "dataset": "charxiv_scoring/annotations_charxiv.db (reasoning task, TRAIN split)",
+  "task": "predict failure per target model (GPT-4o, Claude-3-5-Sonnet, GPT-4o-Random); one classifier per target",
+  "target": {
+    "name": "y__<model>",
+    "positive_class": "failure (incorrect = 1)"
+  },
+  "group_key": "paperid",
+  "unit_of_analysis": "one row per item (800 train items); three per-target failure labels",
+  "default_config": {
+    "drop_dims": [
+      "CL"
+    ],
+    "scale": true,
+    "scaler": "standard",
+    "include_demand_dims": true,
+    "include_metadata": false
+  },
+  "inputs": [
+    {
+      "name": "VL",
+      "role": "demand_dim_engineered",
+      "dtype": "ordinal_int",
+      "range": [
+        0,
+        5
+      ],
+      "transformation": "drop CL; else StandardScaler",
+      "decision": "keep",
+      "reason": "engineered demand dim"
+    },
+    {
+      "name": "AS",
+      "role": "demand_dim_engineered",
+      "dtype": "ordinal_int",
+      "range": [
+        0,
+        5
+      ],
+      "transformation": "drop CL; else StandardScaler",
+      "decision": "keep",
+      "reason": "engineered demand dim"
+    },
+    {
+      "name": "MCr",
+      "role": "demand_dim_engineered",
+      "dtype": "ordinal_int",
+      "range": [
+        0,
+        5
+      ],
+      "transformation": "drop CL; else StandardScaler",
+      "decision": "keep",
+      "reason": "engineered demand dim"
+    },
+    {
+      "name": "MCu",
+      "role": "demand_dim_engineered",
+      "dtype": "ordinal_int",
+      "range": [
+        0,
+        5
+      ],
+      "transformation": "drop CL; else StandardScaler",
+      "decision": "keep",
+      "reason": "engineered demand dim"
+    },
+    {
+      "name": "MA",
+      "role": "demand_dim_engineered",
+      "dtype": "ordinal_int",
+      "range": [
+        0,
+        5
+      ],
+      "transformation": "drop CL; else StandardScaler",
+      "decision": "keep",
+      "reason": "engineered demand dim"
+    },
+    {
+      "name": "VO",
+      "role": "demand_dim_engineered",
+      "dtype": "ordinal_int",
+      "range": [
+        0,
+        5
+      ],
+      "transformation": "drop CL; else StandardScaler",
+      "decision": "keep",
+      "reason": "engineered demand dim"
+    },
+    {
+      "name": "AT",
+      "role": "demand_dim_engineered",
+      "dtype": "ordinal_int",
+      "range": [
+        0,
+        5
+      ],
+      "transformation": "drop CL; else StandardScaler",
+      "decision": "keep",
+      "reason": "engineered demand dim"
+    },
+    {
+      "name": "GS",
+      "role": "demand_dim_engineered",
+      "dtype": "ordinal_int",
+      "range": [
+        0,
+        5
+      ],
+      "transformation": "drop CL; else StandardScaler",
+      "decision": "keep",
+      "reason": "engineered demand dim"
+    },
+    {
+      "name": "QLl",
+      "role": "demand_dim_engineered",
+      "dtype": "ordinal_int",
+      "range": [
+        0,
+        5
+      ],
+      "transformation": "drop CL; else StandardScaler",
+      "decision": "keep",
+      "reason": "engineered demand dim"
+    },
+    {
+      "name": "KNf",
+      "role": "demand_dim_engineered",
+      "dtype": "ordinal_int",
+      "range": [
+        0,
+        5
+      ],
+      "transformation": "drop CL; else StandardScaler",
+      "decision": "keep",
+      "reason": "engineered demand dim"
+    },
+    {
+      "name": "QLq",
+      "role": "demand_dim_engineered",
+      "dtype": "ordinal_int",
+      "range": [
+        0,
+        5
+      ],
+      "transformation": "drop CL; else StandardScaler",
+      "decision": "keep",
+      "reason": "engineered demand dim"
+    },
+    {
+      "name": "CL",
+      "role": "demand_dim_engineered",
+      "dtype": "ordinal_int",
+      "range": [
+        0,
+        5
+      ],
+      "transformation": "drop CL; else StandardScaler",
+      "decision": "drop",
+      "reason": "near-constant (~82% zeros, mean~0.19)"
+    },
+    {
+      "name": "category",
+      "role": "item_metadata_baseline",
+      "dtype": "categorical",
+      "levels": [
+        "cs",
+        "econ",
+        "eess",
+        "math",
+        "physics",
+        "q-bio",
+        "q-fin",
+        "stat"
+      ],
+      "transformation": "OneHotEncoder (OFF by default)",
+      "decision": "drop",
+      "reason": "demand dims beat metadata-only; adding metadata to the dims lifts ROC-AUC by -0.0093 (< 1 fold SD)"
+    },
+    {
+      "name": "inst_category",
+      "role": "item_metadata_baseline",
+      "dtype": "categorical",
+      "levels": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "transformation": "OneHotEncoder (OFF by default)",
+      "decision": "drop",
+      "reason": "demand dims beat metadata-only; adding metadata to the dims lifts ROC-AUC by -0.0093 (< 1 fold SD)"
+    },
+    {
+      "name": "year",
+      "role": "item_metadata_baseline",
+      "dtype": "categorical",
+      "levels": [
+        "20",
+        "21",
+        "22",
+        "23"
+      ],
+      "transformation": "OneHotEncoder (OFF by default)",
+      "decision": "drop",
+      "reason": "demand dims beat metadata-only; adding metadata to the dims lifts ROC-AUC by -0.0093 (< 1 fold SD)"
+    }
+  ],
+  "emitted_features_default": [
+    "demand__VL",
+    "demand__AS",
+    "demand__MCr",
+    "demand__MCu",
+    "demand__MA",
+    "demand__VO",
+    "demand__AT",
+    "demand__GS",
+    "demand__QLl",
+    "demand__KNf",
+    "demand__QLq"
+  ],
+  "n_emitted_features_default": 11
+}

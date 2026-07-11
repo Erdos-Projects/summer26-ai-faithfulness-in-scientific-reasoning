@@ -1,0 +1,10 @@
+target,config,roc_auc,roc_auc_sd
+GPT-4o,Metadata (baseline),0.5279,0.047
+GPT-4o,Demand dims,0.6758,0.0336
+GPT-4o,Demand + metadata,0.6678,0.0424
+Claude-3-5-Sonnet,Metadata (baseline),0.5359,0.0376
+Claude-3-5-Sonnet,Demand dims,0.6275,0.049
+Claude-3-5-Sonnet,Demand + metadata,0.617,0.0472
+GPT-4o-Random,Metadata (baseline),0.7267,0.0548
+GPT-4o-Random,Demand dims,0.5799,0.0528
+GPT-4o-Random,Demand + metadata,0.7237,0.0534

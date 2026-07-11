@@ -1,0 +1,16 @@
+feature,type,decision,reason
+VL,demand_dim,keep,engineered demand dim
+AS,demand_dim,keep,engineered demand dim
+MCr,demand_dim,keep,engineered demand dim
+MCu,demand_dim,keep,engineered demand dim
+MA,demand_dim,keep,engineered demand dim
+VO,demand_dim,keep,engineered demand dim
+AT,demand_dim,keep,engineered demand dim
+GS,demand_dim,keep,engineered demand dim
+QLl,demand_dim,keep,engineered demand dim
+KNf,demand_dim,keep,engineered demand dim
+QLq,demand_dim,keep,engineered demand dim
+CL,demand_dim,drop,near-constant (~82% zeros)
+category,item_metadata_baseline,drop,baseline only; demand dims beat it and it adds ~0 on top
+inst_category,item_metadata_baseline,drop,baseline only; demand dims beat it and it adds ~0 on top
+year,item_metadata_baseline,drop,baseline only; demand dims beat it and it adds ~0 on top

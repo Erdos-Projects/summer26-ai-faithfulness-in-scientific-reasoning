@@ -1,0 +1,44 @@
+39 models, 12 dims, 800 train items, 979 paper groups
+  COMBINATION_ALL              AUC 0.573±0.013  base 0.716  top: GS, MA, AS, MCu
+  Human                        AUC 0.595±0.049  base 0.193  top: MCr, VL, KNf, GS
+  Claude-3-5-Sonnet            AUC 0.623±0.048  base 0.390  top: MCu, AS, MA, GS
+  GPT-4o                       AUC 0.657±0.033  base 0.514  top: MCu, MCr, GS, VO
+  Gemini-1-5-Pro               AUC 0.627±0.037  base 0.560  top: MA, MCu, GS, AT
+  InternVL2-Pro                AUC 0.612±0.033  base 0.588  top: MCu, GS, MCr, AT
+  InternVL2-76B                AUC 0.614±0.036  base 0.598  top: MCu, GS, VO, QLq
+  GPT-4V-Turbo                 AUC 0.610±0.031  base 0.626  top: MCr, QLq, QLl, CL
+  InternVL2-26B                AUC 0.613±0.048  base 0.656  top: MCu, VO, GS, AS
+  GPT-4o-mini                  AUC 0.581±0.039  base 0.657  top: AS, CL, VL, MCr
+  Claude-3-Sonnet              AUC 0.588±0.042  base 0.662  top: GS, AS, MCr, MA
+  Claude-3-Haiku               AUC 0.610±0.040  base 0.678  top: GS, VL, MCu, MA
+  Claude-3-Opus                AUC 0.611±0.040  base 0.686  top: VL, GS, QLq, MA
+  Phi-3-Vision                 AUC 0.592±0.042  base 0.686  top: MCu, VL, MCr, MA
+  InternVL-Chat-V1-5           AUC 0.605±0.033  base 0.703  top: MCu, GS, VO, AS
+  Reka-Core                    AUC 0.592±0.046  base 0.707  top: VL, MA, QLl, GS
+  Ovis1.5-Llama3-8B            AUC 0.624±0.039  base 0.708  top: AT, QLq, VO, GS
+  Ovis1.5-Gemma2-9B            AUC 0.604±0.026  base 0.724  top: GS, MCu, AT, AS
+  Cambrian-34B                 AUC 0.601±0.042  base 0.738  top: GS, MA, VL, CL
+  Reka-Flash                   AUC 0.591±0.039  base 0.738  top: MA, VL, AS, AT
+  Qwen-VL-Max                  AUC 0.628±0.053  base 0.744  top: MCu, MA, VO, QLq
+  InternLM-XComposer2-4KHD     AUC 0.573±0.046  base 0.746  top: MA, VO, AS, MCu
+  MiniCPM-V2-5                 AUC 0.645±0.041  base 0.746  top: VL, AS, MA, GS
+  Mini-Gemini-HD-Yi-34B        AUC 0.634±0.040  base 0.752  top: MA, GS, VL, VO
+  VILA-1-5-40B                 AUC 0.604±0.050  base 0.761  top: VL, GS, AS, MA
+  Reka-Edge                    AUC 0.603±0.057  base 0.764  top: MCu, GS, AT, AS
+  Gemini-1.0-Pro-Vision        AUC 0.542±0.046  base 0.768  top: MCu, MCr, VO, GS
+  LLaVA-1-6-Yi-34B             AUC 0.620±0.052  base 0.787  top: GS, AS, MCu, AT
+  MoAI                         AUC 0.565±0.034  base 0.809  top: GS, AT, MCr, MCu
+  IDEFICS-2                    AUC 0.561±0.044  base 0.810  top: GS, VL, AT, QLq
+  InternLM-XComposer2          AUC 0.545±0.051  base 0.814  top: AT, AS, MCr, MA
+  Mini-Gemini-HD-LLaMA3-8B     AUC 0.644±0.064  base 0.814  top: MCu, MA, VL, AS
+  MiniCPM-V2                   AUC 0.560±0.059  base 0.819  top: MA, MCu, AS, VO
+  DeepSeek-VL                  AUC 0.537±0.059  base 0.825  top: CL, MCr, MCu, MA
+  IDEFICS-2-Chatty             AUC 0.517±0.044  base 0.826  top: GS, MA, KNf, QLl
+  SPHINX-V2-13B                AUC 0.578±0.050  base 0.839  top: MA, KNf, VO, QLq
+  Qwen-VL-Plus                 AUC 0.572±0.051  base 0.842  top: MA, GS, KNf, VO
+  LLaVA-1-6-Mistral-7B         AUC 0.557±0.056  base 0.865  top: GS, AS, CL, QLq
+  ChartGemma                   AUC 0.536±0.029  base 0.870  top: MA, CL, VL, QLl
+  GPT-4o-Random                AUC 0.602±0.052  base 0.899  top: GS, MA, QLq, MCr
+
+PDF: /home/awndre/projects/Erdos/summer26-ai-science-reasoning/charxiv_analysis/random_forest/charxiv_random_forest_all.pdf
+PNGs + CSVs: /home/awndre/projects/Erdos/summer26-ai-science-reasoning/charxiv_analysis/random_forest

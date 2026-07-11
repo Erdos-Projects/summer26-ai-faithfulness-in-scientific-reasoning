@@ -1,0 +1,7 @@
+config,learner,roc_auc,sd
+A. demand only (Ckpt1 anchor),LogReg,0.6038,0.0157
+A. demand only (Ckpt1 anchor),RF,0.5704,0.0131
+B. + model identity,LogReg,0.6974,0.0134
+B. + model identity,RF,0.6745,0.0148
+C. + LOMO difficulty (OFF by default),LogReg,0.8094,0.0069
+C. + LOMO difficulty (OFF by default),RF,0.7941,0.0056
