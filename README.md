@@ -65,8 +65,8 @@ from the model because it is near-constant, leaving eleven active features.
 ```text
 .
 ├── charxiv_scoring/          # DATA LAYER: DeLeAn annotation pipeline + released-correctness DB
-│   ├── annotations_charxiv.db    #   SQLite: item(1000) · annotation(1000×12 dims) · model_score
-│   ├── build_db.py items.py scores.py db.py   #   build/parse the DB
+│   ├── annotations_charxiv.db    #   SQLite: item(1000), annotation(1000x12 dims), model_score
+│   ├── build_db.py items.py scores.py db.py   #   build and parse the database
 │   ├── prepare.py collect_cli.py scrape.py    #   demand-annotation pass (isolated Sonnet subagents)
 │   └── rubrics/                  #   the DeLeAn rubric definitions
 ├── charxiv_analysis/         # shared loaders + the cached 800/200 split (read by src/)
@@ -74,16 +74,20 @@ from the model because it is near-constant, leaving eleven active features.
 │   └── train_test_split.json     #   cached 800/200 split (seed 20260618)
 ├── src/                      # REUSABLE MODELING CODE
 │   ├── features/                 #   preprocessing.py, transformers.py, build_schema.py
-│   ├── splits/                   #   splitters.py (paper-grouped item_holdout CV)
-│   ├── eval/                     #   core.py (grouped-CV runner), stress_tests.py, bootstrap.py
+│   ├── splits/                   #   splitters.py (paper-grouped item_holdout cross-validation)
+│   ├── eval/                     #   core.py (grouped cross-validation runner), stress_tests.py, bootstrap.py
 │   └── models/                   #   registry.py, tune.py, train.py, interpret.py
 ├── notebooks/                # CharXiv notebooks 11 through 20 (by checkpoint)
-├── results/                  # CV metric tables, EDA, stress-test outputs, and results/final/
+├── results/                  # cross-validation metric tables, EDA, stress-test outputs, and results/final/
 ├── artifacts/                # the serialized final per-target models and thresholds
 ├── presentation/            # slide deck source (build_deck.py), the .pptx, and the speaking script
 ├── tests/                    # test_pipeline.py, test_splits.py, test_models.py, test_bootstrap.py
 ├── project_checkpoints/      # the five checkpoint guides (01 to 05)
-├── README.md  EXECUTIVE_SUMMARY.md  kpis.md  evaluation_plan.md  modeling_plan.md
+├── docs/                     # developer logs and the superpowers plans and specs
+├── prior_analyses/           # LEGACY, not part of this project: earlier SciVer and SciClaimEval work,
+│                             #   notebooks 01 to 10, and older analysis scripts
+├── rubric_scoring/           # LEGACY, not part of this project (see CLAUDE.md)
+├── README.md  executive_summary.md  kpis.md  evaluation_plan.md  modeling_plan.md
 └── requirements.txt  pyproject.toml  run.sh
 ```
 
