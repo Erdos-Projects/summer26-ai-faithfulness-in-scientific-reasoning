@@ -53,40 +53,39 @@ from the model because it is near-constant, leaving eleven active features.
 
 | Code | Name | Code | Name |
 | --- | --- | --- | --- |
-| VL | Visual Localization (in-house) | AT | Atypicality |
-| AS | Attention and Scan | GS | Gestalt and Shape (in-house) |
+| VL | Visual Localization (new) | AT | Atypicality |
+| AS | Attention and Scan | GS | Gestalt and Shape (new) |
 | MCr | Identifying Relevant Information | QLl | Logical Reasoning |
 | MCu | Calibrating Knowns and Unknowns | KNf | Formal Sciences |
-| MA | Multi-Element Visual Aggregation (in-house) | QLq | Quantitative Reasoning |
+| MA | Multi-Element Visual Aggregation (new) | QLq | Quantitative Reasoning |
 | VO | Volume | CL | Conceptualisation and Learning (dropped) |
 
 ## Repository structure
 
 ```text
 .
-├── charxiv_scoring/          # DATA LAYER: DeLeAn annotation pipeline + released-correctness DB
-│   ├── annotations_charxiv.db    #   SQLite: item(1000), annotation(1000x12 dims), model_score
+├── charxiv_scoring/          # Data layer: DeLeAn annotation pipeline + released-correctness DB
+│   ├── annotations_charxiv.db                 #   SQLite: item(1000), annotation(1000x12 dims), model_score
 │   ├── build_db.py items.py scores.py db.py   #   build and parse the database
 │   ├── prepare.py collect_cli.py scrape.py    #   demand-annotation pass (isolated Sonnet subagents)
-│   └── rubrics/                  #   the DeLeAn rubric definitions
+│   └── rubrics/                               #   the DeLeAn rubric definitions
 ├── charxiv_analysis/         # shared loaders + the cached 800/200 split (read by src/)
 │   ├── mann_whitney_analysis.py  #   loaders: load_rubric, load_correctness, make_or_load_split
 │   └── train_test_split.json     #   cached 800/200 split (seed 20260618)
-├── src/                      # REUSABLE MODELING CODE
+├── src/                      # Reusable modeling code
 │   ├── features/                 #   preprocessing.py, transformers.py, build_schema.py
 │   ├── splits/                   #   splitters.py (paper-grouped item_holdout cross-validation)
 │   ├── eval/                     #   core.py (grouped cross-validation runner), stress_tests.py, bootstrap.py
 │   └── models/                   #   registry.py, tune.py, train.py, interpret.py
-├── notebooks/                # CharXiv notebooks 11 through 20 (by checkpoint)
+├── notebooks/                # CharXiv notebooks 11 through 20 
 ├── results/                  # cross-validation metric tables, EDA, stress-test outputs, and results/final/
 ├── artifacts/                # the serialized final per-target models and thresholds
-├── presentation/            # slide deck source (build_deck.py), the .pptx, and the speaking script
+├── presentation/             # slide deck for final presentation
 ├── tests/                    # test_pipeline.py, test_splits.py, test_models.py, test_bootstrap.py
-├── project_checkpoints/      # the five checkpoint guides (01 to 05)
+├── project_checkpoints/      # the five checkpoint guides
 ├── docs/                     # developer logs and the superpowers plans and specs
-├── prior_analyses/           # LEGACY, not part of this project: earlier SciVer and SciClaimEval work,
-│                             #   notebooks 01 to 10, and older analysis scripts
-├── rubric_scoring/           # LEGACY, not part of this project (see CLAUDE.md)
+├── prior_analyses/           # earlier SciVer and SciClaimEval work
+├── rubric_scoring/           # older rubric development work
 ├── README.md  executive_summary.md  kpis.md  evaluation_plan.md  modeling_plan.md
 └── requirements.txt  pyproject.toml  run.sh
 ```
