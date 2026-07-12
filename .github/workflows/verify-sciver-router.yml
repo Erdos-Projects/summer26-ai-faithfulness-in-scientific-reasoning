@@ -1,0 +1,30 @@
+name: Verify SciVer router package
+
+on:
+  push:
+    branches: [sciver-router]
+    paths:
+      - "sciver_router/**"
+      - ".github/workflows/verify-sciver-router.yml"
+  pull_request:
+    paths:
+      - "sciver_router/**"
+      - ".github/workflows/verify-sciver-router.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: sciver_router/requirements.txt
+      - name: Install verifier dependency
+        run: python -m pip install pandas
+      - name: Verify sanitized SciVer router artifacts
+        run: python sciver_router/scripts/verify_public_router_release.py --root sciver_router

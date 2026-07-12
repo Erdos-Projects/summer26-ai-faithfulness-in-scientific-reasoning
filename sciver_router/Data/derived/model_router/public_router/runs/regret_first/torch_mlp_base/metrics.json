@@ -1,0 +1,4719 @@
+{
+  "bootstrap_summary": {
+    "group_col": "paper_id",
+    "interval_method": "percentile",
+    "metrics": {
+      "mean_regret": {
+        "mean": 0.33218801444865403,
+        "p025": 0.2764227642276423,
+        "p500": 0.3327731092436975,
+        "p975": 0.3860986481549142
+      },
+      "median_regret": {
+        "mean": 0.24740000000000004,
+        "p025": 0.2,
+        "p500": 0.2,
+        "p975": 0.4
+      },
+      "top1_hit_rate": {
+        "mean": 0.35877868738469304,
+        "p025": 0.27497983870967746,
+        "p500": 0.35833333333333334,
+        "p975": 0.4444444444444444
+      }
+    },
+    "n_bootstrap": 1000,
+    "seed": 215,
+    "source_groups": 90,
+    "source_rows": 120
+  },
+  "candidate_cv_summary": [
+    {
+      "activation": "relu",
+      "alpha": 0.001,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.244203,
+          "rows": 276,
+          "top1_hit_rate": 0.503623
+        },
+        "direct": {
+          "mean_regret": 0.242466,
+          "rows": 292,
+          "top1_hit_rate": 0.482877
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.243733,
+          "rows": 375,
+          "top1_hit_rate": 0.493333
+        },
+        "val": {
+          "mean_regret": 0.242487,
+          "rows": 193,
+          "top1_hit_rate": 0.492228
+        }
+      },
+      "candidate_id": "mlp_layers=32x32_act=relu_alpha=0.001",
+      "complexity_label": "torch mlp 32x32 relu a=0.001",
+      "complexity_order": 58,
+      "complexity_score": 2147.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.799449,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        32,
+        32
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.414675,
+      "mae_pixtral12b": 0.368617,
+      "mae_qwen3vl": 0.392162,
+      "max_hidden_width": 32,
+      "mean_regret": 0.24331,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 2147,
+      "rmse_kimi_vl_a3b": 0.51732,
+      "rmse_pixtral12b": 0.459729,
+      "rmse_qwen3vl": 0.495913,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 148,
+        "pixtral12b": 163,
+        "qwen3vl": 257
+      },
+      "top1_hit_rate": 0.492958
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.1,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.247826,
+          "rows": 276,
+          "top1_hit_rate": 0.456522
+        },
+        "direct": {
+          "mean_regret": 0.244521,
+          "rows": 292,
+          "top1_hit_rate": 0.472603
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.254933,
+          "rows": 375,
+          "top1_hit_rate": 0.445333
+        },
+        "val": {
+          "mean_regret": 0.229016,
+          "rows": 193,
+          "top1_hit_rate": 0.502591
+        }
+      },
+      "candidate_id": "mlp_layers=32_act=relu_alpha=0.1",
+      "complexity_label": "torch mlp 32 relu a=0.1",
+      "complexity_order": 20,
+      "complexity_score": 1091.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.221355,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        32
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.404974,
+      "mae_pixtral12b": 0.330719,
+      "mae_qwen3vl": 0.412529,
+      "max_hidden_width": 32,
+      "mean_regret": 0.246127,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 1091,
+      "rmse_kimi_vl_a3b": 0.504516,
+      "rmse_pixtral12b": 0.417163,
+      "rmse_qwen3vl": 0.498109,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 127,
+        "pixtral12b": 200,
+        "qwen3vl": 241
+      },
+      "top1_hit_rate": 0.464789
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.001,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.234783,
+          "rows": 276,
+          "top1_hit_rate": 0.518116
+        },
+        "direct": {
+          "mean_regret": 0.259589,
+          "rows": 292,
+          "top1_hit_rate": 0.445205
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.2496,
+          "rows": 375,
+          "top1_hit_rate": 0.474667
+        },
+        "val": {
+          "mean_regret": 0.243523,
+          "rows": 193,
+          "top1_hit_rate": 0.492228
+        }
+      },
+      "candidate_id": "mlp_layers=16_act=relu_alpha=0.001",
+      "complexity_label": "torch mlp 16 relu a=0.001",
+      "complexity_order": 10,
+      "complexity_score": 547.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.155006,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        16
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.368527,
+      "mae_pixtral12b": 0.315296,
+      "mae_qwen3vl": 0.373382,
+      "max_hidden_width": 16,
+      "mean_regret": 0.247535,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 547,
+      "rmse_kimi_vl_a3b": 0.447604,
+      "rmse_pixtral12b": 0.382883,
+      "rmse_qwen3vl": 0.465204,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 121,
+        "pixtral12b": 196,
+        "qwen3vl": 251
+      },
+      "top1_hit_rate": 0.480634
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.01,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.244203,
+          "rows": 276,
+          "top1_hit_rate": 0.471014
+        },
+        "direct": {
+          "mean_regret": 0.258904,
+          "rows": 292,
+          "top1_hit_rate": 0.438356
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.258667,
+          "rows": 375,
+          "top1_hit_rate": 0.44
+        },
+        "val": {
+          "mean_regret": 0.238342,
+          "rows": 193,
+          "top1_hit_rate": 0.481865
+        }
+      },
+      "candidate_id": "mlp_layers=32_act=relu_alpha=0.01",
+      "complexity_label": "torch mlp 32 relu a=0.01",
+      "complexity_order": 19,
+      "complexity_score": 1091.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.219775,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        32
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.428927,
+      "mae_pixtral12b": 0.349102,
+      "mae_qwen3vl": 0.38962,
+      "max_hidden_width": 32,
+      "mean_regret": 0.251761,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 1091,
+      "rmse_kimi_vl_a3b": 0.522619,
+      "rmse_pixtral12b": 0.431941,
+      "rmse_qwen3vl": 0.490806,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 135,
+        "pixtral12b": 182,
+        "qwen3vl": 251
+      },
+      "top1_hit_rate": 0.454225
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.0001,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.26087,
+          "rows": 276,
+          "top1_hit_rate": 0.485507
+        },
+        "direct": {
+          "mean_regret": 0.246575,
+          "rows": 292,
+          "top1_hit_rate": 0.462329
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.260267,
+          "rows": 375,
+          "top1_hit_rate": 0.466667
+        },
+        "val": {
+          "mean_regret": 0.240415,
+          "rows": 193,
+          "top1_hit_rate": 0.487047
+        }
+      },
+      "candidate_id": "mlp_layers=16x16_act=relu_alpha=0.0001",
+      "complexity_label": "torch mlp 16x16 relu a=0.0001",
+      "complexity_order": 41,
+      "complexity_score": 819.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.353634,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        16,
+        16
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.371673,
+      "mae_pixtral12b": 0.354303,
+      "mae_qwen3vl": 0.391282,
+      "max_hidden_width": 16,
+      "mean_regret": 0.253521,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 819,
+      "rmse_kimi_vl_a3b": 0.460167,
+      "rmse_pixtral12b": 0.44082,
+      "rmse_qwen3vl": 0.491521,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 123,
+        "pixtral12b": 177,
+        "qwen3vl": 268
+      },
+      "top1_hit_rate": 0.473592
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.0001,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.260145,
+          "rows": 276,
+          "top1_hit_rate": 0.48913
+        },
+        "direct": {
+          "mean_regret": 0.254795,
+          "rows": 292,
+          "top1_hit_rate": 0.458904
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.260267,
+          "rows": 375,
+          "top1_hit_rate": 0.472
+        },
+        "val": {
+          "mean_regret": 0.251813,
+          "rows": 193,
+          "top1_hit_rate": 0.476684
+        }
+      },
+      "candidate_id": "mlp_layers=32_act=relu_alpha=0.0001",
+      "complexity_label": "torch mlp 32 relu a=0.0001",
+      "complexity_order": 17,
+      "complexity_score": 1091.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.220986,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        32
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.402529,
+      "mae_pixtral12b": 0.342532,
+      "mae_qwen3vl": 0.387346,
+      "max_hidden_width": 32,
+      "mean_regret": 0.257394,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 1091,
+      "rmse_kimi_vl_a3b": 0.501082,
+      "rmse_pixtral12b": 0.428884,
+      "rmse_qwen3vl": 0.48583,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 135,
+        "pixtral12b": 205,
+        "qwen3vl": 228
+      },
+      "top1_hit_rate": 0.473592
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.1,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.257246,
+          "rows": 276,
+          "top1_hit_rate": 0.481884
+        },
+        "direct": {
+          "mean_regret": 0.265068,
+          "rows": 292,
+          "top1_hit_rate": 0.410959
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.271467,
+          "rows": 375,
+          "top1_hit_rate": 0.450667
+        },
+        "val": {
+          "mean_regret": 0.241451,
+          "rows": 193,
+          "top1_hit_rate": 0.435233
+        }
+      },
+      "candidate_id": "mlp_layers=64x32_act=relu_alpha=0.1",
+      "complexity_label": "torch mlp 64x32 relu a=0.1",
+      "complexity_order": 68,
+      "complexity_score": 4163.0,
+      "cv_folds": 10,
+      "fit_seconds": 2.070551,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        64,
+        32
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.389114,
+      "mae_pixtral12b": 0.342813,
+      "mae_qwen3vl": 0.37484,
+      "max_hidden_width": 64,
+      "mean_regret": 0.261268,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 4163,
+      "rmse_kimi_vl_a3b": 0.476698,
+      "rmse_pixtral12b": 0.422464,
+      "rmse_qwen3vl": 0.469293,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 184,
+        "pixtral12b": 163,
+        "qwen3vl": 221
+      },
+      "top1_hit_rate": 0.445423
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.1,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.248551,
+          "rows": 276,
+          "top1_hit_rate": 0.507246
+        },
+        "direct": {
+          "mean_regret": 0.274658,
+          "rows": 292,
+          "top1_hit_rate": 0.428082
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.262933,
+          "rows": 375,
+          "top1_hit_rate": 0.474667
+        },
+        "val": {
+          "mean_regret": 0.260104,
+          "rows": 193,
+          "top1_hit_rate": 0.450777
+        }
+      },
+      "candidate_id": "mlp_layers=8_act=relu_alpha=0.1",
+      "complexity_label": "torch mlp 8 relu a=0.1",
+      "complexity_order": 4,
+      "complexity_score": 275.0,
+      "cv_folds": 10,
+      "fit_seconds": 0.953386,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        8
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.340185,
+      "mae_pixtral12b": 0.30387,
+      "mae_qwen3vl": 0.364651,
+      "max_hidden_width": 8,
+      "mean_regret": 0.261972,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 275,
+      "rmse_kimi_vl_a3b": 0.404034,
+      "rmse_pixtral12b": 0.363571,
+      "rmse_qwen3vl": 0.433136,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 106,
+        "pixtral12b": 193,
+        "qwen3vl": 269
+      },
+      "top1_hit_rate": 0.466549
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.0001,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.263043,
+          "rows": 276,
+          "top1_hit_rate": 0.463768
+        },
+        "direct": {
+          "mean_regret": 0.263014,
+          "rows": 292,
+          "top1_hit_rate": 0.465753
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.269867,
+          "rows": 375,
+          "top1_hit_rate": 0.461333
+        },
+        "val": {
+          "mean_regret": 0.249741,
+          "rows": 193,
+          "top1_hit_rate": 0.471503
+        }
+      },
+      "candidate_id": "mlp_layers=64x32_act=tanh_alpha=0.0001",
+      "complexity_label": "torch mlp 64x32 tanh a=0.0001",
+      "complexity_order": 69,
+      "complexity_score": 4163.0,
+      "cv_folds": 10,
+      "fit_seconds": 2.178399,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        64,
+        32
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.409553,
+      "mae_pixtral12b": 0.36652,
+      "mae_qwen3vl": 0.411926,
+      "max_hidden_width": 64,
+      "mean_regret": 0.263028,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 4163,
+      "rmse_kimi_vl_a3b": 0.504919,
+      "rmse_pixtral12b": 0.455328,
+      "rmse_qwen3vl": 0.51136,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 168,
+        "pixtral12b": 183,
+        "qwen3vl": 217
+      },
+      "top1_hit_rate": 0.464789
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.0001,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.251449,
+          "rows": 276,
+          "top1_hit_rate": 0.485507
+        },
+        "direct": {
+          "mean_regret": 0.276712,
+          "rows": 292,
+          "top1_hit_rate": 0.434932
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.267733,
+          "rows": 375,
+          "top1_hit_rate": 0.464
+        },
+        "val": {
+          "mean_regret": 0.258031,
+          "rows": 193,
+          "top1_hit_rate": 0.450777
+        }
+      },
+      "candidate_id": "mlp_layers=16_act=relu_alpha=0.0001",
+      "complexity_label": "torch mlp 16 relu a=0.0001",
+      "complexity_order": 9,
+      "complexity_score": 547.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.192048,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        16
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.349621,
+      "mae_pixtral12b": 0.318911,
+      "mae_qwen3vl": 0.373421,
+      "max_hidden_width": 16,
+      "mean_regret": 0.264437,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 547,
+      "rmse_kimi_vl_a3b": 0.433228,
+      "rmse_pixtral12b": 0.386799,
+      "rmse_qwen3vl": 0.46471,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 119,
+        "pixtral12b": 187,
+        "qwen3vl": 262
+      },
+      "top1_hit_rate": 0.459507
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.1,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.254348,
+          "rows": 276,
+          "top1_hit_rate": 0.496377
+        },
+        "direct": {
+          "mean_regret": 0.276712,
+          "rows": 292,
+          "top1_hit_rate": 0.400685
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.264533,
+          "rows": 375,
+          "top1_hit_rate": 0.448
+        },
+        "val": {
+          "mean_regret": 0.268394,
+          "rows": 193,
+          "top1_hit_rate": 0.445596
+        }
+      },
+      "candidate_id": "mlp_layers=16x16_act=relu_alpha=0.1",
+      "complexity_label": "torch mlp 16x16 relu a=0.1",
+      "complexity_order": 44,
+      "complexity_score": 819.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.355028,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        16,
+        16
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.379521,
+      "mae_pixtral12b": 0.344906,
+      "mae_qwen3vl": 0.423936,
+      "max_hidden_width": 16,
+      "mean_regret": 0.265845,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 819,
+      "rmse_kimi_vl_a3b": 0.469814,
+      "rmse_pixtral12b": 0.426705,
+      "rmse_qwen3vl": 0.518234,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 130,
+        "pixtral12b": 187,
+        "qwen3vl": 251
+      },
+      "top1_hit_rate": 0.447183
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.001,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.25942,
+          "rows": 276,
+          "top1_hit_rate": 0.456522
+        },
+        "direct": {
+          "mean_regret": 0.272603,
+          "rows": 292,
+          "top1_hit_rate": 0.438356
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.2528,
+          "rows": 375,
+          "top1_hit_rate": 0.469333
+        },
+        "val": {
+          "mean_regret": 0.292228,
+          "rows": 193,
+          "top1_hit_rate": 0.404145
+        }
+      },
+      "candidate_id": "mlp_layers=32x16_act=tanh_alpha=0.001",
+      "complexity_label": "torch mlp 32x16 tanh a=0.001",
+      "complexity_order": 54,
+      "complexity_score": 1571.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.62395,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        32,
+        16
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.404391,
+      "mae_pixtral12b": 0.377519,
+      "mae_qwen3vl": 0.43358,
+      "max_hidden_width": 32,
+      "mean_regret": 0.266197,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 1571,
+      "rmse_kimi_vl_a3b": 0.506067,
+      "rmse_pixtral12b": 0.467979,
+      "rmse_qwen3vl": 0.538674,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 141,
+        "pixtral12b": 190,
+        "qwen3vl": 237
+      },
+      "top1_hit_rate": 0.447183
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.1,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.260145,
+          "rows": 276,
+          "top1_hit_rate": 0.481884
+        },
+        "direct": {
+          "mean_regret": 0.273973,
+          "rows": 292,
+          "top1_hit_rate": 0.445205
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.261333,
+          "rows": 375,
+          "top1_hit_rate": 0.48
+        },
+        "val": {
+          "mean_regret": 0.278756,
+          "rows": 193,
+          "top1_hit_rate": 0.430052
+        }
+      },
+      "candidate_id": "mlp_layers=8x8_act=tanh_alpha=0.1",
+      "complexity_label": "torch mlp 8x8 tanh a=0.1",
+      "complexity_order": 40,
+      "complexity_score": 347.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.425416,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        8,
+        8
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.372177,
+      "mae_pixtral12b": 0.330184,
+      "mae_qwen3vl": 0.396986,
+      "max_hidden_width": 8,
+      "mean_regret": 0.267254,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 347,
+      "rmse_kimi_vl_a3b": 0.44744,
+      "rmse_pixtral12b": 0.391815,
+      "rmse_qwen3vl": 0.476787,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 129,
+        "pixtral12b": 194,
+        "qwen3vl": 245
+      },
+      "top1_hit_rate": 0.463028
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.01,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.282609,
+          "rows": 276,
+          "top1_hit_rate": 0.427536
+        },
+        "direct": {
+          "mean_regret": 0.255479,
+          "rows": 292,
+          "top1_hit_rate": 0.465753
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.277333,
+          "rows": 375,
+          "top1_hit_rate": 0.429333
+        },
+        "val": {
+          "mean_regret": 0.251813,
+          "rows": 193,
+          "top1_hit_rate": 0.481865
+        }
+      },
+      "candidate_id": "mlp_layers=16x16_act=tanh_alpha=0.01",
+      "complexity_label": "torch mlp 16x16 tanh a=0.01",
+      "complexity_order": 47,
+      "complexity_score": 819.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.587568,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        16,
+        16
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.408961,
+      "mae_pixtral12b": 0.35748,
+      "mae_qwen3vl": 0.420402,
+      "max_hidden_width": 16,
+      "mean_regret": 0.268662,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 819,
+      "rmse_kimi_vl_a3b": 0.50746,
+      "rmse_pixtral12b": 0.439977,
+      "rmse_qwen3vl": 0.522195,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 140,
+        "pixtral12b": 185,
+        "qwen3vl": 243
+      },
+      "top1_hit_rate": 0.447183
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.0001,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.273913,
+          "rows": 276,
+          "top1_hit_rate": 0.474638
+        },
+        "direct": {
+          "mean_regret": 0.267808,
+          "rows": 292,
+          "top1_hit_rate": 0.434932
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.293333,
+          "rows": 375,
+          "top1_hit_rate": 0.434667
+        },
+        "val": {
+          "mean_regret": 0.226943,
+          "rows": 193,
+          "top1_hit_rate": 0.492228
+        }
+      },
+      "candidate_id": "mlp_layers=32x32_act=tanh_alpha=0.0001",
+      "complexity_label": "torch mlp 32x32 tanh a=0.0001",
+      "complexity_order": 61,
+      "complexity_score": 2147.0,
+      "cv_folds": 10,
+      "fit_seconds": 2.057068,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        32,
+        32
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.420167,
+      "mae_pixtral12b": 0.368486,
+      "mae_qwen3vl": 0.409778,
+      "max_hidden_width": 32,
+      "mean_regret": 0.270775,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 2147,
+      "rmse_kimi_vl_a3b": 0.513521,
+      "rmse_pixtral12b": 0.454695,
+      "rmse_qwen3vl": 0.504709,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 170,
+        "pixtral12b": 170,
+        "qwen3vl": 228
+      },
+      "top1_hit_rate": 0.454225
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.001,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.278986,
+          "rows": 276,
+          "top1_hit_rate": 0.442029
+        },
+        "direct": {
+          "mean_regret": 0.265753,
+          "rows": 292,
+          "top1_hit_rate": 0.472603
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.278933,
+          "rows": 375,
+          "top1_hit_rate": 0.456
+        },
+        "val": {
+          "mean_regret": 0.259067,
+          "rows": 193,
+          "top1_hit_rate": 0.46114
+        }
+      },
+      "candidate_id": "mlp_layers=64x32_act=tanh_alpha=0.001",
+      "complexity_label": "torch mlp 64x32 tanh a=0.001",
+      "complexity_order": 70,
+      "complexity_score": 4163.0,
+      "cv_folds": 10,
+      "fit_seconds": 2.20686,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        64,
+        32
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.404483,
+      "mae_pixtral12b": 0.365088,
+      "mae_qwen3vl": 0.407844,
+      "max_hidden_width": 64,
+      "mean_regret": 0.272183,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 4163,
+      "rmse_kimi_vl_a3b": 0.501848,
+      "rmse_pixtral12b": 0.454043,
+      "rmse_qwen3vl": 0.50878,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 168,
+        "pixtral12b": 186,
+        "qwen3vl": 214
+      },
+      "top1_hit_rate": 0.457746
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.01,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.245652,
+          "rows": 276,
+          "top1_hit_rate": 0.507246
+        },
+        "direct": {
+          "mean_regret": 0.29726,
+          "rows": 292,
+          "top1_hit_rate": 0.407534
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.282133,
+          "rows": 375,
+          "top1_hit_rate": 0.445333
+        },
+        "val": {
+          "mean_regret": 0.25285,
+          "rows": 193,
+          "top1_hit_rate": 0.476684
+        }
+      },
+      "candidate_id": "mlp_layers=32x16_act=relu_alpha=0.01",
+      "complexity_label": "torch mlp 32x16 relu a=0.01",
+      "complexity_order": 51,
+      "complexity_score": 1571.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.42807,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        32,
+        16
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.41515,
+      "mae_pixtral12b": 0.378211,
+      "mae_qwen3vl": 0.424202,
+      "max_hidden_width": 32,
+      "mean_regret": 0.272183,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 1571,
+      "rmse_kimi_vl_a3b": 0.50717,
+      "rmse_pixtral12b": 0.457379,
+      "rmse_qwen3vl": 0.536478,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 137,
+        "pixtral12b": 189,
+        "qwen3vl": 242
+      },
+      "top1_hit_rate": 0.455986
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.001,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.286232,
+          "rows": 276,
+          "top1_hit_rate": 0.434783
+        },
+        "direct": {
+          "mean_regret": 0.258904,
+          "rows": 292,
+          "top1_hit_rate": 0.452055
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.270933,
+          "rows": 375,
+          "top1_hit_rate": 0.464
+        },
+        "val": {
+          "mean_regret": 0.274611,
+          "rows": 193,
+          "top1_hit_rate": 0.404145
+        }
+      },
+      "candidate_id": "mlp_layers=16x16_act=tanh_alpha=0.001",
+      "complexity_label": "torch mlp 16x16 tanh a=0.001",
+      "complexity_order": 46,
+      "complexity_score": 819.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.528651,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        16,
+        16
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.401369,
+      "mae_pixtral12b": 0.353918,
+      "mae_qwen3vl": 0.415151,
+      "max_hidden_width": 16,
+      "mean_regret": 0.272183,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 819,
+      "rmse_kimi_vl_a3b": 0.496638,
+      "rmse_pixtral12b": 0.441601,
+      "rmse_qwen3vl": 0.519896,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 155,
+        "pixtral12b": 166,
+        "qwen3vl": 247
+      },
+      "top1_hit_rate": 0.443662
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.01,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.266667,
+          "rows": 276,
+          "top1_hit_rate": 0.48913
+        },
+        "direct": {
+          "mean_regret": 0.278082,
+          "rows": 292,
+          "top1_hit_rate": 0.421233
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.266667,
+          "rows": 375,
+          "top1_hit_rate": 0.48
+        },
+        "val": {
+          "mean_regret": 0.283938,
+          "rows": 193,
+          "top1_hit_rate": 0.404145
+        }
+      },
+      "candidate_id": "mlp_layers=16_act=relu_alpha=0.01",
+      "complexity_label": "torch mlp 16 relu a=0.01",
+      "complexity_order": 11,
+      "complexity_score": 547.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.174378,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        16
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.362304,
+      "mae_pixtral12b": 0.312979,
+      "mae_qwen3vl": 0.384669,
+      "max_hidden_width": 16,
+      "mean_regret": 0.272535,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 547,
+      "rmse_kimi_vl_a3b": 0.440354,
+      "rmse_pixtral12b": 0.383377,
+      "rmse_qwen3vl": 0.478469,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 116,
+        "pixtral12b": 193,
+        "qwen3vl": 259
+      },
+      "top1_hit_rate": 0.454225
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.1,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.273913,
+          "rows": 276,
+          "top1_hit_rate": 0.460145
+        },
+        "direct": {
+          "mean_regret": 0.271233,
+          "rows": 292,
+          "top1_hit_rate": 0.438356
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.2768,
+          "rows": 375,
+          "top1_hit_rate": 0.442667
+        },
+        "val": {
+          "mean_regret": 0.264249,
+          "rows": 193,
+          "top1_hit_rate": 0.46114
+        }
+      },
+      "candidate_id": "mlp_layers=32x32_act=relu_alpha=0.1",
+      "complexity_label": "torch mlp 32x32 relu a=0.1",
+      "complexity_order": 60,
+      "complexity_score": 2147.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.81159,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        32,
+        32
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.402995,
+      "mae_pixtral12b": 0.365954,
+      "mae_qwen3vl": 0.379842,
+      "max_hidden_width": 32,
+      "mean_regret": 0.272535,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 2147,
+      "rmse_kimi_vl_a3b": 0.497658,
+      "rmse_pixtral12b": 0.447856,
+      "rmse_qwen3vl": 0.482554,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 156,
+        "pixtral12b": 162,
+        "qwen3vl": 250
+      },
+      "top1_hit_rate": 0.448944
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.1,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.263043,
+          "rows": 276,
+          "top1_hit_rate": 0.467391
+        },
+        "direct": {
+          "mean_regret": 0.281507,
+          "rows": 292,
+          "top1_hit_rate": 0.424658
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.282667,
+          "rows": 375,
+          "top1_hit_rate": 0.442667
+        },
+        "val": {
+          "mean_regret": 0.25285,
+          "rows": 193,
+          "top1_hit_rate": 0.450777
+        }
+      },
+      "candidate_id": "mlp_layers=8x8_act=relu_alpha=0.1",
+      "complexity_label": "torch mlp 8x8 relu a=0.1",
+      "complexity_order": 36,
+      "complexity_score": 347.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.283756,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        8,
+        8
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.347092,
+      "mae_pixtral12b": 0.308028,
+      "mae_qwen3vl": 0.366562,
+      "max_hidden_width": 8,
+      "mean_regret": 0.272535,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 347,
+      "rmse_kimi_vl_a3b": 0.411043,
+      "rmse_pixtral12b": 0.371113,
+      "rmse_qwen3vl": 0.439178,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 102,
+        "pixtral12b": 171,
+        "qwen3vl": 295
+      },
+      "top1_hit_rate": 0.445423
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.01,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.273188,
+          "rows": 276,
+          "top1_hit_rate": 0.478261
+        },
+        "direct": {
+          "mean_regret": 0.272603,
+          "rows": 292,
+          "top1_hit_rate": 0.424658
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.285867,
+          "rows": 375,
+          "top1_hit_rate": 0.442667
+        },
+        "val": {
+          "mean_regret": 0.247668,
+          "rows": 193,
+          "top1_hit_rate": 0.466321
+        }
+      },
+      "candidate_id": "mlp_layers=32x32_act=tanh_alpha=0.01",
+      "complexity_label": "torch mlp 32x32 tanh a=0.01",
+      "complexity_order": 63,
+      "complexity_score": 2147.0,
+      "cv_folds": 10,
+      "fit_seconds": 2.006482,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        32,
+        32
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.422859,
+      "mae_pixtral12b": 0.368638,
+      "mae_qwen3vl": 0.405855,
+      "max_hidden_width": 32,
+      "mean_regret": 0.272887,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 2147,
+      "rmse_kimi_vl_a3b": 0.515475,
+      "rmse_pixtral12b": 0.453601,
+      "rmse_qwen3vl": 0.507295,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 153,
+        "pixtral12b": 180,
+        "qwen3vl": 235
+      },
+      "top1_hit_rate": 0.450704
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.001,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.281884,
+          "rows": 276,
+          "top1_hit_rate": 0.456522
+        },
+        "direct": {
+          "mean_regret": 0.265068,
+          "rows": 292,
+          "top1_hit_rate": 0.44863
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.270933,
+          "rows": 375,
+          "top1_hit_rate": 0.461333
+        },
+        "val": {
+          "mean_regret": 0.27772,
+          "rows": 193,
+          "top1_hit_rate": 0.435233
+        }
+      },
+      "candidate_id": "mlp_layers=32_act=relu_alpha=0.001",
+      "complexity_label": "torch mlp 32 relu a=0.001",
+      "complexity_order": 18,
+      "complexity_score": 1091.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.222486,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        32
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.399718,
+      "mae_pixtral12b": 0.352372,
+      "mae_qwen3vl": 0.393803,
+      "max_hidden_width": 32,
+      "mean_regret": 0.273239,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 1091,
+      "rmse_kimi_vl_a3b": 0.501888,
+      "rmse_pixtral12b": 0.437998,
+      "rmse_qwen3vl": 0.496865,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 126,
+        "pixtral12b": 196,
+        "qwen3vl": 246
+      },
+      "top1_hit_rate": 0.452465
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.001,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.276087,
+          "rows": 276,
+          "top1_hit_rate": 0.478261
+        },
+        "direct": {
+          "mean_regret": 0.271233,
+          "rows": 292,
+          "top1_hit_rate": 0.434932
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.293333,
+          "rows": 375,
+          "top1_hit_rate": 0.442667
+        },
+        "val": {
+          "mean_regret": 0.235233,
+          "rows": 193,
+          "top1_hit_rate": 0.481865
+        }
+      },
+      "candidate_id": "mlp_layers=32x32_act=tanh_alpha=0.001",
+      "complexity_label": "torch mlp 32x32 tanh a=0.001",
+      "complexity_order": 62,
+      "complexity_score": 2147.0,
+      "cv_folds": 10,
+      "fit_seconds": 2.016655,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        32,
+        32
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.419966,
+      "mae_pixtral12b": 0.365828,
+      "mae_qwen3vl": 0.403913,
+      "max_hidden_width": 32,
+      "mean_regret": 0.273592,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 2147,
+      "rmse_kimi_vl_a3b": 0.519152,
+      "rmse_pixtral12b": 0.453913,
+      "rmse_qwen3vl": 0.502344,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 155,
+        "pixtral12b": 178,
+        "qwen3vl": 235
+      },
+      "top1_hit_rate": 0.455986
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.1,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.263768,
+          "rows": 276,
+          "top1_hit_rate": 0.456522
+        },
+        "direct": {
+          "mean_regret": 0.282877,
+          "rows": 292,
+          "top1_hit_rate": 0.410959
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.264,
+          "rows": 375,
+          "top1_hit_rate": 0.464
+        },
+        "val": {
+          "mean_regret": 0.292228,
+          "rows": 193,
+          "top1_hit_rate": 0.373057
+        }
+      },
+      "candidate_id": "mlp_layers=64_act=relu_alpha=0.1",
+      "complexity_label": "torch mlp 64 relu a=0.1",
+      "complexity_order": 28,
+      "complexity_score": 2179.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.710087,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        64
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.42178,
+      "mae_pixtral12b": 0.368839,
+      "mae_qwen3vl": 0.399951,
+      "max_hidden_width": 64,
+      "mean_regret": 0.273592,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 2179,
+      "rmse_kimi_vl_a3b": 0.52037,
+      "rmse_pixtral12b": 0.450209,
+      "rmse_qwen3vl": 0.50076,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 158,
+        "pixtral12b": 170,
+        "qwen3vl": 240
+      },
+      "top1_hit_rate": 0.433099
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.001,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.271739,
+          "rows": 276,
+          "top1_hit_rate": 0.456522
+        },
+        "direct": {
+          "mean_regret": 0.276027,
+          "rows": 292,
+          "top1_hit_rate": 0.407534
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.2784,
+          "rows": 375,
+          "top1_hit_rate": 0.44
+        },
+        "val": {
+          "mean_regret": 0.265285,
+          "rows": 193,
+          "top1_hit_rate": 0.414508
+        }
+      },
+      "candidate_id": "mlp_layers=64_act=relu_alpha=0.001",
+      "complexity_label": "torch mlp 64 relu a=0.001",
+      "complexity_order": 26,
+      "complexity_score": 2179.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.713749,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        64
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.449882,
+      "mae_pixtral12b": 0.396968,
+      "mae_qwen3vl": 0.406294,
+      "max_hidden_width": 64,
+      "mean_regret": 0.273944,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 2179,
+      "rmse_kimi_vl_a3b": 0.55112,
+      "rmse_pixtral12b": 0.489043,
+      "rmse_qwen3vl": 0.514516,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 149,
+        "pixtral12b": 179,
+        "qwen3vl": 240
+      },
+      "top1_hit_rate": 0.431338
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.0001,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.263043,
+          "rows": 276,
+          "top1_hit_rate": 0.478261
+        },
+        "direct": {
+          "mean_regret": 0.284932,
+          "rows": 292,
+          "top1_hit_rate": 0.424658
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.2864,
+          "rows": 375,
+          "top1_hit_rate": 0.44
+        },
+        "val": {
+          "mean_regret": 0.250777,
+          "rows": 193,
+          "top1_hit_rate": 0.471503
+        }
+      },
+      "candidate_id": "mlp_layers=8x8_act=relu_alpha=0.0001",
+      "complexity_label": "torch mlp 8x8 relu a=0.0001",
+      "complexity_order": 33,
+      "complexity_score": 347.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.182091,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        8,
+        8
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.351312,
+      "mae_pixtral12b": 0.307784,
+      "mae_qwen3vl": 0.379002,
+      "max_hidden_width": 8,
+      "mean_regret": 0.274296,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 347,
+      "rmse_kimi_vl_a3b": 0.42102,
+      "rmse_pixtral12b": 0.371743,
+      "rmse_qwen3vl": 0.451504,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 97,
+        "pixtral12b": 168,
+        "qwen3vl": 303
+      },
+      "top1_hit_rate": 0.450704
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.0001,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.246377,
+          "rows": 276,
+          "top1_hit_rate": 0.51087
+        },
+        "direct": {
+          "mean_regret": 0.300685,
+          "rows": 292,
+          "top1_hit_rate": 0.383562
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.264533,
+          "rows": 375,
+          "top1_hit_rate": 0.461333
+        },
+        "val": {
+          "mean_regret": 0.293264,
+          "rows": 193,
+          "top1_hit_rate": 0.414508
+        }
+      },
+      "candidate_id": "mlp_layers=8_act=relu_alpha=0.0001",
+      "complexity_label": "torch mlp 8 relu a=0.0001",
+      "complexity_order": 1,
+      "complexity_score": 275.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.058462,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        8
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.340346,
+      "mae_pixtral12b": 0.308091,
+      "mae_qwen3vl": 0.362207,
+      "max_hidden_width": 8,
+      "mean_regret": 0.274296,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 275,
+      "rmse_kimi_vl_a3b": 0.402208,
+      "rmse_pixtral12b": 0.366296,
+      "rmse_qwen3vl": 0.437611,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 107,
+        "pixtral12b": 180,
+        "qwen3vl": 281
+      },
+      "top1_hit_rate": 0.445423
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.1,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.252899,
+          "rows": 276,
+          "top1_hit_rate": 0.48913
+        },
+        "direct": {
+          "mean_regret": 0.294521,
+          "rows": 292,
+          "top1_hit_rate": 0.373288
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.271467,
+          "rows": 375,
+          "top1_hit_rate": 0.44
+        },
+        "val": {
+          "mean_regret": 0.279793,
+          "rows": 193,
+          "top1_hit_rate": 0.409326
+        }
+      },
+      "candidate_id": "mlp_layers=16_act=relu_alpha=0.1",
+      "complexity_label": "torch mlp 16 relu a=0.1",
+      "complexity_order": 12,
+      "complexity_score": 547.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.174105,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        16
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.360238,
+      "mae_pixtral12b": 0.312423,
+      "mae_qwen3vl": 0.390559,
+      "max_hidden_width": 16,
+      "mean_regret": 0.274296,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 547,
+      "rmse_kimi_vl_a3b": 0.437818,
+      "rmse_pixtral12b": 0.378067,
+      "rmse_qwen3vl": 0.483728,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 113,
+        "pixtral12b": 209,
+        "qwen3vl": 246
+      },
+      "top1_hit_rate": 0.429577
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.01,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.273913,
+          "rows": 276,
+          "top1_hit_rate": 0.438406
+        },
+        "direct": {
+          "mean_regret": 0.274658,
+          "rows": 292,
+          "top1_hit_rate": 0.410959
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.278933,
+          "rows": 375,
+          "top1_hit_rate": 0.429333
+        },
+        "val": {
+          "mean_regret": 0.265285,
+          "rows": 193,
+          "top1_hit_rate": 0.414508
+        }
+      },
+      "candidate_id": "mlp_layers=64_act=relu_alpha=0.01",
+      "complexity_label": "torch mlp 64 relu a=0.01",
+      "complexity_order": 27,
+      "complexity_score": 2179.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.714754,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        64
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.434696,
+      "mae_pixtral12b": 0.393153,
+      "mae_qwen3vl": 0.415579,
+      "max_hidden_width": 64,
+      "mean_regret": 0.274296,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 2179,
+      "rmse_kimi_vl_a3b": 0.53759,
+      "rmse_pixtral12b": 0.479324,
+      "rmse_qwen3vl": 0.517119,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 163,
+        "pixtral12b": 163,
+        "qwen3vl": 242
+      },
+      "top1_hit_rate": 0.424296
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.0001,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.265942,
+          "rows": 276,
+          "top1_hit_rate": 0.48913
+        },
+        "direct": {
+          "mean_regret": 0.282877,
+          "rows": 292,
+          "top1_hit_rate": 0.438356
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.2752,
+          "rows": 375,
+          "top1_hit_rate": 0.461333
+        },
+        "val": {
+          "mean_regret": 0.273575,
+          "rows": 193,
+          "top1_hit_rate": 0.466321
+        }
+      },
+      "candidate_id": "mlp_layers=32x32_act=relu_alpha=0.0001",
+      "complexity_label": "torch mlp 32x32 relu a=0.0001",
+      "complexity_order": 57,
+      "complexity_score": 2147.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.823812,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        32,
+        32
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.429302,
+      "mae_pixtral12b": 0.37948,
+      "mae_qwen3vl": 0.406192,
+      "max_hidden_width": 32,
+      "mean_regret": 0.274648,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 2147,
+      "rmse_kimi_vl_a3b": 0.529966,
+      "rmse_pixtral12b": 0.470932,
+      "rmse_qwen3vl": 0.516629,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 157,
+        "pixtral12b": 163,
+        "qwen3vl": 248
+      },
+      "top1_hit_rate": 0.463028
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.1,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.268116,
+          "rows": 276,
+          "top1_hit_rate": 0.460145
+        },
+        "direct": {
+          "mean_regret": 0.281507,
+          "rows": 292,
+          "top1_hit_rate": 0.40411
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.271467,
+          "rows": 375,
+          "top1_hit_rate": 0.437333
+        },
+        "val": {
+          "mean_regret": 0.281865,
+          "rows": 193,
+          "top1_hit_rate": 0.419689
+        }
+      },
+      "candidate_id": "mlp_layers=32_act=tanh_alpha=0.1",
+      "complexity_label": "torch mlp 32 tanh a=0.1",
+      "complexity_order": 24,
+      "complexity_score": 1091.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.317001,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        32
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.406828,
+      "mae_pixtral12b": 0.360209,
+      "mae_qwen3vl": 0.410936,
+      "max_hidden_width": 32,
+      "mean_regret": 0.275,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 1091,
+      "rmse_kimi_vl_a3b": 0.505368,
+      "rmse_pixtral12b": 0.446363,
+      "rmse_qwen3vl": 0.520235,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 142,
+        "pixtral12b": 174,
+        "qwen3vl": 252
+      },
+      "top1_hit_rate": 0.431338
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.0001,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.281159,
+          "rows": 276,
+          "top1_hit_rate": 0.438406
+        },
+        "direct": {
+          "mean_regret": 0.269178,
+          "rows": 292,
+          "top1_hit_rate": 0.417808
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.277867,
+          "rows": 375,
+          "top1_hit_rate": 0.426667
+        },
+        "val": {
+          "mean_regret": 0.26943,
+          "rows": 193,
+          "top1_hit_rate": 0.430052
+        }
+      },
+      "candidate_id": "mlp_layers=64x32_act=relu_alpha=0.0001",
+      "complexity_label": "torch mlp 64x32 relu a=0.0001",
+      "complexity_order": 65,
+      "complexity_score": 4163.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.520738,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        64,
+        32
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.414119,
+      "mae_pixtral12b": 0.372379,
+      "mae_qwen3vl": 0.386955,
+      "max_hidden_width": 64,
+      "mean_regret": 0.275,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 4163,
+      "rmse_kimi_vl_a3b": 0.501778,
+      "rmse_pixtral12b": 0.461579,
+      "rmse_qwen3vl": 0.490093,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 163,
+        "pixtral12b": 171,
+        "qwen3vl": 234
+      },
+      "top1_hit_rate": 0.427817
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.0001,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.283333,
+          "rows": 276,
+          "top1_hit_rate": 0.445652
+        },
+        "direct": {
+          "mean_regret": 0.269178,
+          "rows": 292,
+          "top1_hit_rate": 0.428082
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.274133,
+          "rows": 375,
+          "top1_hit_rate": 0.442667
+        },
+        "val": {
+          "mean_regret": 0.279793,
+          "rows": 193,
+          "top1_hit_rate": 0.42487
+        }
+      },
+      "candidate_id": "mlp_layers=64_act=relu_alpha=0.0001",
+      "complexity_label": "torch mlp 64 relu a=0.0001",
+      "complexity_order": 25,
+      "complexity_score": 2179.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.732244,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        64
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.437467,
+      "mae_pixtral12b": 0.395898,
+      "mae_qwen3vl": 0.427057,
+      "max_hidden_width": 64,
+      "mean_regret": 0.276056,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 2179,
+      "rmse_kimi_vl_a3b": 0.536174,
+      "rmse_pixtral12b": 0.485288,
+      "rmse_qwen3vl": 0.536769,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 157,
+        "pixtral12b": 167,
+        "qwen3vl": 244
+      },
+      "top1_hit_rate": 0.43662
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.01,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.274638,
+          "rows": 276,
+          "top1_hit_rate": 0.471014
+        },
+        "direct": {
+          "mean_regret": 0.278767,
+          "rows": 292,
+          "top1_hit_rate": 0.431507
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.282133,
+          "rows": 375,
+          "top1_hit_rate": 0.448
+        },
+        "val": {
+          "mean_regret": 0.266321,
+          "rows": 193,
+          "top1_hit_rate": 0.455959
+        }
+      },
+      "candidate_id": "mlp_layers=8_act=relu_alpha=0.01",
+      "complexity_label": "torch mlp 8 relu a=0.01",
+      "complexity_order": 3,
+      "complexity_score": 275.0,
+      "cv_folds": 10,
+      "fit_seconds": 0.918169,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        8
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.342233,
+      "mae_pixtral12b": 0.304689,
+      "mae_qwen3vl": 0.3636,
+      "max_hidden_width": 8,
+      "mean_regret": 0.276761,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 275,
+      "rmse_kimi_vl_a3b": 0.409146,
+      "rmse_pixtral12b": 0.363121,
+      "rmse_qwen3vl": 0.436379,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 109,
+        "pixtral12b": 195,
+        "qwen3vl": 264
+      },
+      "top1_hit_rate": 0.450704
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.01,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.274638,
+          "rows": 276,
+          "top1_hit_rate": 0.452899
+        },
+        "direct": {
+          "mean_regret": 0.278767,
+          "rows": 292,
+          "top1_hit_rate": 0.428082
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.267733,
+          "rows": 375,
+          "top1_hit_rate": 0.456
+        },
+        "val": {
+          "mean_regret": 0.294301,
+          "rows": 193,
+          "top1_hit_rate": 0.409326
+        }
+      },
+      "candidate_id": "mlp_layers=32x16_act=tanh_alpha=0.01",
+      "complexity_label": "torch mlp 32x16 tanh a=0.01",
+      "complexity_order": 55,
+      "complexity_score": 1571.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.588793,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        32,
+        16
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.417915,
+      "mae_pixtral12b": 0.398591,
+      "mae_qwen3vl": 0.438688,
+      "max_hidden_width": 32,
+      "mean_regret": 0.276761,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 1571,
+      "rmse_kimi_vl_a3b": 0.515363,
+      "rmse_pixtral12b": 0.487447,
+      "rmse_qwen3vl": 0.539888,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 148,
+        "pixtral12b": 182,
+        "qwen3vl": 238
+      },
+      "top1_hit_rate": 0.440141
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.01,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.271739,
+          "rows": 276,
+          "top1_hit_rate": 0.449275
+        },
+        "direct": {
+          "mean_regret": 0.282192,
+          "rows": 292,
+          "top1_hit_rate": 0.410959
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.277867,
+          "rows": 375,
+          "top1_hit_rate": 0.437333
+        },
+        "val": {
+          "mean_regret": 0.275648,
+          "rows": 193,
+          "top1_hit_rate": 0.414508
+        }
+      },
+      "candidate_id": "mlp_layers=64x32_act=relu_alpha=0.01",
+      "complexity_label": "torch mlp 64x32 relu a=0.01",
+      "complexity_order": 67,
+      "complexity_score": 4163.0,
+      "cv_folds": 10,
+      "fit_seconds": 2.036052,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        64,
+        32
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.399718,
+      "mae_pixtral12b": 0.366018,
+      "mae_qwen3vl": 0.371734,
+      "max_hidden_width": 64,
+      "mean_regret": 0.277113,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 4163,
+      "rmse_kimi_vl_a3b": 0.493796,
+      "rmse_pixtral12b": 0.446133,
+      "rmse_qwen3vl": 0.470166,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 178,
+        "pixtral12b": 168,
+        "qwen3vl": 222
+      },
+      "top1_hit_rate": 0.429577
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.01,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.276087,
+          "rows": 276,
+          "top1_hit_rate": 0.442029
+        },
+        "direct": {
+          "mean_regret": 0.278767,
+          "rows": 292,
+          "top1_hit_rate": 0.431507
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.298667,
+          "rows": 375,
+          "top1_hit_rate": 0.410667
+        },
+        "val": {
+          "mean_regret": 0.236269,
+          "rows": 193,
+          "top1_hit_rate": 0.487047
+        }
+      },
+      "candidate_id": "mlp_layers=32x32_act=relu_alpha=0.01",
+      "complexity_label": "torch mlp 32x32 relu a=0.01",
+      "complexity_order": 59,
+      "complexity_score": 2147.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.786672,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        32,
+        32
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.425807,
+      "mae_pixtral12b": 0.367999,
+      "mae_qwen3vl": 0.405996,
+      "max_hidden_width": 32,
+      "mean_regret": 0.277465,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 2147,
+      "rmse_kimi_vl_a3b": 0.525903,
+      "rmse_pixtral12b": 0.456364,
+      "rmse_qwen3vl": 0.516725,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 154,
+        "pixtral12b": 173,
+        "qwen3vl": 241
+      },
+      "top1_hit_rate": 0.43662
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.0001,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.285507,
+          "rows": 276,
+          "top1_hit_rate": 0.42029
+        },
+        "direct": {
+          "mean_regret": 0.271918,
+          "rows": 292,
+          "top1_hit_rate": 0.441781
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.282133,
+          "rows": 375,
+          "top1_hit_rate": 0.450667
+        },
+        "val": {
+          "mean_regret": 0.271503,
+          "rows": 193,
+          "top1_hit_rate": 0.393782
+        }
+      },
+      "candidate_id": "mlp_layers=8x8_act=tanh_alpha=0.0001",
+      "complexity_label": "torch mlp 8x8 tanh a=0.0001",
+      "complexity_order": 37,
+      "complexity_score": 347.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.407981,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        8,
+        8
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.346928,
+      "mae_pixtral12b": 0.312687,
+      "mae_qwen3vl": 0.401742,
+      "max_hidden_width": 8,
+      "mean_regret": 0.278521,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 347,
+      "rmse_kimi_vl_a3b": 0.428539,
+      "rmse_pixtral12b": 0.379412,
+      "rmse_qwen3vl": 0.483864,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 159,
+        "pixtral12b": 181,
+        "qwen3vl": 228
+      },
+      "top1_hit_rate": 0.431338
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.01,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.260145,
+          "rows": 276,
+          "top1_hit_rate": 0.48913
+        },
+        "direct": {
+          "mean_regret": 0.296575,
+          "rows": 292,
+          "top1_hit_rate": 0.400685
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.2768,
+          "rows": 375,
+          "top1_hit_rate": 0.450667
+        },
+        "val": {
+          "mean_regret": 0.282902,
+          "rows": 193,
+          "top1_hit_rate": 0.430052
+        }
+      },
+      "candidate_id": "mlp_layers=8_act=tanh_alpha=0.01",
+      "complexity_label": "torch mlp 8 tanh a=0.01",
+      "complexity_order": 7,
+      "complexity_score": 275.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.239693,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        8
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.35164,
+      "mae_pixtral12b": 0.315429,
+      "mae_qwen3vl": 0.367062,
+      "max_hidden_width": 8,
+      "mean_regret": 0.278873,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 275,
+      "rmse_kimi_vl_a3b": 0.425305,
+      "rmse_pixtral12b": 0.381552,
+      "rmse_qwen3vl": 0.437762,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 156,
+        "pixtral12b": 164,
+        "qwen3vl": 248
+      },
+      "top1_hit_rate": 0.443662
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.0001,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.261594,
+          "rows": 276,
+          "top1_hit_rate": 0.463768
+        },
+        "direct": {
+          "mean_regret": 0.295205,
+          "rows": 292,
+          "top1_hit_rate": 0.383562
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.269333,
+          "rows": 375,
+          "top1_hit_rate": 0.442667
+        },
+        "val": {
+          "mean_regret": 0.297409,
+          "rows": 193,
+          "top1_hit_rate": 0.38342
+        }
+      },
+      "candidate_id": "mlp_layers=32x16_act=tanh_alpha=0.0001",
+      "complexity_label": "torch mlp 32x16 tanh a=0.0001",
+      "complexity_order": 53,
+      "complexity_score": 1571.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.631633,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        32,
+        16
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.431514,
+      "mae_pixtral12b": 0.388543,
+      "mae_qwen3vl": 0.442159,
+      "max_hidden_width": 32,
+      "mean_regret": 0.278873,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 1571,
+      "rmse_kimi_vl_a3b": 0.530345,
+      "rmse_pixtral12b": 0.480976,
+      "rmse_qwen3vl": 0.543514,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 146,
+        "pixtral12b": 190,
+        "qwen3vl": 232
+      },
+      "top1_hit_rate": 0.422535
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.01,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.27029,
+          "rows": 276,
+          "top1_hit_rate": 0.456522
+        },
+        "direct": {
+          "mean_regret": 0.287671,
+          "rows": 292,
+          "top1_hit_rate": 0.424658
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.290667,
+          "rows": 375,
+          "top1_hit_rate": 0.426667
+        },
+        "val": {
+          "mean_regret": 0.256995,
+          "rows": 193,
+          "top1_hit_rate": 0.466321
+        }
+      },
+      "candidate_id": "mlp_layers=64x32_act=tanh_alpha=0.01",
+      "complexity_label": "torch mlp 64x32 tanh a=0.01",
+      "complexity_order": 71,
+      "complexity_score": 4163.0,
+      "cv_folds": 10,
+      "fit_seconds": 2.250354,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        64,
+        32
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.411172,
+      "mae_pixtral12b": 0.368015,
+      "mae_qwen3vl": 0.409441,
+      "max_hidden_width": 64,
+      "mean_regret": 0.279225,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 4163,
+      "rmse_kimi_vl_a3b": 0.505196,
+      "rmse_pixtral12b": 0.454609,
+      "rmse_qwen3vl": 0.509449,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 164,
+        "pixtral12b": 190,
+        "qwen3vl": 214
+      },
+      "top1_hit_rate": 0.440141
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.001,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.286957,
+          "rows": 276,
+          "top1_hit_rate": 0.431159
+        },
+        "direct": {
+          "mean_regret": 0.272603,
+          "rows": 292,
+          "top1_hit_rate": 0.421233
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.2752,
+          "rows": 375,
+          "top1_hit_rate": 0.426667
+        },
+        "val": {
+          "mean_regret": 0.288083,
+          "rows": 193,
+          "top1_hit_rate": 0.42487
+        }
+      },
+      "candidate_id": "mlp_layers=64x32_act=relu_alpha=0.001",
+      "complexity_label": "torch mlp 64x32 relu a=0.001",
+      "complexity_order": 66,
+      "complexity_score": 4163.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.532544,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        64,
+        32
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.39657,
+      "mae_pixtral12b": 0.365603,
+      "mae_qwen3vl": 0.3919,
+      "max_hidden_width": 64,
+      "mean_regret": 0.279577,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 4163,
+      "rmse_kimi_vl_a3b": 0.488646,
+      "rmse_pixtral12b": 0.454842,
+      "rmse_qwen3vl": 0.496655,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 164,
+        "pixtral12b": 173,
+        "qwen3vl": 231
+      },
+      "top1_hit_rate": 0.426056
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.01,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.285507,
+          "rows": 276,
+          "top1_hit_rate": 0.471014
+        },
+        "direct": {
+          "mean_regret": 0.274658,
+          "rows": 292,
+          "top1_hit_rate": 0.438356
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.293333,
+          "rows": 375,
+          "top1_hit_rate": 0.450667
+        },
+        "val": {
+          "mean_regret": 0.253886,
+          "rows": 193,
+          "top1_hit_rate": 0.46114
+        }
+      },
+      "candidate_id": "mlp_layers=16x16_act=relu_alpha=0.01",
+      "complexity_label": "torch mlp 16x16 relu a=0.01",
+      "complexity_order": 43,
+      "complexity_score": 819.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.371156,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        16,
+        16
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.38702,
+      "mae_pixtral12b": 0.357585,
+      "mae_qwen3vl": 0.428839,
+      "max_hidden_width": 16,
+      "mean_regret": 0.27993,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 819,
+      "rmse_kimi_vl_a3b": 0.470899,
+      "rmse_pixtral12b": 0.443653,
+      "rmse_qwen3vl": 0.528646,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 111,
+        "pixtral12b": 194,
+        "qwen3vl": 263
+      },
+      "top1_hit_rate": 0.454225
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.1,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.287681,
+          "rows": 276,
+          "top1_hit_rate": 0.449275
+        },
+        "direct": {
+          "mean_regret": 0.272603,
+          "rows": 292,
+          "top1_hit_rate": 0.438356
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.283733,
+          "rows": 375,
+          "top1_hit_rate": 0.445333
+        },
+        "val": {
+          "mean_regret": 0.272539,
+          "rows": 193,
+          "top1_hit_rate": 0.440415
+        }
+      },
+      "candidate_id": "mlp_layers=32x16_act=relu_alpha=0.1",
+      "complexity_label": "torch mlp 32x16 relu a=0.1",
+      "complexity_order": 52,
+      "complexity_score": 1571.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.439051,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        32,
+        16
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.398409,
+      "mae_pixtral12b": 0.362806,
+      "mae_qwen3vl": 0.407135,
+      "max_hidden_width": 32,
+      "mean_regret": 0.27993,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 1571,
+      "rmse_kimi_vl_a3b": 0.49729,
+      "rmse_pixtral12b": 0.447547,
+      "rmse_qwen3vl": 0.510567,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 165,
+        "pixtral12b": 176,
+        "qwen3vl": 227
+      },
+      "top1_hit_rate": 0.443662
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.001,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.287681,
+          "rows": 276,
+          "top1_hit_rate": 0.427536
+        },
+        "direct": {
+          "mean_regret": 0.273973,
+          "rows": 292,
+          "top1_hit_rate": 0.424658
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.289067,
+          "rows": 375,
+          "top1_hit_rate": 0.418667
+        },
+        "val": {
+          "mean_regret": 0.264249,
+          "rows": 193,
+          "top1_hit_rate": 0.440415
+        }
+      },
+      "candidate_id": "mlp_layers=16_act=tanh_alpha=0.001",
+      "complexity_label": "torch mlp 16 tanh a=0.001",
+      "complexity_order": 14,
+      "complexity_score": 547.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.280909,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        16
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.397669,
+      "mae_pixtral12b": 0.343726,
+      "mae_qwen3vl": 0.412675,
+      "max_hidden_width": 16,
+      "mean_regret": 0.280634,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 547,
+      "rmse_kimi_vl_a3b": 0.477725,
+      "rmse_pixtral12b": 0.418262,
+      "rmse_qwen3vl": 0.509743,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 113,
+        "pixtral12b": 188,
+        "qwen3vl": 267
+      },
+      "top1_hit_rate": 0.426056
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.001,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.255797,
+          "rows": 276,
+          "top1_hit_rate": 0.485507
+        },
+        "direct": {
+          "mean_regret": 0.304795,
+          "rows": 292,
+          "top1_hit_rate": 0.386986
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.2784,
+          "rows": 375,
+          "top1_hit_rate": 0.448
+        },
+        "val": {
+          "mean_regret": 0.28601,
+          "rows": 193,
+          "top1_hit_rate": 0.409326
+        }
+      },
+      "candidate_id": "mlp_layers=8_act=relu_alpha=0.001",
+      "complexity_label": "torch mlp 8 relu a=0.001",
+      "complexity_order": 2,
+      "complexity_score": 275.0,
+      "cv_folds": 10,
+      "fit_seconds": 0.920695,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        8
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.341511,
+      "mae_pixtral12b": 0.305836,
+      "mae_qwen3vl": 0.364806,
+      "max_hidden_width": 8,
+      "mean_regret": 0.280986,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 275,
+      "rmse_kimi_vl_a3b": 0.405108,
+      "rmse_pixtral12b": 0.362667,
+      "rmse_qwen3vl": 0.434186,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 116,
+        "pixtral12b": 183,
+        "qwen3vl": 269
+      },
+      "top1_hit_rate": 0.434859
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.0001,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.286232,
+          "rows": 276,
+          "top1_hit_rate": 0.452899
+        },
+        "direct": {
+          "mean_regret": 0.276027,
+          "rows": 292,
+          "top1_hit_rate": 0.414384
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.287467,
+          "rows": 375,
+          "top1_hit_rate": 0.424
+        },
+        "val": {
+          "mean_regret": 0.268394,
+          "rows": 193,
+          "top1_hit_rate": 0.450777
+        }
+      },
+      "candidate_id": "mlp_layers=16_act=tanh_alpha=0.0001",
+      "complexity_label": "torch mlp 16 tanh a=0.0001",
+      "complexity_order": 13,
+      "complexity_score": 547.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.282909,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        16
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.398115,
+      "mae_pixtral12b": 0.336703,
+      "mae_qwen3vl": 0.402896,
+      "max_hidden_width": 16,
+      "mean_regret": 0.280986,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 547,
+      "rmse_kimi_vl_a3b": 0.479643,
+      "rmse_pixtral12b": 0.414386,
+      "rmse_qwen3vl": 0.503082,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 106,
+        "pixtral12b": 210,
+        "qwen3vl": 252
+      },
+      "top1_hit_rate": 0.433099
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.1,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.255797,
+          "rows": 276,
+          "top1_hit_rate": 0.474638
+        },
+        "direct": {
+          "mean_regret": 0.306164,
+          "rows": 292,
+          "top1_hit_rate": 0.386986
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.270933,
+          "rows": 375,
+          "top1_hit_rate": 0.464
+        },
+        "val": {
+          "mean_regret": 0.302591,
+          "rows": 193,
+          "top1_hit_rate": 0.362694
+        }
+      },
+      "candidate_id": "mlp_layers=32x16_act=tanh_alpha=0.1",
+      "complexity_label": "torch mlp 32x16 tanh a=0.1",
+      "complexity_order": 56,
+      "complexity_score": 1571.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.591837,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        32,
+        16
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.405823,
+      "mae_pixtral12b": 0.391436,
+      "mae_qwen3vl": 0.42788,
+      "max_hidden_width": 32,
+      "mean_regret": 0.28169,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 1571,
+      "rmse_kimi_vl_a3b": 0.506209,
+      "rmse_pixtral12b": 0.479179,
+      "rmse_qwen3vl": 0.532972,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 142,
+        "pixtral12b": 192,
+        "qwen3vl": 234
+      },
+      "top1_hit_rate": 0.429577
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.01,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.285507,
+          "rows": 276,
+          "top1_hit_rate": 0.427536
+        },
+        "direct": {
+          "mean_regret": 0.278767,
+          "rows": 292,
+          "top1_hit_rate": 0.424658
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.290133,
+          "rows": 375,
+          "top1_hit_rate": 0.421333
+        },
+        "val": {
+          "mean_regret": 0.266321,
+          "rows": 193,
+          "top1_hit_rate": 0.435233
+        }
+      },
+      "candidate_id": "mlp_layers=16_act=tanh_alpha=0.01",
+      "complexity_label": "torch mlp 16 tanh a=0.01",
+      "complexity_order": 15,
+      "complexity_score": 547.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.282859,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        16
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.403277,
+      "mae_pixtral12b": 0.338758,
+      "mae_qwen3vl": 0.412776,
+      "max_hidden_width": 16,
+      "mean_regret": 0.282042,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 547,
+      "rmse_kimi_vl_a3b": 0.48473,
+      "rmse_pixtral12b": 0.412482,
+      "rmse_qwen3vl": 0.51693,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 112,
+        "pixtral12b": 208,
+        "qwen3vl": 248
+      },
+      "top1_hit_rate": 0.426056
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.1,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.284058,
+          "rows": 276,
+          "top1_hit_rate": 0.445652
+        },
+        "direct": {
+          "mean_regret": 0.281507,
+          "rows": 292,
+          "top1_hit_rate": 0.44863
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.2704,
+          "rows": 375,
+          "top1_hit_rate": 0.48
+        },
+        "val": {
+          "mean_regret": 0.306736,
+          "rows": 193,
+          "top1_hit_rate": 0.38342
+        }
+      },
+      "candidate_id": "mlp_layers=8_act=tanh_alpha=0.1",
+      "complexity_label": "torch mlp 8 tanh a=0.1",
+      "complexity_order": 8,
+      "complexity_score": 275.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.194885,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        8
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.362148,
+      "mae_pixtral12b": 0.320903,
+      "mae_qwen3vl": 0.383712,
+      "max_hidden_width": 8,
+      "mean_regret": 0.282746,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 275,
+      "rmse_kimi_vl_a3b": 0.436555,
+      "rmse_pixtral12b": 0.387799,
+      "rmse_qwen3vl": 0.455071,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 143,
+        "pixtral12b": 160,
+        "qwen3vl": 265
+      },
+      "top1_hit_rate": 0.447183
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.001,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.286957,
+          "rows": 276,
+          "top1_hit_rate": 0.445652
+        },
+        "direct": {
+          "mean_regret": 0.279452,
+          "rows": 292,
+          "top1_hit_rate": 0.421233
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.295467,
+          "rows": 375,
+          "top1_hit_rate": 0.418667
+        },
+        "val": {
+          "mean_regret": 0.259067,
+          "rows": 193,
+          "top1_hit_rate": 0.46114
+        }
+      },
+      "candidate_id": "mlp_layers=32_act=tanh_alpha=0.001",
+      "complexity_label": "torch mlp 32 tanh a=0.001",
+      "complexity_order": 22,
+      "complexity_score": 1091.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.336451,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        32
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.424899,
+      "mae_pixtral12b": 0.385347,
+      "mae_qwen3vl": 0.427457,
+      "max_hidden_width": 32,
+      "mean_regret": 0.283099,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 1091,
+      "rmse_kimi_vl_a3b": 0.519056,
+      "rmse_pixtral12b": 0.469639,
+      "rmse_qwen3vl": 0.537946,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 126,
+        "pixtral12b": 192,
+        "qwen3vl": 250
+      },
+      "top1_hit_rate": 0.433099
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.0001,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.291304,
+          "rows": 276,
+          "top1_hit_rate": 0.42029
+        },
+        "direct": {
+          "mean_regret": 0.275342,
+          "rows": 292,
+          "top1_hit_rate": 0.431507
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.276267,
+          "rows": 375,
+          "top1_hit_rate": 0.448
+        },
+        "val": {
+          "mean_regret": 0.296373,
+          "rows": 193,
+          "top1_hit_rate": 0.38342
+        }
+      },
+      "candidate_id": "mlp_layers=16x16_act=tanh_alpha=0.0001",
+      "complexity_label": "torch mlp 16x16 tanh a=0.0001",
+      "complexity_order": 45,
+      "complexity_score": 819.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.491155,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        16,
+        16
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.408656,
+      "mae_pixtral12b": 0.362182,
+      "mae_qwen3vl": 0.423597,
+      "max_hidden_width": 16,
+      "mean_regret": 0.283099,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 819,
+      "rmse_kimi_vl_a3b": 0.502193,
+      "rmse_pixtral12b": 0.444161,
+      "rmse_qwen3vl": 0.524604,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 166,
+        "pixtral12b": 171,
+        "qwen3vl": 231
+      },
+      "top1_hit_rate": 0.426056
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.0001,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.263043,
+          "rows": 276,
+          "top1_hit_rate": 0.481884
+        },
+        "direct": {
+          "mean_regret": 0.30274,
+          "rows": 292,
+          "top1_hit_rate": 0.390411
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.287467,
+          "rows": 375,
+          "top1_hit_rate": 0.429333
+        },
+        "val": {
+          "mean_regret": 0.275648,
+          "rows": 193,
+          "top1_hit_rate": 0.445596
+        }
+      },
+      "candidate_id": "mlp_layers=8_act=tanh_alpha=0.0001",
+      "complexity_label": "torch mlp 8 tanh a=0.0001",
+      "complexity_order": 5,
+      "complexity_score": 275.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.246014,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        8
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.355552,
+      "mae_pixtral12b": 0.32441,
+      "mae_qwen3vl": 0.372038,
+      "max_hidden_width": 8,
+      "mean_regret": 0.283451,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 275,
+      "rmse_kimi_vl_a3b": 0.430587,
+      "rmse_pixtral12b": 0.389164,
+      "rmse_qwen3vl": 0.441561,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 142,
+        "pixtral12b": 148,
+        "qwen3vl": 278
+      },
+      "top1_hit_rate": 0.434859
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.1,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.283333,
+          "rows": 276,
+          "top1_hit_rate": 0.434783
+        },
+        "direct": {
+          "mean_regret": 0.284247,
+          "rows": 292,
+          "top1_hit_rate": 0.424658
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.300267,
+          "rows": 375,
+          "top1_hit_rate": 0.413333
+        },
+        "val": {
+          "mean_regret": 0.251813,
+          "rows": 193,
+          "top1_hit_rate": 0.46114
+        }
+      },
+      "candidate_id": "mlp_layers=64x32_act=tanh_alpha=0.1",
+      "complexity_label": "torch mlp 64x32 tanh a=0.1",
+      "complexity_order": 72,
+      "complexity_score": 4163.0,
+      "cv_folds": 10,
+      "fit_seconds": 2.240322,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        64,
+        32
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.414645,
+      "mae_pixtral12b": 0.36935,
+      "mae_qwen3vl": 0.401378,
+      "max_hidden_width": 64,
+      "mean_regret": 0.283803,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 4163,
+      "rmse_kimi_vl_a3b": 0.504139,
+      "rmse_pixtral12b": 0.450279,
+      "rmse_qwen3vl": 0.502201,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 189,
+        "pixtral12b": 168,
+        "qwen3vl": 211
+      },
+      "top1_hit_rate": 0.429577
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.1,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.313043,
+          "rows": 276,
+          "top1_hit_rate": 0.40942
+        },
+        "direct": {
+          "mean_regret": 0.259589,
+          "rows": 292,
+          "top1_hit_rate": 0.441781
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.283733,
+          "rows": 375,
+          "top1_hit_rate": 0.437333
+        },
+        "val": {
+          "mean_regret": 0.289119,
+          "rows": 193,
+          "top1_hit_rate": 0.404145
+        }
+      },
+      "candidate_id": "mlp_layers=64_act=tanh_alpha=0.1",
+      "complexity_label": "torch mlp 64 tanh a=0.1",
+      "complexity_order": 32,
+      "complexity_score": 2179.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.83193,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        64
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.405708,
+      "mae_pixtral12b": 0.367765,
+      "mae_qwen3vl": 0.410045,
+      "max_hidden_width": 64,
+      "mean_regret": 0.285563,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 2179,
+      "rmse_kimi_vl_a3b": 0.500291,
+      "rmse_pixtral12b": 0.456148,
+      "rmse_qwen3vl": 0.51685,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 165,
+        "pixtral12b": 190,
+        "qwen3vl": 213
+      },
+      "top1_hit_rate": 0.426056
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.001,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.310145,
+          "rows": 276,
+          "top1_hit_rate": 0.405797
+        },
+        "direct": {
+          "mean_regret": 0.263014,
+          "rows": 292,
+          "top1_hit_rate": 0.455479
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.286933,
+          "rows": 375,
+          "top1_hit_rate": 0.445333
+        },
+        "val": {
+          "mean_regret": 0.283938,
+          "rows": 193,
+          "top1_hit_rate": 0.404145
+        }
+      },
+      "candidate_id": "mlp_layers=64_act=tanh_alpha=0.001",
+      "complexity_label": "torch mlp 64 tanh a=0.001",
+      "complexity_order": 30,
+      "complexity_score": 2179.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.847359,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        64
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.409388,
+      "mae_pixtral12b": 0.388387,
+      "mae_qwen3vl": 0.423683,
+      "max_hidden_width": 64,
+      "mean_regret": 0.285915,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 2179,
+      "rmse_kimi_vl_a3b": 0.506622,
+      "rmse_pixtral12b": 0.481309,
+      "rmse_qwen3vl": 0.531699,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 144,
+        "pixtral12b": 207,
+        "qwen3vl": 217
+      },
+      "top1_hit_rate": 0.431338
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.01,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.303623,
+          "rows": 276,
+          "top1_hit_rate": 0.416667
+        },
+        "direct": {
+          "mean_regret": 0.269178,
+          "rows": 292,
+          "top1_hit_rate": 0.434932
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.289067,
+          "rows": 375,
+          "top1_hit_rate": 0.434667
+        },
+        "val": {
+          "mean_regret": 0.279793,
+          "rows": 193,
+          "top1_hit_rate": 0.409326
+        }
+      },
+      "candidate_id": "mlp_layers=64_act=tanh_alpha=0.01",
+      "complexity_label": "torch mlp 64 tanh a=0.01",
+      "complexity_order": 31,
+      "complexity_score": 2179.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.834274,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        64
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.406142,
+      "mae_pixtral12b": 0.38489,
+      "mae_qwen3vl": 0.420482,
+      "max_hidden_width": 64,
+      "mean_regret": 0.285915,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 2179,
+      "rmse_kimi_vl_a3b": 0.505296,
+      "rmse_pixtral12b": 0.474083,
+      "rmse_qwen3vl": 0.529483,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 152,
+        "pixtral12b": 198,
+        "qwen3vl": 218
+      },
+      "top1_hit_rate": 0.426056
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.0001,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.306522,
+          "rows": 276,
+          "top1_hit_rate": 0.42029
+        },
+        "direct": {
+          "mean_regret": 0.269178,
+          "rows": 292,
+          "top1_hit_rate": 0.441781
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.2912,
+          "rows": 375,
+          "top1_hit_rate": 0.432
+        },
+        "val": {
+          "mean_regret": 0.279793,
+          "rows": 193,
+          "top1_hit_rate": 0.430052
+        }
+      },
+      "candidate_id": "mlp_layers=32_act=tanh_alpha=0.0001",
+      "complexity_label": "torch mlp 32 tanh a=0.0001",
+      "complexity_order": 21,
+      "complexity_score": 1091.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.322448,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        32
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.428042,
+      "mae_pixtral12b": 0.386939,
+      "mae_qwen3vl": 0.423425,
+      "max_hidden_width": 32,
+      "mean_regret": 0.287324,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 1091,
+      "rmse_kimi_vl_a3b": 0.522435,
+      "rmse_pixtral12b": 0.474747,
+      "rmse_qwen3vl": 0.534066,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 122,
+        "pixtral12b": 177,
+        "qwen3vl": 269
+      },
+      "top1_hit_rate": 0.431338
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.01,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.276087,
+          "rows": 276,
+          "top1_hit_rate": 0.467391
+        },
+        "direct": {
+          "mean_regret": 0.29863,
+          "rows": 292,
+          "top1_hit_rate": 0.400685
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.2848,
+          "rows": 375,
+          "top1_hit_rate": 0.44
+        },
+        "val": {
+          "mean_regret": 0.293264,
+          "rows": 193,
+          "top1_hit_rate": 0.419689
+        }
+      },
+      "candidate_id": "mlp_layers=8x8_act=relu_alpha=0.01",
+      "complexity_label": "torch mlp 8x8 relu a=0.01",
+      "complexity_order": 35,
+      "complexity_score": 347.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.174579,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        8,
+        8
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.340163,
+      "mae_pixtral12b": 0.311538,
+      "mae_qwen3vl": 0.379119,
+      "max_hidden_width": 8,
+      "mean_regret": 0.287676,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 347,
+      "rmse_kimi_vl_a3b": 0.406498,
+      "rmse_pixtral12b": 0.372268,
+      "rmse_qwen3vl": 0.449626,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 104,
+        "pixtral12b": 188,
+        "qwen3vl": 276
+      },
+      "top1_hit_rate": 0.433099
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.1,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.269565,
+          "rows": 276,
+          "top1_hit_rate": 0.452899
+        },
+        "direct": {
+          "mean_regret": 0.305479,
+          "rows": 292,
+          "top1_hit_rate": 0.369863
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.281067,
+          "rows": 375,
+          "top1_hit_rate": 0.426667
+        },
+        "val": {
+          "mean_regret": 0.301554,
+          "rows": 193,
+          "top1_hit_rate": 0.378238
+        }
+      },
+      "candidate_id": "mlp_layers=16x16_act=tanh_alpha=0.1",
+      "complexity_label": "torch mlp 16x16 tanh a=0.1",
+      "complexity_order": 48,
+      "complexity_score": 819.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.493684,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        16,
+        16
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.410789,
+      "mae_pixtral12b": 0.357157,
+      "mae_qwen3vl": 0.405636,
+      "max_hidden_width": 16,
+      "mean_regret": 0.288028,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 819,
+      "rmse_kimi_vl_a3b": 0.501986,
+      "rmse_pixtral12b": 0.434509,
+      "rmse_qwen3vl": 0.502383,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 142,
+        "pixtral12b": 192,
+        "qwen3vl": 234
+      },
+      "top1_hit_rate": 0.410211
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.001,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.282609,
+          "rows": 276,
+          "top1_hit_rate": 0.463768
+        },
+        "direct": {
+          "mean_regret": 0.295205,
+          "rows": 292,
+          "top1_hit_rate": 0.400685
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.293867,
+          "rows": 375,
+          "top1_hit_rate": 0.445333
+        },
+        "val": {
+          "mean_regret": 0.279793,
+          "rows": 193,
+          "top1_hit_rate": 0.404145
+        }
+      },
+      "candidate_id": "mlp_layers=8x8_act=relu_alpha=0.001",
+      "complexity_label": "torch mlp 8x8 relu a=0.001",
+      "complexity_order": 34,
+      "complexity_score": 347.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.268133,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        8,
+        8
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.342915,
+      "mae_pixtral12b": 0.313125,
+      "mae_qwen3vl": 0.376657,
+      "max_hidden_width": 8,
+      "mean_regret": 0.289085,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 347,
+      "rmse_kimi_vl_a3b": 0.411201,
+      "rmse_pixtral12b": 0.381169,
+      "rmse_qwen3vl": 0.459822,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 93,
+        "pixtral12b": 175,
+        "qwen3vl": 300
+      },
+      "top1_hit_rate": 0.431338
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.0001,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.311594,
+          "rows": 276,
+          "top1_hit_rate": 0.398551
+        },
+        "direct": {
+          "mean_regret": 0.268493,
+          "rows": 292,
+          "top1_hit_rate": 0.44863
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.289067,
+          "rows": 375,
+          "top1_hit_rate": 0.442667
+        },
+        "val": {
+          "mean_regret": 0.290155,
+          "rows": 193,
+          "top1_hit_rate": 0.388601
+        }
+      },
+      "candidate_id": "mlp_layers=64_act=tanh_alpha=0.0001",
+      "complexity_label": "torch mlp 64 tanh a=0.0001",
+      "complexity_order": 29,
+      "complexity_score": 2179.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.839353,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        64
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.413404,
+      "mae_pixtral12b": 0.386542,
+      "mae_qwen3vl": 0.428035,
+      "max_hidden_width": 64,
+      "mean_regret": 0.289437,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 2179,
+      "rmse_kimi_vl_a3b": 0.511719,
+      "rmse_pixtral12b": 0.4816,
+      "rmse_qwen3vl": 0.534797,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 140,
+        "pixtral12b": 209,
+        "qwen3vl": 219
+      },
+      "top1_hit_rate": 0.424296
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.001,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.300725,
+          "rows": 276,
+          "top1_hit_rate": 0.40942
+        },
+        "direct": {
+          "mean_regret": 0.280137,
+          "rows": 292,
+          "top1_hit_rate": 0.414384
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.292267,
+          "rows": 375,
+          "top1_hit_rate": 0.432
+        },
+        "val": {
+          "mean_regret": 0.28601,
+          "rows": 193,
+          "top1_hit_rate": 0.373057
+        }
+      },
+      "candidate_id": "mlp_layers=8x8_act=tanh_alpha=0.001",
+      "complexity_label": "torch mlp 8x8 tanh a=0.001",
+      "complexity_order": 38,
+      "complexity_score": 347.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.411095,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        8,
+        8
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.356539,
+      "mae_pixtral12b": 0.315198,
+      "mae_qwen3vl": 0.421714,
+      "max_hidden_width": 8,
+      "mean_regret": 0.290141,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 347,
+      "rmse_kimi_vl_a3b": 0.435604,
+      "rmse_pixtral12b": 0.383121,
+      "rmse_qwen3vl": 0.505408,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 134,
+        "pixtral12b": 202,
+        "qwen3vl": 232
+      },
+      "top1_hit_rate": 0.411972
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.01,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.307971,
+          "rows": 276,
+          "top1_hit_rate": 0.431159
+        },
+        "direct": {
+          "mean_regret": 0.275342,
+          "rows": 292,
+          "top1_hit_rate": 0.431507
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.288533,
+          "rows": 375,
+          "top1_hit_rate": 0.450667
+        },
+        "val": {
+          "mean_regret": 0.296373,
+          "rows": 193,
+          "top1_hit_rate": 0.393782
+        }
+      },
+      "candidate_id": "mlp_layers=8x8_act=tanh_alpha=0.01",
+      "complexity_label": "torch mlp 8x8 tanh a=0.01",
+      "complexity_order": 39,
+      "complexity_score": 347.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.411481,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        8,
+        8
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.36252,
+      "mae_pixtral12b": 0.330915,
+      "mae_qwen3vl": 0.418619,
+      "max_hidden_width": 8,
+      "mean_regret": 0.291197,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 347,
+      "rmse_kimi_vl_a3b": 0.440478,
+      "rmse_pixtral12b": 0.397658,
+      "rmse_qwen3vl": 0.500542,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 134,
+        "pixtral12b": 187,
+        "qwen3vl": 247
+      },
+      "top1_hit_rate": 0.431338
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.001,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.272464,
+          "rows": 276,
+          "top1_hit_rate": 0.481884
+        },
+        "direct": {
+          "mean_regret": 0.308904,
+          "rows": 292,
+          "top1_hit_rate": 0.380137
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.307733,
+          "rows": 375,
+          "top1_hit_rate": 0.413333
+        },
+        "val": {
+          "mean_regret": 0.259067,
+          "rows": 193,
+          "top1_hit_rate": 0.46114
+        }
+      },
+      "candidate_id": "mlp_layers=32x16_act=relu_alpha=0.001",
+      "complexity_label": "torch mlp 32x16 relu a=0.001",
+      "complexity_order": 50,
+      "complexity_score": 1571.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.441374,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        32,
+        16
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.422057,
+      "mae_pixtral12b": 0.368914,
+      "mae_qwen3vl": 0.420276,
+      "max_hidden_width": 32,
+      "mean_regret": 0.291197,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 1571,
+      "rmse_kimi_vl_a3b": 0.519071,
+      "rmse_pixtral12b": 0.454978,
+      "rmse_qwen3vl": 0.529765,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 138,
+        "pixtral12b": 171,
+        "qwen3vl": 259
+      },
+      "top1_hit_rate": 0.429577
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.001,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.286957,
+          "rows": 276,
+          "top1_hit_rate": 0.434783
+        },
+        "direct": {
+          "mean_regret": 0.295205,
+          "rows": 292,
+          "top1_hit_rate": 0.414384
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.2992,
+          "rows": 375,
+          "top1_hit_rate": 0.416
+        },
+        "val": {
+          "mean_regret": 0.275648,
+          "rows": 193,
+          "top1_hit_rate": 0.440415
+        }
+      },
+      "candidate_id": "mlp_layers=8_act=tanh_alpha=0.001",
+      "complexity_label": "torch mlp 8 tanh a=0.001",
+      "complexity_order": 6,
+      "complexity_score": 275.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.240934,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        8
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.355178,
+      "mae_pixtral12b": 0.328073,
+      "mae_qwen3vl": 0.3754,
+      "max_hidden_width": 8,
+      "mean_regret": 0.291197,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 275,
+      "rmse_kimi_vl_a3b": 0.430064,
+      "rmse_pixtral12b": 0.392481,
+      "rmse_qwen3vl": 0.443829,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 155,
+        "pixtral12b": 142,
+        "qwen3vl": 271
+      },
+      "top1_hit_rate": 0.424296
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.01,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.285507,
+          "rows": 276,
+          "top1_hit_rate": 0.471014
+        },
+        "direct": {
+          "mean_regret": 0.29863,
+          "rows": 292,
+          "top1_hit_rate": 0.369863
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.298667,
+          "rows": 375,
+          "top1_hit_rate": 0.418667
+        },
+        "val": {
+          "mean_regret": 0.279793,
+          "rows": 193,
+          "top1_hit_rate": 0.419689
+        }
+      },
+      "candidate_id": "mlp_layers=32_act=tanh_alpha=0.01",
+      "complexity_label": "torch mlp 32 tanh a=0.01",
+      "complexity_order": 23,
+      "complexity_score": 1091.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.31878,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        32
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.429576,
+      "mae_pixtral12b": 0.37798,
+      "mae_qwen3vl": 0.422222,
+      "max_hidden_width": 32,
+      "mean_regret": 0.292254,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 1091,
+      "rmse_kimi_vl_a3b": 0.522564,
+      "rmse_pixtral12b": 0.468549,
+      "rmse_qwen3vl": 0.531517,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 123,
+        "pixtral12b": 188,
+        "qwen3vl": 257
+      },
+      "top1_hit_rate": 0.419014
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.001,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.287681,
+          "rows": 276,
+          "top1_hit_rate": 0.427536
+        },
+        "direct": {
+          "mean_regret": 0.300685,
+          "rows": 292,
+          "top1_hit_rate": 0.40411
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.302933,
+          "rows": 375,
+          "top1_hit_rate": 0.413333
+        },
+        "val": {
+          "mean_regret": 0.27772,
+          "rows": 193,
+          "top1_hit_rate": 0.419689
+        }
+      },
+      "candidate_id": "mlp_layers=16x16_act=relu_alpha=0.001",
+      "complexity_label": "torch mlp 16x16 relu a=0.001",
+      "complexity_order": 42,
+      "complexity_score": 819.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.354171,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        16,
+        16
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.386274,
+      "mae_pixtral12b": 0.340745,
+      "mae_qwen3vl": 0.414181,
+      "max_hidden_width": 16,
+      "mean_regret": 0.294366,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 819,
+      "rmse_kimi_vl_a3b": 0.472936,
+      "rmse_pixtral12b": 0.427172,
+      "rmse_qwen3vl": 0.510357,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 125,
+        "pixtral12b": 188,
+        "qwen3vl": 255
+      },
+      "top1_hit_rate": 0.415493
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.0001,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.286232,
+          "rows": 276,
+          "top1_hit_rate": 0.423913
+        },
+        "direct": {
+          "mean_regret": 0.310274,
+          "rows": 292,
+          "top1_hit_rate": 0.39726
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.3072,
+          "rows": 375,
+          "top1_hit_rate": 0.402667
+        },
+        "val": {
+          "mean_regret": 0.281865,
+          "rows": 193,
+          "top1_hit_rate": 0.42487
+        }
+      },
+      "candidate_id": "mlp_layers=32x16_act=relu_alpha=0.0001",
+      "complexity_label": "torch mlp 32x16 relu a=0.0001",
+      "complexity_order": 49,
+      "complexity_score": 1571.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.434693,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        32,
+        16
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.407804,
+      "mae_pixtral12b": 0.382616,
+      "mae_qwen3vl": 0.417055,
+      "max_hidden_width": 32,
+      "mean_regret": 0.298592,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 1571,
+      "rmse_kimi_vl_a3b": 0.502753,
+      "rmse_pixtral12b": 0.469441,
+      "rmse_qwen3vl": 0.526392,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 130,
+        "pixtral12b": 177,
+        "qwen3vl": 261
+      },
+      "top1_hit_rate": 0.410211
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.1,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.308696,
+          "rows": 276,
+          "top1_hit_rate": 0.40942
+        },
+        "direct": {
+          "mean_regret": 0.293836,
+          "rows": 292,
+          "top1_hit_rate": 0.407534
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.312533,
+          "rows": 375,
+          "top1_hit_rate": 0.394667
+        },
+        "val": {
+          "mean_regret": 0.278756,
+          "rows": 193,
+          "top1_hit_rate": 0.435233
+        }
+      },
+      "candidate_id": "mlp_layers=16_act=tanh_alpha=0.1",
+      "complexity_label": "torch mlp 16 tanh a=0.1",
+      "complexity_order": 16,
+      "complexity_score": 547.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.268623,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        16
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.382728,
+      "mae_pixtral12b": 0.335891,
+      "mae_qwen3vl": 0.426511,
+      "max_hidden_width": 16,
+      "mean_regret": 0.301056,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 547,
+      "rmse_kimi_vl_a3b": 0.472844,
+      "rmse_pixtral12b": 0.409802,
+      "rmse_qwen3vl": 0.520795,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 118,
+        "pixtral12b": 202,
+        "qwen3vl": 248
+      },
+      "top1_hit_rate": 0.408451
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.1,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.298551,
+          "rows": 276,
+          "top1_hit_rate": 0.413043
+        },
+        "direct": {
+          "mean_regret": 0.317123,
+          "rows": 292,
+          "top1_hit_rate": 0.359589
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.330133,
+          "rows": 375,
+          "top1_hit_rate": 0.370667
+        },
+        "val": {
+          "mean_regret": 0.265285,
+          "rows": 193,
+          "top1_hit_rate": 0.414508
+        }
+      },
+      "candidate_id": "mlp_layers=32x32_act=tanh_alpha=0.1",
+      "complexity_label": "torch mlp 32x32 tanh a=0.1",
+      "complexity_order": 64,
+      "complexity_score": 2147.0,
+      "cv_folds": 10,
+      "fit_seconds": 1.994137,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        32,
+        32
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.422142,
+      "mae_pixtral12b": 0.38626,
+      "mae_qwen3vl": 0.413862,
+      "max_hidden_width": 32,
+      "mean_regret": 0.308099,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 2147,
+      "rmse_kimi_vl_a3b": 0.523952,
+      "rmse_pixtral12b": 0.469919,
+      "rmse_qwen3vl": 0.515223,
+      "rows": 568,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 150,
+        "pixtral12b": 174,
+        "qwen3vl": 244
+      },
+      "top1_hit_rate": 0.385563
+    }
+  ],
+  "candidate_limit": null,
+  "cv_metrics": {
+    "by_claim_type": {
+      "analytical": {
+        "mean_regret": 0.244203,
+        "rows": 276,
+        "top1_hit_rate": 0.503623
+      },
+      "direct": {
+        "mean_regret": 0.242466,
+        "rows": 292,
+        "top1_hit_rate": 0.482877
+      }
+    },
+    "by_source_split": {
+      "test": {
+        "mean_regret": 0.243733,
+        "rows": 375,
+        "top1_hit_rate": 0.493333
+      },
+      "val": {
+        "mean_regret": 0.242487,
+        "rows": 193,
+        "top1_hit_rate": 0.492228
+      }
+    },
+    "mae_kimi_vl_a3b": 0.414675,
+    "mae_pixtral12b": 0.368617,
+    "mae_qwen3vl": 0.392162,
+    "mean_regret": 0.24331,
+    "median_regret": 0.2,
+    "rmse_kimi_vl_a3b": 0.51732,
+    "rmse_pixtral12b": 0.459729,
+    "rmse_qwen3vl": 0.495913,
+    "rows": 568,
+    "selected_model_counts": {
+      "kimi_vl_a3b": 148,
+      "pixtral12b": 163,
+      "qwen3vl": 257
+    },
+    "top1_hit_rate": 0.492958
+  },
+  "evaluation_note": "Internal grouped holdout estimate over the combined val+test router dataset; not untouched official SciVer test performance.",
+  "feature_set": "base",
+  "generated_at_utc": "2026-07-09T06:11:51.887384+00:00",
+  "group_counts": {
+    "test": 90,
+    "train": 434,
+    "validation": 95
+  },
+  "input_path": "Data/derived/model_router/public_router/router_dataset_public.csv",
+  "model_family": "torch_mlp",
+  "model_names": [
+    "qwen3vl",
+    "pixtral12b",
+    "kimi_vl_a3b"
+  ],
+  "nlp_coverage": {},
+  "rows": 811,
+  "selected_candidate": {
+    "activation": "relu",
+    "alpha": 0.001,
+    "by_claim_type": {
+      "analytical": {
+        "mean_regret": 0.244203,
+        "rows": 276,
+        "top1_hit_rate": 0.503623
+      },
+      "direct": {
+        "mean_regret": 0.242466,
+        "rows": 292,
+        "top1_hit_rate": 0.482877
+      }
+    },
+    "by_source_split": {
+      "test": {
+        "mean_regret": 0.243733,
+        "rows": 375,
+        "top1_hit_rate": 0.493333
+      },
+      "val": {
+        "mean_regret": 0.242487,
+        "rows": 193,
+        "top1_hit_rate": 0.492228
+      }
+    },
+    "candidate_id": "mlp_layers=32x32_act=relu_alpha=0.001",
+    "complexity_label": "torch mlp 32x32 relu a=0.001",
+    "complexity_order": 58,
+    "complexity_score": 2147.0,
+    "cv_folds": 10,
+    "fit_seconds": 1.799449,
+    "hidden_layer_count": 2,
+    "hidden_layer_sizes": [
+      32,
+      32
+    ],
+    "input_dim": 30,
+    "kind": "torch_mlp",
+    "mae_kimi_vl_a3b": 0.414675,
+    "mae_pixtral12b": 0.368617,
+    "mae_qwen3vl": 0.392162,
+    "max_hidden_width": 32,
+    "mean_regret": 0.24331,
+    "median_regret": 0.2,
+    "optimizer": "torch_lbfgs",
+    "output_dim": 3,
+    "parameter_count": 2147,
+    "rmse_kimi_vl_a3b": 0.51732,
+    "rmse_pixtral12b": 0.459729,
+    "rmse_qwen3vl": 0.495913,
+    "rows": 568,
+    "seed": 215,
+    "selected_model_counts": {
+      "kimi_vl_a3b": 148,
+      "pixtral12b": 163,
+      "qwen3vl": 257
+    },
+    "top1_hit_rate": 0.492958
+  },
+  "selection_policy": "regret_first",
+  "split_counts": {
+    "test": 120,
+    "train": 568,
+    "validation": 123
+  },
+  "target_columns": [
+    "acc_qwen3vl",
+    "acc_pixtral12b",
+    "acc_kimi_vl_a3b"
+  ],
+  "tda_coverage": {},
+  "test_metrics": {
+    "activation": "relu",
+    "alpha": 0.001,
+    "by_claim_type": {
+      "analytical": {
+        "mean_regret": 0.329825,
+        "rows": 57,
+        "top1_hit_rate": 0.421053
+      },
+      "direct": {
+        "mean_regret": 0.333333,
+        "rows": 63,
+        "top1_hit_rate": 0.301587
+      }
+    },
+    "by_source_split": {
+      "test": {
+        "mean_regret": 0.313924,
+        "rows": 79,
+        "top1_hit_rate": 0.379747
+      },
+      "val": {
+        "mean_regret": 0.365854,
+        "rows": 41,
+        "top1_hit_rate": 0.317073
+      }
+    },
+    "candidate_id": "mlp_layers=32x32_act=relu_alpha=0.001",
+    "complexity_label": "torch mlp 32x32 relu a=0.001",
+    "complexity_order": 58,
+    "complexity_score": 2147.0,
+    "hidden_layer_count": 2,
+    "hidden_layer_sizes": [
+      32,
+      32
+    ],
+    "input_dim": 30,
+    "kind": "torch_mlp",
+    "mae_kimi_vl_a3b": 0.399852,
+    "mae_pixtral12b": 0.336698,
+    "mae_qwen3vl": 0.483847,
+    "max_hidden_width": 32,
+    "mean_regret": 0.331667,
+    "median_regret": 0.2,
+    "optimizer": "torch_lbfgs",
+    "output_dim": 3,
+    "parameter_count": 2147,
+    "rmse_kimi_vl_a3b": 0.504562,
+    "rmse_pixtral12b": 0.431114,
+    "rmse_qwen3vl": 0.59181,
+    "rows": 120,
+    "seed": 215,
+    "selected_model_counts": {
+      "kimi_vl_a3b": 19,
+      "pixtral12b": 36,
+      "qwen3vl": 65
+    },
+    "top1_hit_rate": 0.358333,
+    "torch_runtime": {
+      "all_data_fit_seconds": 0.184011,
+      "cv_fit_seconds": 108.59677,
+      "effective_device": "cpu",
+      "fallback_reason": "",
+      "final_fit_seconds": 0.180795,
+      "lbfgs_max_iter": 300,
+      "lbfgs_tolerance": 1e-07,
+      "mps_available": false,
+      "mps_built": true,
+      "requested_device": "auto",
+      "requested_dtype": "float32",
+      "torch_dtype": "float32",
+      "torch_version": "2.8.0",
+      "training_seconds": 130.97476,
+      "validation_fit_seconds": 0.17812
+    }
+  },
+  "torch_runtime": {
+    "all_data_fit_seconds": 0.184011,
+    "cv_fit_seconds": 108.59677,
+    "effective_device": "cpu",
+    "fallback_reason": "",
+    "final_fit_seconds": 0.180795,
+    "lbfgs_max_iter": 300,
+    "lbfgs_tolerance": 1e-07,
+    "mps_available": false,
+    "mps_built": true,
+    "requested_device": "auto",
+    "requested_dtype": "float32",
+    "torch_dtype": "float32",
+    "torch_version": "2.8.0",
+    "training_seconds": 130.97476,
+    "validation_fit_seconds": 0.17812
+  },
+  "validation_metrics": {
+    "by_claim_type": {
+      "analytical": {
+        "mean_regret": 0.284375,
+        "rows": 64,
+        "top1_hit_rate": 0.46875
+      },
+      "direct": {
+        "mean_regret": 0.267797,
+        "rows": 59,
+        "top1_hit_rate": 0.389831
+      }
+    },
+    "by_source_split": {
+      "test": {
+        "mean_regret": 0.26,
+        "rows": 80,
+        "top1_hit_rate": 0.4375
+      },
+      "val": {
+        "mean_regret": 0.306977,
+        "rows": 43,
+        "top1_hit_rate": 0.418605
+      }
+    },
+    "mae_kimi_vl_a3b": 0.383397,
+    "mae_pixtral12b": 0.350948,
+    "mae_qwen3vl": 0.432785,
+    "mean_regret": 0.276423,
+    "median_regret": 0.2,
+    "rmse_kimi_vl_a3b": 0.480498,
+    "rmse_pixtral12b": 0.459325,
+    "rmse_qwen3vl": 0.537206,
+    "rows": 123,
+    "selected_model_counts": {
+      "kimi_vl_a3b": 32,
+      "pixtral12b": 31,
+      "qwen3vl": 60
+    },
+    "top1_hit_rate": 0.430894
+  },
+  "validation_summary": [
+    {
+      "activation": "relu",
+      "alpha": 0.001,
+      "by_claim_type": {
+        "analytical": {
+          "mean_regret": 0.284375,
+          "rows": 64,
+          "top1_hit_rate": 0.46875
+        },
+        "direct": {
+          "mean_regret": 0.267797,
+          "rows": 59,
+          "top1_hit_rate": 0.389831
+        }
+      },
+      "by_source_split": {
+        "test": {
+          "mean_regret": 0.26,
+          "rows": 80,
+          "top1_hit_rate": 0.4375
+        },
+        "val": {
+          "mean_regret": 0.306977,
+          "rows": 43,
+          "top1_hit_rate": 0.418605
+        }
+      },
+      "candidate_id": "mlp_layers=32x32_act=relu_alpha=0.001",
+      "complexity_label": "torch mlp 32x32 relu a=0.001",
+      "complexity_order": 58,
+      "complexity_score": 2147.0,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        32,
+        32
+      ],
+      "input_dim": 30,
+      "kind": "torch_mlp",
+      "mae_kimi_vl_a3b": 0.383397,
+      "mae_pixtral12b": 0.350948,
+      "mae_qwen3vl": 0.432785,
+      "max_hidden_width": 32,
+      "mean_regret": 0.276423,
+      "median_regret": 0.2,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 2147,
+      "rmse_kimi_vl_a3b": 0.480498,
+      "rmse_pixtral12b": 0.459325,
+      "rmse_qwen3vl": 0.537206,
+      "rows": 123,
+      "seed": 215,
+      "selected_model_counts": {
+        "kimi_vl_a3b": 32,
+        "pixtral12b": 31,
+        "qwen3vl": 60
+      },
+      "top1_hit_rate": 0.430894
+    }
+  ]
+}

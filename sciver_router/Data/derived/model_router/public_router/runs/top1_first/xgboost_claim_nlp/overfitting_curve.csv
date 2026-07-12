@@ -1,0 +1,2 @@
+candidate_id,kind,n_estimators,max_depth,learning_rate,subsample,colsample_bytree,reg_lambda,reg_alpha,seed,n_jobs,complexity_score,complexity_order,complexity_label,train_top1_hit_rate,validation_top1_hit_rate,top1_hit_rate_gap,train_mean_regret,validation_mean_regret,mean_regret_gap
+xgb_n=200_depth=3_lr=0.1_sub=1.0_col=1.0_l2=10.0_l1=0.1,xgboost,200,3,0.1,1.0,1.0,10.0,0.1,215,4,600.0,648,200 trees d=3,0.977113,0.463415,0.513698,0.004577,0.276423,0.271846

@@ -1,0 +1,1387 @@
+{
+  "all_data_model_file": "Data/derived/model_router/public_router/runs/top1_first/torch_mlp_chart_tda/final_model_all_data.pt",
+  "bootstrap_repeats": 1000,
+  "candidate_grid": [
+    {
+      "activation": "relu",
+      "alpha": 0.0001,
+      "complexity_label": "torch mlp 8 relu a=0.0001",
+      "complexity_order": 1,
+      "complexity_score": 923.0,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        8
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 8,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 923,
+      "seed": 215
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.001,
+      "complexity_label": "torch mlp 8 relu a=0.001",
+      "complexity_order": 2,
+      "complexity_score": 923.0,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        8
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 8,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 923,
+      "seed": 215
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.01,
+      "complexity_label": "torch mlp 8 relu a=0.01",
+      "complexity_order": 3,
+      "complexity_score": 923.0,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        8
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 8,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 923,
+      "seed": 215
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.1,
+      "complexity_label": "torch mlp 8 relu a=0.1",
+      "complexity_order": 4,
+      "complexity_score": 923.0,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        8
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 8,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 923,
+      "seed": 215
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.0001,
+      "complexity_label": "torch mlp 8 tanh a=0.0001",
+      "complexity_order": 5,
+      "complexity_score": 923.0,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        8
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 8,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 923,
+      "seed": 215
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.001,
+      "complexity_label": "torch mlp 8 tanh a=0.001",
+      "complexity_order": 6,
+      "complexity_score": 923.0,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        8
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 8,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 923,
+      "seed": 215
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.01,
+      "complexity_label": "torch mlp 8 tanh a=0.01",
+      "complexity_order": 7,
+      "complexity_score": 923.0,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        8
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 8,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 923,
+      "seed": 215
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.1,
+      "complexity_label": "torch mlp 8 tanh a=0.1",
+      "complexity_order": 8,
+      "complexity_score": 923.0,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        8
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 8,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 923,
+      "seed": 215
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.0001,
+      "complexity_label": "torch mlp 16 relu a=0.0001",
+      "complexity_order": 9,
+      "complexity_score": 1843.0,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        16
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 16,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 1843,
+      "seed": 215
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.001,
+      "complexity_label": "torch mlp 16 relu a=0.001",
+      "complexity_order": 10,
+      "complexity_score": 1843.0,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        16
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 16,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 1843,
+      "seed": 215
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.01,
+      "complexity_label": "torch mlp 16 relu a=0.01",
+      "complexity_order": 11,
+      "complexity_score": 1843.0,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        16
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 16,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 1843,
+      "seed": 215
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.1,
+      "complexity_label": "torch mlp 16 relu a=0.1",
+      "complexity_order": 12,
+      "complexity_score": 1843.0,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        16
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 16,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 1843,
+      "seed": 215
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.0001,
+      "complexity_label": "torch mlp 16 tanh a=0.0001",
+      "complexity_order": 13,
+      "complexity_score": 1843.0,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        16
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 16,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 1843,
+      "seed": 215
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.001,
+      "complexity_label": "torch mlp 16 tanh a=0.001",
+      "complexity_order": 14,
+      "complexity_score": 1843.0,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        16
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 16,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 1843,
+      "seed": 215
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.01,
+      "complexity_label": "torch mlp 16 tanh a=0.01",
+      "complexity_order": 15,
+      "complexity_score": 1843.0,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        16
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 16,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 1843,
+      "seed": 215
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.1,
+      "complexity_label": "torch mlp 16 tanh a=0.1",
+      "complexity_order": 16,
+      "complexity_score": 1843.0,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        16
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 16,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 1843,
+      "seed": 215
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.0001,
+      "complexity_label": "torch mlp 32 relu a=0.0001",
+      "complexity_order": 17,
+      "complexity_score": 3683.0,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        32
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 32,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 3683,
+      "seed": 215
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.001,
+      "complexity_label": "torch mlp 32 relu a=0.001",
+      "complexity_order": 18,
+      "complexity_score": 3683.0,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        32
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 32,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 3683,
+      "seed": 215
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.01,
+      "complexity_label": "torch mlp 32 relu a=0.01",
+      "complexity_order": 19,
+      "complexity_score": 3683.0,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        32
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 32,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 3683,
+      "seed": 215
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.1,
+      "complexity_label": "torch mlp 32 relu a=0.1",
+      "complexity_order": 20,
+      "complexity_score": 3683.0,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        32
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 32,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 3683,
+      "seed": 215
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.0001,
+      "complexity_label": "torch mlp 32 tanh a=0.0001",
+      "complexity_order": 21,
+      "complexity_score": 3683.0,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        32
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 32,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 3683,
+      "seed": 215
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.001,
+      "complexity_label": "torch mlp 32 tanh a=0.001",
+      "complexity_order": 22,
+      "complexity_score": 3683.0,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        32
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 32,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 3683,
+      "seed": 215
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.01,
+      "complexity_label": "torch mlp 32 tanh a=0.01",
+      "complexity_order": 23,
+      "complexity_score": 3683.0,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        32
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 32,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 3683,
+      "seed": 215
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.1,
+      "complexity_label": "torch mlp 32 tanh a=0.1",
+      "complexity_order": 24,
+      "complexity_score": 3683.0,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        32
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 32,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 3683,
+      "seed": 215
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.0001,
+      "complexity_label": "torch mlp 64 relu a=0.0001",
+      "complexity_order": 25,
+      "complexity_score": 7363.0,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        64
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 64,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 7363,
+      "seed": 215
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.001,
+      "complexity_label": "torch mlp 64 relu a=0.001",
+      "complexity_order": 26,
+      "complexity_score": 7363.0,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        64
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 64,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 7363,
+      "seed": 215
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.01,
+      "complexity_label": "torch mlp 64 relu a=0.01",
+      "complexity_order": 27,
+      "complexity_score": 7363.0,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        64
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 64,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 7363,
+      "seed": 215
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.1,
+      "complexity_label": "torch mlp 64 relu a=0.1",
+      "complexity_order": 28,
+      "complexity_score": 7363.0,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        64
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 64,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 7363,
+      "seed": 215
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.0001,
+      "complexity_label": "torch mlp 64 tanh a=0.0001",
+      "complexity_order": 29,
+      "complexity_score": 7363.0,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        64
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 64,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 7363,
+      "seed": 215
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.001,
+      "complexity_label": "torch mlp 64 tanh a=0.001",
+      "complexity_order": 30,
+      "complexity_score": 7363.0,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        64
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 64,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 7363,
+      "seed": 215
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.01,
+      "complexity_label": "torch mlp 64 tanh a=0.01",
+      "complexity_order": 31,
+      "complexity_score": 7363.0,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        64
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 64,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 7363,
+      "seed": 215
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.1,
+      "complexity_label": "torch mlp 64 tanh a=0.1",
+      "complexity_order": 32,
+      "complexity_score": 7363.0,
+      "hidden_layer_count": 1,
+      "hidden_layer_sizes": [
+        64
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 64,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 7363,
+      "seed": 215
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.0001,
+      "complexity_label": "torch mlp 8x8 relu a=0.0001",
+      "complexity_order": 33,
+      "complexity_score": 995.0,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        8,
+        8
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 8,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 995,
+      "seed": 215
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.001,
+      "complexity_label": "torch mlp 8x8 relu a=0.001",
+      "complexity_order": 34,
+      "complexity_score": 995.0,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        8,
+        8
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 8,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 995,
+      "seed": 215
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.01,
+      "complexity_label": "torch mlp 8x8 relu a=0.01",
+      "complexity_order": 35,
+      "complexity_score": 995.0,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        8,
+        8
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 8,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 995,
+      "seed": 215
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.1,
+      "complexity_label": "torch mlp 8x8 relu a=0.1",
+      "complexity_order": 36,
+      "complexity_score": 995.0,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        8,
+        8
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 8,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 995,
+      "seed": 215
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.0001,
+      "complexity_label": "torch mlp 8x8 tanh a=0.0001",
+      "complexity_order": 37,
+      "complexity_score": 995.0,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        8,
+        8
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 8,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 995,
+      "seed": 215
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.001,
+      "complexity_label": "torch mlp 8x8 tanh a=0.001",
+      "complexity_order": 38,
+      "complexity_score": 995.0,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        8,
+        8
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 8,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 995,
+      "seed": 215
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.01,
+      "complexity_label": "torch mlp 8x8 tanh a=0.01",
+      "complexity_order": 39,
+      "complexity_score": 995.0,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        8,
+        8
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 8,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 995,
+      "seed": 215
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.1,
+      "complexity_label": "torch mlp 8x8 tanh a=0.1",
+      "complexity_order": 40,
+      "complexity_score": 995.0,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        8,
+        8
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 8,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 995,
+      "seed": 215
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.0001,
+      "complexity_label": "torch mlp 16x16 relu a=0.0001",
+      "complexity_order": 41,
+      "complexity_score": 2115.0,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        16,
+        16
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 16,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 2115,
+      "seed": 215
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.001,
+      "complexity_label": "torch mlp 16x16 relu a=0.001",
+      "complexity_order": 42,
+      "complexity_score": 2115.0,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        16,
+        16
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 16,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 2115,
+      "seed": 215
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.01,
+      "complexity_label": "torch mlp 16x16 relu a=0.01",
+      "complexity_order": 43,
+      "complexity_score": 2115.0,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        16,
+        16
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 16,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 2115,
+      "seed": 215
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.1,
+      "complexity_label": "torch mlp 16x16 relu a=0.1",
+      "complexity_order": 44,
+      "complexity_score": 2115.0,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        16,
+        16
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 16,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 2115,
+      "seed": 215
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.0001,
+      "complexity_label": "torch mlp 16x16 tanh a=0.0001",
+      "complexity_order": 45,
+      "complexity_score": 2115.0,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        16,
+        16
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 16,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 2115,
+      "seed": 215
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.001,
+      "complexity_label": "torch mlp 16x16 tanh a=0.001",
+      "complexity_order": 46,
+      "complexity_score": 2115.0,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        16,
+        16
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 16,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 2115,
+      "seed": 215
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.01,
+      "complexity_label": "torch mlp 16x16 tanh a=0.01",
+      "complexity_order": 47,
+      "complexity_score": 2115.0,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        16,
+        16
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 16,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 2115,
+      "seed": 215
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.1,
+      "complexity_label": "torch mlp 16x16 tanh a=0.1",
+      "complexity_order": 48,
+      "complexity_score": 2115.0,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        16,
+        16
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 16,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 2115,
+      "seed": 215
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.0001,
+      "complexity_label": "torch mlp 32x16 relu a=0.0001",
+      "complexity_order": 49,
+      "complexity_score": 4163.0,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        32,
+        16
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 32,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 4163,
+      "seed": 215
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.001,
+      "complexity_label": "torch mlp 32x16 relu a=0.001",
+      "complexity_order": 50,
+      "complexity_score": 4163.0,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        32,
+        16
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 32,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 4163,
+      "seed": 215
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.01,
+      "complexity_label": "torch mlp 32x16 relu a=0.01",
+      "complexity_order": 51,
+      "complexity_score": 4163.0,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        32,
+        16
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 32,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 4163,
+      "seed": 215
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.1,
+      "complexity_label": "torch mlp 32x16 relu a=0.1",
+      "complexity_order": 52,
+      "complexity_score": 4163.0,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        32,
+        16
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 32,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 4163,
+      "seed": 215
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.0001,
+      "complexity_label": "torch mlp 32x16 tanh a=0.0001",
+      "complexity_order": 53,
+      "complexity_score": 4163.0,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        32,
+        16
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 32,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 4163,
+      "seed": 215
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.001,
+      "complexity_label": "torch mlp 32x16 tanh a=0.001",
+      "complexity_order": 54,
+      "complexity_score": 4163.0,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        32,
+        16
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 32,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 4163,
+      "seed": 215
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.01,
+      "complexity_label": "torch mlp 32x16 tanh a=0.01",
+      "complexity_order": 55,
+      "complexity_score": 4163.0,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        32,
+        16
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 32,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 4163,
+      "seed": 215
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.1,
+      "complexity_label": "torch mlp 32x16 tanh a=0.1",
+      "complexity_order": 56,
+      "complexity_score": 4163.0,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        32,
+        16
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 32,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 4163,
+      "seed": 215
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.0001,
+      "complexity_label": "torch mlp 32x32 relu a=0.0001",
+      "complexity_order": 57,
+      "complexity_score": 4739.0,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        32,
+        32
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 32,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 4739,
+      "seed": 215
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.001,
+      "complexity_label": "torch mlp 32x32 relu a=0.001",
+      "complexity_order": 58,
+      "complexity_score": 4739.0,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        32,
+        32
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 32,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 4739,
+      "seed": 215
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.01,
+      "complexity_label": "torch mlp 32x32 relu a=0.01",
+      "complexity_order": 59,
+      "complexity_score": 4739.0,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        32,
+        32
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 32,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 4739,
+      "seed": 215
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.1,
+      "complexity_label": "torch mlp 32x32 relu a=0.1",
+      "complexity_order": 60,
+      "complexity_score": 4739.0,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        32,
+        32
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 32,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 4739,
+      "seed": 215
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.0001,
+      "complexity_label": "torch mlp 32x32 tanh a=0.0001",
+      "complexity_order": 61,
+      "complexity_score": 4739.0,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        32,
+        32
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 32,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 4739,
+      "seed": 215
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.001,
+      "complexity_label": "torch mlp 32x32 tanh a=0.001",
+      "complexity_order": 62,
+      "complexity_score": 4739.0,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        32,
+        32
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 32,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 4739,
+      "seed": 215
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.01,
+      "complexity_label": "torch mlp 32x32 tanh a=0.01",
+      "complexity_order": 63,
+      "complexity_score": 4739.0,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        32,
+        32
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 32,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 4739,
+      "seed": 215
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.1,
+      "complexity_label": "torch mlp 32x32 tanh a=0.1",
+      "complexity_order": 64,
+      "complexity_score": 4739.0,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        32,
+        32
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 32,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 4739,
+      "seed": 215
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.0001,
+      "complexity_label": "torch mlp 64x32 relu a=0.0001",
+      "complexity_order": 65,
+      "complexity_score": 9347.0,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        64,
+        32
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 64,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 9347,
+      "seed": 215
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.001,
+      "complexity_label": "torch mlp 64x32 relu a=0.001",
+      "complexity_order": 66,
+      "complexity_score": 9347.0,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        64,
+        32
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 64,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 9347,
+      "seed": 215
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.01,
+      "complexity_label": "torch mlp 64x32 relu a=0.01",
+      "complexity_order": 67,
+      "complexity_score": 9347.0,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        64,
+        32
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 64,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 9347,
+      "seed": 215
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.1,
+      "complexity_label": "torch mlp 64x32 relu a=0.1",
+      "complexity_order": 68,
+      "complexity_score": 9347.0,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        64,
+        32
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 64,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 9347,
+      "seed": 215
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.0001,
+      "complexity_label": "torch mlp 64x32 tanh a=0.0001",
+      "complexity_order": 69,
+      "complexity_score": 9347.0,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        64,
+        32
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 64,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 9347,
+      "seed": 215
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.001,
+      "complexity_label": "torch mlp 64x32 tanh a=0.001",
+      "complexity_order": 70,
+      "complexity_score": 9347.0,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        64,
+        32
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 64,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 9347,
+      "seed": 215
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.01,
+      "complexity_label": "torch mlp 64x32 tanh a=0.01",
+      "complexity_order": 71,
+      "complexity_score": 9347.0,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        64,
+        32
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 64,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 9347,
+      "seed": 215
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.1,
+      "complexity_label": "torch mlp 64x32 tanh a=0.1",
+      "complexity_order": 72,
+      "complexity_score": 9347.0,
+      "hidden_layer_count": 2,
+      "hidden_layer_sizes": [
+        64,
+        32
+      ],
+      "input_dim": 111,
+      "kind": "torch_mlp",
+      "max_hidden_width": 64,
+      "optimizer": "torch_lbfgs",
+      "output_dim": 3,
+      "parameter_count": 9347,
+      "seed": 215
+    }
+  ],
+  "candidate_limit": null,
+  "cv_folds_requested": 10,
+  "cv_folds_used": 10,
+  "feature_set": "base_tda",
+  "input": "Data/derived/model_router/public_router/router_dataset_public.csv",
+  "model_file": "Data/derived/model_router/public_router/runs/top1_first/torch_mlp_chart_tda/final_model.pt",
+  "model_names": [
+    "qwen3vl",
+    "pixtral12b",
+    "kimi_vl_a3b"
+  ],
+  "nlp_coverage": {},
+  "nlp_features": "",
+  "out_dir": "Data/derived/model_router/public_router/runs/top1_first/torch_mlp_chart_tda",
+  "repo_root": ".",
+  "seed": 215,
+  "selection_policy": "top1_first",
+  "tda_coverage": {
+    "rows": 811,
+    "rows_parse_failed": 0,
+    "rows_parse_ok": 811,
+    "rows_with_tda_record": 811,
+    "tda_features_path": "precomputed_in_input_dataset",
+    "tda_numeric_feature_count": 81
+  },
+  "tda_features": "",
+  "test_size": 0.15,
+  "torch_runtime": {
+    "all_data_fit_seconds": 0.140768,
+    "cv_fit_seconds": 124.518825,
+    "effective_device": "cpu",
+    "fallback_reason": "",
+    "final_fit_seconds": 0.139968,
+    "lbfgs_max_iter": 300,
+    "lbfgs_tolerance": 1e-07,
+    "mps_available": false,
+    "mps_built": true,
+    "requested_device": "auto",
+    "requested_dtype": "float32",
+    "torch_dtype": "float32",
+    "torch_version": "2.8.0",
+    "training_seconds": 150.12711,
+    "validation_fit_seconds": 0.138183
+  },
+  "validation_size": 0.15
+}

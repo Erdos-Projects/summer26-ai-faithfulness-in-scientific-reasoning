@@ -1,0 +1,11 @@
+{
+  "chart_tda_features_public.csv": "c825bed31b45eb3200c35f2188e2c3e4339b2c4ea8153ef82a4b3f4a61d98c37",
+  "claim_nlp_features_public.csv": "d0fa0a62e7874426f26f2afc514ea02c5c7887146a2ff4f4d760e44da63e18d2",
+  "comparisons/regret_first/model_comparison_metrics.csv": "e5ab7ac8b1859a13afc38f64adde9dab9a725f524c0e8dcb9662a01fe02f102c",
+  "comparisons/regret_first/model_comparison_summary.json": "3d4871f161122dda1086fa8cef3066cffe60044dd95dd500c9c38464c10dadfb",
+  "comparisons/top1_first/model_comparison_metrics.csv": "30a2201bb954722c14ddfb64b7253872ab1a50f46e4dad9980e5b71524ab7fe1",
+  "comparisons/top1_first/model_comparison_summary.json": "804d5c9126fdf9961d8d0e6b24c7dca4444e9daf3c52e37ef9ea1fb39ca14602",
+  "public_router_run_manifest.json": "1d7d66e39f976e8b9213e13b62bdc8d9f0b4dafe97fa729c852d39fca1e40e62",
+  "router_dataset_public.csv": "1e6030c83e347e177be611ed355841df1cbbb092cc40d063cf047d3622489cb6",
+  "router_dataset_public_audit.json": "83be1d277266aa5392ac45022766e93f86e354223eb2c8b84391f448c6f7cc43"
+}

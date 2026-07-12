@@ -1,0 +1,73 @@
+candidate_id,kind,hidden_layer_sizes,hidden_layer_count,max_hidden_width,activation,alpha,optimizer,seed,input_dim,output_dim,parameter_count,complexity_score,complexity_order,complexity_label,train_top1_hit_rate,validation_top1_hit_rate,top1_hit_rate_gap,train_mean_regret,validation_mean_regret,mean_regret_gap,fit_seconds
+mlp_layers=8_act=relu_alpha=0.0001,torch_mlp,"(8,)",1,8,relu,0.0001,torch_lbfgs,215,187,3,1531,1531.0,1,torch mlp 8 relu a=0.0001,0.853873,0.422764,0.431109,0.044718,0.300813,0.256095,0.131125
+mlp_layers=8_act=relu_alpha=0.001,torch_mlp,"(8,)",1,8,relu,0.001,torch_lbfgs,215,187,3,1531,1531.0,2,torch mlp 8 relu a=0.001,0.866197,0.398374,0.467823,0.041901,0.320325,0.278424,0.130613
+mlp_layers=8_act=relu_alpha=0.01,torch_mlp,"(8,)",1,8,relu,0.01,torch_lbfgs,215,187,3,1531,1531.0,3,torch mlp 8 relu a=0.01,0.846831,0.439024,0.407807,0.048239,0.287805,0.239566,0.131604
+mlp_layers=8_act=relu_alpha=0.1,torch_mlp,"(8,)",1,8,relu,0.1,torch_lbfgs,215,187,3,1531,1531.0,4,torch mlp 8 relu a=0.1,0.859155,0.471545,0.38761,0.04331,0.286179,0.242869,0.132026
+mlp_layers=8_act=tanh_alpha=0.0001,torch_mlp,"(8,)",1,8,tanh,0.0001,torch_lbfgs,215,187,3,1531,1531.0,5,torch mlp 8 tanh a=0.0001,0.892606,0.414634,0.477972,0.033451,0.326829,0.293378,0.141247
+mlp_layers=8_act=tanh_alpha=0.001,torch_mlp,"(8,)",1,8,tanh,0.001,torch_lbfgs,215,187,3,1531,1531.0,6,torch mlp 8 tanh a=0.001,0.90669,0.373984,0.532706,0.030634,0.352846,0.322212,0.158115
+mlp_layers=8_act=tanh_alpha=0.01,torch_mlp,"(8,)",1,8,tanh,0.01,torch_lbfgs,215,187,3,1531,1531.0,7,torch mlp 8 tanh a=0.01,0.917254,0.439024,0.47823,0.026056,0.302439,0.276383,0.15977
+mlp_layers=8_act=tanh_alpha=0.1,torch_mlp,"(8,)",1,8,tanh,0.1,torch_lbfgs,215,187,3,1531,1531.0,8,torch mlp 8 tanh a=0.1,0.93662,0.414634,0.521986,0.016197,0.299187,0.28299,0.140399
+mlp_layers=16_act=relu_alpha=0.0001,torch_mlp,"(16,)",1,16,relu,0.0001,torch_lbfgs,215,187,3,3059,3059.0,9,torch mlp 16 relu a=0.0001,0.998239,0.422764,0.575475,0.000352,0.323577,0.323225,0.18208
+mlp_layers=16_act=relu_alpha=0.001,torch_mlp,"(16,)",1,16,relu,0.001,torch_lbfgs,215,187,3,3059,3059.0,10,torch mlp 16 relu a=0.001,0.996479,0.439024,0.557455,0.000704,0.282927,0.282223,0.178516
+mlp_layers=16_act=relu_alpha=0.01,torch_mlp,"(16,)",1,16,relu,0.01,torch_lbfgs,215,187,3,3059,3059.0,11,torch mlp 16 relu a=0.01,0.996479,0.398374,0.598105,0.000704,0.315447,0.314743,0.178642
+mlp_layers=16_act=relu_alpha=0.1,torch_mlp,"(16,)",1,16,relu,0.1,torch_lbfgs,215,187,3,3059,3059.0,12,torch mlp 16 relu a=0.1,0.996479,0.439024,0.557455,0.000704,0.263415,0.262711,0.179485
+mlp_layers=16_act=tanh_alpha=0.0001,torch_mlp,"(16,)",1,16,tanh,0.0001,torch_lbfgs,215,187,3,3059,3059.0,13,torch mlp 16 tanh a=0.0001,0.998239,0.422764,0.575475,0.000352,0.294309,0.293957,0.188106
+mlp_layers=16_act=tanh_alpha=0.001,torch_mlp,"(16,)",1,16,tanh,0.001,torch_lbfgs,215,187,3,3059,3059.0,14,torch mlp 16 tanh a=0.001,1.0,0.414634,0.585366,0.0,0.302439,0.302439,0.188576
+mlp_layers=16_act=tanh_alpha=0.01,torch_mlp,"(16,)",1,16,tanh,0.01,torch_lbfgs,215,187,3,3059,3059.0,15,torch mlp 16 tanh a=0.01,1.0,0.439024,0.560976,0.0,0.273171,0.273171,0.212525
+mlp_layers=16_act=tanh_alpha=0.1,torch_mlp,"(16,)",1,16,tanh,0.1,torch_lbfgs,215,187,3,3059,3059.0,16,torch mlp 16 tanh a=0.1,1.0,0.430894,0.569106,0.0,0.297561,0.297561,0.195448
+mlp_layers=32_act=relu_alpha=0.0001,torch_mlp,"(32,)",1,32,relu,0.0001,torch_lbfgs,215,187,3,6115,6115.0,17,torch mlp 32 relu a=0.0001,1.0,0.447154,0.552846,0.0,0.294309,0.294309,0.07589
+mlp_layers=32_act=relu_alpha=0.001,torch_mlp,"(32,)",1,32,relu,0.001,torch_lbfgs,215,187,3,6115,6115.0,18,torch mlp 32 relu a=0.001,1.0,0.406504,0.593496,0.0,0.325203,0.325203,0.077423
+mlp_layers=32_act=relu_alpha=0.01,torch_mlp,"(32,)",1,32,relu,0.01,torch_lbfgs,215,187,3,6115,6115.0,19,torch mlp 32 relu a=0.01,1.0,0.422764,0.577236,0.0,0.317073,0.317073,0.210177
+mlp_layers=32_act=relu_alpha=0.1,torch_mlp,"(32,)",1,32,relu,0.1,torch_lbfgs,215,187,3,6115,6115.0,20,torch mlp 32 relu a=0.1,1.0,0.422764,0.577236,0.0,0.315447,0.315447,0.210555
+mlp_layers=32_act=tanh_alpha=0.0001,torch_mlp,"(32,)",1,32,tanh,0.0001,torch_lbfgs,215,187,3,6115,6115.0,21,torch mlp 32 tanh a=0.0001,1.0,0.390244,0.609756,0.0,0.318699,0.318699,0.085266
+mlp_layers=32_act=tanh_alpha=0.001,torch_mlp,"(32,)",1,32,tanh,0.001,torch_lbfgs,215,187,3,6115,6115.0,22,torch mlp 32 tanh a=0.001,1.0,0.382114,0.617886,0.0,0.321951,0.321951,0.087424
+mlp_layers=32_act=tanh_alpha=0.01,torch_mlp,"(32,)",1,32,tanh,0.01,torch_lbfgs,215,187,3,6115,6115.0,23,torch mlp 32 tanh a=0.01,1.0,0.390244,0.609756,0.0,0.302439,0.302439,0.221891
+mlp_layers=32_act=tanh_alpha=0.1,torch_mlp,"(32,)",1,32,tanh,0.1,torch_lbfgs,215,187,3,6115,6115.0,24,torch mlp 32 tanh a=0.1,1.0,0.373984,0.626016,0.0,0.315447,0.315447,0.221672
+mlp_layers=64_act=relu_alpha=0.0001,torch_mlp,"(64,)",1,64,relu,0.0001,torch_lbfgs,215,187,3,12227,12227.0,25,torch mlp 64 relu a=0.0001,1.0,0.447154,0.552846,0.0,0.300813,0.300813,0.064689
+mlp_layers=64_act=relu_alpha=0.001,torch_mlp,"(64,)",1,64,relu,0.001,torch_lbfgs,215,187,3,12227,12227.0,26,torch mlp 64 relu a=0.001,1.0,0.447154,0.552846,0.0,0.299187,0.299187,0.062666
+mlp_layers=64_act=relu_alpha=0.01,torch_mlp,"(64,)",1,64,relu,0.01,torch_lbfgs,215,187,3,12227,12227.0,27,torch mlp 64 relu a=0.01,1.0,0.447154,0.552846,0.0,0.291057,0.291057,0.305769
+mlp_layers=64_act=relu_alpha=0.1,torch_mlp,"(64,)",1,64,relu,0.1,torch_lbfgs,215,187,3,12227,12227.0,28,torch mlp 64 relu a=0.1,1.0,0.463415,0.536585,0.0,0.284553,0.284553,0.305138
+mlp_layers=64_act=tanh_alpha=0.0001,torch_mlp,"(64,)",1,64,tanh,0.0001,torch_lbfgs,215,187,3,12227,12227.0,29,torch mlp 64 tanh a=0.0001,1.0,0.455285,0.544715,0.0,0.287805,0.287805,0.097936
+mlp_layers=64_act=tanh_alpha=0.001,torch_mlp,"(64,)",1,64,tanh,0.001,torch_lbfgs,215,187,3,12227,12227.0,30,torch mlp 64 tanh a=0.001,1.0,0.455285,0.544715,0.0,0.287805,0.287805,0.098186
+mlp_layers=64_act=tanh_alpha=0.01,torch_mlp,"(64,)",1,64,tanh,0.01,torch_lbfgs,215,187,3,12227,12227.0,31,torch mlp 64 tanh a=0.01,1.0,0.471545,0.528455,0.0,0.279675,0.279675,0.299297
+mlp_layers=64_act=tanh_alpha=0.1,torch_mlp,"(64,)",1,64,tanh,0.1,torch_lbfgs,215,187,3,12227,12227.0,32,torch mlp 64 tanh a=0.1,1.0,0.447154,0.552846,0.0,0.291057,0.291057,0.31347
+mlp_layers=8x8_act=relu_alpha=0.0001,torch_mlp,"(8, 8)",2,8,relu,0.0001,torch_lbfgs,215,187,3,1603,1603.0,33,torch mlp 8x8 relu a=0.0001,0.897887,0.439024,0.458863,0.027465,0.274797,0.247332,0.143461
+mlp_layers=8x8_act=relu_alpha=0.001,torch_mlp,"(8, 8)",2,8,relu,0.001,torch_lbfgs,215,187,3,1603,1603.0,34,torch mlp 8x8 relu a=0.001,0.901408,0.487805,0.413603,0.026056,0.250407,0.224351,0.143654
+mlp_layers=8x8_act=relu_alpha=0.01,torch_mlp,"(8, 8)",2,8,relu,0.01,torch_lbfgs,215,187,3,1603,1603.0,35,torch mlp 8x8 relu a=0.01,0.908451,0.504065,0.404386,0.025704,0.271545,0.245841,0.143364
+mlp_layers=8x8_act=relu_alpha=0.1,torch_mlp,"(8, 8)",2,8,relu,0.1,torch_lbfgs,215,187,3,1603,1603.0,36,torch mlp 8x8 relu a=0.1,0.899648,0.479675,0.419973,0.028169,0.266667,0.238498,0.141718
+mlp_layers=8x8_act=tanh_alpha=0.0001,torch_mlp,"(8, 8)",2,8,tanh,0.0001,torch_lbfgs,215,187,3,1603,1603.0,37,torch mlp 8x8 tanh a=0.0001,0.855634,0.447154,0.40848,0.044718,0.269919,0.225201,0.155717
+mlp_layers=8x8_act=tanh_alpha=0.001,torch_mlp,"(8, 8)",2,8,tanh,0.001,torch_lbfgs,215,187,3,1603,1603.0,38,torch mlp 8x8 tanh a=0.001,0.862676,0.430894,0.431782,0.040493,0.279675,0.239182,0.156085
+mlp_layers=8x8_act=tanh_alpha=0.01,torch_mlp,"(8, 8)",2,8,tanh,0.01,torch_lbfgs,215,187,3,1603,1603.0,39,torch mlp 8x8 tanh a=0.01,0.890845,0.487805,0.40304,0.032394,0.265041,0.232647,0.156002
+mlp_layers=8x8_act=tanh_alpha=0.1,torch_mlp,"(8, 8)",2,8,tanh,0.1,torch_lbfgs,215,187,3,1603,1603.0,40,torch mlp 8x8 tanh a=0.1,0.933099,0.479675,0.453424,0.016549,0.279675,0.263126,0.156032
+mlp_layers=16x16_act=relu_alpha=0.0001,torch_mlp,"(16, 16)",2,16,relu,0.0001,torch_lbfgs,215,187,3,3331,3331.0,41,torch mlp 16x16 relu a=0.0001,0.996479,0.430894,0.565585,0.000704,0.304065,0.303361,0.194066
+mlp_layers=16x16_act=relu_alpha=0.001,torch_mlp,"(16, 16)",2,16,relu,0.001,torch_lbfgs,215,187,3,3331,3331.0,42,torch mlp 16x16 relu a=0.001,0.996479,0.430894,0.565585,0.000704,0.308943,0.308239,0.192847
+mlp_layers=16x16_act=relu_alpha=0.01,torch_mlp,"(16, 16)",2,16,relu,0.01,torch_lbfgs,215,187,3,3331,3331.0,43,torch mlp 16x16 relu a=0.01,1.0,0.479675,0.520325,0.0,0.274797,0.274797,0.193095
+mlp_layers=16x16_act=relu_alpha=0.1,torch_mlp,"(16, 16)",2,16,relu,0.1,torch_lbfgs,215,187,3,3331,3331.0,44,torch mlp 16x16 relu a=0.1,0.998239,0.365854,0.632385,0.000352,0.346341,0.345989,0.192711
+mlp_layers=16x16_act=tanh_alpha=0.0001,torch_mlp,"(16, 16)",2,16,tanh,0.0001,torch_lbfgs,215,187,3,3331,3331.0,45,torch mlp 16x16 tanh a=0.0001,1.0,0.471545,0.528455,0.0,0.279675,0.279675,0.206615
+mlp_layers=16x16_act=tanh_alpha=0.001,torch_mlp,"(16, 16)",2,16,tanh,0.001,torch_lbfgs,215,187,3,3331,3331.0,46,torch mlp 16x16 tanh a=0.001,1.0,0.495935,0.504065,0.0,0.269919,0.269919,0.205411
+mlp_layers=16x16_act=tanh_alpha=0.01,torch_mlp,"(16, 16)",2,16,tanh,0.01,torch_lbfgs,215,187,3,3331,3331.0,47,torch mlp 16x16 tanh a=0.01,1.0,0.471545,0.528455,0.0,0.268293,0.268293,0.206273
+mlp_layers=16x16_act=tanh_alpha=0.1,torch_mlp,"(16, 16)",2,16,tanh,0.1,torch_lbfgs,215,187,3,3331,3331.0,48,torch mlp 16x16 tanh a=0.1,1.0,0.520325,0.479675,0.0,0.242276,0.242276,0.206237
+mlp_layers=32x16_act=relu_alpha=0.0001,torch_mlp,"(32, 16)",2,32,relu,0.0001,torch_lbfgs,215,187,3,6595,6595.0,49,torch mlp 32x16 relu a=0.0001,1.0,0.373984,0.626016,0.0,0.328455,0.328455,0.224489
+mlp_layers=32x16_act=relu_alpha=0.001,torch_mlp,"(32, 16)",2,32,relu,0.001,torch_lbfgs,215,187,3,6595,6595.0,50,torch mlp 32x16 relu a=0.001,1.0,0.414634,0.585366,0.0,0.305691,0.305691,0.140645
+mlp_layers=32x16_act=relu_alpha=0.01,torch_mlp,"(32, 16)",2,32,relu,0.01,torch_lbfgs,215,187,3,6595,6595.0,51,torch mlp 32x16 relu a=0.01,1.0,0.479675,0.520325,0.0,0.268293,0.268293,0.227757
+mlp_layers=32x16_act=relu_alpha=0.1,torch_mlp,"(32, 16)",2,32,relu,0.1,torch_lbfgs,215,187,3,6595,6595.0,52,torch mlp 32x16 relu a=0.1,1.0,0.422764,0.577236,0.0,0.310569,0.310569,0.228708
+mlp_layers=32x16_act=tanh_alpha=0.0001,torch_mlp,"(32, 16)",2,32,tanh,0.0001,torch_lbfgs,215,187,3,6595,6595.0,53,torch mlp 32x16 tanh a=0.0001,1.0,0.455285,0.544715,0.0,0.260163,0.260163,0.104188
+mlp_layers=32x16_act=tanh_alpha=0.001,torch_mlp,"(32, 16)",2,32,tanh,0.001,torch_lbfgs,215,187,3,6595,6595.0,54,torch mlp 32x16 tanh a=0.001,1.0,0.455285,0.544715,0.0,0.260163,0.260163,0.109321
+mlp_layers=32x16_act=tanh_alpha=0.01,torch_mlp,"(32, 16)",2,32,tanh,0.01,torch_lbfgs,215,187,3,6595,6595.0,55,torch mlp 32x16 tanh a=0.01,1.0,0.479675,0.520325,0.0,0.263415,0.263415,0.241641
+mlp_layers=32x16_act=tanh_alpha=0.1,torch_mlp,"(32, 16)",2,32,tanh,0.1,torch_lbfgs,215,187,3,6595,6595.0,56,torch mlp 32x16 tanh a=0.1,1.0,0.479675,0.520325,0.0,0.279675,0.279675,0.240956
+mlp_layers=32x32_act=relu_alpha=0.0001,torch_mlp,"(32, 32)",2,32,relu,0.0001,torch_lbfgs,215,187,3,7171,7171.0,57,torch mlp 32x32 relu a=0.0001,1.0,0.455285,0.544715,0.0,0.310569,0.310569,0.084956
+mlp_layers=32x32_act=relu_alpha=0.001,torch_mlp,"(32, 32)",2,32,relu,0.001,torch_lbfgs,215,187,3,7171,7171.0,58,torch mlp 32x32 relu a=0.001,1.0,0.455285,0.544715,0.0,0.307317,0.307317,0.104945
+mlp_layers=32x32_act=relu_alpha=0.01,torch_mlp,"(32, 32)",2,32,relu,0.01,torch_lbfgs,215,187,3,7171,7171.0,59,torch mlp 32x32 relu a=0.01,1.0,0.422764,0.577236,0.0,0.307317,0.307317,0.234918
+mlp_layers=32x32_act=relu_alpha=0.1,torch_mlp,"(32, 32)",2,32,relu,0.1,torch_lbfgs,215,187,3,7171,7171.0,60,torch mlp 32x32 relu a=0.1,1.0,0.414634,0.585366,0.0,0.312195,0.312195,0.23319
+mlp_layers=32x32_act=tanh_alpha=0.0001,torch_mlp,"(32, 32)",2,32,tanh,0.0001,torch_lbfgs,215,187,3,7171,7171.0,61,torch mlp 32x32 tanh a=0.0001,1.0,0.422764,0.577236,0.0,0.305691,0.305691,0.100205
+mlp_layers=32x32_act=tanh_alpha=0.001,torch_mlp,"(32, 32)",2,32,tanh,0.001,torch_lbfgs,215,187,3,7171,7171.0,62,torch mlp 32x32 tanh a=0.001,1.0,0.414634,0.585366,0.0,0.310569,0.310569,0.101303
+mlp_layers=32x32_act=tanh_alpha=0.01,torch_mlp,"(32, 32)",2,32,tanh,0.01,torch_lbfgs,215,187,3,7171,7171.0,63,torch mlp 32x32 tanh a=0.01,1.0,0.439024,0.560976,0.0,0.292683,0.292683,0.251801
+mlp_layers=32x32_act=tanh_alpha=0.1,torch_mlp,"(32, 32)",2,32,tanh,0.1,torch_lbfgs,215,187,3,7171,7171.0,64,torch mlp 32x32 tanh a=0.1,1.0,0.455285,0.544715,0.0,0.286179,0.286179,0.252287
+mlp_layers=64x32_act=relu_alpha=0.0001,torch_mlp,"(64, 32)",2,64,relu,0.0001,torch_lbfgs,215,187,3,14211,14211.0,65,torch mlp 64x32 relu a=0.0001,1.0,0.487805,0.512195,0.0,0.252033,0.252033,0.075607
+mlp_layers=64x32_act=relu_alpha=0.001,torch_mlp,"(64, 32)",2,64,relu,0.001,torch_lbfgs,215,187,3,14211,14211.0,66,torch mlp 64x32 relu a=0.001,1.0,0.463415,0.536585,0.0,0.281301,0.281301,0.074558
+mlp_layers=64x32_act=relu_alpha=0.01,torch_mlp,"(64, 32)",2,64,relu,0.01,torch_lbfgs,215,187,3,14211,14211.0,67,torch mlp 64x32 relu a=0.01,1.0,0.471545,0.528455,0.0,0.284553,0.284553,0.340536
+mlp_layers=64x32_act=relu_alpha=0.1,torch_mlp,"(64, 32)",2,64,relu,0.1,torch_lbfgs,215,187,3,14211,14211.0,68,torch mlp 64x32 relu a=0.1,1.0,0.463415,0.536585,0.0,0.278049,0.278049,0.341859
+mlp_layers=64x32_act=tanh_alpha=0.0001,torch_mlp,"(64, 32)",2,64,tanh,0.0001,torch_lbfgs,215,187,3,14211,14211.0,69,torch mlp 64x32 tanh a=0.0001,1.0,0.406504,0.593496,0.0,0.333333,0.333333,0.107932
+mlp_layers=64x32_act=tanh_alpha=0.001,torch_mlp,"(64, 32)",2,64,tanh,0.001,torch_lbfgs,215,187,3,14211,14211.0,70,torch mlp 64x32 tanh a=0.001,1.0,0.406504,0.593496,0.0,0.333333,0.333333,0.110924
+mlp_layers=64x32_act=tanh_alpha=0.01,torch_mlp,"(64, 32)",2,64,tanh,0.01,torch_lbfgs,215,187,3,14211,14211.0,71,torch mlp 64x32 tanh a=0.01,1.0,0.447154,0.552846,0.0,0.310569,0.310569,0.357062
+mlp_layers=64x32_act=tanh_alpha=0.1,torch_mlp,"(64, 32)",2,64,tanh,0.1,torch_lbfgs,215,187,3,14211,14211.0,72,torch mlp 64x32 tanh a=0.1,1.0,0.439024,0.560976,0.0,0.313821,0.313821,0.357193

@@ -11,9 +11,20 @@ how that database was built.
 The one-command reproduction is `bash run.sh` for the training side, and a one-page write-up of the
 results is in [executive_summary.md](executive_summary.md).
 
+## SciVer router extension
+
+The [`sciver_router/`](sciver_router/) directory contains a public,
+reproducible extension that routes SciVer chart-claim examples among Qwen3-VL,
+Pixtral12B, and Kimi-VL-A3B. It evaluates Ridge/ElasticNet, XGBoost, and
+PyTorch MLP routers using the twelve cognitive-demand dimensions, chart TDA,
+and claim NLP features. The package includes its own sanitized dataset,
+requirements, verification script, generated metrics, HTML report, and
+presentation.
+
 ## Table of contents
 
 - [Problem statement](#problem-statement)
+- [SciVer router extension](#sciver-router-extension)
 - [The twelve demand dimensions](#the-twelve-demand-dimensions)
 - [Repository structure](#repository-structure)
 - [Notebook walkthrough, Checkpoints 1 to 5](#notebook-walkthrough-checkpoints-1-to-5)

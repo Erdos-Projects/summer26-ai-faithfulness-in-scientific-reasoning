@@ -1,0 +1,95 @@
+{
+  "accuracy_columns": [
+    "acc_qwen3vl",
+    "acc_pixtral12b",
+    "acc_kimi_vl_a3b"
+  ],
+  "base_categorical_columns": [
+    "claim_type",
+    "evidence_kind",
+    "vtype"
+  ],
+  "base_numeric_columns": [
+    "dim_AS",
+    "dim_AT",
+    "dim_MCr",
+    "dim_QLl",
+    "dim_QLq",
+    "dim_VO",
+    "dim_CL",
+    "dim_GS",
+    "dim_KNf",
+    "dim_MA",
+    "dim_MCu",
+    "dim_VL",
+    "context_char_count",
+    "claim_char_count",
+    "caption_char_count",
+    "claim_word_count",
+    "caption_word_count",
+    "claim_numeric_token_count",
+    "caption_numeric_token_count",
+    "claim_percent_count",
+    "caption_percent_count",
+    "claim_math_symbol_count",
+    "caption_math_symbol_count",
+    "image_width",
+    "image_height",
+    "image_aspect_ratio"
+  ],
+  "claim_type_counts": {
+    "analytical": 397,
+    "direct": 414
+  },
+  "column_count": 208,
+  "dimension_columns": [
+    "dim_AS",
+    "dim_AT",
+    "dim_MCr",
+    "dim_QLl",
+    "dim_QLq",
+    "dim_VO",
+    "dim_CL",
+    "dim_GS",
+    "dim_KNf",
+    "dim_MA",
+    "dim_MCu",
+    "dim_VL"
+  ],
+  "forbidden_columns_present": [],
+  "generated_at_utc": "2026-07-12T21:44:17.351144+00:00",
+  "gold_label_absent": true,
+  "image_paths_absent": true,
+  "input_dataset": "private_internal_three_vlm_matched_dataset",
+  "nlp_features": "private_internal_claim_nlp_feature_table",
+  "nlp_metadata_columns_present": [
+    "nlp_max_features",
+    "nlp_parse_ok",
+    "nlp_svd_components",
+    "nlp_tda_components",
+    "nlp_tda_max_points"
+  ],
+  "nlp_numeric_feature_count": 76,
+  "public_dataset": "Data/derived/model_router/public_router/router_dataset_public.csv",
+  "public_models": [
+    "qwen3vl",
+    "pixtral12b",
+    "kimi_vl_a3b"
+  ],
+  "raw_text_columns_absent": true,
+  "row_count": 811,
+  "source_split_counts": {
+    "test": 534,
+    "val": 277
+  },
+  "suspicious_text_columns_present": [],
+  "tda_features": "private_internal_chart_tda_feature_table",
+  "tda_metadata_columns_present": [
+    "tda_parse_ok",
+    "tda_preprocess_max_size",
+    "tda_source_image_height",
+    "tda_source_image_width",
+    "tda_threshold_count"
+  ],
+  "tda_numeric_feature_count": 81
+}

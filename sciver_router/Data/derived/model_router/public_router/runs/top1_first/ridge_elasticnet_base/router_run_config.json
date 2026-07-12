@@ -1,0 +1,177 @@
+{
+  "bootstrap_repeats": 1000,
+  "candidate_grid": [
+    {
+      "alpha": 100.0,
+      "complexity_label": "ridge a=100.0",
+      "complexity_order": 1,
+      "complexity_score": 0.01,
+      "kind": "ridge",
+      "l1_ratio": null,
+      "seed": 215
+    },
+    {
+      "alpha": 10.0,
+      "complexity_label": "ridge a=10.0",
+      "complexity_order": 2,
+      "complexity_score": 0.1,
+      "kind": "ridge",
+      "l1_ratio": null,
+      "seed": 215
+    },
+    {
+      "alpha": 1.0,
+      "complexity_label": "ridge a=1.0",
+      "complexity_order": 3,
+      "complexity_score": 1.0,
+      "kind": "ridge",
+      "l1_ratio": null,
+      "seed": 215
+    },
+    {
+      "alpha": 0.1,
+      "complexity_label": "ridge a=0.1",
+      "complexity_order": 4,
+      "complexity_score": 10.0,
+      "kind": "ridge",
+      "l1_ratio": null,
+      "seed": 215
+    },
+    {
+      "alpha": 0.01,
+      "complexity_label": "ridge a=0.01",
+      "complexity_order": 5,
+      "complexity_score": 100.0,
+      "kind": "ridge",
+      "l1_ratio": null,
+      "seed": 215
+    },
+    {
+      "alpha": 1.0,
+      "complexity_label": "enet a=1.0 l1=0.1",
+      "complexity_order": 6,
+      "complexity_score": 1.1,
+      "kind": "elasticnet",
+      "l1_ratio": 0.1,
+      "seed": 215
+    },
+    {
+      "alpha": 1.0,
+      "complexity_label": "enet a=1.0 l1=0.5",
+      "complexity_order": 7,
+      "complexity_score": 1.5,
+      "kind": "elasticnet",
+      "l1_ratio": 0.5,
+      "seed": 215
+    },
+    {
+      "alpha": 1.0,
+      "complexity_label": "enet a=1.0 l1=0.9",
+      "complexity_order": 8,
+      "complexity_score": 1.9,
+      "kind": "elasticnet",
+      "l1_ratio": 0.9,
+      "seed": 215
+    },
+    {
+      "alpha": 0.1,
+      "complexity_label": "enet a=0.1 l1=0.1",
+      "complexity_order": 9,
+      "complexity_score": 10.1,
+      "kind": "elasticnet",
+      "l1_ratio": 0.1,
+      "seed": 215
+    },
+    {
+      "alpha": 0.1,
+      "complexity_label": "enet a=0.1 l1=0.5",
+      "complexity_order": 10,
+      "complexity_score": 10.5,
+      "kind": "elasticnet",
+      "l1_ratio": 0.5,
+      "seed": 215
+    },
+    {
+      "alpha": 0.1,
+      "complexity_label": "enet a=0.1 l1=0.9",
+      "complexity_order": 11,
+      "complexity_score": 10.9,
+      "kind": "elasticnet",
+      "l1_ratio": 0.9,
+      "seed": 215
+    },
+    {
+      "alpha": 0.01,
+      "complexity_label": "enet a=0.01 l1=0.1",
+      "complexity_order": 12,
+      "complexity_score": 100.1,
+      "kind": "elasticnet",
+      "l1_ratio": 0.1,
+      "seed": 215
+    },
+    {
+      "alpha": 0.01,
+      "complexity_label": "enet a=0.01 l1=0.5",
+      "complexity_order": 13,
+      "complexity_score": 100.5,
+      "kind": "elasticnet",
+      "l1_ratio": 0.5,
+      "seed": 215
+    },
+    {
+      "alpha": 0.01,
+      "complexity_label": "enet a=0.01 l1=0.9",
+      "complexity_order": 14,
+      "complexity_score": 100.9,
+      "kind": "elasticnet",
+      "l1_ratio": 0.9,
+      "seed": 215
+    },
+    {
+      "alpha": 0.001,
+      "complexity_label": "enet a=0.001 l1=0.1",
+      "complexity_order": 15,
+      "complexity_score": 1000.1,
+      "kind": "elasticnet",
+      "l1_ratio": 0.1,
+      "seed": 215
+    },
+    {
+      "alpha": 0.001,
+      "complexity_label": "enet a=0.001 l1=0.5",
+      "complexity_order": 16,
+      "complexity_score": 1000.5,
+      "kind": "elasticnet",
+      "l1_ratio": 0.5,
+      "seed": 215
+    },
+    {
+      "alpha": 0.001,
+      "complexity_label": "enet a=0.001 l1=0.9",
+      "complexity_order": 17,
+      "complexity_score": 1000.9,
+      "kind": "elasticnet",
+      "l1_ratio": 0.9,
+      "seed": 215
+    }
+  ],
+  "cv_folds_requested": 10,
+  "cv_folds_used": 10,
+  "feature_set": "base",
+  "input": "Data/derived/model_router/public_router/router_dataset_public.csv",
+  "model_names": [
+    "qwen3vl",
+    "pixtral12b",
+    "kimi_vl_a3b"
+  ],
+  "nlp_coverage": {},
+  "nlp_features": "",
+  "out_dir": "Data/derived/model_router/public_router/runs/top1_first/ridge_elasticnet_base",
+  "repo_root": ".",
+  "seed": 215,
+  "selection_policy": "top1_first",
+  "tda_coverage": {},
+  "tda_features": "",
+  "test_size": 0.15,
+  "validation_size": 0.15
+}

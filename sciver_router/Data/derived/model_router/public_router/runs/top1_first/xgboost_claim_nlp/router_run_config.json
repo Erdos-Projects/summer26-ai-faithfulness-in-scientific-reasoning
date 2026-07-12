@@ -1,0 +1,46 @@
+{
+  "bootstrap_repeats": 1000,
+  "candidate_grid": [
+    {
+      "colsample_bytree": 1.0,
+      "complexity_label": "200 trees d=3",
+      "complexity_order": 648,
+      "complexity_score": 600.0,
+      "kind": "xgboost",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 200,
+      "n_jobs": 4,
+      "reg_alpha": 0.1,
+      "reg_lambda": 10.0,
+      "seed": 215,
+      "subsample": 1.0
+    }
+  ],
+  "cv_folds_requested": 10,
+  "cv_folds_used": 10,
+  "feature_set": "base_nlp",
+  "input": "Data/derived/model_router/public_router/router_dataset_public.csv",
+  "model_names": [
+    "qwen3vl",
+    "pixtral12b",
+    "kimi_vl_a3b"
+  ],
+  "nlp_coverage": {
+    "nlp_features_path": "precomputed_in_input_dataset",
+    "nlp_numeric_feature_count": 76,
+    "rows": 811,
+    "rows_parse_failed": 0,
+    "rows_parse_ok": 811,
+    "rows_with_nlp_record": 811
+  },
+  "nlp_features": "",
+  "out_dir": "Data/derived/model_router/public_router/runs/top1_first/xgboost_claim_nlp",
+  "repo_root": ".",
+  "seed": 215,
+  "selection_policy": "top1_first",
+  "tda_coverage": {},
+  "tda_features": "",
+  "test_size": 0.15,
+  "validation_size": 0.15
+}

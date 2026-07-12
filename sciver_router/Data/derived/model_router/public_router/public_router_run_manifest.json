@@ -1,0 +1,126 @@
+{
+  "families": [
+    "ridge_elasticnet",
+    "xgboost",
+    "torch_mlp"
+  ],
+  "feature_sets": [
+    "base",
+    "base_tda",
+    "base_nlp",
+    "base_tda_nlp"
+  ],
+  "input": "Data/derived/model_router/public_router/router_dataset_public.csv",
+  "models": [
+    "qwen3vl",
+    "pixtral12b",
+    "kimi_vl_a3b"
+  ],
+  "out_root": "Data/derived/model_router/public_router",
+  "runs": {
+    "regret_first": [
+      {
+        "label": "ridge_elasticnet_base_regret_first",
+        "model_dir": "Data/derived/model_router/public_router/runs/regret_first/ridge_elasticnet_base"
+      },
+      {
+        "label": "xgboost_base_regret_first",
+        "model_dir": "Data/derived/model_router/public_router/runs/regret_first/xgboost_base"
+      },
+      {
+        "label": "torch_mlp_base_regret_first",
+        "model_dir": "Data/derived/model_router/public_router/runs/regret_first/torch_mlp_base"
+      },
+      {
+        "label": "ridge_elasticnet_chart_tda_regret_first",
+        "model_dir": "Data/derived/model_router/public_router/runs/regret_first/ridge_elasticnet_chart_tda"
+      },
+      {
+        "label": "xgboost_chart_tda_regret_first",
+        "model_dir": "Data/derived/model_router/public_router/runs/regret_first/xgboost_chart_tda"
+      },
+      {
+        "label": "torch_mlp_chart_tda_regret_first",
+        "model_dir": "Data/derived/model_router/public_router/runs/regret_first/torch_mlp_chart_tda"
+      },
+      {
+        "label": "ridge_elasticnet_claim_nlp_regret_first",
+        "model_dir": "Data/derived/model_router/public_router/runs/regret_first/ridge_elasticnet_claim_nlp"
+      },
+      {
+        "label": "xgboost_claim_nlp_regret_first",
+        "model_dir": "Data/derived/model_router/public_router/runs/regret_first/xgboost_claim_nlp"
+      },
+      {
+        "label": "torch_mlp_claim_nlp_regret_first",
+        "model_dir": "Data/derived/model_router/public_router/runs/regret_first/torch_mlp_claim_nlp"
+      },
+      {
+        "label": "ridge_elasticnet_chart_tda_claim_nlp_regret_first",
+        "model_dir": "Data/derived/model_router/public_router/runs/regret_first/ridge_elasticnet_chart_tda_claim_nlp"
+      },
+      {
+        "label": "xgboost_chart_tda_claim_nlp_regret_first",
+        "model_dir": "Data/derived/model_router/public_router/runs/regret_first/xgboost_chart_tda_claim_nlp"
+      },
+      {
+        "label": "torch_mlp_chart_tda_claim_nlp_regret_first",
+        "model_dir": "Data/derived/model_router/public_router/runs/regret_first/torch_mlp_chart_tda_claim_nlp"
+      }
+    ],
+    "top1_first": [
+      {
+        "label": "ridge_elasticnet_base_top1_first",
+        "model_dir": "Data/derived/model_router/public_router/runs/top1_first/ridge_elasticnet_base"
+      },
+      {
+        "label": "xgboost_base_top1_first",
+        "model_dir": "Data/derived/model_router/public_router/runs/top1_first/xgboost_base"
+      },
+      {
+        "label": "torch_mlp_base_top1_first",
+        "model_dir": "Data/derived/model_router/public_router/runs/top1_first/torch_mlp_base"
+      },
+      {
+        "label": "ridge_elasticnet_chart_tda_top1_first",
+        "model_dir": "Data/derived/model_router/public_router/runs/top1_first/ridge_elasticnet_chart_tda"
+      },
+      {
+        "label": "xgboost_chart_tda_top1_first",
+        "model_dir": "Data/derived/model_router/public_router/runs/top1_first/xgboost_chart_tda"
+      },
+      {
+        "label": "torch_mlp_chart_tda_top1_first",
+        "model_dir": "Data/derived/model_router/public_router/runs/top1_first/torch_mlp_chart_tda"
+      },
+      {
+        "label": "ridge_elasticnet_claim_nlp_top1_first",
+        "model_dir": "Data/derived/model_router/public_router/runs/top1_first/ridge_elasticnet_claim_nlp"
+      },
+      {
+        "label": "xgboost_claim_nlp_top1_first",
+        "model_dir": "Data/derived/model_router/public_router/runs/top1_first/xgboost_claim_nlp"
+      },
+      {
+        "label": "torch_mlp_claim_nlp_top1_first",
+        "model_dir": "Data/derived/model_router/public_router/runs/top1_first/torch_mlp_claim_nlp"
+      },
+      {
+        "label": "ridge_elasticnet_chart_tda_claim_nlp_top1_first",
+        "model_dir": "Data/derived/model_router/public_router/runs/top1_first/ridge_elasticnet_chart_tda_claim_nlp"
+      },
+      {
+        "label": "xgboost_chart_tda_claim_nlp_top1_first",
+        "model_dir": "Data/derived/model_router/public_router/runs/top1_first/xgboost_chart_tda_claim_nlp"
+      },
+      {
+        "label": "torch_mlp_chart_tda_claim_nlp_top1_first",
+        "model_dir": "Data/derived/model_router/public_router/runs/top1_first/torch_mlp_chart_tda_claim_nlp"
+      }
+    ]
+  },
+  "selection_policies": [
+    "regret_first",
+    "top1_first"
+  ]
+}
