@@ -16,6 +16,10 @@ local model logs.
 - `docs/sciver_router_presentation.html`: self-contained evidence report.
 - `outputs/sciver_router_models_presentation.pptx`: revised twelve-slide
   presentation deck with acknowledgments and source references.
+- `deliverables/Executive Summary.pdf`: paginated PDF edition of the evidence
+  report, with every top-level section starting on a new page.
+- `deliverables/SciVer Router Models Presentation.pdf`: PDF edition of the
+  twelve-slide presentation.
 
 ## Reproduce The Router Modeling
 

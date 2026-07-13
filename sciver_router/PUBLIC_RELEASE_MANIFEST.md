@@ -39,6 +39,8 @@ sanitized derived features; it does not reproduce private local VLM inference.
 - `docs/public_data_statement.md`
 - `docs/public_review_iterations.md`
 - `docs/sciver_router_presentation.html`
+- `deliverables/Executive Summary.pdf`
+- `deliverables/SciVer Router Models Presentation.pdf`
 - `outputs/sciver_router_models_presentation.pptx`
 - `outputs/sciver_router_models_presentation_montage.png`
 

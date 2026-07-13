@@ -64,6 +64,8 @@ EXPECTED_RELEASE_EXACT_FILES = {
     "docs/public_review_iterations.md",
     "docs/reproduce_router_experiments.md",
     "docs/sciver_router_presentation.html",
+    "deliverables/Executive Summary.pdf",
+    "deliverables/SciVer Router Models Presentation.pdf",
     "outputs/sciver_router_models_presentation.pptx",
     "outputs/sciver_router_models_presentation_montage.png",
     "requirements-lock.txt",
