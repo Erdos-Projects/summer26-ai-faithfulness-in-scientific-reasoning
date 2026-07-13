@@ -11,6 +11,22 @@ how that database was built.
 The one-command reproduction is `bash run.sh` for the training side, and a one-page write-up of the
 results is in [executive_summary.md](executive_summary.md).
 
+Key References 
+
+* Zhou, L., Pacchiardi, L., Martínez-Plumed, F., et al. (2026). General scales unlock AI evaluation with explanatory and predictive power. *Nature* 652, 58–67. [Nature](https://www.nature.com/articles/s41586-026-10303-2) · [arXiv:2503.06378](https://arxiv.org/abs/2503.06378) · [ADeLe platform](https://kinds-of-intelligence-cfi.github.io/ADELE/)
+  
+* Verma, A., & Fan, J. E. (2025). Measuring and predicting variation in the difficulty of questions about data visualizations. *Proc. 47th Annual Meeting of the Cognitive Science Society*. [arXiv:2505.08031](https://arxiv.org/abs/2505.08031) · [GitHub](https://github.com/cogtoolslab/viz_item_measures_cogsci2025)
+
+* Wang, C., Shen, Y., Kuang, Z., Cohan, A., & Zhao, Y. (2025). SciVer: Evaluating foundation models for multimodal scientific claim verification. Proc. 63rd Annual Meeting of the Association for Computational Linguistics (ACL 2025), 8562–8579. [ACL Anthology](https://aclanthology.org/2025.acl-long.420/) · [arXiv:2506.15569](https://arxiv.org/abs/2506.15569) · [code](https://github.com/QDRhhhh/SciVer) · [data](https://huggingface.co/datasets/chengyewang/SciVer)
+    
+* Ho, X., Wu, Y.-A., Kumar, S., Xia, T. C., Boudin, F., Greiner-Petter, A., & Aizawa, A. (2026). SciClaimEval: Cross-modal claim verification in scientific papers. Proc. LREC 2026. [arXiv:2602.07621](https://arxiv.org/abs/2602.07621) · [project page](https://sciclaimeval.github.io/) · [data](https://huggingface.co/datasets/alabnii/sciclaimeval-shared-task)
+
+Associated Project:
+
+https://github.com/ConglongXu-GWU/sciver-router-public
+https://github.com/Erdos-Projects/summer26-ai-faithfulness-in-scientific-reasoning/tree/sciver-router
+
+
 ## Table of contents
 
 - [Problem statement](#problem-statement)
